@@ -34,7 +34,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/aci-badam-qabiqli-100gr-itemid-f8c6be10760ab72dfb1dbef2",
     "verificationStatus": "verified"
   },
   {
@@ -70,7 +70,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/aci-badam-qabiqli-100gr-itemid-f8c6be10760ab72dfb1dbef2",
     "verificationStatus": "verified"
   },
   {
@@ -106,7 +106,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/aci-badam-lepesi-100gr-itemid-a2e2084f3e4ef54b748b2679",
     "verificationStatus": "verified"
   },
   {
@@ -142,7 +142,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/aci-badam-lepesi-100gr-itemid-a2e2084f3e4ef54b748b2679",
     "verificationStatus": "verified"
   },
   {
@@ -186,7 +186,7 @@ export const PRODUCTS: Product[] = [
       "oils",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/aci-badam-yagi-250ml-itemid-90dbedb3699bf536c6dda61e",
     "verificationStatus": "verified"
   },
   {
@@ -258,7 +258,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/aci-erik-tumu-100gr-itemid-bfaf38929c41f46e1a62d298",
     "verificationStatus": "verified"
   },
   {
@@ -302,7 +302,7 @@ export const PRODUCTS: Product[] = [
       "oils",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/aci-erik-yagi-250ml-itemid-4d8a64bb05cb11affc3ec62b",
     "verificationStatus": "verified"
   },
   {
@@ -338,7 +338,7 @@ export const PRODUCTS: Product[] = [
       "teas",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/acliq-otu-itemid-54aed6d36c2800dc8f043e71",
     "verificationStatus": "verified"
   },
   {
@@ -374,7 +374,7 @@ export const PRODUCTS: Product[] = [
       "teas",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/acliq-otu-kapsulu-100eded-itemid-7d143e2c8b0ec14d2ad69ff1",
     "verificationStatus": "verified"
   },
   {
@@ -410,7 +410,7 @@ export const PRODUCTS: Product[] = [
       "teas",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/acliq-otu-itemid-54aed6d36c2800dc8f043e71",
     "verificationStatus": "verified"
   },
   {
@@ -446,7 +446,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/alaqanqal-kapsulu-100eded-itemid-e9d51d1af977dabb2ac70eef",
     "verificationStatus": "verified"
   },
   {
@@ -482,7 +482,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/alaqanqal-toxumu-xarici-100gr-itemid-b0ee2fefc4647fc8d5789ec1",
     "verificationStatus": "verified"
   },
   {
@@ -518,7 +518,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/alaqanqal-toxumu-xarici-100gr-itemid-b0ee2fefc4647fc8d5789ec1",
     "verificationStatus": "verified"
   },
   {
@@ -590,7 +590,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/alaqanqal-toxumu-yerli-100gr-itemid-57a432617bcca1487d3f78ee",
     "verificationStatus": "verified"
   },
   {
@@ -626,7 +626,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/alaqanqal-toxumu-yerli-100gr-itemid-57a432617bcca1487d3f78ee",
     "verificationStatus": "verified"
   },
   {
@@ -670,7 +670,7 @@ export const PRODUCTS: Product[] = [
       "oils",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/alaqanqal-yagi-xarici-toxumdan-250ml-itemid-174e65dcde4157ca46417ae0",
     "verificationStatus": "verified"
   },
   {
@@ -714,7 +714,7 @@ export const PRODUCTS: Product[] = [
       "oils",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/alaqanqal-yagi-yerli-toxumdan-250ml-itemid-d9a98a127e98c343a17e4dcf",
     "verificationStatus": "verified"
   },
   {
@@ -750,7 +750,7 @@ export const PRODUCTS: Product[] = [
       "teas",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/alma-sirkesi-500ml-itemid-9c1d1ad2249254772de56bdf",
     "verificationStatus": "verified"
   },
   {
@@ -786,7 +786,7 @@ export const PRODUCTS: Product[] = [
       "teas",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/ananas-sirkesi-500ml-itemid-ca585b3ea70fc7cf863024d6",
     "verificationStatus": "verified"
   },
   {
@@ -858,7 +858,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/ari-sudu-1gr-itemid-11af24b40f14a40c78828490",
     "verificationStatus": "verified"
   },
   {
@@ -894,7 +894,7 @@ export const PRODUCTS: Product[] = [
       "teas",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/astara-cayi-2-ci-sort-100gr-itemid-a0c78211c9acd444e0e29a8c",
     "verificationStatus": "verified"
   },
   {
@@ -930,7 +930,7 @@ export const PRODUCTS: Product[] = [
       "teas",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/astara-cayi-2-ci-sort-100gr-itemid-a0c78211c9acd444e0e29a8c",
     "verificationStatus": "verified"
   },
   {
@@ -966,7 +966,7 @@ export const PRODUCTS: Product[] = [
       "teas",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/astara-cayi-premium-100gr-itemid-233bec73cf11b5a3e73f966b",
     "verificationStatus": "verified"
   },
   {
@@ -1038,7 +1038,7 @@ export const PRODUCTS: Product[] = [
       "teas",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/astaracay-yarpaq-cayi-250gr-itemid-68598b29fad7827fe3c5dbc5",
     "verificationStatus": "verified"
   },
   {
@@ -1118,7 +1118,7 @@ export const PRODUCTS: Product[] = [
       "pastes",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/badam-ezmesi-500gr-itemid-b7db10125a46654a90447089",
     "verificationStatus": "verified"
   },
   {
@@ -1162,7 +1162,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/badam-lepesi-100gr-itemid-f9e92332f1770ccd0b175406",
     "verificationStatus": "verified"
   },
   {
@@ -1206,7 +1206,7 @@ export const PRODUCTS: Product[] = [
       "oils",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/badam-yagi-250ml-itemid-3f1ba0a2dd6b8e69366e3c9d",
     "verificationStatus": "verified"
   },
   {
@@ -1242,7 +1242,7 @@ export const PRODUCTS: Product[] = [
       "sweeteners",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/balqabaq-siresi-500ml-itemid-e755cf7c4eb5dee074d02379",
     "verificationStatus": "verified"
   },
   {
@@ -1314,7 +1314,7 @@ export const PRODUCTS: Product[] = [
       "sweeteners",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/balqabaq-tumu-100gr-itemid-1ddb21b2217dd496f0bc1a4b",
     "verificationStatus": "verified"
   },
   {
@@ -1358,7 +1358,7 @@ export const PRODUCTS: Product[] = [
       "pastes",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/balqabaq-tumu-ezmesi-500gr-itemid-8eb0e32ecc097539add00c5d",
     "verificationStatus": "verified"
   },
   {
@@ -1402,7 +1402,7 @@ export const PRODUCTS: Product[] = [
       "oils",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/balqabaq-tumu-yagi-250ml-itemid-a41c86326200d8356c5bced5",
     "verificationStatus": "verified"
   },
   {
@@ -1438,7 +1438,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/bamiye-toxumu-100gr-itemid-da5f8a5eb047045b85b56a69",
     "verificationStatus": "verified"
   },
   {
@@ -1474,7 +1474,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/bamiye-toxumu-100gr-itemid-da5f8a5eb047045b85b56a69",
     "verificationStatus": "verified"
   },
   {
@@ -1546,7 +1546,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/braziliya-qozu-100gr-itemid-09d108ca0e983e198f30013e",
     "verificationStatus": "verified"
   },
   {
@@ -1582,7 +1582,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/bugda-cucertisi-itemid-ad6a6249b81c4d88aea5c5f6",
     "verificationStatus": "verified"
   },
   {
@@ -1618,7 +1618,7 @@ export const PRODUCTS: Product[] = [
       "teas",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/caksir-suyu-brokolili-1l-itemid-f82e55da6cf9affc513c7531",
     "verificationStatus": "verified"
   },
   {
@@ -1698,7 +1698,7 @@ export const PRODUCTS: Product[] = [
       "oils",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/caytikani-yagi-250ml-itemid-34f38981af29357b33323dc6",
     "verificationStatus": "verified"
   },
   {
@@ -1778,7 +1778,7 @@ export const PRODUCTS: Product[] = [
       "oils",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/cetene-yagi-250ml-itemid-2a9d61fe91afab2ba38de394",
     "verificationStatus": "verified"
   },
   {
@@ -1822,7 +1822,7 @@ export const PRODUCTS: Product[] = [
       "sweeteners",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/cicek-bali-500gr-itemid-ad061d910632ddd0682a3691",
     "verificationStatus": "verified"
   },
   {
@@ -1858,7 +1858,7 @@ export const PRODUCTS: Product[] = [
       "teas",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/cicek-tozu-100gr-itemid-57d8f590c4ffc19d51a47e5b",
     "verificationStatus": "verified"
   },
   {
@@ -1894,7 +1894,7 @@ export const PRODUCTS: Product[] = [
       "teas",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/cicek-tozu-100gr-itemid-57d8f590c4ffc19d51a47e5b",
     "verificationStatus": "verified"
   },
   {
@@ -1930,7 +1930,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/ciya-toxumu-100gr-itemid-998b62ff9b335b2f4c1d33d0",
     "verificationStatus": "verified"
   },
   {
@@ -1966,7 +1966,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/ciya-toxumu-100gr-itemid-998b62ff9b335b2f4c1d33d0",
     "verificationStatus": "verified"
   },
   {
@@ -2002,7 +2002,7 @@ export const PRODUCTS: Product[] = [
       "teas",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/corekotu-kapsul-180-eded-itemid-8cc966e54677128112fcfd02",
     "verificationStatus": "verified"
   },
   {
@@ -2038,7 +2038,7 @@ export const PRODUCTS: Product[] = [
       "oils",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/corekotu-yag-kapsulu-100eded-itemid-13ac156e3bbab7a5ed1e9e51",
     "verificationStatus": "verified"
   },
   {
@@ -2110,7 +2110,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/darcin-cubuq-100gr-itemid-4946b2cdbc275073615a153a",
     "verificationStatus": "verified"
   },
   {
@@ -2146,7 +2146,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/darcin-cubuq-100gr-itemid-4946b2cdbc275073615a153a",
     "verificationStatus": "verified"
   },
   {
@@ -2182,7 +2182,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/darcin-cubuq-100gr-itemid-4946b2cdbc275073615a153a",
     "verificationStatus": "verified"
   },
   {
@@ -2218,7 +2218,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/darcin-sri-lanka-100gr-itemid-9bc8c9cd1b94fe74578dd2ae",
     "verificationStatus": "verified"
   },
   {
@@ -2254,7 +2254,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/darcin-tozu-100gr-itemid-3263e35beb1b8fe30af9fd81",
     "verificationStatus": "verified"
   },
   {
@@ -2290,7 +2290,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/darcin-tozu-100gr-itemid-3263e35beb1b8fe30af9fd81",
     "verificationStatus": "verified"
   },
   {
@@ -2334,7 +2334,7 @@ export const PRODUCTS: Product[] = [
       "oils",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/daziotu-yagi-250ml-itemid-d38dedf10a1db46ff92dd76f",
     "verificationStatus": "verified"
   },
   {
@@ -2370,7 +2370,7 @@ export const PRODUCTS: Product[] = [
       "teas",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/detox-sirkesi-500ml-itemid-923927e4c1111536296b92c5",
     "verificationStatus": "verified"
   },
   {
@@ -2406,7 +2406,7 @@ export const PRODUCTS: Product[] = [
       "teas",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/enginar-sirkesi-500ml-itemid-9bebc0844116d60413b0bcc8",
     "verificationStatus": "verified"
   },
   {
@@ -2442,7 +2442,7 @@ export const PRODUCTS: Product[] = [
       "teas",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/enginar-suyu-alaqanqalli-1l-itemid-2b88d3976ba0905d0daa4021",
     "verificationStatus": "verified"
   },
   {
@@ -2478,7 +2478,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/erkude-50gr-itemid-1474a08dbf8e2a8e416040d4",
     "verificationStatus": "verified"
   },
   {
@@ -2514,7 +2514,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/erkude-50gr-itemid-1474a08dbf8e2a8e416040d4",
     "verificationStatus": "verified"
   },
   {
@@ -2550,7 +2550,7 @@ export const PRODUCTS: Product[] = [
       "sweeteners",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/feyxoa-siresi-500ml-itemid-fd98e984fb8e792ab499cb9c",
     "verificationStatus": "verified"
   },
   {
@@ -2594,7 +2594,7 @@ export const PRODUCTS: Product[] = [
       "pastes",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/findiq-ezmesi-500gr-itemid-6dd982f0fab4c115c23bf2df",
     "verificationStatus": "verified"
   },
   {
@@ -2666,7 +2666,7 @@ export const PRODUCTS: Product[] = [
       "pastes",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/fistiq-kuncut-ezmesi-200gr-itemid-9bd8ee1ebccdbafb850e49d8",
     "verificationStatus": "verified"
   },
   {
@@ -2710,7 +2710,7 @@ export const PRODUCTS: Product[] = [
       "pastes",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/fistiq-ezmesi-500gr-itemid-87a7998b3c3f8584ae4f2806",
     "verificationStatus": "verified"
   },
   {
@@ -2754,7 +2754,7 @@ export const PRODUCTS: Product[] = [
       "pastes",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/fistiq-ezmesi-sokoladli-500gr-itemid-cecd136a1f5e80b7c22545af",
     "verificationStatus": "verified"
   },
   {
@@ -2790,7 +2790,7 @@ export const PRODUCTS: Product[] = [
       "pastes",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/fistiq-kuncut-ezmesi-500gr-itemid-5a7ff30b276a6ba70cfc9c49",
     "verificationStatus": "verified"
   },
   {
@@ -2826,7 +2826,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/genegercek-toxumu-100gr-itemid-71fa6cd22ef31623fe8c7c09",
     "verificationStatus": "verified"
   },
   {
@@ -2862,7 +2862,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/genegercek-toxumu-100gr-itemid-71fa6cd22ef31623fe8c7c09",
     "verificationStatus": "verified"
   },
   {
@@ -2906,7 +2906,7 @@ export const PRODUCTS: Product[] = [
       "oils",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/genegercek-yagi-250ml-itemid-5ba88c6304323af0208fdc09",
     "verificationStatus": "verified"
   },
   {
@@ -2986,7 +2986,7 @@ export const PRODUCTS: Product[] = [
       "oils",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/gunebaxan-yagi-1litr-itemid-12228cfaa934fb1cc4ed118e",
     "verificationStatus": "verified"
   },
   {
@@ -3030,7 +3030,7 @@ export const PRODUCTS: Product[] = [
       "oils",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/gunebaxan-yagi-suzulmus-1-litr-itemid-e3fb0aad1b5905b6622ec6e2",
     "verificationStatus": "verified"
   },
   {
@@ -3066,7 +3066,7 @@ export const PRODUCTS: Product[] = [
       "sweeteners",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/heyva-siresi-500ml-itemid-2873d1cc9badcd2328dce01e",
     "verificationStatus": "verified"
   },
   {
@@ -3110,7 +3110,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/himalay-duzu-100gr-itemid-3ebfc503f3015fc81b5c376c",
     "verificationStatus": "verified"
   },
   {
@@ -3146,7 +3146,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/himalay-duzu-100gr-itemid-3ebfc503f3015fc81b5c376c",
     "verificationStatus": "verified"
   },
   {
@@ -3182,7 +3182,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/himalay-duzu-100gr-itemid-3ebfc503f3015fc81b5c376c",
     "verificationStatus": "verified"
   },
   {
@@ -3218,7 +3218,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/xurmaci-alovlu-mecun-250gr-itemid-bb0fd0e0d48314c3b39b55ee",
     "verificationStatus": "verified"
   },
   {
@@ -3254,7 +3254,7 @@ export const PRODUCTS: Product[] = [
       "sweeteners",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/xurmaci-balli-erikli-mecun-250gr-itemid-326ad60558d3f638d25e22d2",
     "verificationStatus": "verified"
   },
   {
@@ -3290,7 +3290,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/xurmaci-fit-mecun-250gr-itemid-edc4deb7b1c59b1b2b3f150a",
     "verificationStatus": "verified"
   },
   {
@@ -3326,7 +3326,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/xurmaci-xurma-mecunu-250gr-itemid-4486f69cfae212a97142830b",
     "verificationStatus": "verified"
   },
   {
@@ -3362,7 +3362,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/xurmaci-kids-250gr-itemid-4b02642f120a0bc165128606",
     "verificationStatus": "verified"
   },
   {
@@ -3398,7 +3398,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/xurmaci-pross-mecun-350gr-itemid-79a1b1ee4d12cdbf940c04fa",
     "verificationStatus": "verified"
   },
   {
@@ -3434,7 +3434,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/xurmaci-protein-bombasi-350gr-itemid-5a95ff340191ab211f5dbbd5",
     "verificationStatus": "verified"
   },
   {
@@ -3470,7 +3470,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/xurmaci-testo-strong-mecun-250gr-itemid-dc0b5d7578131ef81c9aa603",
     "verificationStatus": "verified"
   },
   {
@@ -3506,7 +3506,7 @@ export const PRODUCTS: Product[] = [
       "teas",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/iskin-koku-sirkesi-500ml-itemid-a216f152850352a65b04ef89",
     "verificationStatus": "verified"
   },
   {
@@ -3542,7 +3542,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/istiot-toz-100gr-itemid-147ac4b3ae5bbb89435c282c",
     "verificationStatus": "verified"
   },
   {
@@ -3578,7 +3578,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/istiot-yumru-100gr-itemid-38fb53fc966aa19833775879",
     "verificationStatus": "verified"
   },
   {
@@ -3614,7 +3614,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/istiot-yumru-100gr-itemid-38fb53fc966aa19833775879",
     "verificationStatus": "verified"
   },
   {
@@ -3650,7 +3650,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/istiot-yumru-100gr-itemid-38fb53fc966aa19833775879",
     "verificationStatus": "verified"
   },
   {
@@ -3686,7 +3686,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/itburnu-500ml-itemid-3a167ff3d89d742511750181",
     "verificationStatus": "verified"
   },
   {
@@ -3722,7 +3722,7 @@ export const PRODUCTS: Product[] = [
       "sweeteners",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/itburnu-500ml-itemid-3a167ff3d89d742511750181",
     "verificationStatus": "verified"
   },
   {
@@ -3794,7 +3794,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/iyde-tozu-100gr-itemid-e13cd9bc91d1671f037d8db6",
     "verificationStatus": "verified"
   },
   {
@@ -3830,7 +3830,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/iyde-tozu-100gr-itemid-e13cd9bc91d1671f037d8db6",
     "verificationStatus": "verified"
   },
   {
@@ -3866,7 +3866,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/jensen-kapsul-100-eded-itemid-bcab3a5b10a9a16e8f070413",
     "verificationStatus": "verified"
   },
   {
@@ -3902,7 +3902,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/jensen-koku-25gr-itemid-66dc99e06df2bfcdddb9db88",
     "verificationStatus": "verified"
   },
   {
@@ -4018,7 +4018,7 @@ export const PRODUCTS: Product[] = [
       "oils",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/kakos-yagi-250ml-itemid-d657c4560779a08dea17e8cc",
     "verificationStatus": "verified"
   },
   {
@@ -4054,7 +4054,7 @@ export const PRODUCTS: Product[] = [
       "teas",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/karabas-otu-suyu-1l-itemid-611025c97a3812c301e07c71",
     "verificationStatus": "verified"
   },
   {
@@ -4126,7 +4126,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/kecibuynuzu-ozu-100gr-itemid-2d6e78fb175a3a8fa154ac1d",
     "verificationStatus": "verified"
   },
   {
@@ -4162,7 +4162,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/kecibuynuzu-tozu-100gr-itemid-7a610dbdf8aa7e93693da2fe",
     "verificationStatus": "verified"
   },
   {
@@ -4198,7 +4198,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/kecibuynuzu-tozu-100gr-itemid-7a610dbdf8aa7e93693da2fe",
     "verificationStatus": "verified"
   },
   {
@@ -4234,7 +4234,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/ketan-toxumu-100gr-itemid-cdfdfaf0f653e27dba0544dc",
     "verificationStatus": "verified"
   },
   {
@@ -4270,7 +4270,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/ketan-toxumu-100gr-itemid-cdfdfaf0f653e27dba0544dc",
     "verificationStatus": "verified"
   },
   {
@@ -4306,7 +4306,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/ketan-toxumu-unu-200gr-itemid-161b4edf9e321cc1780b6ef3",
     "verificationStatus": "verified"
   },
   {
@@ -4350,7 +4350,7 @@ export const PRODUCTS: Product[] = [
       "oils",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/ketan-yagi-250ml-itemid-707f95afb5e791a39a28ec66",
     "verificationStatus": "verified"
   },
   {
@@ -4386,7 +4386,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/kinoa-kg-itemid-592bc85b3fc92a31981cc0b4",
     "verificationStatus": "verified"
   },
   {
@@ -4422,7 +4422,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/kuncut-ag-100gr-itemid-697aa37fc78e56b64ceba004",
     "verificationStatus": "verified"
   },
   {
@@ -4458,7 +4458,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/kuncut-ag-100gr-itemid-697aa37fc78e56b64ceba004",
     "verificationStatus": "verified"
   },
   {
@@ -4494,7 +4494,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/kuncut-qara-100gr-itemid-942d72c0b20d2ef7d4265494",
     "verificationStatus": "verified"
   },
   {
@@ -4530,7 +4530,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/kuncut-qara-100gr-itemid-942d72c0b20d2ef7d4265494",
     "verificationStatus": "verified"
   },
   {
@@ -4574,7 +4574,7 @@ export const PRODUCTS: Product[] = [
       "oils",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/kuncut-yagi-250ml-itemid-191b25fa761f62f72aec4adc",
     "verificationStatus": "verified"
   },
   {
@@ -4610,7 +4610,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/qara-halile-100gr-itemid-8bd7d579691cb3fb3189c831",
     "verificationStatus": "verified"
   },
   {
@@ -4646,7 +4646,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/qara-halile-100gr-itemid-8bd7d579691cb3fb3189c831",
     "verificationStatus": "verified"
   },
   {
@@ -4690,7 +4690,7 @@ export const PRODUCTS: Product[] = [
       "pastes",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/qara-kuncut-ezmesi-500gr-itemid-25ad43c7aa7d0fa8c0397b56",
     "verificationStatus": "verified"
   },
   {
@@ -4726,7 +4726,7 @@ export const PRODUCTS: Product[] = [
       "sweeteners",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/qara-qaragat-siresi-500ml-itemid-24a1f6536c13f11547c08b66",
     "verificationStatus": "verified"
   },
   {
@@ -4762,7 +4762,7 @@ export const PRODUCTS: Product[] = [
       "teas",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/qaraciyer-sirkesi-500ml-itemid-d4d14f27cfb4718980f0f59b",
     "verificationStatus": "verified"
   },
   {
@@ -4906,7 +4906,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/qarazire-toxumu-unu-200gr-itemid-3e896f9960110944ab1920d9",
     "verificationStatus": "verified"
   },
   {
@@ -5066,7 +5066,7 @@ export const PRODUCTS: Product[] = [
       "oils",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/qarazire-yagi-hebesistan-250ml-itemid-47466500a15b2fcebac69927",
     "verificationStatus": "verified"
   },
   {
@@ -5102,7 +5102,7 @@ export const PRODUCTS: Product[] = [
       "teas",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/qarazire-corekotu-toxumu-hebesistan-100gr-itemid-7e2fea17cd369016799956d3",
     "verificationStatus": "verified"
   },
   {
@@ -5138,7 +5138,7 @@ export const PRODUCTS: Product[] = [
       "teas",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/qarazire-corekotu-toxumu-hindistan-100gr-itemid-3de9c3c9d624b54f4746b80b",
     "verificationStatus": "verified"
   },
   {
@@ -5174,7 +5174,7 @@ export const PRODUCTS: Product[] = [
       "teas",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/qarazire-corekotu-toxumu-suriya-100gr-itemid-d0f3172796bacd0b5e25b4ea",
     "verificationStatus": "verified"
   },
   {
@@ -5254,7 +5254,7 @@ export const PRODUCTS: Product[] = [
       "pastes",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/qarisiq-ezme-500gr-itemid-27c783f7b40aa3bf71e1c41f",
     "verificationStatus": "verified"
   },
   {
@@ -5290,7 +5290,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/qehve-denesi-100gr-itemid-2ba20eafa67efd48f4126836",
     "verificationStatus": "verified"
   },
   {
@@ -5326,7 +5326,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/qehve-denesi-100gr-itemid-2ba20eafa67efd48f4126836",
     "verificationStatus": "verified"
   },
   {
@@ -5362,7 +5362,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/qehve-denesi-uyudulmus-100gr-itemid-d55375da5d741d2e8f897f8d",
     "verificationStatus": "verified"
   },
   {
@@ -5434,7 +5434,7 @@ export const PRODUCTS: Product[] = [
       "sweeteners",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/qirmizi-qaragat-siresi-500ml-itemid-274f39d8a04a63a5a44d6a71",
     "verificationStatus": "verified"
   },
   {
@@ -5478,7 +5478,7 @@ export const PRODUCTS: Product[] = [
       "pastes",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/qoz-ezmesi-500gr-itemid-ef491f683ff8dbe7f928ae94",
     "verificationStatus": "verified"
   },
   {
@@ -5558,7 +5558,7 @@ export const PRODUCTS: Product[] = [
       "oils",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/qoz-yagi-250ml-itemid-b61bb87fce01db2cfe075f47",
     "verificationStatus": "verified"
   },
   {
@@ -5630,7 +5630,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/mas-cucertisi-itemid-f5d8e52add0e10ebba304fcb",
     "verificationStatus": "verified"
   },
   {
@@ -5746,7 +5746,7 @@ export const PRODUCTS: Product[] = [
       "sweeteners",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/oilganic-kecibuynuzu-behmezi-350gr-itemid-b87e7e7ba0754afc6386fd90",
     "verificationStatus": "verified"
   },
   {
@@ -5854,7 +5854,7 @@ export const PRODUCTS: Product[] = [
       "sweeteners",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/pomidor-siresi-500ml-itemid-18a17bacd2e3b4d585186e81",
     "verificationStatus": "verified"
   },
   {
@@ -5926,7 +5926,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/psilium-toxumu-100gr-itemid-d8d849c0768396aee470213f",
     "verificationStatus": "verified"
   },
   {
@@ -5962,7 +5962,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/pul-biber-100gr-itemid-6e1d778571f4480f548e10e8",
     "verificationStatus": "verified"
   },
   {
@@ -5998,7 +5998,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/pul-biber-100gr-itemid-6e1d778571f4480f548e10e8",
     "verificationStatus": "verified"
   },
   {
@@ -6042,7 +6042,7 @@ export const PRODUCTS: Product[] = [
       "oils",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/rozmarin-yagi-250ml-itemid-e9806d7ebb1879886be02520",
     "verificationStatus": "verified"
   },
   {
@@ -6150,7 +6150,7 @@ export const PRODUCTS: Product[] = [
       "teas",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/saricicek-100gr-itemid-89fc70a956ec3cca1e00a0c1",
     "verificationStatus": "verified"
   },
   {
@@ -6186,7 +6186,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/sarikok-cubuq-100gr-itemid-dc4d333db8c663da24a6255e",
     "verificationStatus": "verified"
   },
   {
@@ -6222,7 +6222,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/sarikok-tozu-100gr-itemid-67e1e2814f1b4a965174bb06",
     "verificationStatus": "verified"
   },
   {
@@ -6294,7 +6294,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/sumax-lecek-100gr-itemid-120410c4c545cebfd06c8917",
     "verificationStatus": "verified"
   },
   {
@@ -6330,7 +6330,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/sumax-lecek-100gr-itemid-120410c4c545cebfd06c8917",
     "verificationStatus": "verified"
   },
   {
@@ -6366,7 +6366,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/sumax-uyudulmus-100gr-itemid-c81b0e08479ad68869dc84e9",
     "verificationStatus": "verified"
   },
   {
@@ -6402,7 +6402,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/sumax-uyudulmus-100gr-itemid-c81b0e08479ad68869dc84e9",
     "verificationStatus": "verified"
   },
   {
@@ -6446,7 +6446,7 @@ export const PRODUCTS: Product[] = [
       "sweeteners",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/sam-qozasi-behmezi-340gr-itemid-1eb09b4b172c63d1dc8b4699",
     "verificationStatus": "verified"
   },
   {
@@ -6482,7 +6482,7 @@ export const PRODUCTS: Product[] = [
       "teas",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/sri-lanka-cayi-etirli-100gr-itemid-9031b09e9d2981bd66369522",
     "verificationStatus": "verified"
   },
   {
@@ -6518,7 +6518,7 @@ export const PRODUCTS: Product[] = [
       "teas",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/sri-lanka-cayi-etirli-100gr-itemid-9031b09e9d2981bd66369522",
     "verificationStatus": "verified"
   },
   {
@@ -6554,7 +6554,7 @@ export const PRODUCTS: Product[] = [
       "teas",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/sri-lanka-cayi-premium-100gr-itemid-fd2f9428b3407b5add557f53",
     "verificationStatus": "verified"
   },
   {
@@ -6590,7 +6590,7 @@ export const PRODUCTS: Product[] = [
       "teas",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/sri-lanka-cayi-premium-100gr-itemid-fd2f9428b3407b5add557f53",
     "verificationStatus": "verified"
   },
   {
@@ -6634,7 +6634,7 @@ export const PRODUCTS: Product[] = [
       "pastes",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/tahin-kuncut-ezmesi-ciy-500gr-itemid-749903c6ba67d1e551632cce",
     "verificationStatus": "verified"
   },
   {
@@ -6678,7 +6678,7 @@ export const PRODUCTS: Product[] = [
       "pastes",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/tahin-kuncut-ezmesi-qovrulmus-500gr-itemid-66b9fcb3a0300532ecae9f40",
     "verificationStatus": "verified"
   },
   {
@@ -6722,7 +6722,7 @@ export const PRODUCTS: Product[] = [
       "pastes",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/tahin-behmez-500gr-itemid-e8eeb40a16c30e2009be6241",
     "verificationStatus": "verified"
   },
   {
@@ -6766,7 +6766,7 @@ export const PRODUCTS: Product[] = [
       "pastes",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/tahin-sokoladli-500gr-itemid-eff99c7b78c6a99fe8db29c2",
     "verificationStatus": "verified"
   },
   {
@@ -6802,7 +6802,7 @@ export const PRODUCTS: Product[] = [
       "oils",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/tat-zeytun-yagi-5litr-itemid-ba40eea1d628a4312590951f",
     "verificationStatus": "verified"
   },
   {
@@ -6838,7 +6838,7 @@ export const PRODUCTS: Product[] = [
       "teas",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/corekotu-kapsul-180-eded-itemid-8cc966e54677128112fcfd02",
     "verificationStatus": "verified"
   },
   {
@@ -6874,7 +6874,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/udhindi-tablet-220-ed-itemid-b620e0e774526562601e71ff",
     "verificationStatus": "verified"
   },
   {
@@ -6910,7 +6910,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/udukumin-100kapsul-itemid-23489d7ac0e42355b95194e9",
     "verificationStatus": "verified"
   },
   {
@@ -6982,7 +6982,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/uthindi-kapsul-180-eded-itemid-6ef0b0e16685045a55e00f88",
     "verificationStatus": "verified"
   },
   {
@@ -7018,7 +7018,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/uthindi-kotuk-100gr-itemid-6533a41adc537b3961197ad5",
     "verificationStatus": "verified"
   },
   {
@@ -7090,7 +7090,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/uthindi-tozu-100gr-itemid-1f8a4ccc56c29caafba16e16",
     "verificationStatus": "verified"
   },
   {
@@ -7134,7 +7134,7 @@ export const PRODUCTS: Product[] = [
       "oils",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/uthindi-yagi-250ml-itemid-db073ca3ee8bb02aafb140af",
     "verificationStatus": "verified"
   },
   {
@@ -7170,7 +7170,7 @@ export const PRODUCTS: Product[] = [
       "teas",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/yaki-otu-suyu-1l-itemid-947b1b9b2f0739bf6d6e4747",
     "verificationStatus": "verified"
   },
   {
@@ -7206,7 +7206,7 @@ export const PRODUCTS: Product[] = [
       "teas",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/yasil-cay-100gr-itemid-7ffc92c75bcebad845ae86c4",
     "verificationStatus": "verified"
   },
   {
@@ -7242,7 +7242,7 @@ export const PRODUCTS: Product[] = [
       "teas",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/yasil-cay-100gr-itemid-7ffc92c75bcebad845ae86c4",
     "verificationStatus": "verified"
   },
   {
@@ -7278,7 +7278,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/yemisan-500ml-itemid-3dfcc90d6af197e9e00334d6",
     "verificationStatus": "verified"
   },
   {
@@ -7322,7 +7322,7 @@ export const PRODUCTS: Product[] = [
       "oils",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/zeytun-yagi-rafine-1litr-itemid-ae8408113e0114f378de83f0",
     "verificationStatus": "verified"
   },
   {
@@ -7366,7 +7366,7 @@ export const PRODUCTS: Product[] = [
       "oils",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/zeytun-yagi-soyuq-sixim-1litr-itemid-626279874d9a40d69481845d",
     "verificationStatus": "verified"
   },
   {
@@ -7402,7 +7402,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/zeferan-limonadi-500ml-itemid-6703920b3b5bb167d43b8541",
     "verificationStatus": "verified"
   },
   {
@@ -7438,7 +7438,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/zencefil-cubuq-100gr-itemid-0e7f0acc679b36b5d454e59d",
     "verificationStatus": "verified"
   },
   {
@@ -7474,7 +7474,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/zencefil-cubuq-100gr-itemid-0e7f0acc679b36b5d454e59d",
     "verificationStatus": "verified"
   },
   {
@@ -7510,7 +7510,7 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
+    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/zencefil-quru-100gr-itemid-ac1a0f01a87b7d197c4b8a8a",
     "verificationStatus": "verified"
   },
   {

@@ -13,14 +13,23 @@ export interface CartItemProps {
 export const CartItem: React.FC<CartItemProps> = ({ item, onUpdateQuantity, onRemove }) => {
   const { id, product, selectedSize, quantity, unitPrice } = item;
   const totalPrice = unitPrice * quantity;
+  const imgSrc = product.images?.[0]?.src;
 
   return (
     <div className={styles.cartItem}>
       <div className={styles.imageBox}>
-        {/* Placeholder brand SVG or image */}
-        <div className={styles.placeholderImg}>
-          <span className={styles.brandMark}>O</span>
-        </div>
+        {imgSrc ? (
+          <img
+            src={imgSrc}
+            alt={product.name}
+            className={styles.productImg}
+            loading="lazy"
+          />
+        ) : (
+          <div className={styles.placeholderImg}>
+            <span className={styles.brandMark}>O</span>
+          </div>
+        )}
       </div>
 
       <div className={styles.details}>

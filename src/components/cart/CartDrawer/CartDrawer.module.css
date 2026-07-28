@@ -5,25 +5,35 @@
   justify-content: space-between;
 }
 
-.emptyState {
+/* ─── Empty State ─────────────────────────────────── */
+.emptyBox {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: var(--space-12) 0;
+  padding: var(--space-8) var(--space-4);
   gap: var(--space-4);
   flex: 1;
+  min-height: 300px;
 }
 
 .emptyIconBox {
-  width: 88px;
-  height: 88px;
+  width: 72px;
+  height: 72px;
   border-radius: var(--radius-full);
   background-color: var(--color-sage-100);
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
+}
+
+@media (min-width: 440px) {
+  .emptyIconBox {
+    width: 88px;
+    height: 88px;
+  }
 }
 
 .emptyIcon {
@@ -31,24 +41,43 @@
 }
 
 .emptyTitle {
-  font-size: var(--font-size-xl);
+  font-size: var(--font-size-lg);
+  font-weight: 700;
   color: var(--color-deep-green);
 }
 
-.emptyText {
+@media (min-width: 440px) {
+  .emptyTitle {
+    font-size: var(--font-size-xl);
+  }
+}
+
+.emptySubtitle {
   font-size: var(--font-size-sm);
   color: var(--text-muted);
-  max-width: 280px;
+  max-width: 260px;
+  line-height: 1.5;
+}
+
+/* ─── Non-empty State: Item List + Form ──────────── */
+.drawerBody {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  height: 100%;
 }
 
 .itemList {
-  flex: 1;
+  display: flex;
+  flex-direction: column;
   overflow-y: auto;
-  padding-right: var(--space-2);
+  flex: 1;
+  /* Allow the list to shrink if keyboard appears on mobile */
+  min-height: 0;
 }
 
 .customerFormSection {
-  margin-top: var(--space-3);
+  margin-top: var(--space-2);
   padding: var(--space-3);
   background-color: var(--color-sage-50);
   border: 1px solid var(--border-color);
@@ -56,6 +85,8 @@
   display: flex;
   flex-direction: column;
   gap: var(--space-2);
+  /* Don't shrink form below its content */
+  flex-shrink: 0;
 }
 
 .formTitle {
@@ -78,36 +109,40 @@
   color: var(--color-charcoal-700);
 }
 
-.fieldInput, .fieldTextarea {
-  font-size: var(--font-size-sm);
+.fieldInput,
+.fieldTextarea {
+  font-size: 16px; /* Prevent iOS zoom on focus */
   color: var(--color-deep-green);
   background-color: var(--color-white);
   border: 1px solid var(--border-color);
   border-radius: var(--radius-sm);
-  padding: 0.4rem 0.75rem;
+  padding: 0.45rem 0.75rem;
   outline: none;
+  width: 100%;
   transition: border-color var(--transition-fast);
 }
 
-.fieldInput:focus, .fieldTextarea:focus {
+.fieldInput:focus,
+.fieldTextarea:focus {
   border-color: var(--color-brand-green);
 }
 
 .fieldTextarea {
-  resize: vertical;
-  min-height: 52px;
+  resize: none;
+  min-height: 56px;
 }
 
+/* ─── Footer Summary ─────────────────────────────── */
 .footerSummary {
-  padding-top: var(--space-3);
   border-top: 1px solid var(--border-color);
-  margin-top: var(--space-3);
+  padding-top: var(--space-3);
   display: flex;
   flex-direction: column;
-  gap: var(--space-3);
+  gap: var(--space-2);
   background-color: var(--color-white);
   padding: var(--space-3);
   border-radius: var(--radius-md);
+  flex-shrink: 0;
 }
 
 .summaryRow {
@@ -117,16 +152,22 @@
 }
 
 .summaryLabel {
-  font-size: var(--font-size-md);
+  font-size: var(--font-size-sm);
   font-weight: 600;
   color: var(--color-charcoal-700);
 }
 
 .summaryValue {
   font-family: var(--font-heading);
-  font-size: var(--font-size-2xl);
+  font-size: var(--font-size-xl);
   font-weight: 800;
   color: var(--color-brand-green);
+}
+
+@media (min-width: 440px) {
+  .summaryValue {
+    font-size: var(--font-size-2xl);
+  }
 }
 
 .noticeText {
@@ -134,6 +175,6 @@
   color: var(--text-subtle);
   line-height: 1.5;
   background-color: var(--color-sage-50);
-  padding: var(--space-3);
+  padding: var(--space-2) var(--space-3);
   border-radius: var(--radius-sm);
 }
