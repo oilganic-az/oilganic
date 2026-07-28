@@ -92,8 +92,8 @@
   --container-narrow: 840px;
 
   /* Standardized Section Padding Scale */
-  --section-padding-desktop: clamp(3rem, 6vw, 5rem);
-  --section-padding-mobile: clamp(2.25rem, 4vw, 3.25rem);
+  --section-padding-desktop: clamp(2.5rem, 5vw, 4.5rem);
+  --section-padding-mobile: clamp(1.5rem, 3.5vw, 2.5rem);
 
   /* Spacing Scale */
   --space-1: 0.25rem; /* 4px */

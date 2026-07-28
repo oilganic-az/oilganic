@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useCallback } from 'react';
 import { ShoppingBag, MessageCircle } from 'lucide-react';
 import { useCart } from '../../../hooks/useCart';
 import { formatCurrency } from '../../../utils/formatters';
@@ -16,19 +16,30 @@ export const CartDrawer: React.FC = () => {
     note: ''
   });
 
-  const handleInputChange = (field: keyof CustomerDetails, value: string) => {
-    setCustomerDetails(prev => ({
-      ...prev,
-      [field]: value
-    }));
-  };
+  // Stabilize onClose with useCallback — prevents useFocusTrap from re-running
+  // on every state update (typing in form fields), which was collapsing the mobile keyboard.
+  const handleClose = useCallback(() => {
+    setIsCartOpen(false);
+  }, [setIsCartOpen]);
+
+  const handleNameChange = useCallback((e: React.ChangeEvent<HTMLInputElement>) => {
+    setCustomerDetails(prev => ({ ...prev, customerName: e.target.value }));
+  }, []);
+
+  const handleAddressChange = useCallback((e: React.ChangeEvent<HTMLInputElement>) => {
+    setCustomerDetails(prev => ({ ...prev, deliveryAddress: e.target.value }));
+  }, []);
+
+  const handleNoteChange = useCallback((e: React.ChangeEvent<HTMLTextAreaElement>) => {
+    setCustomerDetails(prev => ({ ...prev, note: e.target.value }));
+  }, []);
 
   const whatsappUrl = buildWhatsAppOrderUrl(cartItems, customerDetails);
 
   return (
     <Drawer
       isOpen={isCartOpen}
-      onClose={() => setIsCartOpen(false)}
+      onClose={handleClose}
       title="Sifariş səbəti"
       position="right"
     >
@@ -42,7 +53,7 @@ export const CartDrawer: React.FC = () => {
             <p className={styles.emptySubtitle}>
               Təbii yağlar, əzmələr və wellness məhsullarımızı kəşf edin.
             </p>
-            <Button variant="primary" onClick={() => setIsCartOpen(false)}>
+            <Button variant="primary" onClick={handleClose}>
               Məhsullara bax
             </Button>
           </div>
@@ -67,9 +78,10 @@ export const CartDrawer: React.FC = () => {
                   <input
                     id="cart-name"
                     type="text"
+                    autoComplete="name"
                     placeholder="Məs: Elvin Məmmədov"
                     value={customerDetails.customerName}
-                    onChange={e => handleInputChange('customerName', e.target.value)}
+                    onChange={handleNameChange}
                     className={styles.fieldInput}
                   />
                 </div>
@@ -79,9 +91,10 @@ export const CartDrawer: React.FC = () => {
                   <input
                     id="cart-address"
                     type="text"
+                    autoComplete="street-address"
                     placeholder="Məs: Nizami r-nu, Neftçilər m/st"
                     value={customerDetails.deliveryAddress}
-                    onChange={e => handleInputChange('deliveryAddress', e.target.value)}
+                    onChange={handleAddressChange}
                     className={styles.fieldInput}
                   />
                 </div>
@@ -92,7 +105,7 @@ export const CartDrawer: React.FC = () => {
                     id="cart-note"
                     placeholder="Məs: Saat 15:00-dan sonra çatdırın"
                     value={customerDetails.note}
-                    onChange={e => handleInputChange('note', e.target.value)}
+                    onChange={handleNoteChange}
                     className={styles.fieldTextarea}
                   />
                 </div>

@@ -11,6 +11,12 @@ export function useFocusTrap(
   { isOpen, onClose, initialFocusRef }: UseFocusTrapOptions
 ) {
   const previouslyFocusedElementRef = useRef<HTMLElement | null>(null);
+  // Store onClose in a ref so it never needs to be a reactive dependency.
+  // This is the key fix: without this, every re-render that creates a new onClose
+  // arrow function (e.g. from parent state updates while typing) would re-run
+  // the effect — stealing focus and collapsing the mobile keyboard.
+  const onCloseRef = useRef(onClose);
+  onCloseRef.current = onClose;
 
   useEffect(() => {
     if (!isOpen) return;
@@ -51,7 +57,7 @@ export function useFocusTrap(
       if (e.key === 'Escape') {
         e.preventDefault();
         e.stopPropagation();
-        onClose();
+        onCloseRef.current();
         return;
       }
 
@@ -90,5 +96,5 @@ export function useFocusTrap(
         previouslyFocusedElementRef.current.focus();
       }
     };
-  }, [isOpen, onClose, containerRef, initialFocusRef]);
+  }, [isOpen, containerRef, initialFocusRef]);
 }
