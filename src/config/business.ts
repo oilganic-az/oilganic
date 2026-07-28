@@ -15,17 +15,14 @@ export const BUSINESS_CONFIG = {
   woltUrl: 'https://wolt.com/en/aze/baku/venue/oilganic-shop',
   instagramUrl: 'https://www.instagram.com/oilganic_shop/',
   cloposUrl: 'https://oilganicshop.clopos.menu/az/',
+  googleMapsUrl: 'https://www.google.com/maps/place/Oilganic+shop/@40.4050483,49.9486038,20.11z/',
+  googleMapsEmbed: 'https://maps.google.com/maps?q=40.4050483,49.9486038&z=18&output=embed',
+  coordinates: { lat: 40.4050483, lng: 49.9486038 },
   currency: 'AZN',
   verification: {
     addressStatus: 'verified' as VerificationStatus,
     phoneStatus: 'verified' as VerificationStatus,
     workingHoursStatus: 'verified' as VerificationStatus,
     catalogStatus: IS_SAMPLE_CATALOG_ENABLED ? ('sample' as VerificationStatus) : ('pending' as VerificationStatus)
-  },
-  /* Internal TODOs for business updates */
-  todos: {
-    voen: null,
-    googleMapsEmbed: null,
-    certificates: null
   }
 } as const;

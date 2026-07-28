@@ -38,13 +38,17 @@ export const StoreLocationSection: React.FC = () => {
                 <Phone className={styles.icon} size={22} />
                 <div>
                   <h4 className={styles.cardTitle}>Əlaqə nömrəsi</h4>
-                  <p className={styles.cardText}>{BUSINESS_CONFIG.phoneDisplay}</p>
+                  <p className={styles.cardText}>
+                    <a href={`tel:+${BUSINESS_CONFIG.whatsappRaw}`} className={styles.phoneLink}>
+                      {BUSINESS_CONFIG.phoneDisplay}
+                    </a>
+                  </p>
                 </div>
               </div>
             </div>
 
             <a
-              href={`https://maps.google.com/?q=${encodeURIComponent(BUSINESS_CONFIG.address)}`}
+              href={BUSINESS_CONFIG.googleMapsUrl}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -54,18 +58,16 @@ export const StoreLocationSection: React.FC = () => {
             </a>
           </div>
 
-          {/* Interactive Map Visual Placeholder */}
+          {/* Real Google Maps Embed */}
           <div className={styles.mapCol}>
-            <div className={styles.mapPlaceholder}>
-              <div className={styles.mapPinGraphic}>
-                <MapPin size={48} className={styles.pinIcon} />
-                <span className={styles.pinLabel}>Oilganic mağazası</span>
-              </div>
-              <p className={styles.mapSubtext}>
-                Nizami rayonu, Cəmşid Naxçıvanski küçəsi 49C<br />
-                (8-ci km bazarı)
-              </p>
-            </div>
+            <iframe
+              className={styles.mapIframe}
+              title="Oilganic mağazasının xəritədə yeri"
+              src={BUSINESS_CONFIG.googleMapsEmbed}
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              allowFullScreen
+            />
           </div>
         </div>
       </div>
