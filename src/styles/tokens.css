@@ -1,0 +1,138 @@
+/* Custom Web Font: Arista Pro Alternate */
+@font-face {
+  font-family: 'Arista Pro Alternate';
+  src: url('/fonts/AristaProAlternate-DemiBold.woff2') format('woff2'),
+       url('/fonts/AristaProAlternate-DemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Arista Pro Alternate';
+  src: url('/fonts/AristaProAlternate-Bold.woff2') format('woff2'),
+       url('/fonts/AristaProAlternate-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Arista Pro Alternate';
+  src: url('/fonts/AristaProAlternate.woff2') format('woff2'),
+       url('/fonts/AristaProAlternate.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  /* Color Palette - Oilganic Organic Precision System */
+  --color-brand-green: #237A2B;
+  --color-brand-green-hover: #1C6322;
+  --color-deep-green: #00311E;
+  --color-forest-green: #123B2A;
+  --color-leaf-green: #5C9F4A;
+  --color-sage-200: #C8DCC3;
+  --color-sage-100: #E5EFE2;
+  --color-sage-50: #F4F8F3;
+  --color-cream-50: #FAF8F1;
+  --color-cream-100: #F4F0E5;
+  --color-sand-200: #E8DDC8;
+  --color-oil-gold: #C89A3D;
+  --color-oil-gold-light: #F7EFCF;
+  --color-charcoal-900: #19211B;
+  --color-charcoal-700: #38433B;
+  --color-charcoal-500: #627065;
+  --color-white: #FFFFFF;
+  
+  --color-error: #D32F2F;
+  --color-error-bg: #FDE8E8;
+  --color-success: #2E7D32;
+  --color-success-bg: #E8F5E9;
+  
+  /* Semantic Tokens */
+  --bg-main: var(--color-cream-50);
+  --bg-card: var(--color-white);
+  --bg-card-alt: var(--color-sage-50);
+  --bg-dark: var(--color-deep-green);
+  --text-main: var(--color-charcoal-900);
+  --text-muted: var(--color-charcoal-700);
+  --text-subtle: var(--color-charcoal-500);
+  --text-on-dark: var(--color-cream-50);
+  --border-color: var(--color-sage-200);
+  --border-color-soft: rgba(200, 220, 195, 0.4);
+
+  /* Typography Fonts */
+  --font-heading: 'Nunito Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-body: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-logo: 'Arista Pro Alternate', 'Nunito Sans', sans-serif;
+
+  /* Font Sizes (Fluid Sizing) */
+  --font-size-xs: clamp(0.75rem, 0.7rem + 0.25vw, 0.8125rem);  /* 12-13px */
+  --font-size-sm: clamp(0.8125rem, 0.78rem + 0.3vw, 0.875rem); /* 13-14px */
+  --font-size-md: clamp(0.9375rem, 0.9rem + 0.4vw, 1rem);       /* 15-16px */
+  --font-size-lg: clamp(1.0625rem, 1rem + 0.5vw, 1.1875rem);   /* 17-19px */
+  --font-size-xl: clamp(1.25rem, 1.15rem + 0.7vw, 1.5rem);     /* 20-24px */
+  --font-size-2xl: clamp(1.5rem, 1.35rem + 1vw, 2rem);        /* 24-32px */
+  --font-size-3xl: clamp(1.875rem, 1.6rem + 1.5vw, 2.625rem); /* 30-42px */
+  --font-size-4xl: clamp(2.25rem, 1.8rem + 2.2vw, 3.5rem);    /* 36-56px */
+
+  /* Safe Area Inset System for Notches & Mobile Home Bars */
+  --safe-area-top: env(safe-area-inset-top, 0px);
+  --safe-area-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-area-left: env(safe-area-inset-left, 0px);
+  --safe-area-right: env(safe-area-inset-right, 0px);
+
+  /* Fluid Page & Container Margins */
+  --page-padding: clamp(1rem, 4vw, 3rem);
+  --container-max: 1280px;
+  --container-wide: 1440px;
+  --container-reading: 760px;
+  --container-narrow: 840px;
+
+  /* Standardized Section Padding Scale */
+  --section-padding-desktop: clamp(3rem, 6vw, 5rem);
+  --section-padding-mobile: clamp(2.25rem, 4vw, 3.25rem);
+
+  /* Spacing Scale */
+  --space-1: 0.25rem; /* 4px */
+  --space-2: 0.5rem;  /* 8px */
+  --space-3: 0.75rem; /* 12px */
+  --space-4: 1rem;    /* 16px */
+  --space-5: 1.25rem; /* 20px */
+  --space-6: 1.5rem;  /* 24px */
+  --space-8: 2rem;    /* 32px */
+  --space-10: 2.5rem; /* 40px */
+  --space-12: 3rem;   /* 48px */
+  --space-16: 4rem;   /* 64px */
+  --space-20: 5rem;   /* 80px */
+  --space-24: 6rem;   /* 96px */
+
+  /* Border Radii */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 22px;
+  --radius-xl: 32px;
+  --radius-full: 9999px;
+  --radius-organic: 28px 12px 28px 12px;
+
+  /* Elevation / Shadows */
+  --shadow-sm: 0 2px 8px rgba(0, 49, 30, 0.05);
+  --shadow-md: 0 8px 24px rgba(0, 49, 30, 0.08);
+  --shadow-lg: 0 16px 40px rgba(0, 49, 30, 0.12);
+  --shadow-glow: 0 0 24px rgba(35, 122, 43, 0.2);
+
+  /* Transitions */
+  --transition-fast: 180ms cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-normal: 280ms cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-slow: 450ms cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Z-Index Hierarchy */
+  --z-base: 1;
+  --z-sticky: 100;
+  --z-header: 500;
+  --z-drawer: 800;
+  --z-modal: 900;
+  --z-toast: 1000;
+}

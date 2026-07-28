@@ -1,0 +1,180 @@
+@font-face {
+    font-family: 'Arista Pro Alternate';
+    src: url('AristaProAlternate-ExtraLight.woff2') format('woff2'),
+        url('AristaProAlternate-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arista Pro Alternate';
+    src: url('AristaProAlternate-Bold.woff2') format('woff2'),
+        url('AristaProAlternate-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arista Pro Alternate';
+    src: url('AristaProAlternate-Fat.woff2') format('woff2'),
+        url('AristaProAlternate-Fat.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arista Pro Alternate';
+    src: url('AristaProAlternate-UltraLight.woff2') format('woff2'),
+        url('AristaProAlternate-UltraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arista Pro Alternate';
+    src: url('AristaProAlternate-Light.woff2') format('woff2'),
+        url('AristaProAlternate-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arista Pro Alternate';
+    src: url('AristaProAlternate.woff2') format('woff2'),
+        url('AristaProAlternate.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arista Pro Alternate SemBd';
+    src: url('AristaProAlternate-DemiBold.woff2') format('woff2'),
+        url('AristaProAlternate-DemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arista Pro';
+    src: url('AristaProAlternate-Thin.woff2') format('woff2'),
+        url('AristaProAlternate-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arista Pro';
+    src: url('AristaProTrial-Bold.woff2') format('woff2'),
+        url('AristaProTrial-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arista Pro';
+    src: url('AristaProTrial-ExtraLight.woff2') format('woff2'),
+        url('AristaProTrial-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arista Pro Icons';
+    src: url('AristaProIcons-Bold.woff2') format('woff2'),
+        url('AristaProIcons-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arista Pro Hairline';
+    src: url('AristaProTrial-Hairline.woff2') format('woff2'),
+        url('AristaProTrial-Hairline.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arista Pro Icons';
+    src: url('AristaProIcons-ExtraLight.woff2') format('woff2'),
+        url('AristaProIcons-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arista Pro Icons Hairline';
+    src: url('AristaProIcons-Hairline.woff2') format('woff2'),
+        url('AristaProIcons-Hairline.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arista Pro Icons';
+    src: url('AristaProIcons-Light.woff2') format('woff2'),
+        url('AristaProIcons-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arista Pro Icons';
+    src: url('AristaProIcons-Regular.woff2') format('woff2'),
+        url('AristaProIcons-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arista Pro Icons';
+    src: url('AristaProIcons-SemiBold.woff2') format('woff2'),
+        url('AristaProIcons-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arista Pro';
+    src: url('AristaProTrial-Regular.woff2') format('woff2'),
+        url('AristaProTrial-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arista Pro';
+    src: url('AristaProTrial-SemiBold.woff2') format('woff2'),
+        url('AristaProTrial-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arista Pro';
+    src: url('AristaProTrial-Thin.woff2') format('woff2'),
+        url('AristaProTrial-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,170 @@
+.section {
+  padding: var(--section-padding-desktop) 0;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: var(--section-padding-mobile) 0;
+  }
+}
+
+.headerRow {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  margin-bottom: var(--space-10);
+}
+
+@media (min-width: 768px) {
+  .headerRow {
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+}
+
+.sectionBadge {
+  font-family: var(--font-heading);
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+  color: var(--color-brand-green);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.sectionTitle {
+  font-size: var(--font-size-3xl);
+  color: var(--color-deep-green);
+}
+
+.allLink {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: var(--font-size-md);
+  color: var(--color-brand-green);
+  transition: color var(--transition-fast);
+}
+
+.allLink:hover {
+  color: var(--color-brand-green-hover);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: var(--space-6);
+}
+
+@media (min-width: 576px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 992px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.categoryCard {
+  background-color: var(--color-white);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: var(--space-6);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 210px;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  transition: all var(--transition-normal);
+}
+
+.categoryCard:hover {
+  transform: translateY(-4px);
+  border-color: var(--color-brand-green);
+  box-shadow: var(--shadow-md);
+}
+
+.largeCard {
+  background: linear-gradient(135deg, var(--color-deep-green) 0%, var(--color-forest-green) 100%);
+  color: var(--color-cream-50);
+}
+
+.largeCard .catName {
+  color: var(--color-white);
+}
+
+.largeCard .catDesc {
+  color: var(--color-sage-200);
+}
+
+.cardHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: var(--z-base);
+}
+
+.badge {
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+  background-color: var(--color-sage-100);
+  color: var(--color-brand-green);
+  padding: 0.2rem 0.6rem;
+  border-radius: var(--radius-full);
+}
+
+.arrowIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-full);
+  background-color: var(--color-sage-50);
+  color: var(--color-deep-green);
+  transition: transform var(--transition-fast), background-color var(--transition-fast), color var(--transition-fast);
+}
+
+.categoryCard:hover .arrowIcon {
+  transform: translate(2px, -2px);
+  background-color: var(--color-brand-green);
+  color: var(--color-white);
+}
+
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  margin-top: var(--space-6);
+  z-index: var(--z-base);
+}
+
+.catName {
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  color: var(--color-deep-green);
+}
+
+.catDesc {
+  font-size: var(--font-size-sm);
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
+.cardHalo {
+  position: absolute;
+  bottom: -30px;
+  right: -30px;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(35, 122, 43, 0.1) 0%, transparent 70%);
+  pointer-events: none;
+}

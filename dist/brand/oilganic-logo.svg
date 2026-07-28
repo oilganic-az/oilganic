@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 8 300 75" width="100%" height="100%">
+  <defs>
+    <style>
+      .wordmark {
+        font-family: 'Arista Pro Alternate', 'Nunito', 'Comfortaa', -apple-system, sans-serif;
+        font-weight: 700;
+        font-size: 54px;
+        fill: #237A2B;
+        letter-spacing: -1.2px;
+      }
+      .subtitle {
+        font-family: 'Arista Pro Alternate', 'Manrope', -apple-system, sans-serif;
+        font-weight: 400;
+        font-size: 13.5px;
+        fill: #237A2B;
+        letter-spacing: 2.2px;
+      }
+    </style>
+  </defs>
+
+  <g>
+    <!-- O Emblem Mark -->
+    <g transform="translate(16, 17.5) scale(0.106)">
+      <path d="M431 394C329.5 526 153.43 476.774 98 421C16.0093 338.5 8.9998 218 65.4998 137C147.587 91.2026 187.701 93.6415 254.5 137C254.5 137 150 99.5 83.5 191C73.313 205.017 14.0003 303.5 107.5 403C218.077 495.259 363.5 409.5 369 292.5C398.5 373 431 394 431 394Z" fill="#2F7D32"/>
+      <path d="M294 74.9992C271 66.4992 471.224 151.043 435 374.501C392 381 324 -8 82.5 113C234 -89.4996 581 104 448 374.501C470 169.5 317 83.4993 294 74.9992Z" fill="#033A25"/>
+    </g>
+
+    <!-- Wordmark 'ilganic' -->
+    <text x="78" y="70" class="wordmark">ilganic</text>
+
+    <!-- Subtitle 'təbii yağlar və əzmələr' -->
+    <text x="80" y="94" class="subtitle">təbii yağlar və əzmələr</text>
+  </g>
+</svg>

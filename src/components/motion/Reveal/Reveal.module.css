@@ -1,0 +1,31 @@
+.revealBox {
+  will-change: transform, opacity;
+  opacity: 0;
+  transform: translateY(28px);
+}
+
+.fade {
+  transform: translateY(0);
+}
+
+.slideUp {
+  transform: translateY(28px);
+}
+
+.slideLeft {
+  transform: translateX(28px);
+}
+
+.slideRight {
+  transform: translateX(-28px);
+}
+
+.scale {
+  transform: scale(0.95);
+}
+
+/* Fallback: Content is 100% visible if JS / motion-ready is disabled */
+:global(html:not(.motion-ready)) .revealBox {
+  opacity: 1 !important;
+  transform: none !important;
+}

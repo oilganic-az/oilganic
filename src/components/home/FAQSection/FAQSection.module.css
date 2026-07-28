@@ -1,0 +1,40 @@
+.section {
+  padding: var(--space-16) 0;
+  background-color: var(--color-sage-50);
+  border-top: 1px solid var(--border-color);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: var(--space-3);
+  max-width: 680px;
+  margin: 0 auto var(--space-10) auto;
+}
+
+.badge {
+  font-family: var(--font-heading);
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+  color: var(--color-brand-green);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.title {
+  font-size: var(--font-size-3xl);
+  color: var(--color-deep-green);
+}
+
+.subtitle {
+  font-size: var(--font-size-md);
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+.accordionBox {
+  max-width: 840px;
+  margin: 0 auto;
+}

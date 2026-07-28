@@ -1,0 +1,2171 @@
+[
+  {
+    "no": 1,
+    "product": "Acı badam qabıqlı 100gr",
+    "price": "1.50 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/263ec844-b5b5-40e3-8244-651347419023/card43@3x.jpg",
+    "filename": "aci-badam-qabiqli-100gr.jpg",
+    "imageAlt": "Acı badam qabıqlı 100gr",
+    "alternatives": "Acı badam"
+  },
+  {
+    "no": 2,
+    "product": "Acı badam qabıqlı kg",
+    "price": "10.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/a9725e30-c450-4800-8f78-6eec47e02a8d/card43@3x.jpg",
+    "filename": "aci-badam-qabiqli-kg.jpg",
+    "imageAlt": "Acı badam qabıqlı kg",
+    "alternatives": ""
+  },
+  {
+    "no": 3,
+    "product": "Acı badam ləpəsi 100gr",
+    "price": "3.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/23f81d16-d31b-4e03-982c-92f80a616ec7/card43@3x.jpg",
+    "filename": "aci-badam-lepesi-100gr.jpg",
+    "imageAlt": "Acı badam ləpəsi 100gr",
+    "alternatives": "Acı badam"
+  },
+  {
+    "no": 4,
+    "product": "Acı badam ləpəsi kg",
+    "price": "25.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/67cb5995-b924-4be5-ab8b-5509c871a854/card43@3x.jpg",
+    "filename": "aci-badam-lepesi-kg.jpg",
+    "imageAlt": "Acı badam ləpəsi kg",
+    "alternatives": ""
+  },
+  {
+    "no": 5,
+    "product": "Acı badam yağı 100ml",
+    "price": "15.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/ba5200bd-41e1-4f61-82a1-c77490199895/card43@3x.jpg",
+    "filename": "aci-badam-yagi-100ml.jpg",
+    "imageAlt": "Acı badam yağı 100ml",
+    "alternatives": "Acı badam"
+  },
+  {
+    "no": 6,
+    "product": "Acı badam yağı 250ml",
+    "price": "35.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/68e0c9d8-ca27-4b61-aee9-171ccab5c067/card43@3x.jpg",
+    "filename": "aci-badam-yagi-250ml.jpg",
+    "imageAlt": "Acı badam yağı 250ml",
+    "alternatives": "Acı badam"
+  },
+  {
+    "no": 7,
+    "product": "Acı ərik kg",
+    "price": "20.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/89e9b16e-318d-49d8-b88b-d6360826bf3a/card43@3x.jpg",
+    "filename": "aci-erik-kg.jpg",
+    "imageAlt": "Acı ərik kg",
+    "alternatives": ""
+  },
+  {
+    "no": 8,
+    "product": "Acı ərik tumu 100gr",
+    "price": "2.50 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/076449e6-f0a5-42fe-988e-7c54e9854bc3/card43@3x.jpg",
+    "filename": "aci-erik-tumu-100gr.jpg",
+    "imageAlt": "Acı ərik tumu 100gr",
+    "alternatives": "Acı ərik"
+  },
+  {
+    "no": 9,
+    "product": "Acı ərik yağı 100ml",
+    "price": "15.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/128e6365-edd5-4776-90c9-9f7b56a3e032/card43@3x.jpg",
+    "filename": "aci-erik-yagi-100ml.jpg",
+    "imageAlt": "Acı ərik yağı 100ml",
+    "alternatives": "Acı ərik"
+  },
+  {
+    "no": 10,
+    "product": "Acı ərik yağı 250ml",
+    "price": "35.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/7053c32e-1d9b-4d37-bb6a-73d6a7b53db2/card43@3x.jpg",
+    "filename": "aci-erik-yagi-250ml.jpg",
+    "imageAlt": "Acı ərik yağı 250ml",
+    "alternatives": "Acı ərik toxumu"
+  },
+  {
+    "no": 11,
+    "product": "Aclıq otu",
+    "price": "2.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/77f642d0-35a3-4e1d-a63d-6d560972975b/card43@3x.jpg",
+    "filename": "acliq-otu.jpg",
+    "imageAlt": "Aclıq otu",
+    "alternatives": ""
+  },
+  {
+    "no": 12,
+    "product": "Aclıq otu kapsulu 100ədəd",
+    "price": "15.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/d9622e6c-faa5-4bee-963c-7de8a40cc1b4/card43@3x.jpg",
+    "filename": "acliq-otu-kapsulu-100eded.jpg",
+    "imageAlt": "Aclıq otu kapsulu 100ədəd",
+    "alternatives": "Aclıq otu tozu"
+  },
+  {
+    "no": 13,
+    "product": "Aclıq otu kg",
+    "price": "20.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/aad1cb9d-49ff-4a6e-bf66-e9aa24c2bf9c/card43@3x.jpg",
+    "filename": "acliq-otu-kg.jpg",
+    "imageAlt": "Aclıq otu kg",
+    "alternatives": "Aclıq otu"
+  },
+  {
+    "no": 14,
+    "product": "Alaqanqal kapsulu 100ədəd",
+    "price": "15.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/c23e23ac-4f14-4830-9370-a59217ba6044/card43@3x.jpg",
+    "filename": "alaqanqal-kapsulu-100eded.jpg",
+    "imageAlt": "Alaqanqal kapsulu 100ədəd",
+    "alternatives": "Alaqanqal tozu"
+  },
+  {
+    "no": 15,
+    "product": "Alaqanqal toxumu xarici 100gr",
+    "price": "1.20 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/1df28826-adab-4c66-a18e-e99dbd88da7e/card43@3x.jpg",
+    "filename": "alaqanqal-toxumu-xarici-100gr.jpg",
+    "imageAlt": "Alaqanqal toxumu xarici 100gr",
+    "alternatives": "Alaqanqal"
+  },
+  {
+    "no": 16,
+    "product": "Alaqanqal toxumu xarici kg",
+    "price": "8.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/ceb36539-f644-40e9-9538-b9958d26873e/card43@3x.jpg",
+    "filename": "alaqanqal-toxumu-xarici-kg.jpg",
+    "imageAlt": "Alaqanqal toxumu xarici kg",
+    "alternatives": ""
+  },
+  {
+    "no": 17,
+    "product": "Alaqanqal toxumu tozu kg",
+    "price": "15.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/854b3c49-fa42-4d3e-aad0-b7c199b59cfd/card43@3x.jpg",
+    "filename": "alaqanqal-toxumu-tozu-kg.jpg",
+    "imageAlt": "Alaqanqal toxumu tozu kg",
+    "alternatives": ""
+  },
+  {
+    "no": 18,
+    "product": "Alaqanqal toxumu yerli 100gr",
+    "price": "1.50 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/8faba81f-19f7-4c00-90f2-53c9bded8c62/card43@3x.jpg",
+    "filename": "alaqanqal-toxumu-yerli-100gr.jpg",
+    "imageAlt": "Alaqanqal toxumu yerli 100gr",
+    "alternatives": "Alaqanqal"
+  },
+  {
+    "no": 19,
+    "product": "Alaqanqal toxumu yerli kg",
+    "price": "10.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/8744e133-1f44-4c59-ad50-3376aaf14b9b/card43@3x.jpg",
+    "filename": "alaqanqal-toxumu-yerli-kg.jpg",
+    "imageAlt": "Alaqanqal toxumu yerli kg",
+    "alternatives": ""
+  },
+  {
+    "no": 20,
+    "product": "Alaqanqal yağı xarici toxumdan 100ml",
+    "price": "8.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/c7a3e729-2edb-40e3-ac13-674709fc37b4/card43@3x.jpg",
+    "filename": "alaqanqal-yagi-xarici-toxumdan-100ml.jpg",
+    "imageAlt": "Alaqanqal yağı xarici toxumdan 100ml",
+    "alternatives": "Alaqanqal xarici toxum"
+  },
+  {
+    "no": 21,
+    "product": "Alaqanqal yağı xarici toxumdan 250ml",
+    "price": "18.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/a1d1559f-e5ba-486b-b4c2-3f4a5e6c7006/card43@3x.jpg",
+    "filename": "alaqanqal-yagi-xarici-toxumdan-250ml.jpg",
+    "imageAlt": "Alaqanqal yağı xarici toxumdan 250ml",
+    "alternatives": "Alaqanqal xarici toxum"
+  },
+  {
+    "no": 22,
+    "product": "Alaqanqal yağı yerli toxumdan 100ml",
+    "price": "10.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/8d1b280f-c4ac-4b0f-af09-a6351329a2da/card43@3x.jpg",
+    "filename": "alaqanqal-yagi-yerli-toxumdan-100ml.jpg",
+    "imageAlt": "Alaqanqal yağı yerli toxumdan 100ml",
+    "alternatives": "Alaqanqal yerli toxum"
+  },
+  {
+    "no": 23,
+    "product": "Alaqanqal yağı yerli toxumdan 250ml",
+    "price": "23.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/6910ea06-e412-416e-bb91-90ac2c58e57a/card43@3x.jpg",
+    "filename": "alaqanqal-yagi-yerli-toxumdan-250ml.jpg",
+    "imageAlt": "Alaqanqal yağı yerli toxumdan 250ml",
+    "alternatives": "Alaqanqal yerli toxum"
+  },
+  {
+    "no": 24,
+    "product": "Alma Sirkəsi 500ml",
+    "price": "8.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/3606007c-0713-4d43-ac4a-40b59b428b8e/card43@3x.jpg",
+    "filename": "alma-sirkesi-500ml.jpg",
+    "imageAlt": "Alma Sirkəsi 500ml",
+    "alternatives": "Alma Sirkəsi"
+  },
+  {
+    "no": 25,
+    "product": "Ananas sirkəsi 500ml",
+    "price": "12.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/0e5dba00-34e2-4b01-9be0-bf2f0839da48/card43@3x.jpg",
+    "filename": "ananas-sirkesi-500ml.jpg",
+    "imageAlt": "Ananas sirkəsi 500ml",
+    "alternatives": "Ananas"
+  },
+  {
+    "no": 26,
+    "product": "Araxis (fıstıq) kg",
+    "price": "7.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/803796bb-570c-43ce-9eb7-606bc6c0fa7f/card43@3x.jpg",
+    "filename": "araxis-fistiq-kg.jpg",
+    "imageAlt": "Araxis (fıstıq) kg",
+    "alternatives": ""
+  },
+  {
+    "no": 27,
+    "product": "Arı südü 1gr",
+    "price": "8.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/d24d10bd-fae4-4146-9823-6d1760294090/card43@3x.jpg",
+    "filename": "ari-sudu-1gr.jpg",
+    "imageAlt": "Arı südü 1gr",
+    "alternatives": "Arı südü"
+  },
+  {
+    "no": 28,
+    "product": "Astara çayı 2-ci sort 100gr",
+    "price": "3.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/e5096def-16be-4193-a431-2f594b28607f/card43@3x.jpg",
+    "filename": "astara-cayi-2-ci-sort-100gr.jpg",
+    "imageAlt": "Astara çayı 2-ci sort 100gr",
+    "alternatives": "Qara çay"
+  },
+  {
+    "no": 29,
+    "product": "Astara çayı 2-ci sort kg",
+    "price": "20.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/b3fe7289-c3e1-4156-848b-5965583e7204/card43@3x.jpg",
+    "filename": "astara-cayi-2-ci-sort-kg.jpg",
+    "imageAlt": "Astara çayı 2-ci sort kg",
+    "alternatives": "Qara çay"
+  },
+  {
+    "no": 30,
+    "product": "Astara çayı premium 100gr",
+    "price": "5.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/26c9a437-e853-4c60-b3d3-4747dee9a3a0/card43@3x.jpg",
+    "filename": "astara-cayi-premium-100gr.jpg",
+    "imageAlt": "Astara çayı premium 100gr",
+    "alternatives": "Qara çay"
+  },
+  {
+    "no": 31,
+    "product": "Astara premium kg",
+    "price": "40.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/606698ac-c1b0-4d88-94aa-689b26f64a10/card43@3x.jpg",
+    "filename": "astara-premium-kg.jpg",
+    "imageAlt": "Astara premium kg",
+    "alternatives": "Qara çay"
+  },
+  {
+    "no": 32,
+    "product": "Astaraçay yarpaq çayı 250gr",
+    "price": "15.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/a9372b86-b997-44b2-b97f-44254c820263/card43@3x.jpg",
+    "filename": "astaracay-yarpaq-cayi-250gr.jpg",
+    "imageAlt": "Astaraçay yarpaq çayı 250gr",
+    "alternatives": "Qara çay"
+  },
+  {
+    "no": 33,
+    "product": "Ayvalık zeytun yağı 5L",
+    "price": "45.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/2cb13538-14a2-4834-acaf-86e3f2af6fc0/card43@3x.jpg",
+    "filename": "ayvalik-zeytun-yagi-5l.jpg",
+    "imageAlt": "Ayvalık zeytun yağı 5L",
+    "alternatives": ""
+  },
+  {
+    "no": 34,
+    "product": "Badam əzməsi 200gr",
+    "price": "8.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/27395282-5b68-46a3-8d0a-2750c7d3a3a0/card43@3x.jpg",
+    "filename": "badam-ezmesi-200gr.jpg",
+    "imageAlt": "Badam əzməsi 200gr",
+    "alternatives": "Badam"
+  },
+  {
+    "no": 35,
+    "product": "Badam əzməsi 500gr",
+    "price": "16.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/c0590ce0-f83e-4739-b10c-58490d8e4145/card43@3x.jpg",
+    "filename": "badam-ezmesi-500gr.jpg",
+    "imageAlt": "Badam əzməsi 500gr",
+    "alternatives": "Badam"
+  },
+  {
+    "no": 36,
+    "product": "Badam ləpəsi",
+    "price": "20.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/7c037b4a-72d3-474e-8c1e-62dfaa67e02b/card43@3x.jpg",
+    "filename": "badam-lepesi.jpg",
+    "imageAlt": "Badam ləpəsi",
+    "alternatives": ""
+  },
+  {
+    "no": 37,
+    "product": "Badam ləpəsi 100gr",
+    "price": "2.50 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/861d784c-5bb4-41d1-a823-9eae55c60b86/card43@3x.jpg",
+    "filename": "badam-lepesi-100gr.jpg",
+    "imageAlt": "Badam ləpəsi 100gr",
+    "alternatives": "Badam ləpəsi"
+  },
+  {
+    "no": 38,
+    "product": "Badam yağı 100ml",
+    "price": "10.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/a64c9908-fd8c-4b3b-968f-978d2536fec8/card43@3x.jpg",
+    "filename": "badam-yagi-100ml.jpg",
+    "imageAlt": "Badam yağı 100ml",
+    "alternatives": "Badam"
+  },
+  {
+    "no": 39,
+    "product": "Badam yağı 250ml",
+    "price": "22.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/8c45d40c-7e0f-46c3-85fd-6f8af7300bc8/card43@3x.jpg",
+    "filename": "badam-yagi-250ml.jpg",
+    "imageAlt": "Badam yağı 250ml",
+    "alternatives": "Badam"
+  },
+  {
+    "no": 40,
+    "product": "Balqabaq şirəsi 500ml",
+    "price": "3.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/09299f46-7212-4d34-ae2e-50586e61bed2/card43@3x.jpg",
+    "filename": "balqabaq-siresi-500ml.jpg",
+    "imageAlt": "Balqabaq şirəsi 500ml",
+    "alternatives": "Balqabaq şirəsi"
+  },
+  {
+    "no": 41,
+    "product": "Balqabaq toxumu kg",
+    "price": "14.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/90636ce8-5a10-417a-8d91-d6b1c65d0c65/card43@3x.jpg",
+    "filename": "balqabaq-toxumu-kg.jpg",
+    "imageAlt": "Balqabaq toxumu kg",
+    "alternatives": ""
+  },
+  {
+    "no": 42,
+    "product": "Balqabaq tumu 100gr",
+    "price": "2.50 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/9845ab03-d54f-4d7e-9950-6f6709421407/card43@3x.jpg",
+    "filename": "balqabaq-tumu-100gr.jpg",
+    "imageAlt": "Balqabaq tumu 100gr",
+    "alternatives": "Balqabaq tumu"
+  },
+  {
+    "no": 43,
+    "product": "Balqabaq tumu əzməsi 200gr",
+    "price": "8.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/5ec785bc-781f-44f4-8165-81f739f6b1a9/card43@3x.jpg",
+    "filename": "balqabaq-tumu-ezmesi-200gr.jpg",
+    "imageAlt": "Balqabaq tumu əzməsi 200gr",
+    "alternatives": "Balqabaq tumu"
+  },
+  {
+    "no": 44,
+    "product": "Balqabaq tumu əzməsi 500gr",
+    "price": "16.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/b965f2b2-af28-4694-ba43-d9903a3785bc/card43@3x.jpg",
+    "filename": "balqabaq-tumu-ezmesi-500gr.jpg",
+    "imageAlt": "Balqabaq tumu əzməsi 500gr",
+    "alternatives": "Balqabaq tumu"
+  },
+  {
+    "no": 45,
+    "product": "Balqabaq tumu yağı 100ml",
+    "price": "10.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/ea195bf7-fb2f-4075-908d-2a0f8759f876/card43@3x.jpg",
+    "filename": "balqabaq-tumu-yagi-100ml.jpg",
+    "imageAlt": "Balqabaq tumu yağı 100ml",
+    "alternatives": "Balqabaq tumu"
+  },
+  {
+    "no": 46,
+    "product": "Balqabaq tumu yağı 250ml",
+    "price": "23.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/394e86b0-4238-4b95-bf12-908112ab5cc5/card43@3x.jpg",
+    "filename": "balqabaq-tumu-yagi-250ml.jpg",
+    "imageAlt": "Balqabaq tumu yağı 250ml",
+    "alternatives": "Balqabaq tumu"
+  },
+  {
+    "no": 47,
+    "product": "Bamiyə toxumu 100gr",
+    "price": "8.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/2355f80e-9e55-46a2-9202-8f13a9b888c0/card43@3x.jpg",
+    "filename": "bamiye-toxumu-100gr.jpg",
+    "imageAlt": "Bamiyə toxumu 100gr",
+    "alternatives": "Bamiyə toxumu"
+  },
+  {
+    "no": 48,
+    "product": "Bamiyə toxumu kg",
+    "price": "60.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/cb69a806-da37-4008-a945-5fc66d3a81db/card43@3x.jpg",
+    "filename": "bamiye-toxumu-kg.jpg",
+    "imageAlt": "Bamiyə toxumu kg",
+    "alternatives": ""
+  },
+  {
+    "no": 49,
+    "product": "Braziilya qozu kg",
+    "price": "85.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/672d5aaa-d655-4c2d-a65d-b91b5426ba1e/card43@3x.jpg",
+    "filename": "braziilya-qozu-kg.jpg",
+    "imageAlt": "Braziilya qozu kg",
+    "alternatives": ""
+  },
+  {
+    "no": 50,
+    "product": "Braziliya qozu 100gr",
+    "price": "10.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/2fcad55e-6bdd-4642-bd7d-64e143f34b29/card43@3x.jpg",
+    "filename": "braziliya-qozu-100gr.jpg",
+    "imageAlt": "Braziliya qozu 100gr",
+    "alternatives": "Braziliya qozu"
+  },
+  {
+    "no": 51,
+    "product": "Buğda cücərtisi",
+    "price": "5.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/77cbdea9-0565-40ab-bfb8-bd66995d9b85/card43@3x.jpg",
+    "filename": "bugda-cucertisi.jpg",
+    "imageAlt": "Buğda cücərtisi",
+    "alternatives": ""
+  },
+  {
+    "no": 52,
+    "product": "Çakşır suyu brokolili 1L",
+    "price": "15.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/1e9c1273-2a87-42a6-a94b-0289efa3e28e/card43@3x.jpg",
+    "filename": "caksir-suyu-brokolili-1l.jpg",
+    "imageAlt": "Çakşır suyu brokolili 1L",
+    "alternatives": "Çakşır , brokoli, zəncir otu, kənəvir"
+  },
+  {
+    "no": 53,
+    "product": "Çaşır kökü kg",
+    "price": "100.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/057384cc-b2b0-4495-a805-f5873fed288f/card43@3x.jpg",
+    "filename": "casir-koku-kg.jpg",
+    "imageAlt": "Çaşır kökü kg",
+    "alternatives": ""
+  },
+  {
+    "no": 54,
+    "product": "Çaytikanı yağı 100ml",
+    "price": "15.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/401118d6-934d-42a1-bf04-8193f0c44378/card43@3x.jpg",
+    "filename": "caytikani-yagi-100ml.jpg",
+    "imageAlt": "Çaytikanı yağı 100ml",
+    "alternatives": "Çaytikanı qurusu və soyuq sıxım zeytun yağı"
+  },
+  {
+    "no": 55,
+    "product": "Çaytikanı yağı 250ml",
+    "price": "35.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/4c0d5424-6659-4342-ac1c-a9b24bf4c17c/card43@3x.jpg",
+    "filename": "caytikani-yagi-250ml.jpg",
+    "imageAlt": "Çaytikanı yağı 250ml",
+    "alternatives": "Çaytikanı qurusu və Soyuq sıxım zeytun yağı"
+  },
+  {
+    "no": 56,
+    "product": "Çətənə toxumu kg",
+    "price": "20.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/aedb5102-a128-40a6-a62b-f2579fafdd0f/card43@3x.jpg",
+    "filename": "cetene-toxumu-kg.jpg",
+    "imageAlt": "Çətənə toxumu kg",
+    "alternatives": ""
+  },
+  {
+    "no": 57,
+    "product": "Çətənə yağı 100ml",
+    "price": "15.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/5846b890-46f0-43e6-a8bf-2347b93036f4/card43@3x.jpg",
+    "filename": "cetene-yagi-100ml.jpg",
+    "imageAlt": "Çətənə yağı 100ml",
+    "alternatives": "Çətənə toxumu"
+  },
+  {
+    "no": 58,
+    "product": "Çətənə yağı 250ml",
+    "price": "35.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/3a50d4cc-06c1-4cb3-b284-fd112e14ebcf/card43@3x.jpg",
+    "filename": "cetene-yagi-250ml.jpg",
+    "imageAlt": "Çətənə yağı 250ml",
+    "alternatives": "Çətənə toxumu"
+  },
+  {
+    "no": 59,
+    "product": "Çiçək balı 1kg",
+    "price": "40.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/3e355715-b748-47d8-b7e0-f21ecaaf5334/card43@3x.jpg",
+    "filename": "cicek-bali-1kg.jpg",
+    "imageAlt": "Çiçək balı 1kg",
+    "alternatives": "Bal"
+  },
+  {
+    "no": 60,
+    "product": "Çiçək balı 500gr",
+    "price": "20.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/8c7944bb-c23a-4275-aa56-6008ab142418/card43@3x.jpg",
+    "filename": "cicek-bali-500gr.jpg",
+    "imageAlt": "Çiçək balı 500gr",
+    "alternatives": "Bal"
+  },
+  {
+    "no": 61,
+    "product": "Çiçək tozu 100gr",
+    "price": "12.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/72b237da-bf4d-4f65-885e-de07c1f0383f/card43@3x.jpg",
+    "filename": "cicek-tozu-100gr.jpg",
+    "imageAlt": "Çiçək tozu 100gr",
+    "alternatives": "Çiçək tozu"
+  },
+  {
+    "no": 62,
+    "product": "Çiçək tozu kg",
+    "price": "100.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/171b37e3-c406-40b4-aa32-0b289d2801a3/card43@3x.jpg",
+    "filename": "cicek-tozu-kg.jpg",
+    "imageAlt": "Çiçək tozu kg",
+    "alternatives": "Arı fermenti"
+  },
+  {
+    "no": 63,
+    "product": "Çiya toxumu 100gr",
+    "price": "2.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/f8370680-cd81-497f-bf91-6c4fb4d6bc37/card43@3x.jpg",
+    "filename": "ciya-toxumu-100gr.jpg",
+    "imageAlt": "Çiya toxumu 100gr",
+    "alternatives": "Çiya toxumu"
+  },
+  {
+    "no": 64,
+    "product": "Çiya toxumu kg",
+    "price": "15.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/8e739c66-fd7b-46fa-b9a4-7841671e3763/card43@3x.jpg",
+    "filename": "ciya-toxumu-kg.jpg",
+    "imageAlt": "Çiya toxumu kg",
+    "alternatives": ""
+  },
+  {
+    "no": 65,
+    "product": "Çörəkotu kapsul 180 ədəd",
+    "price": "15.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/28ba6c32-5c94-4643-bd48-440d3896617a/card43@3x.jpg",
+    "filename": "corekotu-kapsul-180-eded.jpg",
+    "imageAlt": "Çörəkotu kapsul 180 ədəd",
+    "alternatives": "Çörəkotu tozu"
+  },
+  {
+    "no": 66,
+    "product": "Çörəkotu yağ kapsulu 100ədəd",
+    "price": "15.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/72f7efb7-02ce-4ba1-8ac1-ca2385619eee/card43@3x.jpg",
+    "filename": "corekotu-yag-kapsulu-100eded.jpg",
+    "imageAlt": "Çörəkotu yağ kapsulu 100ədəd",
+    "alternatives": "Çörəkotu toxumu yağı"
+  },
+  {
+    "no": 67,
+    "product": "Damla şokolad kg",
+    "price": "10.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/89d5f8eb-c516-489a-8f99-142cdc7a6ddb/card43@3x.jpg",
+    "filename": "damla-sokolad-kg.jpg",
+    "imageAlt": "Damla şokolad kg",
+    "alternatives": "Şokolad"
+  },
+  {
+    "no": 68,
+    "product": "Darçın çubuq 100gr",
+    "price": "3.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/97fadd05-c542-4a83-a932-2be27c0751e0/card43@3x.jpg",
+    "filename": "darcin-cubuq-100gr.jpg",
+    "imageAlt": "Darçın çubuq 100gr",
+    "alternatives": "Darçın"
+  },
+  {
+    "no": 69,
+    "product": "Darçın çubuq kg",
+    "price": "25.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/40374d3c-3a22-4968-af90-5f3cbf3418a9/card43@3x.jpg",
+    "filename": "darcin-cubuq-kg.jpg",
+    "imageAlt": "Darçın çubuq kg",
+    "alternatives": "Darçın çubuq"
+  },
+  {
+    "no": 70,
+    "product": "Darçın çubuq Şri-lanka natural kg",
+    "price": "100.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/882aeeb9-6834-45dc-8ec1-1a6ffd07aba2/card43@3x.jpg",
+    "filename": "darcin-cubuq-sri-lanka-natural-kg.jpg",
+    "imageAlt": "Darçın çubuq Şri-lanka natural kg",
+    "alternatives": "Darçın çubuq Şri-lanka natural"
+  },
+  {
+    "no": 71,
+    "product": "Darçın Şri-lanka 100gr",
+    "price": "12.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/d9a65891-4171-4bf0-bace-b33801e1990d/card43@3x.jpg",
+    "filename": "darcin-sri-lanka-100gr.jpg",
+    "imageAlt": "Darçın Şri-lanka 100gr",
+    "alternatives": "Darçın Şri-Lanka"
+  },
+  {
+    "no": 72,
+    "product": "Darçın tozu 100gr",
+    "price": "3.50 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/ffccf598-132a-420b-8511-629eda4c2734/card43@3x.jpg",
+    "filename": "darcin-tozu-100gr.jpg",
+    "imageAlt": "Darçın tozu 100gr",
+    "alternatives": "Darçın tozu"
+  },
+  {
+    "no": 73,
+    "product": "Darçın tozu kg",
+    "price": "30.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/0711cfa8-c1ac-4a2b-aa50-dc048960bdf8/card43@3x.jpg",
+    "filename": "darcin-tozu-kg.jpg",
+    "imageAlt": "Darçın tozu kg",
+    "alternatives": "Darçın"
+  },
+  {
+    "no": 74,
+    "product": "Dazıotu yağı 100ml",
+    "price": "12.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/91b0bfcd-acf0-4d2a-af35-69adfd924939/card43@3x.jpg",
+    "filename": "daziotu-yagi-100ml.jpg",
+    "imageAlt": "Dazıotu yağı 100ml",
+    "alternatives": "Dazı otu və soyuq sıxım zeytun yağı"
+  },
+  {
+    "no": 75,
+    "product": "Dazıotu yağı 250ml",
+    "price": "28.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/4272c89d-541b-4c8c-8466-4bd00a399afe/card43@3x.jpg",
+    "filename": "daziotu-yagi-250ml.jpg",
+    "imageAlt": "Dazıotu yağı 250ml",
+    "alternatives": "Dazıotu və zeytun yağı"
+  },
+  {
+    "no": 76,
+    "product": "Detox Sirkəsi 500ml",
+    "price": "12.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/57816af0-20bc-4536-b346-42288f5ee9a6/card43@3x.jpg",
+    "filename": "detox-sirkesi-500ml.jpg",
+    "imageAlt": "Detox Sirkəsi 500ml",
+    "alternatives": "Ananas, ərik, limon, cəfəri, cia toxumu, alma, bibəriyyə, ənginar, kivi, portağal, yaşıl çay, darçın, Aavakado, razyana"
+  },
+  {
+    "no": 77,
+    "product": "Ənginar sirkəsi 500ml",
+    "price": "12.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/29c0bb33-b4bd-4282-aecc-ba5e78be0b2c/card43@3x.jpg",
+    "filename": "enginar-sirkesi-500ml.jpg",
+    "imageAlt": "Ənginar sirkəsi 500ml",
+    "alternatives": "Ənginar"
+  },
+  {
+    "no": 78,
+    "product": "Ənginar suyu Alaqanqallı 1L",
+    "price": "15.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/dd360587-a7de-46f6-a686-e9e9fe4c5788/card43@3x.jpg",
+    "filename": "enginar-suyu-alaqanqalli-1l.jpg",
+    "imageAlt": "Ənginar suyu Alaqanqallı 1L",
+    "alternatives": "Ənginar bitkisi, alaqanqal , qarabaş otu, zəncir otu"
+  },
+  {
+    "no": 79,
+    "product": "Ərküdə 50gr",
+    "price": "3.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/af64b693-7082-4756-9856-a23b489422ec/card43@3x.jpg",
+    "filename": "erkude-50gr.jpg",
+    "imageAlt": "Ərküdə 50gr",
+    "alternatives": "Ərküdə"
+  },
+  {
+    "no": 80,
+    "product": "Ərküdə kg",
+    "price": "50.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/4e7eab95-cf3f-4fb9-a3f4-b7634ec3435a/card43@3x.jpg",
+    "filename": "erkude-kg.jpg",
+    "imageAlt": "Ərküdə kg",
+    "alternatives": "Ərküdə"
+  },
+  {
+    "no": 81,
+    "product": "Feyxoa şirəsi 500ml",
+    "price": "3.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/096a2f1b-64fa-4e4a-8d24-14d3d9570b69/card43@3x.jpg",
+    "filename": "feyxoa-siresi-500ml.jpg",
+    "imageAlt": "Feyxoa şirəsi 500ml",
+    "alternatives": "Feyxoa şirəsi"
+  },
+  {
+    "no": 82,
+    "product": "Fındıq əzməsi 200gr",
+    "price": "12.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/4267d790-8fe6-4e0a-9847-bdfd2f088c5d/card43@3x.jpg",
+    "filename": "findiq-ezmesi-200gr.jpg",
+    "imageAlt": "Fındıq əzməsi 200gr",
+    "alternatives": "Fındıq"
+  },
+  {
+    "no": 83,
+    "product": "Fındıq əzməsi 500gr",
+    "price": "24.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/3bcb6765-3c52-4d4d-9003-dc5faf7a8dbd/card43@3x.jpg",
+    "filename": "findiq-ezmesi-500gr.jpg",
+    "imageAlt": "Fındıq əzməsi 500gr",
+    "alternatives": "Fındıq"
+  },
+  {
+    "no": 84,
+    "product": "Fındıq qovrulmuş kg",
+    "price": "32.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/2b52acb3-e2a2-4de7-ad9c-4c0b1d6b33c3/card43@3x.jpg",
+    "filename": "findiq-qovrulmus-kg.jpg",
+    "imageAlt": "Fındıq qovrulmuş kg",
+    "alternatives": ""
+  },
+  {
+    "no": 85,
+    "product": "Fıstıq + Küncüt əzməsi 200gr",
+    "price": "5.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/5df905dc-a05b-4471-93a4-e5dc773c525e/card43@3x.jpg",
+    "filename": "fistiq-kuncut-ezmesi-200gr.jpg",
+    "imageAlt": "Fıstıq + Küncüt əzməsi 200gr",
+    "alternatives": "Fıstıq + Küncüt"
+  },
+  {
+    "no": 86,
+    "product": "Fıstıq əzməsi 200gr",
+    "price": "5.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/8989bb7b-9d8f-4f2b-b4a8-2d4f53139374/card43@3x.jpg",
+    "filename": "fistiq-ezmesi-200gr.jpg",
+    "imageAlt": "Fıstıq əzməsi 200gr",
+    "alternatives": "Fıstıq"
+  },
+  {
+    "no": 87,
+    "product": "Fıstıq əzməsi 500gr",
+    "price": "10.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/cd0f2c96-8ad2-4f7f-9a11-972e5d7255b2/card43@3x.jpg",
+    "filename": "fistiq-ezmesi-500gr.jpg",
+    "imageAlt": "Fıstıq əzməsi 500gr",
+    "alternatives": "Fıstıq"
+  },
+  {
+    "no": 88,
+    "product": "Fıstıq əzməsi şokoladli 200gr",
+    "price": "6.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/89fc6976-1f1b-4b27-9a82-364a0ba0dad6/card43@3x.jpg",
+    "filename": "fistiq-ezmesi-sokoladli-200gr.jpg",
+    "imageAlt": "Fıstıq əzməsi şokoladli 200gr",
+    "alternatives": "Fıstıq və damla şokolad"
+  },
+  {
+    "no": 89,
+    "product": "Fıstıq əzməsi şokoladli 500gr",
+    "price": "12.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/a1c637f4-497a-4f8c-828b-a0fc8ca6966f/card43@3x.jpg",
+    "filename": "fistiq-ezmesi-sokoladli-500gr.jpg",
+    "imageAlt": "Fıstıq əzməsi şokoladli 500gr",
+    "alternatives": "Fıstıq və damla şokolad"
+  },
+  {
+    "no": 90,
+    "product": "Fıstıq+küncüt əzməsi 500gr",
+    "price": "10.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/7f10cd84-405a-46c3-8b73-a8389287c595/card43@3x.jpg",
+    "filename": "fistiq-kuncut-ezmesi-500gr.jpg",
+    "imageAlt": "Fıstıq+küncüt əzməsi 500gr",
+    "alternatives": "Fıstıq və küncüt"
+  },
+  {
+    "no": 91,
+    "product": "Gənəgərçək toxumu 100gr",
+    "price": "2.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/23b90df7-fbf3-4f68-aa50-a43cc49e05f4/card43@3x.jpg",
+    "filename": "genegercek-toxumu-100gr.jpg",
+    "imageAlt": "Gənəgərçək toxumu 100gr",
+    "alternatives": "Gənəgərçək toxumu"
+  },
+  {
+    "no": 92,
+    "product": "Gənəgərçək toxumu kg",
+    "price": "12.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/bcd6cd54-0760-40b5-86f9-2706ad59dd32/card43@3x.jpg",
+    "filename": "genegercek-toxumu-kg.jpg",
+    "imageAlt": "Gənəgərçək toxumu kg",
+    "alternatives": ""
+  },
+  {
+    "no": 93,
+    "product": "Gənəgərçək yağı 100ml",
+    "price": "10.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/8264b1db-d273-40ab-8729-1a1ab479ea46/card43@3x.jpg",
+    "filename": "genegercek-yagi-100ml.jpg",
+    "imageAlt": "Gənəgərçək yağı 100ml",
+    "alternatives": "Gənəgərçək toxumu"
+  },
+  {
+    "no": 94,
+    "product": "Gənəgərçək yağı 250ml",
+    "price": "22.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/d4010abc-9fbd-4fce-a86f-720ae7c41e8b/card43@3x.jpg",
+    "filename": "genegercek-yagi-250ml.jpg",
+    "imageAlt": "Gənəgərçək yağı 250ml",
+    "alternatives": "Gənəgərçək toxumu"
+  },
+  {
+    "no": 95,
+    "product": "Günəbaxan tumu kg",
+    "price": "4.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/80cba499-eb2f-4468-b322-09ee25b049f4/card43@3x.jpg",
+    "filename": "gunebaxan-tumu-kg.jpg",
+    "imageAlt": "Günəbaxan tumu kg",
+    "alternatives": ""
+  },
+  {
+    "no": 96,
+    "product": "Günəbaxan yağı 1litr",
+    "price": "8.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/9787578b-0baa-472f-88bd-a857821494ca/card43@3x.jpg",
+    "filename": "gunebaxan-yagi-1litr.jpg",
+    "imageAlt": "Günəbaxan yağı 1litr",
+    "alternatives": "Günəbaxan toxumu"
+  },
+  {
+    "no": 97,
+    "product": "Günəbaxan yağı 2litr",
+    "price": "15.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/34b88696-ac00-43d5-abc4-6c88616c181d/card43@3x.jpg",
+    "filename": "gunebaxan-yagi-2litr.jpg",
+    "imageAlt": "Günəbaxan yağı 2litr",
+    "alternatives": "Günəbaxan tumu"
+  },
+  {
+    "no": 98,
+    "product": "Günəbaxan yağı süzülmüş 1 litr",
+    "price": "10.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/2076bf49-f666-4974-8536-93c607659b23/card43@3x.jpg",
+    "filename": "gunebaxan-yagi-suzulmus-1-litr.jpg",
+    "imageAlt": "Günəbaxan yağı süzülmüş 1 litr",
+    "alternatives": "Günəbaxan toxumu"
+  },
+  {
+    "no": 99,
+    "product": "Günəbaxan yağı süzülmüş 2litr",
+    "price": "18.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/d1d23c18-65e0-4025-8cc0-0d1a246b8e21/card43@3x.jpg",
+    "filename": "gunebaxan-yagi-suzulmus-2litr.jpg",
+    "imageAlt": "Günəbaxan yağı süzülmüş 2litr",
+    "alternatives": "Günəbaxan tumu"
+  },
+  {
+    "no": 100,
+    "product": "Heyva şirəsi 500ml",
+    "price": "3.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/177e2e9e-dce2-460d-8c03-3726aebb1761/card43@3x.jpg",
+    "filename": "heyva-siresi-500ml.jpg",
+    "imageAlt": "Heyva şirəsi 500ml",
+    "alternatives": "Heyva şirəsi"
+  },
+  {
+    "no": 101,
+    "product": "Himalay duzu 100gr",
+    "price": "2.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/d406c4cc-06ae-47f7-adde-0f3b9f1e9590/card43@3x.jpg",
+    "filename": "himalay-duzu-100gr.jpg",
+    "imageAlt": "Himalay duzu 100gr",
+    "alternatives": "Himalay duzu"
+  },
+  {
+    "no": 102,
+    "product": "Himalay duzu 100gr",
+    "price": "3.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/113601b1-6047-4e23-96f0-5a68aa6e24c8/card43@3x.jpg",
+    "filename": "himalay-duzu-100gr-2.jpg",
+    "imageAlt": "Himalay duzu 100gr",
+    "alternatives": "Himalay duzu"
+  },
+  {
+    "no": 103,
+    "product": "Himalay duzu bütöv kg",
+    "price": "7.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/7f2f99f6-343f-4f5a-9aad-033bc9a5013b/card43@3x.jpg",
+    "filename": "himalay-duzu-butov-kg.jpg",
+    "imageAlt": "Himalay duzu bütöv kg",
+    "alternatives": "Himalay duzu"
+  },
+  {
+    "no": 104,
+    "product": "Himalay duzu üyüdülmüş kg",
+    "price": "10.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/57fee177-3162-4c55-8cbf-4ff8ad38a465/card43@3x.jpg",
+    "filename": "himalay-duzu-uyudulmus-kg.jpg",
+    "imageAlt": "Himalay duzu üyüdülmüş kg",
+    "alternatives": "Himalay duzu"
+  },
+  {
+    "no": 105,
+    "product": "Xurmaçı Alovlu məcun 250gr",
+    "price": "19.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/937e744b-98f6-499d-b856-7e7e8726c517/card43@3x.jpg",
+    "filename": "xurmaci-alovlu-mecun-250gr.jpg",
+    "imageAlt": "Xurmaçı Alovlu məcun 250gr",
+    "alternatives": ""
+  },
+  {
+    "no": 106,
+    "product": "Xurmaçı Ballı ərikli məcun 250gr",
+    "price": "18.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/e574078e-5b8d-4400-a8c0-d93959a9e61a/card43@3x.jpg",
+    "filename": "xurmaci-balli-erikli-mecun-250gr.jpg",
+    "imageAlt": "Xurmaçı Ballı ərikli məcun 250gr",
+    "alternatives": ""
+  },
+  {
+    "no": 107,
+    "product": "Xurmaçı Fit məcun 250gr",
+    "price": "17.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/01a080e9-7cc3-47ae-8917-2e88fe668087/card43@3x.jpg",
+    "filename": "xurmaci-fit-mecun-250gr.jpg",
+    "imageAlt": "Xurmaçı Fit məcun 250gr",
+    "alternatives": "qara kişmiş , çiya toxumu, qoz, qoji beri, yaşıl çay , kətan toxumui, keçibuynuzu bəhməzi , darçın, zəncəfil, süzmə bal, aclıq otu"
+  },
+  {
+    "no": 108,
+    "product": "Xurmaçı Xurma məcunu 250gr",
+    "price": "15.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/fefc67c0-e3e8-4e47-9c87-0e93117e1275/card43@3x.jpg",
+    "filename": "xurmaci-xurma-mecunu-250gr.jpg",
+    "imageAlt": "Xurmaçı Xurma məcunu 250gr",
+    "alternatives": ""
+  },
+  {
+    "no": 109,
+    "product": "Xurmaçı Kids 250gr",
+    "price": "15.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/c83eb9e4-5c63-422d-84b9-29645344d07d/card43@3x.jpg",
+    "filename": "xurmaci-kids-250gr.jpg",
+    "imageAlt": "Xurmaçı Kids 250gr",
+    "alternatives": ""
+  },
+  {
+    "no": 110,
+    "product": "Xurmaçı pross məcun 350gr",
+    "price": "22.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/5a277d79-e927-4412-821b-239b95df753d/card43@3x.jpg",
+    "filename": "xurmaci-pross-mecun-350gr.jpg",
+    "imageAlt": "Xurmaçı pross məcun 350gr",
+    "alternatives": ""
+  },
+  {
+    "no": 111,
+    "product": "Xurmaçı Protein bombası 350gr",
+    "price": "18.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/f4d2258a-d2e0-4dbc-ab48-a7a75053b9ff/card43@3x.jpg",
+    "filename": "xurmaci-protein-bombasi-350gr.jpg",
+    "imageAlt": "Xurmaçı Protein bombası 350gr",
+    "alternatives": "Xurma əzməsi. keçibuynuzu bəhməzi. qoz. çiya toxumu kakao"
+  },
+  {
+    "no": 112,
+    "product": "Xurmaçı Testo Strong məcun 250gr",
+    "price": "25.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/d6638d0f-ea5d-421c-91ee-48d6c3659cc0/card43@3x.jpg",
+    "filename": "xurmaci-testo-strong-mecun-250gr.jpg",
+    "imageAlt": "Xurmaçı Testo Strong məcun 250gr",
+    "alternatives": "badam xurma tozu jenşen zəncəfil darçın küncüt nanə hilba ud hindi çörək otu badyan qirmızı istiot mixək keşniş toxumu kofe hind qozu keçibuynuzu doşabı xurma doşabı cökə balı"
+  },
+  {
+    "no": 113,
+    "product": "Işkın kökü sirkəsi 500ml",
+    "price": "12.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/169da5f3-0147-44a9-a515-e0ad3a0a332e/card43@3x.jpg",
+    "filename": "iskin-koku-sirkesi-500ml.jpg",
+    "imageAlt": "Işkın kökü sirkəsi 500ml",
+    "alternatives": "Işkın kökü"
+  },
+  {
+    "no": 114,
+    "product": "İstiot toz 100gr",
+    "price": "3.50 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/39aacd66-47df-4404-b01a-4991642e8312/card43@3x.jpg",
+    "filename": "istiot-toz-100gr.jpg",
+    "imageAlt": "İstiot toz 100gr",
+    "alternatives": "İstiot"
+  },
+  {
+    "no": 115,
+    "product": "İstiot yumru 100gr",
+    "price": "3.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/26629367-6b2d-452c-aef7-672da96e4f8d/card43@3x.jpg",
+    "filename": "istiot-yumru-100gr.jpg",
+    "imageAlt": "İstiot yumru 100gr",
+    "alternatives": "İstiot yumru"
+  },
+  {
+    "no": 116,
+    "product": "İstiot yumru kg",
+    "price": "25.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/b1100954-f6be-4991-969d-cf6d9ab393e7/card43@3x.jpg",
+    "filename": "istiot-yumru-kg.jpg",
+    "imageAlt": "İstiot yumru kg",
+    "alternatives": "İstiot"
+  },
+  {
+    "no": 117,
+    "product": "İstiot yumru üyüdülmüş kg",
+    "price": "30.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/5a103391-60ce-41ea-ba2d-ae9a5f67aa6d/card43@3x.jpg",
+    "filename": "istiot-yumru-uyudulmus-kg.jpg",
+    "imageAlt": "İstiot yumru üyüdülmüş kg",
+    "alternatives": "İstiot"
+  },
+  {
+    "no": 118,
+    "product": "İtburnu 500ml",
+    "price": "2.50 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/32c54f3c-2d7b-491a-b567-59b5fe55d7b0/card43@3x.jpg",
+    "filename": "itburnu-500ml.jpg",
+    "imageAlt": "İtburnu 500ml",
+    "alternatives": "İtburnu"
+  },
+  {
+    "no": 119,
+    "product": "İtburnu doşabı 500gr",
+    "price": "10.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/d9e52845-fb6a-4989-b0c5-d3b3fe77a249/card43@3x.jpg",
+    "filename": "itburnu-dosabi-500gr.jpg",
+    "imageAlt": "İtburnu doşabı 500gr",
+    "alternatives": ""
+  },
+  {
+    "no": 120,
+    "product": "İydə kg",
+    "price": "15.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/d2d3e779-ce31-4a7f-86c9-5a32a919e1b9/card43@3x.jpg",
+    "filename": "iyde-kg.jpg",
+    "imageAlt": "İydə kg",
+    "alternatives": "İydə"
+  },
+  {
+    "no": 121,
+    "product": "İydə tozu 100gr",
+    "price": "2.50 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/fbf8713a-9f45-4e84-80f5-497351873819/card43@3x.jpg",
+    "filename": "iyde-tozu-100gr.jpg",
+    "imageAlt": "İydə tozu 100gr",
+    "alternatives": "İydə"
+  },
+  {
+    "no": 122,
+    "product": "İydə tozu kg",
+    "price": "20.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/1aabf604-c412-4aaa-afc5-2bbc63170b37/card43@3x.jpg",
+    "filename": "iyde-tozu-kg.jpg",
+    "imageAlt": "İydə tozu kg",
+    "alternatives": "İydə"
+  },
+  {
+    "no": 123,
+    "product": "Jenşen kapsul 100 ədəd",
+    "price": "15.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/e43abfb0-0bb0-426a-9c61-264388d0f884/card43@3x.jpg",
+    "filename": "jensen-kapsul-100-eded.jpg",
+    "imageAlt": "Jenşen kapsul 100 ədəd",
+    "alternatives": "Jenşen tozu"
+  },
+  {
+    "no": 124,
+    "product": "Jenşen kökü 25gr",
+    "price": "15.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/c0efb972-c911-4f9e-b376-248779ca5d12/card43@3x.jpg",
+    "filename": "jensen-koku-25gr.jpg",
+    "imageAlt": "Jenşen kökü 25gr",
+    "alternatives": "Jenşen"
+  },
+  {
+    "no": 125,
+    "product": "Jenşen kökü kg",
+    "price": "500.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/a41c8cc0-020c-4495-8776-63a2ebee5671/card43@3x.jpg",
+    "filename": "jensen-koku-kg.jpg",
+    "imageAlt": "Jenşen kökü kg",
+    "alternatives": "Jenşen"
+  },
+  {
+    "no": 126,
+    "product": "Kakos kg",
+    "price": "10.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/6d0b84a8-5b64-49c1-a416-948c1f092ed6/card43@3x.jpg",
+    "filename": "kakos-kg.jpg",
+    "imageAlt": "Kakos kg",
+    "alternatives": ""
+  },
+  {
+    "no": 127,
+    "product": "Kakos yağı 100ml",
+    "price": "7.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/91d13d64-b366-48dc-9ae4-613bc794c4a5/card43@3x.jpg",
+    "filename": "kakos-yagi-100ml.jpg",
+    "imageAlt": "Kakos yağı 100ml",
+    "alternatives": "Kakos"
+  },
+  {
+    "no": 128,
+    "product": "Kakos yağı 250ml",
+    "price": "14.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/5afe8859-13c4-4b84-aa24-ef18825f5fb9/card43@3x.jpg",
+    "filename": "kakos-yagi-250ml.jpg",
+    "imageAlt": "Kakos yağı 250ml",
+    "alternatives": "Kakos"
+  },
+  {
+    "no": 129,
+    "product": "Karabaş otu suyu 1L",
+    "price": "15.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/5991bcd7-b474-4556-b6ce-b28c33319909/card43@3x.jpg",
+    "filename": "karabas-otu-suyu-1l.jpg",
+    "imageAlt": "Karabaş otu suyu 1L",
+    "alternatives": "Qarabaş otu"
+  },
+  {
+    "no": 130,
+    "product": "Keçibuynuzu kg",
+    "price": "16.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/1ebfc0c7-e66e-46dd-aaba-c0ea94a2111d/card43@3x.jpg",
+    "filename": "kecibuynuzu-kg.jpg",
+    "imageAlt": "Keçibuynuzu kg",
+    "alternatives": "Keçibuynuzu"
+  },
+  {
+    "no": 131,
+    "product": "Keçibuynuzu özü 100gr",
+    "price": "2.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/6dc74fff-53ae-48d9-a169-3c7191655747/card43@3x.jpg",
+    "filename": "kecibuynuzu-ozu-100gr.jpg",
+    "imageAlt": "Keçibuynuzu özü 100gr",
+    "alternatives": "Keçibuynuzu"
+  },
+  {
+    "no": 132,
+    "product": "Keçibuynuzu tozu 100gr",
+    "price": "6.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/e59cdb37-f2fa-41d1-a507-99e188f33b95/card43@3x.jpg",
+    "filename": "kecibuynuzu-tozu-100gr.jpg",
+    "imageAlt": "Keçibuynuzu tozu 100gr",
+    "alternatives": "Keçibuynuzu"
+  },
+  {
+    "no": 133,
+    "product": "Keçibuynuzu tozu kg",
+    "price": "50.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/a58c77b5-b61f-4804-95fa-984911f79c72/card43@3x.jpg",
+    "filename": "kecibuynuzu-tozu-kg.jpg",
+    "imageAlt": "Keçibuynuzu tozu kg",
+    "alternatives": "Keçibuynuzu"
+  },
+  {
+    "no": 134,
+    "product": "Kətan toxumu 100gr",
+    "price": "1.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/07681691-b67a-4b51-a751-950cdf86b7be/card43@3x.jpg",
+    "filename": "ketan-toxumu-100gr.jpg",
+    "imageAlt": "Kətan toxumu 100gr",
+    "alternatives": "Kətan toxumu"
+  },
+  {
+    "no": 135,
+    "product": "Kətan toxumu kg",
+    "price": "6.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/9104007a-b9d7-491c-bea0-152886537d56/card43@3x.jpg",
+    "filename": "ketan-toxumu-kg.jpg",
+    "imageAlt": "Kətan toxumu kg",
+    "alternatives": ""
+  },
+  {
+    "no": 136,
+    "product": "Kətan toxumu unu 200gr",
+    "price": "2.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/079725f2-8e8f-4792-922f-51b4651230bf/card43@3x.jpg",
+    "filename": "ketan-toxumu-unu-200gr.jpg",
+    "imageAlt": "Kətan toxumu unu 200gr",
+    "alternatives": "kətan toxumu"
+  },
+  {
+    "no": 137,
+    "product": "Kətan yağı 100ml",
+    "price": "6.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/b522bddb-51b9-47fd-b02a-918230a7a19d/card43@3x.jpg",
+    "filename": "ketan-yagi-100ml.jpg",
+    "imageAlt": "Kətan yağı 100ml",
+    "alternatives": "Kətantoxumu"
+  },
+  {
+    "no": 138,
+    "product": "Kətan yağı 250ml",
+    "price": "12.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/6ece0e73-ec24-4c6a-83bd-1f5c40522af7/card43@3x.jpg",
+    "filename": "ketan-yagi-250ml.jpg",
+    "imageAlt": "Kətan yağı 250ml",
+    "alternatives": "Kətan toxumu"
+  },
+  {
+    "no": 139,
+    "product": "Kinoa kg",
+    "price": "25.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/18921850-19c9-4c73-88d3-148b44756a45/card43@3x.jpg",
+    "filename": "kinoa-kg.jpg",
+    "imageAlt": "Kinoa kg",
+    "alternatives": ""
+  },
+  {
+    "no": 140,
+    "product": "Küncüt ağ 100gr",
+    "price": "1.50 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/903841a6-93cf-4770-875d-ebd3abd33f04/card43@3x.jpg",
+    "filename": "kuncut-ag-100gr.jpg",
+    "imageAlt": "Küncüt ağ 100gr",
+    "alternatives": "Küncüt ağ"
+  },
+  {
+    "no": 141,
+    "product": "Küncüt ağ kg",
+    "price": "10.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/5f04af0e-d6a5-46db-b5de-8518f61a974f/card43@3x.jpg",
+    "filename": "kuncut-ag-kg.jpg",
+    "imageAlt": "Küncüt ağ kg",
+    "alternatives": ""
+  },
+  {
+    "no": 142,
+    "product": "Küncüt qara 100gr",
+    "price": "2.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/17eccb03-87cf-45d5-8448-c86ea502e8ae/card43@3x.jpg",
+    "filename": "kuncut-qara-100gr.jpg",
+    "imageAlt": "Küncüt qara 100gr",
+    "alternatives": "Küncüt qara"
+  },
+  {
+    "no": 143,
+    "product": "Küncüt qara kg",
+    "price": "12.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/1550aff1-5095-4a80-aba8-0b908de53c91/card43@3x.jpg",
+    "filename": "kuncut-qara-kg.jpg",
+    "imageAlt": "Küncüt qara kg",
+    "alternatives": ""
+  },
+  {
+    "no": 144,
+    "product": "Küncüt yağı 100ml",
+    "price": "7.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/6b334a23-8c89-473b-ad7e-be56b6b43a97/card43@3x.jpg",
+    "filename": "kuncut-yagi-100ml.jpg",
+    "imageAlt": "Küncüt yağı 100ml",
+    "alternatives": "Küncüt toxumu"
+  },
+  {
+    "no": 145,
+    "product": "Küncüt yağı 250ml",
+    "price": "14.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/9a248f5f-e962-4361-a177-e92256fde2a4/card43@3x.jpg",
+    "filename": "kuncut-yagi-250ml.jpg",
+    "imageAlt": "Küncüt yağı 250ml",
+    "alternatives": "Küncüt toxumu"
+  },
+  {
+    "no": 146,
+    "product": "Qara halilə 100gr",
+    "price": "10.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/abcccc23-1888-4070-83d7-2bd08437a8d0/card43@3x.jpg",
+    "filename": "qara-halile-100gr.jpg",
+    "imageAlt": "Qara halilə 100gr",
+    "alternatives": "Qara halilə"
+  },
+  {
+    "no": 147,
+    "product": "Qara halilə kg",
+    "price": "80.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/1da8a3c9-3de4-4934-aeda-8a9364dabe86/card43@3x.jpg",
+    "filename": "qara-halile-kg.jpg",
+    "imageAlt": "Qara halilə kg",
+    "alternatives": ""
+  },
+  {
+    "no": 148,
+    "product": "Qara küncüt əzməsi 200gr",
+    "price": "6.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/fcaa4a65-e333-45b7-bd5a-6b8be97bfe11/card43@3x.jpg",
+    "filename": "qara-kuncut-ezmesi-200gr.jpg",
+    "imageAlt": "Qara küncüt əzməsi 200gr",
+    "alternatives": "Qara küncüt"
+  },
+  {
+    "no": 149,
+    "product": "Qara küncüt əzməsi 500gr",
+    "price": "12.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/4e0c2c58-f2ab-44a3-a90a-84fed6563036/card43@3x.jpg",
+    "filename": "qara-kuncut-ezmesi-500gr.jpg",
+    "imageAlt": "Qara küncüt əzməsi 500gr",
+    "alternatives": "Qara küncüt"
+  },
+  {
+    "no": 150,
+    "product": "Qara qarağat şirəsi 500ml",
+    "price": "5.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/6ff95cf3-4236-4ec1-8700-d201d22ec9e4/card43@3x.jpg",
+    "filename": "qara-qaragat-siresi-500ml.jpg",
+    "imageAlt": "Qara qarağat şirəsi 500ml",
+    "alternatives": "Qara qarağat şirəsi"
+  },
+  {
+    "no": 151,
+    "product": "Qaraciyər Sirkəsi 500ml",
+    "price": "12.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/e4c17d07-d8ff-4919-922c-4225f9e098ab/card43@3x.jpg",
+    "filename": "qaraciyer-sirkesi-500ml.jpg",
+    "imageAlt": "Qaraciyər Sirkəsi 500ml",
+    "alternatives": "Ənginar sapı, ənginar yarpağı, alaqanqal toxumu, zəncir otu, qarabaş otu"
+  },
+  {
+    "no": 152,
+    "product": "Qarazirə (çörəkotu) toxumu Həbəşistan",
+    "price": "30.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/f1774f24-74a3-4ddf-99de-9c48b5f2908b/card43@3x.jpg",
+    "filename": "qarazire-corekotu-toxumu-hebesistan.jpg",
+    "imageAlt": "Qarazirə (çörəkotu) toxumu Həbəşistan",
+    "alternatives": ""
+  },
+  {
+    "no": 153,
+    "product": "Qarazirə (çörəkotu) toxumu Hindistan",
+    "price": "12.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/d3f5b518-ff42-4e0e-8555-9367774e962f/card43@3x.jpg",
+    "filename": "qarazire-corekotu-toxumu-hindistan.jpg",
+    "imageAlt": "Qarazirə (çörəkotu) toxumu Hindistan",
+    "alternatives": ""
+  },
+  {
+    "no": 154,
+    "product": "Qarazirə toxumu Suriya",
+    "price": "15.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/b9395b85-fa64-4427-a10d-94386f87e043/card43@3x.jpg",
+    "filename": "qarazire-toxumu-suriya.jpg",
+    "imageAlt": "Qarazirə toxumu Suriya",
+    "alternatives": ""
+  },
+  {
+    "no": 155,
+    "product": "Qarazirə toxumu unu 200gr",
+    "price": "2.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/7b421fdd-f797-46a1-89ff-fed35df8277a/card43@3x.jpg",
+    "filename": "qarazire-toxumu-unu-200gr.jpg",
+    "imageAlt": "Qarazirə toxumu unu 200gr",
+    "alternatives": "Qarazirə toxumu"
+  },
+  {
+    "no": 156,
+    "product": "Qarazirə yağı 100ml Hindistan toxumu",
+    "price": "8.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/a5633874-ae8a-4d34-9825-e551acc8da70/card43@3x.jpg",
+    "filename": "qarazire-yagi-100ml-hindistan-toxumu.jpg",
+    "imageAlt": "Qarazirə yağı 100ml Hindistan toxumu",
+    "alternatives": "Qarazirə Hindistan toxumu"
+  },
+  {
+    "no": 157,
+    "product": "Qarazirə yağı 100ml Suriya toxumundan",
+    "price": "10.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/6af0405f-e842-4344-bfdf-e56958b08e3e/card43@3x.jpg",
+    "filename": "qarazire-yagi-100ml-suriya-toxumundan.jpg",
+    "imageAlt": "Qarazirə yağı 100ml Suriya toxumundan",
+    "alternatives": "Qarazirə Suriya toxumu"
+  },
+  {
+    "no": 158,
+    "product": "Qarazirə yağı 250ml Hindistan toxumu",
+    "price": "18.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/ffd65ec0-f31c-4084-a925-04f3258f532d/card43@3x.jpg",
+    "filename": "qarazire-yagi-250ml-hindistan-toxumu.jpg",
+    "imageAlt": "Qarazirə yağı 250ml Hindistan toxumu",
+    "alternatives": "Qarazirə Hindistan toxumu"
+  },
+  {
+    "no": 159,
+    "product": "Qarazirə yağı 250ml Suriya toxumu",
+    "price": "23.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/a1782b27-7933-40fe-ba62-b4e262559da5/card43@3x.jpg",
+    "filename": "qarazire-yagi-250ml-suriya-toxumu.jpg",
+    "imageAlt": "Qarazirə yağı 250ml Suriya toxumu",
+    "alternatives": "Qarazirə Suriya toxumu"
+  },
+  {
+    "no": 160,
+    "product": "Qarazirə yağı Həbəşistan 100ml",
+    "price": "15.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/7584f3d7-2924-4306-b841-3b02cbaf6fde/card43@3x.jpg",
+    "filename": "qarazire-yagi-hebesistan-100ml.jpg",
+    "imageAlt": "Qarazirə yağı Həbəşistan 100ml",
+    "alternatives": "Qarazirə Həbəşistan toxumu"
+  },
+  {
+    "no": 161,
+    "product": "Qarazirə yağı Həbəşistan 250ml",
+    "price": "35.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/bbb16878-a0c0-47f5-934f-eabbede042cc/card43@3x.jpg",
+    "filename": "qarazire-yagi-hebesistan-250ml.jpg",
+    "imageAlt": "Qarazirə yağı Həbəşistan 250ml",
+    "alternatives": "Qarazirə Həbəşistan toxumu"
+  },
+  {
+    "no": 162,
+    "product": "Qarazirə(Çörəkotu)toxumu Həbəşistan 100gr",
+    "price": "3.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/73a5fb5a-5edc-4956-9255-e2a2be54c6be/card43@3x.jpg",
+    "filename": "qarazire-corekotu-toxumu-hebesistan-100gr.jpg",
+    "imageAlt": "Qarazirə(Çörəkotu)toxumu Həbəşistan 100gr",
+    "alternatives": "Qarazirə(Çörəkotu)toxumu"
+  },
+  {
+    "no": 163,
+    "product": "Qarazirə(Çörəkotu)toxumu Hindistan 100gr",
+    "price": "1.50 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/d40743fd-6b3f-46cc-9eb4-ed97a3c49a2c/card43@3x.jpg",
+    "filename": "qarazire-corekotu-toxumu-hindistan-100gr.jpg",
+    "imageAlt": "Qarazirə(Çörəkotu)toxumu Hindistan 100gr",
+    "alternatives": "Qarazirə(Çörəkotu)toxumu"
+  },
+  {
+    "no": 164,
+    "product": "Qarazirə(Çörəkotu)toxumu Suriya 100gr",
+    "price": "2.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/f7e7e591-9698-41d4-81de-99761f403e74/card43@3x.jpg",
+    "filename": "qarazire-corekotu-toxumu-suriya-100gr.jpg",
+    "imageAlt": "Qarazirə(Çörəkotu)toxumu Suriya 100gr",
+    "alternatives": "Qarazirə toxumu"
+  },
+  {
+    "no": 165,
+    "product": "Qarışıq çərəz kg",
+    "price": "20.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/53921027-e2a5-4f62-9c0b-7c0e52218c4c/card43@3x.jpg",
+    "filename": "qarisiq-cerez-kg.jpg",
+    "imageAlt": "Qarışıq çərəz kg",
+    "alternatives": ""
+  },
+  {
+    "no": 166,
+    "product": "Qarışıq əzmə 0.2kg",
+    "price": "10.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/c115f695-1ff3-4cb7-aae5-67b22f22a588/card43@3x.jpg",
+    "filename": "qarisiq-ezme-0-2kg.jpg",
+    "imageAlt": "Qarışıq əzmə 0.2kg",
+    "alternatives": "Qoz, findiq, badam, ağ küncüt, qara küncüt , araxis, balqabaq tumu"
+  },
+  {
+    "no": 167,
+    "product": "Qarışıq əzmə 500gr",
+    "price": "20.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/cc17e2ab-b709-42ec-89ca-6ffccb482b08/card43@3x.jpg",
+    "filename": "qarisiq-ezme-500gr.jpg",
+    "imageAlt": "Qarışıq əzmə 500gr",
+    "alternatives": "Qoz, findiq, badam, ağ küncüt, qara küncüt , araxis, balqabaq tumu"
+  },
+  {
+    "no": 168,
+    "product": "Qəhvə dənəsi 100gr",
+    "price": "6.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/ea4dcd4b-fb4e-460b-b8fa-4603847e196d/card43@3x.jpg",
+    "filename": "qehve-denesi-100gr.jpg",
+    "imageAlt": "Qəhvə dənəsi 100gr",
+    "alternatives": "Qəhvə"
+  },
+  {
+    "no": 169,
+    "product": "Qəhvə dənəsi kg",
+    "price": "40.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/3b0bdff3-786f-40d9-b54d-938bde4a9291/card43@3x.jpg",
+    "filename": "qehve-denesi-kg.jpg",
+    "imageAlt": "Qəhvə dənəsi kg",
+    "alternatives": "Qəhvə"
+  },
+  {
+    "no": 170,
+    "product": "Qəhvə dənəsi üyüdülmüş 100gr",
+    "price": "7.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/86aabb5f-7183-409d-ad25-bce49ee34155/card43@3x.jpg",
+    "filename": "qehve-denesi-uyudulmus-100gr.jpg",
+    "imageAlt": "Qəhvə dənəsi üyüdülmüş 100gr",
+    "alternatives": "qəhvə"
+  },
+  {
+    "no": 171,
+    "product": "Qəhvə üyüdülmüş kg",
+    "price": "50.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/98415cd1-5d16-4377-94b0-9325260c99b2/card43@3x.jpg",
+    "filename": "qehve-uyudulmus-kg.jpg",
+    "imageAlt": "Qəhvə üyüdülmüş kg",
+    "alternatives": "Qəhvə"
+  },
+  {
+    "no": 172,
+    "product": "Qırmızı qarağat şirəsi 500ml",
+    "price": "4.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/f49ee187-38e8-40eb-9bd6-b2810f28d4cd/card43@3x.jpg",
+    "filename": "qirmizi-qaragat-siresi-500ml.jpg",
+    "imageAlt": "Qırmızı qarağat şirəsi 500ml",
+    "alternatives": "Qırmızı qarağat şirəsi"
+  },
+  {
+    "no": 173,
+    "product": "Qoz əzməsi 200gr",
+    "price": "8.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/d1a64792-29c0-4ecf-ad83-afafc147d6cf/card43@3x.jpg",
+    "filename": "qoz-ezmesi-200gr.jpg",
+    "imageAlt": "Qoz əzməsi 200gr",
+    "alternatives": "Qoz ləpəsi"
+  },
+  {
+    "no": 174,
+    "product": "Qoz əzməsi 500gr",
+    "price": "16.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/2690b5ac-d4a5-4644-8364-81c4cbd77e16/card43@3x.jpg",
+    "filename": "qoz-ezmesi-500gr.jpg",
+    "imageAlt": "Qoz əzməsi 500gr",
+    "alternatives": "Qoz ləpəsi"
+  },
+  {
+    "no": 175,
+    "product": "Qoz ləpəsi kg",
+    "price": "16.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/a42b78fc-3181-48de-ac9f-a88719857e3b/card43@3x.jpg",
+    "filename": "qoz-lepesi-kg.jpg",
+    "imageAlt": "Qoz ləpəsi kg",
+    "alternatives": ""
+  },
+  {
+    "no": 176,
+    "product": "Qoz yağı 100ml",
+    "price": "10.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/4f511316-2a9b-4ba4-b7bc-64f53f9d22e7/card43@3x.jpg",
+    "filename": "qoz-yagi-100ml.jpg",
+    "imageAlt": "Qoz yağı 100ml",
+    "alternatives": "Qoz"
+  },
+  {
+    "no": 177,
+    "product": "Qoz yağı 250ml",
+    "price": "22.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/e5079bd2-fb71-424b-9fa3-525251f7b637/card43@3x.jpg",
+    "filename": "qoz-yagi-250ml.jpg",
+    "imageAlt": "Qoz yağı 250ml",
+    "alternatives": "Qoz"
+  },
+  {
+    "no": 178,
+    "product": "Limon duzu kg",
+    "price": "8.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/f3fe5fcd-af9a-4c07-9d55-dcf7bbf59e7d/card43@3x.jpg",
+    "filename": "limon-duzu-kg.jpg",
+    "imageAlt": "Limon duzu kg",
+    "alternatives": "Limon duzu"
+  },
+  {
+    "no": 179,
+    "product": "Maş cücərtisi",
+    "price": "6.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/e7d2acf7-b0e6-415f-bb17-02b65dab202d/card43@3x.jpg",
+    "filename": "mas-cucertisi.jpg",
+    "imageAlt": "Maş cücərtisi",
+    "alternatives": ""
+  },
+  {
+    "no": 180,
+    "product": "Məkkə gülü kg",
+    "price": "40.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/5df1283f-d766-4855-bb78-d9ef181a2c78/card43@3x.jpg",
+    "filename": "mekke-gulu-kg.jpg",
+    "imageAlt": "Məkkə gülü kg",
+    "alternatives": "Məkkə gülü"
+  },
+  {
+    "no": 181,
+    "product": "Naxçıvan duzu kg",
+    "price": "4.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/b61dce76-5056-40ba-ab4d-24a18fcdfefd/card43@3x.jpg",
+    "filename": "naxcivan-duzu-kg.jpg",
+    "imageAlt": "Naxçıvan duzu kg",
+    "alternatives": "Duz"
+  },
+  {
+    "no": 182,
+    "product": "Oilganic Keçibuynuzu bəhməzi 350gr",
+    "price": "6.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/75de0a64-d874-4d53-b8b2-656474a5668c/card43@3x.jpg",
+    "filename": "oilganic-kecibuynuzu-behmezi-350gr.jpg",
+    "imageAlt": "Oilganic Keçibuynuzu bəhməzi 350gr",
+    "alternatives": "Keçibuynuzu bəhməzi"
+  },
+  {
+    "no": 183,
+    "product": "Oilganic Keçibuynuzu bəhməzi 700gr",
+    "price": "10.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/e23defa5-7af4-4a82-93aa-c1753e3a477f/card43@3x.jpg",
+    "filename": "oilganic-kecibuynuzu-behmezi-700gr.jpg",
+    "imageAlt": "Oilganic Keçibuynuzu bəhməzi 700gr",
+    "alternatives": "Keçibuynuzu bəhməzi"
+  },
+  {
+    "no": 184,
+    "product": "Pegah ərimiş İran yağı 1kg",
+    "price": "17.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/8dfdb5ac-e5ce-4e26-a583-9f9ecd316bca/card43@3x.jpg",
+    "filename": "pegah-erimis-iran-yagi-1kg.jpg",
+    "imageAlt": "Pegah ərimiş İran yağı 1kg",
+    "alternatives": ""
+  },
+  {
+    "no": 185,
+    "product": "Perga(arı çörəyi) kg",
+    "price": "200.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/cce1d749-bfa9-4f6d-b818-729bfffbb082/card43@3x.jpg",
+    "filename": "perga-ari-coreyi-kg.jpg",
+    "imageAlt": "Perga(arı çörəyi) kg",
+    "alternatives": ""
+  },
+  {
+    "no": 186,
+    "product": "Pomidor şirəsi 500ml",
+    "price": "3.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/91c52508-b573-44f5-b4bc-5a7d844b9be1/card43@3x.jpg",
+    "filename": "pomidor-siresi-500ml.jpg",
+    "imageAlt": "Pomidor şirəsi 500ml",
+    "alternatives": "Pomidor şirəsi"
+  },
+  {
+    "no": 187,
+    "product": "Psilium kg",
+    "price": "50.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/a1f4e859-2a26-4629-afa3-cc3f1bd63f17/card43@3x.jpg",
+    "filename": "psilium-kg.jpg",
+    "imageAlt": "Psilium kg",
+    "alternatives": ""
+  },
+  {
+    "no": 188,
+    "product": "Psilium toxumu 100gr",
+    "price": "5.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/9b06366a-b314-46fd-9289-a0e4f4e9ebf8/card43@3x.jpg",
+    "filename": "psilium-toxumu-100gr.jpg",
+    "imageAlt": "Psilium toxumu 100gr",
+    "alternatives": "Psilium(Bağayapağı toxumu)"
+  },
+  {
+    "no": 189,
+    "product": "Pul bibər 100gr",
+    "price": "2.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/35a7338c-bc2a-41f5-a65c-d878ea24857c/card43@3x.jpg",
+    "filename": "pul-biber-100gr.jpg",
+    "imageAlt": "Pul bibər 100gr",
+    "alternatives": "Pul bibər"
+  },
+  {
+    "no": 190,
+    "product": "Pul bibər kg",
+    "price": "15.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/13abfb1d-e38c-452b-9a04-90e4137fa26e/card43@3x.jpg",
+    "filename": "pul-biber-kg.jpg",
+    "imageAlt": "Pul bibər kg",
+    "alternatives": "Pul bibər"
+  },
+  {
+    "no": 191,
+    "product": "Rozmarin yağı 100ml",
+    "price": "20.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/32f028b6-f142-4e8f-8461-9f47c2b8684a/card43@3x.jpg",
+    "filename": "rozmarin-yagi-100ml.jpg",
+    "imageAlt": "Rozmarin yağı 100ml",
+    "alternatives": "Rozmarin (Bibəriyyə)"
+  },
+  {
+    "no": 192,
+    "product": "Rozmarin yağı 250ml",
+    "price": "55.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/a2beb488-9965-47f7-a6cf-e3ddc60125f2/card43@3x.jpg",
+    "filename": "rozmarin-yagi-250ml.jpg",
+    "imageAlt": "Rozmarin yağı 250ml",
+    "alternatives": "Rozmarin (Bibəriyyə)"
+  },
+  {
+    "no": 193,
+    "product": "Sarı kök çubuq natural kg",
+    "price": "15.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/9c1bd5ed-96b3-4eca-908f-a9a7ab6166c3/card43@3x.jpg",
+    "filename": "sari-kok-cubuq-natural-kg.jpg",
+    "imageAlt": "Sarı kök çubuq natural kg",
+    "alternatives": "Sarı kök"
+  },
+  {
+    "no": 194,
+    "product": "Sarı kök çubuq üyüdülmüş natural kg",
+    "price": "20.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/a3694c93-5e43-4ad6-806b-795c4c3d459d/card43@3x.jpg",
+    "filename": "sari-kok-cubuq-uyudulmus-natural-kg.jpg",
+    "imageAlt": "Sarı kök çubuq üyüdülmüş natural kg",
+    "alternatives": "Sarı kök"
+  },
+  {
+    "no": 195,
+    "product": "Sarıçiçək 100gr",
+    "price": "7.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/440f909f-c105-47ce-9c7b-429a4249c195/card43@3x.jpg",
+    "filename": "saricicek-100gr.jpg",
+    "imageAlt": "Sarıçiçək 100gr",
+    "alternatives": "Sarıçiçək"
+  },
+  {
+    "no": 196,
+    "product": "Sarıkök çubuq 100gr",
+    "price": "2.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/2be3ea17-f418-4827-acec-8a2fb79770aa/card43@3x.jpg",
+    "filename": "sarikok-cubuq-100gr.jpg",
+    "imageAlt": "Sarıkök çubuq 100gr",
+    "alternatives": "Sarıkök"
+  },
+  {
+    "no": 197,
+    "product": "Sarıkök tozu 100gr",
+    "price": "2.50 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/3996a6c1-4e29-4a20-93e9-e545253125c1/card43@3x.jpg",
+    "filename": "sarikok-tozu-100gr.jpg",
+    "imageAlt": "Sarıkök tozu 100gr",
+    "alternatives": "Sarıkök"
+  },
+  {
+    "no": 198,
+    "product": "Shakelli ərimiş yağ 1000gr",
+    "price": "20.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/5abd78d1-cb13-4b4d-9e28-8c2e05776d76/card43@3x.jpg",
+    "filename": "shakelli-erimis-yag-1000gr.jpg",
+    "imageAlt": "Shakelli ərimiş yağ 1000gr",
+    "alternatives": ""
+  },
+  {
+    "no": 199,
+    "product": "Sumax ləçək 100gr",
+    "price": "4.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/46235cd7-81a5-42f4-b8a6-43fd13c713c0/card43@3x.jpg",
+    "filename": "sumax-lecek-100gr.jpg",
+    "imageAlt": "Sumax ləçək 100gr",
+    "alternatives": "Sumax"
+  },
+  {
+    "no": 200,
+    "product": "Sumax ləçək kg",
+    "price": "30.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/84af05e5-b218-478d-ae94-aff1231f8f8f/card43@3x.jpg",
+    "filename": "sumax-lecek-kg.jpg",
+    "imageAlt": "Sumax ləçək kg",
+    "alternatives": "Sumax"
+  },
+  {
+    "no": 201,
+    "product": "Sumax üyüdülmüş 100gr",
+    "price": "2.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/f14327e9-145c-4120-876c-e4470b5617aa/card43@3x.jpg",
+    "filename": "sumax-uyudulmus-100gr.jpg",
+    "imageAlt": "Sumax üyüdülmüş 100gr",
+    "alternatives": "Sumax"
+  },
+  {
+    "no": 202,
+    "product": "Sumax üyüdülmüş kg",
+    "price": "15.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/ebcf7b02-b1b8-4963-a84a-4592d1abce33/card43@3x.jpg",
+    "filename": "sumax-uyudulmus-kg.jpg",
+    "imageAlt": "Sumax üyüdülmüş kg",
+    "alternatives": "Sumax"
+  },
+  {
+    "no": 203,
+    "product": "Şam qozası bəhməzi 340gr",
+    "price": "10.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/598830f6-9d77-4f27-a4fb-f08f0635f646/card43@3x.jpg",
+    "filename": "sam-qozasi-behmezi-340gr.jpg",
+    "imageAlt": "Şam qozası bəhməzi 340gr",
+    "alternatives": "Şam qozası bəhməzi"
+  },
+  {
+    "no": 204,
+    "product": "Şam qozası bəhməzi 680gr",
+    "price": "15.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/82d3c89a-a69b-4689-85c7-5ebef6fb1367/card43@3x.jpg",
+    "filename": "sam-qozasi-behmezi-680gr.jpg",
+    "imageAlt": "Şam qozası bəhməzi 680gr",
+    "alternatives": "Şam qozası bəhməzi"
+  },
+  {
+    "no": 205,
+    "product": "Şri-Lanka çayı ətirli 100gr",
+    "price": "5.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/b37c6b44-3b41-4370-9f99-3897354d56bc/card43@3x.jpg",
+    "filename": "sri-lanka-cayi-etirli-100gr.jpg",
+    "imageAlt": "Şri-Lanka çayı ətirli 100gr",
+    "alternatives": "Qara çayı"
+  },
+  {
+    "no": 206,
+    "product": "Şri-lanka çayı ətirli kg",
+    "price": "40.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/dfa4ff7f-adc6-42f9-953d-be15e1db9c52/card43@3x.jpg",
+    "filename": "sri-lanka-cayi-etirli-kg.jpg",
+    "imageAlt": "Şri-lanka çayı ətirli kg",
+    "alternatives": "Qara çay"
+  },
+  {
+    "no": 207,
+    "product": "Şri-Lanka çayı premium 100gr",
+    "price": "6.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/c3d19fc0-8fba-479e-9359-c6d9fb0ae41f/card43@3x.jpg",
+    "filename": "sri-lanka-cayi-premium-100gr.jpg",
+    "imageAlt": "Şri-Lanka çayı premium 100gr",
+    "alternatives": "Qara Çay"
+  },
+  {
+    "no": 208,
+    "product": "Şri-lanka çayı premium kg",
+    "price": "50.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/e2787998-f8c6-4d9e-b0e2-f586c7f9680e/card43@3x.jpg",
+    "filename": "sri-lanka-cayi-premium-kg.jpg",
+    "imageAlt": "Şri-lanka çayı premium kg",
+    "alternatives": "Qara çay"
+  },
+  {
+    "no": 209,
+    "product": "Tahin (küncüt əzməsi) çiy 200gr",
+    "price": "5.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/f47a67aa-dfaf-43f4-b7eb-4a346ed8c6c4/card43@3x.jpg",
+    "filename": "tahin-kuncut-ezmesi-ciy-200gr.jpg",
+    "imageAlt": "Tahin (küncüt əzməsi) çiy 200gr",
+    "alternatives": "Ağ küncüt"
+  },
+  {
+    "no": 210,
+    "product": "Tahin (küncüt əzməsi) çiy 500gr",
+    "price": "10.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/fcf6d9f0-20b1-4251-98fb-0bc27c6b5a4b/card43@3x.jpg",
+    "filename": "tahin-kuncut-ezmesi-ciy-500gr.jpg",
+    "imageAlt": "Tahin (küncüt əzməsi) çiy 500gr",
+    "alternatives": "Ağ küncüt"
+  },
+  {
+    "no": 211,
+    "product": "Tahin (küncüt əzməsi) qovrulmuş 200gr",
+    "price": "5.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/677ce804-c566-458e-b585-617f269b4ae8/card43@3x.jpg",
+    "filename": "tahin-kuncut-ezmesi-qovrulmus-200gr.jpg",
+    "imageAlt": "Tahin (küncüt əzməsi) qovrulmuş 200gr",
+    "alternatives": "Ağ küncüt"
+  },
+  {
+    "no": 212,
+    "product": "Tahin (küncüt əzməsi) qovrulmuş 500gr",
+    "price": "10.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/b816dc77-00c3-4d6c-bb15-9693d1afe85b/card43@3x.jpg",
+    "filename": "tahin-kuncut-ezmesi-qovrulmus-500gr.jpg",
+    "imageAlt": "Tahin (küncüt əzməsi) qovrulmuş 500gr",
+    "alternatives": "Ağ küncüt"
+  },
+  {
+    "no": 213,
+    "product": "Tahin bəhməz 200gr",
+    "price": "8.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/83a61cc4-aa2e-449a-880b-7fa70ef0388f/card43@3x.jpg",
+    "filename": "tahin-behmez-200gr.jpg",
+    "imageAlt": "Tahin bəhməz 200gr",
+    "alternatives": "Ağ küncüt və keçibuynuzu bəhməzi"
+  },
+  {
+    "no": 214,
+    "product": "Tahin bəhməz 500gr",
+    "price": "16.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/9f528dbf-f0dd-4716-a7d1-45d474fba775/card43@3x.jpg",
+    "filename": "tahin-behmez-500gr.jpg",
+    "imageAlt": "Tahin bəhməz 500gr",
+    "alternatives": "Ağ küncüt və keçibuynuzu bəhməzi"
+  },
+  {
+    "no": 215,
+    "product": "Tahin şokoladlı 200gr",
+    "price": "6.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/bc6f2ffb-14e0-483d-ae62-b97bae0914a1/card43@3x.jpg",
+    "filename": "tahin-sokoladli-200gr.jpg",
+    "imageAlt": "Tahin şokoladlı 200gr",
+    "alternatives": "Ağ küncüt və damla şokolad"
+  },
+  {
+    "no": 216,
+    "product": "Tahin şokoladlı 500gr",
+    "price": "12.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/98cee056-d186-46a2-97fa-500cb2de0358/card43@3x.jpg",
+    "filename": "tahin-sokoladli-500gr.jpg",
+    "imageAlt": "Tahin şokoladlı 500gr",
+    "alternatives": "Ağ küncüt və damla şokolad"
+  },
+  {
+    "no": 217,
+    "product": "Tat zeytun yağı 5litr",
+    "price": "45.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/05ad65c0-4ace-49ae-8508-fe4f694e19c1/card43@3x.jpg",
+    "filename": "tat-zeytun-yagi-5litr.jpg",
+    "imageAlt": "Tat zeytun yağı 5litr",
+    "alternatives": "zeytun"
+  },
+  {
+    "no": 218,
+    "product": "Ud hindi və çörəkotu kapsulu",
+    "price": "15.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/9627cbc0-49e8-46f0-9eb7-d1ee12c9f480/card43@3x.jpg",
+    "filename": "ud-hindi-ve-corekotu-kapsulu.jpg",
+    "imageAlt": "Ud hindi və çörəkotu kapsulu",
+    "alternatives": ""
+  },
+  {
+    "no": 219,
+    "product": "Udhindi tablet 220 əd",
+    "price": "15.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/9fc88a8f-a412-41eb-82ba-333d0788e09e/card43@3x.jpg",
+    "filename": "udhindi-tablet-220-ed.jpg",
+    "imageAlt": "Udhindi tablet 220 əd",
+    "alternatives": "Udhindi"
+  },
+  {
+    "no": 220,
+    "product": "Udukumin 100kapsul",
+    "price": "15.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/da9a48dc-d49b-404e-a7d8-6fc00b9fefc2/card43@3x.jpg",
+    "filename": "udukumin-100kapsul.jpg",
+    "imageAlt": "Udukumin 100kapsul",
+    "alternatives": "uthindi, çörəkotu, sarıkök"
+  },
+  {
+    "no": 221,
+    "product": "Uthindi çubuq kg",
+    "price": "40.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/3f093247-c66e-4a3e-84d5-0dd0af38745a/card43@3x.jpg",
+    "filename": "uthindi-cubuq-kg.jpg",
+    "imageAlt": "Uthindi çubuq kg",
+    "alternatives": "Uthindi"
+  },
+  {
+    "no": 222,
+    "product": "Uthindi kapsul 180 ədəd",
+    "price": "15.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/0718c584-3ac8-40e9-acbb-b8e5d2a26d22/card43@3x.jpg",
+    "filename": "uthindi-kapsul-180-eded.jpg",
+    "imageAlt": "Uthindi kapsul 180 ədəd",
+    "alternatives": "Uthindi tozu"
+  },
+  {
+    "no": 223,
+    "product": "Uthindi kötük 100gr",
+    "price": "5.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/c764e7df-be5c-4aa3-84b1-c0e3a6f1121b/card43@3x.jpg",
+    "filename": "uthindi-kotuk-100gr.jpg",
+    "imageAlt": "Uthindi kötük 100gr",
+    "alternatives": "Uthindi"
+  },
+  {
+    "no": 224,
+    "product": "Uthindi toz kg",
+    "price": "50.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/14508149-6d85-44ba-b43e-b283c6d005cb/card43@3x.jpg",
+    "filename": "uthindi-toz-kg.jpg",
+    "imageAlt": "Uthindi toz kg",
+    "alternatives": "Uthindi"
+  },
+  {
+    "no": 225,
+    "product": "Uthindi tozu 100gr",
+    "price": "6.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/5869aef4-80c6-4998-bc90-f71482aa0782/card43@3x.jpg",
+    "filename": "uthindi-tozu-100gr.jpg",
+    "imageAlt": "Uthindi tozu 100gr",
+    "alternatives": "Uthindi"
+  },
+  {
+    "no": 226,
+    "product": "Uthindi yağı 100ml",
+    "price": "15.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/58a11909-d6c1-424c-a4dd-c2dff1e2b2db/card43@3x.jpg",
+    "filename": "uthindi-yagi-100ml.jpg",
+    "imageAlt": "Uthindi yağı 100ml",
+    "alternatives": "Uthindi tozu və soyuq sıxım zeytun yağı"
+  },
+  {
+    "no": 227,
+    "product": "Uthindi yağı 250ml",
+    "price": "35.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/4efb3faa-5809-4762-81ac-474813403492/card43@3x.jpg",
+    "filename": "uthindi-yagi-250ml.jpg",
+    "imageAlt": "Uthindi yağı 250ml",
+    "alternatives": "Uthindi tozu və soyuq sıxım zeytun yağı"
+  },
+  {
+    "no": 228,
+    "product": "Yakı otu suyu 1L",
+    "price": "15.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/75f69c9c-1c4e-4efe-b888-0ec731d61666/card43@3x.jpg",
+    "filename": "yaki-otu-suyu-1l.jpg",
+    "imageAlt": "Yakı otu suyu 1L",
+    "alternatives": "Yakı otu bitkisi, kərəviz toxumu, qırmızı ardıc toxumu, solmaz çiçəyi, propolis, qatır quyruğu, sərv ağacı qozası, ayrıq otu, mersin yarpağı"
+  },
+  {
+    "no": 229,
+    "product": "Yaşıl çay 100gr",
+    "price": "3.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/9ed922cd-5125-43e3-93d8-514a657866f7/card43@3x.jpg",
+    "filename": "yasil-cay-100gr.jpg",
+    "imageAlt": "Yaşıl çay 100gr",
+    "alternatives": "Yaşıl çay"
+  },
+  {
+    "no": 230,
+    "product": "Yaşıl çay kg",
+    "price": "20.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/c7055387-3eb1-4468-9788-c34ce1e7481e/card43@3x.jpg",
+    "filename": "yasil-cay-kg.jpg",
+    "imageAlt": "Yaşıl çay kg",
+    "alternatives": "Yaşıl çay"
+  },
+  {
+    "no": 231,
+    "product": "Yemişan 500ml",
+    "price": "2.50 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/4e30f99b-7f2b-420f-a26f-b12f1812d8d0/card43@3x.jpg",
+    "filename": "yemisan-500ml.jpg",
+    "imageAlt": "Yemişan 500ml",
+    "alternatives": "Yemişan"
+  },
+  {
+    "no": 232,
+    "product": "Zeytun yağı rafinə 1litr",
+    "price": "15.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/65efde2f-1571-4480-8451-8038e4f1ea41/card43@3x.jpg",
+    "filename": "zeytun-yagi-rafine-1litr.jpg",
+    "imageAlt": "Zeytun yağı rafinə 1litr",
+    "alternatives": "Zeytun"
+  },
+  {
+    "no": 233,
+    "product": "Zeytun yağı rafinə 2litr",
+    "price": "28.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/bc075c6d-1eee-4ace-84c0-847fc8b83a53/card43@3x.jpg",
+    "filename": "zeytun-yagi-rafine-2litr.jpg",
+    "imageAlt": "Zeytun yağı rafinə 2litr",
+    "alternatives": "Zeytun"
+  },
+  {
+    "no": 234,
+    "product": "Zeytun yağı soyuq sıxım 1litr",
+    "price": "20.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/ebd3df57-2597-46e7-829d-98db8df3ad7a/card43@3x.jpg",
+    "filename": "zeytun-yagi-soyuq-sixim-1litr.jpg",
+    "imageAlt": "Zeytun yağı soyuq sıxım 1litr",
+    "alternatives": "Zeytun"
+  },
+  {
+    "no": 235,
+    "product": "Zeytun yağı soyuq sıxım 2 litr",
+    "price": "38.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/f494bec0-cd36-467d-8180-b7fea71d0eb4/card43@3x.jpg",
+    "filename": "zeytun-yagi-soyuq-sixim-2-litr.jpg",
+    "imageAlt": "Zeytun yağı soyuq sıxım 2 litr",
+    "alternatives": "Zeytun"
+  },
+  {
+    "no": 236,
+    "product": "Zəfəran limonadı 500ml",
+    "price": "3.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/e2124255-6abc-426b-929a-accbd1907986/card43@3x.jpg",
+    "filename": "zeferan-limonadi-500ml.jpg",
+    "imageAlt": "Zəfəran limonadı 500ml",
+    "alternatives": "Zəfəran limonadı"
+  },
+  {
+    "no": 237,
+    "product": "Zəncəfil çubuq 100gr",
+    "price": "3.50 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/d1214729-1fdf-4ec2-bb8d-45e50c4ed6b2/card43@3x.jpg",
+    "filename": "zencefil-cubuq-100gr.jpg",
+    "imageAlt": "Zəncəfil çubuq 100gr",
+    "alternatives": "Zəncəfil"
+  },
+  {
+    "no": 238,
+    "product": "Zəncəfil çubuq kg",
+    "price": "20.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/af2388b2-f145-4963-a50f-3bbf3396b160/card43@3x.jpg",
+    "filename": "zencefil-cubuq-kg.jpg",
+    "imageAlt": "Zəncəfil çubuq kg",
+    "alternatives": "Zəncəfil"
+  },
+  {
+    "no": 239,
+    "product": "Zəncəfil quru 100gr",
+    "price": "3.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/d85a5293-aa7c-47ab-a6dd-8820f7f6a407/card43@3x.jpg",
+    "filename": "zencefil-quru-100gr.jpg",
+    "imageAlt": "Zəncəfil quru 100gr",
+    "alternatives": "Zəncəfil"
+  },
+  {
+    "no": 240,
+    "product": "Zəncəfil toz kg",
+    "price": "30.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/7f0cef04-e4db-4f70-8702-906474ba7b8b/card43@3x.jpg",
+    "filename": "zencefil-toz-kg.jpg",
+    "imageAlt": "Zəncəfil toz kg",
+    "alternatives": "Zəncəfil"
+  },
+  {
+    "no": 241,
+    "product": "Zəncəfil yaş kg",
+    "price": "15.00 ₼",
+    "imageUrl": "https://cdn-2.clopos.com/oilganicshop/96abbf96-a681-4feb-aba6-ef534caec913/card43@3x.jpg",
+    "filename": "zencefil-yas-kg.jpg",
+    "imageAlt": "Zəncəfil yaş kg",
+    "alternatives": "Zəncəfil"
+  }
+]

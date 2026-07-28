@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Oilganic Symbol Verification</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 24px;
+      background: #181818;
+      color: #ececec;
+      font-family: system-ui, -apple-system, sans-serif;
+    }
+    h1 {
+      margin: 0 0 6px 0;
+      font-size: 24px;
+      color: #ffffff;
+    }
+    p {
+      margin: 0 0 20px 0;
+      color: #a0a0a0;
+      font-size: 14px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 24px;
+    }
+    .card {
+      background: #242424;
+      border-radius: 12px;
+      padding: 16px;
+      border: 1px solid #333;
+    }
+    .card h3 {
+      margin: 0 0 12px 0;
+      font-size: 15px;
+      color: #4caf50;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .canvas-box {
+      position: relative;
+      width: 320px;
+      height: 320px;
+      margin: 0 auto;
+      background: #ffffff;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .canvas-box img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+    }
+  </style>
+</head>
+<body>
+  <h1>Oilganic Brand Assets Verification</h1>
+  <p>Active SVG files in /brand directory.</p>
+
+  <div class="grid">
+    <div class="card">
+      <h3>1. O Mark SVG (oilganic-mark.svg)</h3>
+      <div class="canvas-box">
+        <img src="/brand/oilganic-mark.svg" alt="Oilganic O Mark" />
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>2. O Logo + ilganic Incorporation (oilganic-logo.svg)</h3>
+      <div class="canvas-box" style="padding: 20px;">
+        <img src="/brand/oilganic-logo.svg" alt="Oilganic Logo Incorporation" />
+      </div>
+    </div>
+  </div>
+</body>
+</html>

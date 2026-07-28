@@ -1,0 +1,35 @@
+.container {
+  display: block;
+  position: relative;
+}
+
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.lineMask {
+  display: block;
+  overflow: hidden;
+  padding-bottom: 0.1em;
+}
+
+.lineContent {
+  display: block;
+  will-change: transform, opacity;
+  transform: translateY(105%);
+  opacity: 0;
+}
+
+/* Fallback: when motion is disabled or not ready, show content directly */
+:global(html:not(.motion-ready)) .lineContent {
+  transform: none !important;
+  opacity: 1 !important;
+}

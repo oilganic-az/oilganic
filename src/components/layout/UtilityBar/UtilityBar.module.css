@@ -1,0 +1,64 @@
+.utilityBar {
+  background-color: var(--color-deep-green);
+  color: var(--color-cream-50);
+  font-size: var(--font-size-xs);
+  padding: 0.4rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left, .right {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+}
+
+.item {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  color: var(--color-sage-100);
+}
+
+.icon {
+  color: var(--color-leaf-green);
+}
+
+.woltBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  background-color: rgba(0, 157, 224, 0.2);
+  color: #58C8FF;
+  padding: 0.15rem 0.5rem;
+  border-radius: var(--radius-full);
+  font-weight: 700;
+  transition: background-color var(--transition-fast);
+}
+
+.woltBadge:hover {
+  background-color: rgba(0, 157, 224, 0.35);
+}
+
+.phoneLink {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  font-weight: 700;
+  color: var(--color-cream-50);
+}
+
+.phoneLink:hover {
+  color: var(--color-oil-gold);
+}
+
+@media (max-width: 768px) {
+  .hideMobile {
+    display: none;
+  }
+}

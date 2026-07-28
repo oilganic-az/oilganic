@@ -1,0 +1,78 @@
+.gallery {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.mainFrame {
+  height: 360px;
+  background-color: var(--color-white);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-xl);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  padding: var(--space-4);
+}
+
+@media (min-width: 768px) {
+  .mainFrame {
+    height: 420px;
+  }
+}
+
+.mainImg {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: var(--radius-lg);
+  transition: transform var(--transition-normal);
+}
+
+.mainFrame:hover .mainImg {
+  transform: scale(1.03);
+}
+
+.haloEffect {
+  position: absolute;
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(35, 122, 43, 0.15) 0%, transparent 70%);
+}
+
+.visualContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: var(--space-3);
+  z-index: var(--z-base);
+}
+
+.brandMark {
+  font-family: var(--font-heading);
+  font-size: 4.5rem;
+  font-weight: 900;
+  color: var(--color-brand-green);
+  line-height: 1;
+}
+
+.productBadge {
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+  background-color: var(--color-sage-100);
+  color: var(--color-brand-green);
+  padding: 0.3rem 0.8rem;
+  border-radius: var(--radius-full);
+}
+
+.productTitleOverlay {
+  font-family: var(--font-heading);
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  color: var(--color-deep-green);
+}
