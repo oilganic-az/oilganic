@@ -1,7 +1,8 @@
 import React from 'react';
-import { ShoppingBag, MessageCircle, ExternalLink } from 'lucide-react';
+import { MessageCircle } from 'lucide-react';
 import { BUSINESS_CONFIG } from '../../../config/business';
 import { Button } from '../../common/Button/Button';
+import { WoltIcon } from '../../common/WoltIcon/WoltIcon';
 import { Reveal } from '../../motion/Reveal/Reveal';
 import { MagneticButton } from '../../motion/MagneticButton/MagneticButton';
 import styles from './OrderChannels.module.css';
@@ -26,7 +27,7 @@ export const OrderChannels: React.FC = () => {
             <div className={`${styles.channelCard} ${styles.woltCard}`}>
               <div className={styles.cardHeader}>
                 <div className={styles.woltIconBox}>
-                  <ShoppingBag size={28} />
+                  <WoltIcon size={28} />
                 </div>
                 <span className={styles.channelBadge}>Sürətli çatdırılma</span>
               </div>
@@ -36,7 +37,7 @@ export const OrderChannels: React.FC = () => {
               </p>
               <MagneticButton>
                 <a href={BUSINESS_CONFIG.woltUrl} target="_blank" rel="noopener noreferrer">
-                  <Button variant="wolt" size="lg" icon={<ExternalLink size={18} />}>
+                  <Button variant="wolt" size="lg" icon={<WoltIcon size={18} />}>
                     Wolt-da sifariş et
                   </Button>
                 </a>

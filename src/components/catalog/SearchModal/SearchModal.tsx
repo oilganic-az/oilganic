@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Search } from 'lucide-react';
 import { Modal } from '../../common/Modal/Modal';
-import { PRODUCTS } from '../../../data/products';
+import { useProducts } from '../../../context/ProductsContext';
 import { matchesQuery } from '../../../utils/search';
 import { formatCurrency } from '../../../utils/formatters';
 import styles from './SearchModal.module.css';
@@ -13,11 +13,12 @@ export interface SearchModalProps {
 }
 
 export const SearchModal: React.FC<SearchModalProps> = ({ isOpen, onClose }) => {
+  const { products } = useProducts();
   const [query, setQuery] = useState('');
   const navigate = useNavigate();
 
   const results = query.trim()
-    ? PRODUCTS.filter(p => matchesQuery(p.name, query) || matchesQuery(p.shortDescription, query))
+    ? products.filter(p => matchesQuery(p.name, query) || matchesQuery(p.shortDescription, query))
     : [];
 
   const handleSelect = (slug: string) => {
@@ -27,7 +28,7 @@ export const SearchModal: React.FC<SearchModalProps> = ({ isOpen, onClose }) => 
   };
 
   return (
-    <Modal isOpen={isOpen} onClose={onClose} title="Məhsul Axtarışı">
+    <Modal isOpen={isOpen} onClose={onClose} title="Məhsul axtarışı">
       <div className={styles.searchContainer}>
         <div className={styles.inputBox}>
           <Search size={20} className={styles.searchIcon} />

@@ -60,14 +60,16 @@ export const ProcessPreview: React.FC = () => {
               <span className={styles.activeStepSubtitle}>{activeStep.subtitle}</span>
               <p className={styles.activeStepDesc}>{activeStep.description}</p>
 
-              <ul className={styles.detailList}>
-                {activeStep.details.map((detail, dIdx) => (
-                  <li key={dIdx} className={styles.detailItem}>
-                    <CheckCircle2 size={16} className={styles.checkIcon} />
-                    <span>{detail}</span>
-                  </li>
-                ))}
-              </ul>
+              {activeStep.details && activeStep.details.length > 0 && (
+                <ul className={styles.detailList}>
+                  {activeStep.details.map((detail, dIdx) => (
+                    <li key={dIdx} className={styles.detailItem}>
+                      <CheckCircle2 size={16} className={styles.checkIcon} />
+                      <span>{detail}</span>
+                    </li>
+                  ))}
+                </ul>
+              )}
             </div>
 
             <div className={styles.stepNavList}>

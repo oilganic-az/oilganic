@@ -80,7 +80,7 @@ export const Footer: React.FC = () => {
 
           {/* Contact & Hours */}
           <div className={styles.col}>
-            <h3 className={styles.colTitle}>Mağaza Məlumatı</h3>
+            <h3 className={styles.colTitle}>Mağaza məlumatı</h3>
             <ul className={styles.infoList}>
               <li className={styles.infoItem}>
                 <Clock size={16} className={styles.infoIcon} />

@@ -3,52 +3,36 @@ export type ProcessStep = {
   title: string;
   subtitle: string;
   description: string;
-  details: string[];
+  details?: string[];
 };
 
 export const PROCESS_STEPS: ProcessStep[] = [
   {
     stepNumber: 1,
-    title: 'Seçilmiş Xammal',
-    subtitle: 'Yerli və keyfiyyətli toxumlar, çərəzlər',
-    description: 'Yalnız sağlam, kimyəvi işlənməmiş, təmizlənmiş xam badam, küncüt, fındıq və kətan toxumları seçilir.',
-    details: [
-      'Laboratoriya gigiyena standartlarına uyğun vizual yoxlanış',
-      'Termiki aşınmaya məruz qalmamış çam toxumlar',
-      'Təmizlənmiş və elənmiş tərkib'
-    ]
+    title: 'Seçilmiş xammal',
+    subtitle: 'Keyfiyyətli toxumlar və çərəzlər',
+    description: 'Yalnız saf, kimyəvi prosesdən keçməyən, təmizlənmiş toxumlar seçilir.',
+    details: []
   },
   {
     stepNumber: 2,
-    title: 'Soyuq Sıxım və Üyütmə',
+    title: 'Soyuq sıxım, isti sıxım, əzmə və üyütmə prosesi',
     subtitle: 'Gözünüzün qarşısında mağazada hazırlanır',
-    description: 'Xammal xüsusi pres aparatına və ya əzmə üyüdücüsünə daxil edilir. Sıxım zamanı temperatur yüksəldilmir.',
-    details: [
-      'Mexaniki soyuq sıxım texnologiyası',
-      'Sıfır kimyəvi həlledici və ya durulaşdırıcı',
-      'Şəffaf fiziki mağaza şəraiti'
-    ]
+    description: 'Xammal xüsusi aparatlarla hazırlanır.',
+    details: []
   },
   {
     stepNumber: 3,
-    title: 'Gigiyenik Qablaşdırma',
-    subtitle: 'Təbii qoruyucu tünd şüşələr və steril qablar',
-    description: 'Hazırlanan təbii yağlar və əzmələr dərhal təmiz şüşə qablara süzülür, havalandırılmadan kipləşdirilir.',
-    details: [
-      'Tünd şüşə qablar (işıqdan proteksiya üçün)',
-      'Tarix və həcm qeydiyyatı',
-      'Germetik qapaq bağlama'
-    ]
+    title: 'Gigiyenik qablaşdırma',
+    subtitle: 'Tam steril şüşə qablar',
+    description: 'Hazırlanan təbii yağlar və əzmələr dərhal təmiz şüşə qablara doldurulur.',
+    details: []
   },
   {
     stepNumber: 4,
-    title: 'Təzə Təhvil və Çatdırılma',
-    subtitle: 'Birbaşa müştəriyə və ya Wolt ilə',
-    description: 'Təzə hazırlanan məhsul dərhal müştəriyə fiziki mağazada təhvil verilir və ya Wolt kuryeri ilə çatdırılır.',
-    details: [
-      'Gündəlik təzə istehsalat',
-      'Wolt Baku sürətli kuryer çatdırılması',
-      'WhatsApp üzərindən canlı dəstək'
-    ]
+    title: 'Take away və ya çatdırılma',
+    subtitle: 'Birbaşa müştəriyə və ya çatdırılma',
+    description: 'Sifariş edilən məhsul müştərinin gözü qarşısında hazırlanır və müştəriyə təhvil verilir.',
+    details: []
   }
 ];

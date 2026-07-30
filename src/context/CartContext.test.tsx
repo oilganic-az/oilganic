@@ -3,9 +3,24 @@ import { render, screen, fireEvent } from '@testing-library/react';
 import { describe, it, expect, beforeEach, vi } from 'vitest';
 import { CartProvider } from './CartContext';
 import { useCart } from '../hooks/useCart';
-import { PRODUCTS } from '../data/products';
+import { Product } from '../types/product';
 
-const multiSizeProd = PRODUCTS.find(p => p.sizes && p.sizes.length > 1) || PRODUCTS[0];
+const multiSizeProd: Product = {
+  id: 'test-multi-size',
+  slug: 'test-product',
+  name: 'Test Multi Size Product',
+  categoryId: 'oils',
+  shortDescription: 'Test product description',
+  price: 15,
+  currency: 'AZN',
+  inStock: true,
+  images: [{ src: '/images/products/test.jpg', alt: 'Test' }],
+  verificationStatus: 'verified',
+  sizes: [
+    { id: 'size-100ml', label: '100ml', price: 15, inStock: true, verificationStatus: 'verified' },
+    { id: 'size-250ml', label: '250ml', price: 35, inStock: true, verificationStatus: 'verified' }
+  ]
+};
 
 const TestComponent: React.FC = () => {
   const { cartItems, addToCart, updateQuantity, removeFromCart, clearCart, subtotal, totalItems } = useCart();

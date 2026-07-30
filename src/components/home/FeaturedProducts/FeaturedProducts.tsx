@@ -1,14 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
-import { PRODUCTS } from '../../../data/products';
+import { useProducts } from '../../../context/ProductsContext';
 import { ProductGrid } from '../../catalog/ProductGrid/ProductGrid';
 import { Button } from '../../common/Button/Button';
 import { Reveal } from '../../motion/Reveal/Reveal';
 import styles from './FeaturedProducts.module.css';
 
 export const FeaturedProducts: React.FC = () => {
-  const featured = PRODUCTS.filter(p => p.featured);
+  const { products } = useProducts();
+  const featured = products.filter(p => p.featured);
 
   return (
     <section className={styles.section}>

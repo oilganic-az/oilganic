@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { Search, RotateCcw, ChevronDown } from 'lucide-react';
-import { PRODUCTS } from '../data/products';
+import { useProducts } from '../context/ProductsContext';
 import { useProductsFilter, SortOption } from '../hooks/useProductsFilter';
 import { CategoryRail } from '../components/catalog/CategoryRail/CategoryRail';
 import { ProductGrid } from '../components/catalog/ProductGrid/ProductGrid';
@@ -13,6 +13,7 @@ const INITIAL_PAGE_SIZE = 24;
 const PAGE_SIZE_STEP = 24;
 
 export const ProductsPage: React.FC = () => {
+  const { products } = useProducts();
   const [searchParams, setSearchParams] = useSearchParams();
   const categoryParam = searchParams.get('category') || 'all';
   const [visibleCount, setVisibleCount] = useState(INITIAL_PAGE_SIZE);
@@ -31,7 +32,7 @@ export const ProductsPage: React.FC = () => {
     filteredProducts,
     totalCount,
     resetFilters
-  } = useProductsFilter(PRODUCTS);
+  } = useProductsFilter(products);
 
   useEffect(() => {
     if (categoryParam !== selectedCategory) {

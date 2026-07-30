@@ -23,6 +23,7 @@ export type Product = {
   description?: string;
   price: number;
   currency: 'AZN';
+  unitLabel?: string;
   sizes?: ProductSize[];
   images: ProductImage[];
   ingredients?: string[];

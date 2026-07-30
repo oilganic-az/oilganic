@@ -1,6 +1,6 @@
 import React from 'react';
 import { Product } from '../../../types/product';
-import { PRODUCTS } from '../../../data/products';
+import { useProducts } from '../../../context/ProductsContext';
 import { ProductGrid } from '../../catalog/ProductGrid/ProductGrid';
 import styles from './RelatedProducts.module.css';
 
@@ -9,7 +9,8 @@ export interface RelatedProductsProps {
 }
 
 export const RelatedProducts: React.FC<RelatedProductsProps> = ({ currentProduct }) => {
-  const related = PRODUCTS.filter(
+  const { products } = useProducts();
+  const related = products.filter(
     p => p.categoryId === currentProduct.categoryId && p.id !== currentProduct.id
   ).slice(0, 4);
 

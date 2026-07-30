@@ -4,15 +4,18 @@ import { describe, it, expect } from 'vitest';
 import { HomePage } from './HomePage';
 import { Header } from '../components/layout/Header/Header';
 import { CartProvider } from '../context/CartContext';
+import { ProductsProvider } from '../context/ProductsContext';
 
 describe('Desktop & Mobile Home Page Smoke Test', () => {
   it('renders Oilganic logo, hero heading, and primary CTA button immediately without blank layout', () => {
     render(
       <MemoryRouter>
-        <CartProvider>
-          <Header />
-          <HomePage />
-        </CartProvider>
+        <ProductsProvider>
+          <CartProvider>
+            <Header />
+            <HomePage />
+          </CartProvider>
+        </ProductsProvider>
       </MemoryRouter>
     );
 

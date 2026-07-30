@@ -19,15 +19,15 @@ export const ContactPage: React.FC = () => {
   return (
     <>
       <SEO
-        title="Bizimlə Əlaqə"
+        title="Bizimlə əlaqə - Oilganic"
         description="Oilganic mağazasının ünvanı, iş saatları, telefon nömrəsi və WhatsApp əlaqə kanalı."
         canonicalPath="/contact"
       />
       <div className={styles.page}>
         <div className="container">
           <div className={styles.hero}>
-            <span className={styles.badge}>Bizimlə Əlaqə</span>
-            <h1 className={styles.title}>Suallarınız Var? Bizimlə Əlaqə Saxlayın</h1>
+            <span className={styles.badge}>Bizimlə əlaqə</span>
+            <h1 className={styles.title}>Suallarınız var? Bizimlə əlaqə saxlayın</h1>
             <p className={styles.subtitle}>
               Mağazamızın ünvanı, iş saatları və birbaşa WhatsApp dəstəyi xidmətinizdədir.
             </p>
@@ -47,7 +47,7 @@ export const ContactPage: React.FC = () => {
               <div className={styles.infoCard}>
                 <Clock className={styles.icon} size={24} />
                 <div>
-                  <h3 className={styles.cardTitle}>İş Saatları</h3>
+                  <h3 className={styles.cardTitle}>İş saatları</h3>
                   <p className={styles.cardText}>{BUSINESS_CONFIG.workingHours}</p>
                 </div>
               </div>
@@ -55,7 +55,7 @@ export const ContactPage: React.FC = () => {
               <div className={styles.infoCard}>
                 <MapPin className={styles.icon} size={24} />
                 <div>
-                  <h3 className={styles.cardTitle}>Mağaza Ünvanı</h3>
+                  <h3 className={styles.cardTitle}>Mağaza ünvanı</h3>
                   <p className={styles.cardText}>{BUSINESS_CONFIG.address}</p>
                 </div>
               </div>
@@ -63,10 +63,10 @@ export const ContactPage: React.FC = () => {
 
             {/* Quick Message Form */}
             <div className={styles.formCol}>
-              <h3 className={styles.formTitle}>WhatsApp-a Birbaşa Mesaj Göndərin</h3>
+              <h3 className={styles.formTitle}>WhatsApp-a birbaşa mesaj gönderin</h3>
               <form onSubmit={handleSendMessage} className={styles.form}>
                 <div className={styles.field}>
-                  <label htmlFor="contact-name" className={styles.label}>Adınız və Soyadınız:</label>
+                  <label htmlFor="contact-name" className={styles.label}>Adınız və soyadınız:</label>
                   <input
                     id="contact-name"
                     type="text"
@@ -79,7 +79,7 @@ export const ContactPage: React.FC = () => {
                 </div>
 
                 <div className={styles.field}>
-                  <label htmlFor="contact-note" className={styles.label}>Mesajınız və ya Sualınız:</label>
+                  <label htmlFor="contact-note" className={styles.label}>Mesajınız və ya sualınız:</label>
                   <textarea
                     id="contact-note"
                     className={styles.textarea}

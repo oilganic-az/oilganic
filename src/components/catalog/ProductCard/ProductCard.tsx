@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ShoppingBag, MessageCircle, Eye } from 'lucide-react';
-import { Product } from '../../../types/product';
+import { Product, ProductSize } from '../../../types/product';
 import { useCart } from '../../../hooks/useCart';
 import { formatCurrency } from '../../../utils/formatters';
 import { Badge } from '../../common/Badge/Badge';
@@ -15,22 +15,29 @@ export interface ProductCardProps {
 
 export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   const { addToCart } = useCart();
-  const defaultSize = product.sizes && product.sizes.length > 0 ? product.sizes[0] : undefined;
-  const currentPrice = defaultSize ? defaultSize.price : product.price;
+
+  const sizes = product.sizes && product.sizes.length > 0 ? product.sizes : [];
+  const [selectedSize, setSelectedSize] = useState<ProductSize | undefined>(
+    sizes.length > 0 ? sizes[0] : undefined
+  );
+
+  const currentPrice = selectedSize ? selectedSize.price : product.price;
+
+  // Active Image for selected size variant
+  const currentImageSrc = selectedSize?.imageSrc || (product.images && product.images.length > 0 ? product.images[0].src : '');
+  const hasImage = Boolean(currentImageSrc);
 
   const singleItemCartUrl = buildWhatsAppOrderUrl([
     {
       id: product.id,
       product,
-      selectedSize: defaultSize,
+      selectedSize: selectedSize,
       quantity: 1,
       unitPrice: currentPrice
     }
   ]);
 
-  // Always show real price when price is available
   const showRealPrice = Boolean(currentPrice && currentPrice > 0);
-  const hasImage = Boolean(product.images && product.images.length > 0 && product.images[0].src);
 
   return (
     <article className={styles.card}>
@@ -47,8 +54,9 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
 
           {hasImage ? (
             <img
-              src={product.images[0].src}
-              alt={product.images[0].alt || product.name}
+              key={currentImageSrc} // Key prop ensures instant re-render on image swap
+              src={currentImageSrc}
+              alt={`${product.name} ${selectedSize ? selectedSize.label : ''}`}
               loading="lazy"
               className={styles.productImg}
             />
@@ -68,21 +76,32 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
 
         <p className={styles.description}>{product.shortDescription}</p>
 
-        {/* Sizes Pill selector */}
-        {product.sizes && product.sizes.length > 0 && (
+        {/* Sizes Pill selector - Dynamic variant switcher */}
+        {sizes.length > 0 && (
           <div className={styles.sizesRow}>
-            {product.sizes.map(size => (
-              <span key={size.id} className={styles.sizePill}>
-                {size.label}
-              </span>
-            ))}
+            {sizes.map(size => {
+              const isActive = selectedSize?.id === size.id || selectedSize?.label === size.label;
+              return (
+                <button
+                  type="button"
+                  key={size.id}
+                  className={`${styles.sizePill} ${isActive ? styles.sizePillActive : ''}`}
+                  onClick={() => setSelectedSize(size)}
+                  title={`${size.label} variantını seçin`}
+                >
+                  {size.label}
+                </button>
+              );
+            })}
           </div>
         )}
 
         {/* Footer Row */}
         <div className={styles.footerRow}>
           <div className={styles.priceBox}>
-            <span className={styles.priceLabel}>Qiymət:</span>
+            <span className={styles.priceLabel}>
+              {selectedSize ? selectedSize.label : 'Qiymət'}:
+            </span>
             <span className={styles.priceValue}>
               {showRealPrice ? formatCurrency(currentPrice) : 'Qiyməti öyrən'}
             </span>
@@ -97,10 +116,10 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
               <button
                 type="button"
                 className={styles.addBtn}
-                onClick={() => addToCart(product, defaultSize)}
+                onClick={() => addToCart(product, selectedSize)}
                 disabled={!product.inStock}
                 title="Səbətə əlavə et"
-                aria-label={`${product.name} səbətə əlavə et`}
+                aria-label={`${product.name} (${selectedSize?.label || ''}) səbətə əlavə et`}
               >
                 <ShoppingBag size={18} />
               </button>

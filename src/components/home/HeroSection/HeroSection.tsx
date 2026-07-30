@@ -1,7 +1,8 @@
 import React, { useRef } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Play, ShoppingBag } from 'lucide-react';
+import { ArrowRight, Play } from 'lucide-react';
 import { Button } from '../../common/Button/Button';
+import { WoltIcon } from '../../common/WoltIcon/WoltIcon';
 import { OilganicLogo } from '../../common/OilganicLogo/OilganicLogo';
 import { SplitTextReveal } from '../../motion/SplitTextReveal/SplitTextReveal';
 import { MagneticButton } from '../../motion/MagneticButton/MagneticButton';
@@ -83,7 +84,7 @@ export const HeroSection: React.FC = () => {
                 rel="noopener noreferrer"
                 className={styles.woltLink}
               >
-                <ShoppingBag size={18} className={styles.woltIcon} />
+                <WoltIcon size={18} className={styles.woltIcon} />
                 <span>Sürətli çatdırılma üçün <strong>Wolt Bakı</strong> mağazamıza keçin</span>
               </a>
             </div>

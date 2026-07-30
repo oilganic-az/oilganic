@@ -34,11 +34,11 @@
   align-items: center;
   gap: var(--space-1);
   background-color: rgba(0, 157, 224, 0.2);
-  color: #58C8FF;
-  padding: 0.15rem 0.5rem;
+  color: #00c2e8;
+  padding: 0.25rem 0.65rem;
   border-radius: var(--radius-full);
   font-weight: 700;
-  transition: background-color var(--transition-fast);
+  transition: background-color var(--transition-fast), transform var(--transition-fast);
 }
 
 .woltBadge:hover {

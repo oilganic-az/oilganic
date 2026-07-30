@@ -176,6 +176,12 @@
   margin-top: var(--space-2);
 }
 
+@media (min-width: 576px) {
+  .ctaGroup {
+    flex-direction: row;
+  }
+}
+
 .channelsBox {
   display: flex;
   flex-direction: column;

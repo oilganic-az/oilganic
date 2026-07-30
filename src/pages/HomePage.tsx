@@ -7,6 +7,7 @@ import { ProcessPreview } from '../components/home/ProcessPreview/ProcessPreview
 import { FeaturedProducts } from '../components/home/FeaturedProducts/FeaturedProducts';
 import { WhyOilganic } from '../components/home/WhyOilganic/WhyOilganic';
 import { OrderChannels } from '../components/home/OrderChannels/OrderChannels';
+import { CustomerReviews } from '../components/home/CustomerReviews/CustomerReviews';
 import { StoreLocationSection } from '../components/home/StoreLocationSection/StoreLocationSection';
 import { FAQSection } from '../components/home/FAQSection/FAQSection';
 import { BUSINESS_CONFIG } from '../config/business';
@@ -44,6 +45,7 @@ export const HomePage: React.FC = () => {
       <ProcessPreview />
       <FeaturedProducts />
       <WhyOilganic />
+      <CustomerReviews />
       <OrderChannels />
       <StoreLocationSection />
       <FAQSection />

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { ShoppingBag, MessageCircle, Plus, Minus, Check, Truck } from 'lucide-react';
-import { PRODUCTS } from '../data/products';
+import { useProducts } from '../context/ProductsContext';
 import { useCart } from '../hooks/useCart';
 import { formatCurrency } from '../utils/formatters';
 import { buildWhatsAppOrderUrl } from '../utils/whatsapp';
@@ -16,7 +16,8 @@ import styles from './ProductDetailPage.module.css';
 
 export const ProductDetailPage: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
-  const product = PRODUCTS.find(p => p.slug === slug);
+  const { getProductBySlug } = useProducts();
+  const product = getProductBySlug(slug || '');
   const { addToCart } = useCart();
 
   const [selectedSize, setSelectedSize] = useState(
@@ -98,7 +99,18 @@ export const ProductDetailPage: React.FC = () => {
           <div className={styles.heroGrid}>
             {/* Gallery Column */}
             <div className={styles.galleryCol}>
-              <ProductGallery images={product.images} productName={product.name} />
+              <ProductGallery
+                key={selectedSize?.id || 'default'}
+                images={
+                  selectedSize?.imageSrc
+                    ? [
+                        { src: selectedSize.imageSrc, alt: `${product.name} (${selectedSize.label})` },
+                        ...product.images.filter(i => i.src !== selectedSize.imageSrc)
+                      ]
+                    : product.images
+                }
+                productName={product.name}
+              />
             </div>
 
             {/* Product Details Column */}
@@ -121,7 +133,7 @@ export const ProductDetailPage: React.FC = () => {
                 </span>
                 {quantity > 1 && showRealPrice && (
                   <span className={styles.unitMeta}>
-                    ({formatCurrency(currentPrice)} / ədəd)
+                    ({formatCurrency(currentPrice)} / {selectedSize?.label || product.unitLabel || 'ədəd'})
                   </span>
                 )}
               </div>

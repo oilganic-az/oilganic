@@ -6,50 +6,23 @@ export const PRODUCTS: Product[] = [
     "slug": "aci-badam-qabiqli",
     "name": "Acı badam qabıqlı",
     "categoryId": "seeds_flours",
-    "shortDescription": "Acı badam qabıqlı - Tərkibi: Acı badam",
-    "description": "Acı badam qabıqlı. Qeyd / Tərkib: Acı badam",
+    "shortDescription": "Acı badam qabıqlı - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Acı badam qabıqlı. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 1.5,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-1",
+        "id": "size-1-1",
         "label": "100gr",
         "price": 1.5,
         "inStock": true,
         "verificationStatus": "verified",
         "imageSrc": "/images/products/aci-badam-qabiqli-100gr.jpg"
-      }
-    ],
-    "images": [
+      },
       {
-        "src": "/images/products/aci-badam-qabiqli-100gr.jpg",
-        "alt": "Acı badam qabıqlı"
-      }
-    ],
-    "usage": "İstifadə və rasion üçün uyğundur.",
-    "storage": "Sərin və quru yerdə saxlayın.",
-    "inStock": true,
-    "featured": true,
-    "tags": [
-      "seeds_flours",
-      "Oilganic"
-    ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/aci-badam-qabiqli-100gr-itemid-f8c6be10760ab72dfb1dbef2",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "prod-2",
-    "slug": "aci-badam-qabiqli-kg",
-    "name": "Acı badam qabıqlı kg",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Acı badam qabıqlı kg - Yerli və şəffaf istehsalat.",
-    "description": "Acı badam qabıqlı kg. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
-    "price": 10,
-    "currency": "AZN",
-    "sizes": [
-      {
-        "id": "size-2",
-        "label": "1 ədəd",
+        "id": "size-2-2",
+        "label": "1 kg",
         "price": 10,
         "inStock": true,
         "verificationStatus": "verified",
@@ -58,8 +31,12 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
+        "src": "/images/products/aci-badam-qabiqli-100gr.jpg",
+        "alt": "Acı badam qabıqlı (100gr)"
+      },
+      {
         "src": "/images/products/aci-badam-qabiqli-kg.jpg",
-        "alt": "Acı badam qabıqlı kg"
+        "alt": "Acı badam qabıqlı (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -70,58 +47,30 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/aci-badam-qabiqli-100gr-itemid-f8c6be10760ab72dfb1dbef2",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-3",
+    "id": "prod-2",
     "slug": "aci-badam-lepesi",
     "name": "Acı badam ləpəsi",
     "categoryId": "seeds_flours",
-    "shortDescription": "Acı badam ləpəsi - Tərkibi: Acı badam",
-    "description": "Acı badam ləpəsi. Qeyd / Tərkib: Acı badam",
+    "shortDescription": "Acı badam ləpəsi - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Acı badam ləpəsi. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 3,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-3",
+        "id": "size-3-1",
         "label": "100gr",
         "price": 3,
         "inStock": true,
         "verificationStatus": "verified",
         "imageSrc": "/images/products/aci-badam-lepesi-100gr.jpg"
-      }
-    ],
-    "images": [
+      },
       {
-        "src": "/images/products/aci-badam-lepesi-100gr.jpg",
-        "alt": "Acı badam ləpəsi"
-      }
-    ],
-    "usage": "İstifadə və rasion üçün uyğundur.",
-    "storage": "Sərin və quru yerdə saxlayın.",
-    "inStock": true,
-    "featured": true,
-    "tags": [
-      "seeds_flours",
-      "Oilganic"
-    ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/aci-badam-lepesi-100gr-itemid-a2e2084f3e4ef54b748b2679",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "prod-4",
-    "slug": "aci-badam-lepesi-kg",
-    "name": "Acı badam ləpəsi kg",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Acı badam ləpəsi kg - Yerli və şəffaf istehsalat.",
-    "description": "Acı badam ləpəsi kg. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
-    "price": 25,
-    "currency": "AZN",
-    "sizes": [
-      {
-        "id": "size-4",
-        "label": "1 ədəd",
+        "id": "size-4-2",
+        "label": "1 kg",
         "price": 25,
         "inStock": true,
         "verificationStatus": "verified",
@@ -130,8 +79,12 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
+        "src": "/images/products/aci-badam-lepesi-100gr.jpg",
+        "alt": "Acı badam ləpəsi (100gr)"
+      },
+      {
         "src": "/images/products/aci-badam-lepesi-kg.jpg",
-        "alt": "Acı badam ləpəsi kg"
+        "alt": "Acı badam ləpəsi (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -142,21 +95,21 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/aci-badam-lepesi-100gr-itemid-a2e2084f3e4ef54b748b2679",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-5",
+    "id": "prod-3",
     "slug": "aci-badam-yagi",
     "name": "Acı badam yağı",
     "categoryId": "oils",
-    "shortDescription": "Acı badam yağı - Tərkibi: Acı badam",
-    "description": "Acı badam yağı. Qeyd / Tərkib: Acı badam",
+    "shortDescription": "Acı badam yağı - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Acı badam yağı. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 15,
     "currency": "AZN",
+    "unitLabel": "ml",
     "sizes": [
       {
-        "id": "size-5",
+        "id": "size-5-1",
         "label": "100ml",
         "price": 15,
         "inStock": true,
@@ -164,7 +117,7 @@ export const PRODUCTS: Product[] = [
         "imageSrc": "/images/products/aci-badam-yagi-100ml.jpg"
       },
       {
-        "id": "size-6",
+        "id": "size-6-2",
         "label": "250ml",
         "price": 35,
         "inStock": true,
@@ -175,7 +128,11 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/aci-badam-yagi-100ml.jpg",
-        "alt": "Acı badam yağı"
+        "alt": "Acı badam yağı (100ml)"
+      },
+      {
+        "src": "/images/products/aci-badam-yagi-250ml.jpg",
+        "alt": "Acı badam yağı (250ml)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -186,22 +143,22 @@ export const PRODUCTS: Product[] = [
       "oils",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/aci-badam-yagi-250ml-itemid-90dbedb3699bf536c6dda61e",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-7",
-    "slug": "aci-erik-kg",
-    "name": "Acı ərik kg",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Acı ərik kg - Yerli və şəffaf istehsalat.",
-    "description": "Acı ərik kg. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
+    "id": "prod-4",
+    "slug": "aci-erik",
+    "name": "Acı ərik",
+    "categoryId": "wellness",
+    "shortDescription": "Acı ərik - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Acı ərik. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 20,
     "currency": "AZN",
+    "unitLabel": "kg",
     "sizes": [
       {
-        "id": "size-7",
-        "label": "1 ədəd",
+        "id": "size-7-1",
+        "label": "1 kg",
         "price": 20,
         "inStock": true,
         "verificationStatus": "verified",
@@ -211,7 +168,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/aci-erik-kg.jpg",
-        "alt": "Acı ərik kg"
+        "alt": "Acı ərik (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -219,24 +176,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": true,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-8",
+    "id": "prod-5",
     "slug": "aci-erik-tumu",
     "name": "Acı ərik tumu",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Acı ərik tumu - Tərkibi: Acı ərik",
-    "description": "Acı ərik tumu. Qeyd / Tərkib: Acı ərik",
+    "categoryId": "wellness",
+    "shortDescription": "Acı ərik tumu - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Acı ərik tumu. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 2.5,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-8",
+        "id": "size-8-1",
         "label": "100gr",
         "price": 2.5,
         "inStock": true,
@@ -247,7 +204,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/aci-erik-tumu-100gr.jpg",
-        "alt": "Acı ərik tumu"
+        "alt": "Acı ərik tumu (100gr)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -255,24 +212,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": true,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/aci-erik-tumu-100gr-itemid-bfaf38929c41f46e1a62d298",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-9",
+    "id": "prod-6",
     "slug": "aci-erik-yagi",
     "name": "Acı ərik yağı",
     "categoryId": "oils",
-    "shortDescription": "Acı ərik yağı - Tərkibi: Acı ərik",
-    "description": "Acı ərik yağı. Qeyd / Tərkib: Acı ərik",
+    "shortDescription": "Acı ərik yağı - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Acı ərik yağı. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 15,
     "currency": "AZN",
+    "unitLabel": "ml",
     "sizes": [
       {
-        "id": "size-9",
+        "id": "size-9-1",
         "label": "100ml",
         "price": 15,
         "inStock": true,
@@ -280,7 +237,7 @@ export const PRODUCTS: Product[] = [
         "imageSrc": "/images/products/aci-erik-yagi-100ml.jpg"
       },
       {
-        "id": "size-10",
+        "id": "size-10-2",
         "label": "250ml",
         "price": 35,
         "inStock": true,
@@ -291,7 +248,11 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/aci-erik-yagi-100ml.jpg",
-        "alt": "Acı ərik yağı"
+        "alt": "Acı ərik yağı (100ml)"
+      },
+      {
+        "src": "/images/products/aci-erik-yagi-250ml.jpg",
+        "alt": "Acı ərik yağı (250ml)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -302,58 +263,70 @@ export const PRODUCTS: Product[] = [
       "oils",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/aci-erik-yagi-250ml-itemid-4d8a64bb05cb11affc3ec62b",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-11",
+    "id": "prod-7",
     "slug": "acliq-otu",
     "name": "Aclıq otu",
-    "categoryId": "teas",
-    "shortDescription": "Aclıq otu - Yerli və şəffaf istehsalat.",
+    "categoryId": "wellness",
+    "shortDescription": "Aclıq otu - Təbii və keyfiyyətli Oilganic məhsulu.",
     "description": "Aclıq otu. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 2,
     "currency": "AZN",
+    "unitLabel": "ədəd",
     "sizes": [
       {
-        "id": "size-11",
+        "id": "size-11-1",
         "label": "1 ədəd",
         "price": 2,
         "inStock": true,
         "verificationStatus": "verified",
         "imageSrc": "/images/products/acliq-otu.jpg"
+      },
+      {
+        "id": "size-13-2",
+        "label": "1 kg",
+        "price": 20,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/acliq-otu-kg.jpg"
       }
     ],
     "images": [
       {
         "src": "/images/products/acliq-otu.jpg",
-        "alt": "Aclıq otu"
+        "alt": "Aclıq otu (1 ədəd)"
+      },
+      {
+        "src": "/images/products/acliq-otu-kg.jpg",
+        "alt": "Aclıq otu (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
     "storage": "Sərin və quru yerdə saxlayın.",
     "inStock": true,
-    "featured": false,
+    "featured": true,
     "tags": [
-      "teas",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/acliq-otu-itemid-54aed6d36c2800dc8f043e71",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-12",
+    "id": "prod-8",
     "slug": "acliq-otu-kapsulu",
     "name": "Aclıq otu kapsulu",
-    "categoryId": "teas",
-    "shortDescription": "Aclıq otu kapsulu - Tərkibi: Aclıq otu tozu",
-    "description": "Aclıq otu kapsulu. Qeyd / Tərkib: Aclıq otu tozu",
+    "categoryId": "wellness",
+    "shortDescription": "Aclıq otu kapsulu - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Aclıq otu kapsulu. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 15,
     "currency": "AZN",
+    "unitLabel": "ədəd",
     "sizes": [
       {
-        "id": "size-12",
-        "label": "100ədəd",
+        "id": "size-12-1",
+        "label": "100 ədəd",
         "price": 15,
         "inStock": true,
         "verificationStatus": "verified",
@@ -363,69 +336,33 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/acliq-otu-kapsulu-100eded.jpg",
-        "alt": "Aclıq otu kapsulu"
+        "alt": "Aclıq otu kapsulu (100 ədəd)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
     "storage": "Sərin və quru yerdə saxlayın.",
     "inStock": true,
-    "featured": false,
+    "featured": true,
     "tags": [
-      "teas",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/acliq-otu-kapsulu-100eded-itemid-7d143e2c8b0ec14d2ad69ff1",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-13",
-    "slug": "acliq-otu-kg",
-    "name": "Aclıq otu kg",
-    "categoryId": "teas",
-    "shortDescription": "Aclıq otu kg - Tərkibi: Aclıq otu",
-    "description": "Aclıq otu kg. Qeyd / Tərkib: Aclıq otu",
-    "price": 20,
-    "currency": "AZN",
-    "sizes": [
-      {
-        "id": "size-13",
-        "label": "1 ədəd",
-        "price": 20,
-        "inStock": true,
-        "verificationStatus": "verified",
-        "imageSrc": "/images/products/acliq-otu-kg.jpg"
-      }
-    ],
-    "images": [
-      {
-        "src": "/images/products/acliq-otu-kg.jpg",
-        "alt": "Aclıq otu kg"
-      }
-    ],
-    "usage": "İstifadə və rasion üçün uyğundur.",
-    "storage": "Sərin və quru yerdə saxlayın.",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "teas",
-      "Oilganic"
-    ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/acliq-otu-itemid-54aed6d36c2800dc8f043e71",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "prod-14",
+    "id": "prod-9",
     "slug": "alaqanqal-kapsulu",
     "name": "Alaqanqal kapsulu",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Alaqanqal kapsulu - Tərkibi: Alaqanqal tozu",
-    "description": "Alaqanqal kapsulu. Qeyd / Tərkib: Alaqanqal tozu",
+    "categoryId": "wellness",
+    "shortDescription": "Alaqanqal kapsulu - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Alaqanqal kapsulu. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 15,
     "currency": "AZN",
+    "unitLabel": "ədəd",
     "sizes": [
       {
-        "id": "size-14",
-        "label": "100ədəd",
+        "id": "size-14-1",
+        "label": "100 ədəd",
         "price": 15,
         "inStock": true,
         "verificationStatus": "verified",
@@ -435,69 +372,41 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/alaqanqal-kapsulu-100eded.jpg",
-        "alt": "Alaqanqal kapsulu"
+        "alt": "Alaqanqal kapsulu (100 ədəd)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
     "storage": "Sərin və quru yerdə saxlayın.",
     "inStock": true,
-    "featured": false,
+    "featured": true,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/alaqanqal-kapsulu-100eded-itemid-e9d51d1af977dabb2ac70eef",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-15",
+    "id": "prod-10",
     "slug": "alaqanqal-toxumu-xarici",
     "name": "Alaqanqal toxumu xarici",
     "categoryId": "seeds_flours",
-    "shortDescription": "Alaqanqal toxumu xarici - Tərkibi: Alaqanqal",
-    "description": "Alaqanqal toxumu xarici. Qeyd / Tərkib: Alaqanqal",
+    "shortDescription": "Alaqanqal toxumu xarici - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Alaqanqal toxumu xarici. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 1.2,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-15",
+        "id": "size-15-1",
         "label": "100gr",
         "price": 1.2,
         "inStock": true,
         "verificationStatus": "verified",
         "imageSrc": "/images/products/alaqanqal-toxumu-xarici-100gr.jpg"
-      }
-    ],
-    "images": [
+      },
       {
-        "src": "/images/products/alaqanqal-toxumu-xarici-100gr.jpg",
-        "alt": "Alaqanqal toxumu xarici"
-      }
-    ],
-    "usage": "İstifadə və rasion üçün uyğundur.",
-    "storage": "Sərin və quru yerdə saxlayın.",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "seeds_flours",
-      "Oilganic"
-    ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/alaqanqal-toxumu-xarici-100gr-itemid-b0ee2fefc4647fc8d5789ec1",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "prod-16",
-    "slug": "alaqanqal-toxumu-xarici-kg",
-    "name": "Alaqanqal toxumu xarici kg",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Alaqanqal toxumu xarici kg - Yerli və şəffaf istehsalat.",
-    "description": "Alaqanqal toxumu xarici kg. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
-    "price": 8,
-    "currency": "AZN",
-    "sizes": [
-      {
-        "id": "size-16",
-        "label": "1 ədəd",
+        "id": "size-16-2",
+        "label": "1 kg",
         "price": 8,
         "inStock": true,
         "verificationStatus": "verified",
@@ -506,34 +415,38 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
+        "src": "/images/products/alaqanqal-toxumu-xarici-100gr.jpg",
+        "alt": "Alaqanqal toxumu xarici (100gr)"
+      },
+      {
         "src": "/images/products/alaqanqal-toxumu-xarici-kg.jpg",
-        "alt": "Alaqanqal toxumu xarici kg"
+        "alt": "Alaqanqal toxumu xarici (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
     "storage": "Sərin və quru yerdə saxlayın.",
     "inStock": true,
-    "featured": false,
+    "featured": true,
     "tags": [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/alaqanqal-toxumu-xarici-100gr-itemid-b0ee2fefc4647fc8d5789ec1",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-17",
-    "slug": "alaqanqal-toxumu-tozu-kg",
-    "name": "Alaqanqal toxumu tozu kg",
+    "id": "prod-11",
+    "slug": "alaqanqal-toxumu-tozu",
+    "name": "Alaqanqal toxumu tozu",
     "categoryId": "seeds_flours",
-    "shortDescription": "Alaqanqal toxumu tozu kg - Yerli və şəffaf istehsalat.",
-    "description": "Alaqanqal toxumu tozu kg. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
+    "shortDescription": "Alaqanqal toxumu tozu - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Alaqanqal toxumu tozu. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 15,
     "currency": "AZN",
+    "unitLabel": "kg",
     "sizes": [
       {
-        "id": "size-17",
-        "label": "1 ədəd",
+        "id": "size-17-1",
+        "label": "1 kg",
         "price": 15,
         "inStock": true,
         "verificationStatus": "verified",
@@ -543,69 +456,41 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/alaqanqal-toxumu-tozu-kg.jpg",
-        "alt": "Alaqanqal toxumu tozu kg"
+        "alt": "Alaqanqal toxumu tozu (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
     "storage": "Sərin və quru yerdə saxlayın.",
     "inStock": true,
-    "featured": false,
+    "featured": true,
     "tags": [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-18",
+    "id": "prod-12",
     "slug": "alaqanqal-toxumu-yerli",
     "name": "Alaqanqal toxumu yerli",
     "categoryId": "seeds_flours",
-    "shortDescription": "Alaqanqal toxumu yerli - Tərkibi: Alaqanqal",
-    "description": "Alaqanqal toxumu yerli. Qeyd / Tərkib: Alaqanqal",
+    "shortDescription": "Alaqanqal toxumu yerli - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Alaqanqal toxumu yerli. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 1.5,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-18",
+        "id": "size-18-1",
         "label": "100gr",
         "price": 1.5,
         "inStock": true,
         "verificationStatus": "verified",
         "imageSrc": "/images/products/alaqanqal-toxumu-yerli-100gr.jpg"
-      }
-    ],
-    "images": [
+      },
       {
-        "src": "/images/products/alaqanqal-toxumu-yerli-100gr.jpg",
-        "alt": "Alaqanqal toxumu yerli"
-      }
-    ],
-    "usage": "İstifadə və rasion üçün uyğundur.",
-    "storage": "Sərin və quru yerdə saxlayın.",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "seeds_flours",
-      "Oilganic"
-    ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/alaqanqal-toxumu-yerli-100gr-itemid-57a432617bcca1487d3f78ee",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "prod-19",
-    "slug": "alaqanqal-toxumu-yerli-kg",
-    "name": "Alaqanqal toxumu yerli kg",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Alaqanqal toxumu yerli kg - Yerli və şəffaf istehsalat.",
-    "description": "Alaqanqal toxumu yerli kg. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
-    "price": 10,
-    "currency": "AZN",
-    "sizes": [
-      {
-        "id": "size-19",
-        "label": "1 ədəd",
+        "id": "size-19-2",
+        "label": "1 kg",
         "price": 10,
         "inStock": true,
         "verificationStatus": "verified",
@@ -614,8 +499,12 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
+        "src": "/images/products/alaqanqal-toxumu-yerli-100gr.jpg",
+        "alt": "Alaqanqal toxumu yerli (100gr)"
+      },
+      {
         "src": "/images/products/alaqanqal-toxumu-yerli-kg.jpg",
-        "alt": "Alaqanqal toxumu yerli kg"
+        "alt": "Alaqanqal toxumu yerli (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -626,21 +515,21 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/alaqanqal-toxumu-yerli-100gr-itemid-57a432617bcca1487d3f78ee",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-20",
+    "id": "prod-13",
     "slug": "alaqanqal-yagi-xarici-toxumdan",
     "name": "Alaqanqal yağı xarici toxumdan",
     "categoryId": "oils",
-    "shortDescription": "Alaqanqal yağı xarici toxumdan - Tərkibi: Alaqanqal xarici toxum",
-    "description": "Alaqanqal yağı xarici toxumdan. Qeyd / Tərkib: Alaqanqal xarici toxum",
+    "shortDescription": "Alaqanqal yağı xarici toxumdan - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Alaqanqal yağı xarici toxumdan. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 8,
     "currency": "AZN",
+    "unitLabel": "ml",
     "sizes": [
       {
-        "id": "size-20",
+        "id": "size-20-1",
         "label": "100ml",
         "price": 8,
         "inStock": true,
@@ -648,7 +537,7 @@ export const PRODUCTS: Product[] = [
         "imageSrc": "/images/products/alaqanqal-yagi-xarici-toxumdan-100ml.jpg"
       },
       {
-        "id": "size-21",
+        "id": "size-21-2",
         "label": "250ml",
         "price": 18,
         "inStock": true,
@@ -659,7 +548,11 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/alaqanqal-yagi-xarici-toxumdan-100ml.jpg",
-        "alt": "Alaqanqal yağı xarici toxumdan"
+        "alt": "Alaqanqal yağı xarici toxumdan (100ml)"
+      },
+      {
+        "src": "/images/products/alaqanqal-yagi-xarici-toxumdan-250ml.jpg",
+        "alt": "Alaqanqal yağı xarici toxumdan (250ml)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -670,21 +563,21 @@ export const PRODUCTS: Product[] = [
       "oils",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/alaqanqal-yagi-xarici-toxumdan-250ml-itemid-174e65dcde4157ca46417ae0",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-22",
+    "id": "prod-14",
     "slug": "alaqanqal-yagi-yerli-toxumdan",
     "name": "Alaqanqal yağı yerli toxumdan",
     "categoryId": "oils",
-    "shortDescription": "Alaqanqal yağı yerli toxumdan - Tərkibi: Alaqanqal yerli toxum",
-    "description": "Alaqanqal yağı yerli toxumdan. Qeyd / Tərkib: Alaqanqal yerli toxum",
+    "shortDescription": "Alaqanqal yağı yerli toxumdan - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Alaqanqal yağı yerli toxumdan. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 10,
     "currency": "AZN",
+    "unitLabel": "ml",
     "sizes": [
       {
-        "id": "size-22",
+        "id": "size-22-1",
         "label": "100ml",
         "price": 10,
         "inStock": true,
@@ -692,7 +585,7 @@ export const PRODUCTS: Product[] = [
         "imageSrc": "/images/products/alaqanqal-yagi-yerli-toxumdan-100ml.jpg"
       },
       {
-        "id": "size-23",
+        "id": "size-23-2",
         "label": "250ml",
         "price": 23,
         "inStock": true,
@@ -703,7 +596,11 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/alaqanqal-yagi-yerli-toxumdan-100ml.jpg",
-        "alt": "Alaqanqal yağı yerli toxumdan"
+        "alt": "Alaqanqal yağı yerli toxumdan (100ml)"
+      },
+      {
+        "src": "/images/products/alaqanqal-yagi-yerli-toxumdan-250ml.jpg",
+        "alt": "Alaqanqal yağı yerli toxumdan (250ml)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -714,21 +611,21 @@ export const PRODUCTS: Product[] = [
       "oils",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/alaqanqal-yagi-yerli-toxumdan-250ml-itemid-d9a98a127e98c343a17e4dcf",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-24",
+    "id": "prod-15",
     "slug": "alma-sirkesi",
     "name": "Alma Sirkəsi",
-    "categoryId": "teas",
-    "shortDescription": "Alma Sirkəsi - Tərkibi: Alma Sirkəsi",
-    "description": "Alma Sirkəsi. Qeyd / Tərkib: Alma Sirkəsi",
+    "categoryId": "vinegars",
+    "shortDescription": "Alma Sirkəsi - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Alma Sirkəsi. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 8,
     "currency": "AZN",
+    "unitLabel": "ml",
     "sizes": [
       {
-        "id": "size-24",
+        "id": "size-24-1",
         "label": "500ml",
         "price": 8,
         "inStock": true,
@@ -739,7 +636,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/alma-sirkesi-500ml.jpg",
-        "alt": "Alma Sirkəsi"
+        "alt": "Alma Sirkəsi (500ml)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -747,24 +644,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "teas",
+      "vinegars",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/alma-sirkesi-500ml-itemid-9c1d1ad2249254772de56bdf",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-25",
+    "id": "prod-16",
     "slug": "ananas-sirkesi",
     "name": "Ananas sirkəsi",
-    "categoryId": "teas",
-    "shortDescription": "Ananas sirkəsi - Tərkibi: Ananas",
-    "description": "Ananas sirkəsi. Qeyd / Tərkib: Ananas",
+    "categoryId": "vinegars",
+    "shortDescription": "Ananas sirkəsi - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Ananas sirkəsi. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 12,
     "currency": "AZN",
+    "unitLabel": "ml",
     "sizes": [
       {
-        "id": "size-25",
+        "id": "size-25-1",
         "label": "500ml",
         "price": 12,
         "inStock": true,
@@ -775,7 +672,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/ananas-sirkesi-500ml.jpg",
-        "alt": "Ananas sirkəsi"
+        "alt": "Ananas sirkəsi (500ml)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -783,25 +680,25 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "teas",
+      "vinegars",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/ananas-sirkesi-500ml-itemid-ca585b3ea70fc7cf863024d6",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-26",
-    "slug": "araxis-fistiq-kg",
-    "name": "Araxis (fıstıq) kg",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Araxis (fıstıq) kg - Yerli və şəffaf istehsalat.",
-    "description": "Araxis (fıstıq) kg. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
+    "id": "prod-17",
+    "slug": "araxis-fistiq",
+    "name": "Araxis (fıstıq)",
+    "categoryId": "wellness",
+    "shortDescription": "Araxis (fıstıq) - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Araxis (fıstıq). Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 7,
     "currency": "AZN",
+    "unitLabel": "kg",
     "sizes": [
       {
-        "id": "size-26",
-        "label": "1 ədəd",
+        "id": "size-26-1",
+        "label": "1 kg",
         "price": 7,
         "inStock": true,
         "verificationStatus": "verified",
@@ -811,7 +708,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/araxis-fistiq-kg.jpg",
-        "alt": "Araxis (fıstıq) kg"
+        "alt": "Araxis (fıstıq) (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -819,24 +716,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-27",
+    "id": "prod-18",
     "slug": "ari-sudu",
     "name": "Arı südü",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Arı südü - Tərkibi: Arı südü",
-    "description": "Arı südü. Qeyd / Tərkib: Arı südü",
+    "categoryId": "wellness",
+    "shortDescription": "Arı südü - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Arı südü. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 8,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-27",
+        "id": "size-27-1",
         "label": "1gr",
         "price": 8,
         "inStock": true,
@@ -847,7 +744,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/ari-sudu-1gr.jpg",
-        "alt": "Arı südü"
+        "alt": "Arı südü (1gr)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -855,61 +752,33 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/ari-sudu-1gr-itemid-11af24b40f14a40c78828490",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-28",
+    "id": "prod-19",
     "slug": "astara-cayi-2-ci-sort",
     "name": "Astara çayı 2-ci sort",
     "categoryId": "teas",
-    "shortDescription": "Astara çayı 2-ci sort - Tərkibi: Qara çay",
-    "description": "Astara çayı 2-ci sort. Qeyd / Tərkib: Qara çay",
+    "shortDescription": "Astara çayı 2-ci sort - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Astara çayı 2-ci sort. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 3,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-28",
+        "id": "size-28-1",
         "label": "100gr",
         "price": 3,
         "inStock": true,
         "verificationStatus": "verified",
         "imageSrc": "/images/products/astara-cayi-2-ci-sort-100gr.jpg"
-      }
-    ],
-    "images": [
+      },
       {
-        "src": "/images/products/astara-cayi-2-ci-sort-100gr.jpg",
-        "alt": "Astara çayı 2-ci sort"
-      }
-    ],
-    "usage": "İstifadə və rasion üçün uyğundur.",
-    "storage": "Sərin və quru yerdə saxlayın.",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "teas",
-      "Oilganic"
-    ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/astara-cayi-2-ci-sort-100gr-itemid-a0c78211c9acd444e0e29a8c",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "prod-29",
-    "slug": "astara-cayi-2-ci-sort-kg",
-    "name": "Astara çayı 2-ci sort kg",
-    "categoryId": "teas",
-    "shortDescription": "Astara çayı 2-ci sort kg - Tərkibi: Qara çay",
-    "description": "Astara çayı 2-ci sort kg. Qeyd / Tərkib: Qara çay",
-    "price": 20,
-    "currency": "AZN",
-    "sizes": [
-      {
-        "id": "size-29",
-        "label": "1 ədəd",
+        "id": "size-29-2",
+        "label": "1 kg",
         "price": 20,
         "inStock": true,
         "verificationStatus": "verified",
@@ -918,8 +787,12 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
+        "src": "/images/products/astara-cayi-2-ci-sort-100gr.jpg",
+        "alt": "Astara çayı 2-ci sort (100gr)"
+      },
+      {
         "src": "/images/products/astara-cayi-2-ci-sort-kg.jpg",
-        "alt": "Astara çayı 2-ci sort kg"
+        "alt": "Astara çayı 2-ci sort (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -930,21 +803,21 @@ export const PRODUCTS: Product[] = [
       "teas",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/astara-cayi-2-ci-sort-100gr-itemid-a0c78211c9acd444e0e29a8c",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-30",
+    "id": "prod-20",
     "slug": "astara-cayi-premium",
     "name": "Astara çayı premium",
     "categoryId": "teas",
-    "shortDescription": "Astara çayı premium - Tərkibi: Qara çay",
-    "description": "Astara çayı premium. Qeyd / Tərkib: Qara çay",
+    "shortDescription": "Astara çayı premium - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Astara çayı premium. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 5,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-30",
+        "id": "size-30-1",
         "label": "100gr",
         "price": 5,
         "inStock": true,
@@ -955,7 +828,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/astara-cayi-premium-100gr.jpg",
-        "alt": "Astara çayı premium"
+        "alt": "Astara çayı premium (100gr)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -966,22 +839,22 @@ export const PRODUCTS: Product[] = [
       "teas",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/astara-cayi-premium-100gr-itemid-233bec73cf11b5a3e73f966b",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-31",
-    "slug": "astara-premium-kg",
-    "name": "Astara premium kg",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Astara premium kg - Tərkibi: Qara çay",
-    "description": "Astara premium kg. Qeyd / Tərkib: Qara çay",
+    "id": "prod-21",
+    "slug": "astara-premium",
+    "name": "Astara premium",
+    "categoryId": "wellness",
+    "shortDescription": "Astara premium - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Astara premium. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 40,
     "currency": "AZN",
+    "unitLabel": "kg",
     "sizes": [
       {
-        "id": "size-31",
-        "label": "1 ədəd",
+        "id": "size-31-1",
+        "label": "1 kg",
         "price": 40,
         "inStock": true,
         "verificationStatus": "verified",
@@ -991,7 +864,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/astara-premium-kg.jpg",
-        "alt": "Astara premium kg"
+        "alt": "Astara premium (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -999,24 +872,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-32",
+    "id": "prod-22",
     "slug": "astaracay-yarpaq-cayi",
     "name": "Astaraçay yarpaq çayı",
     "categoryId": "teas",
-    "shortDescription": "Astaraçay yarpaq çayı - Tərkibi: Qara çay",
-    "description": "Astaraçay yarpaq çayı. Qeyd / Tərkib: Qara çay",
+    "shortDescription": "Astaraçay yarpaq çayı - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Astaraçay yarpaq çayı. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 15,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-32",
+        "id": "size-32-1",
         "label": "250gr",
         "price": 15,
         "inStock": true,
@@ -1027,7 +900,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/astaracay-yarpaq-cayi-250gr.jpg",
-        "alt": "Astaraçay yarpaq çayı"
+        "alt": "Astaraçay yarpaq çayı (250gr)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -1038,22 +911,22 @@ export const PRODUCTS: Product[] = [
       "teas",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/astaracay-yarpaq-cayi-250gr-itemid-68598b29fad7827fe3c5dbc5",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-33",
+    "id": "prod-23",
     "slug": "ayvalik-zeytun-yagi",
     "name": "Ayvalık zeytun yağı",
     "categoryId": "oils",
-    "shortDescription": "Ayvalık zeytun yağı - Yerli və şəffaf istehsalat.",
+    "shortDescription": "Ayvalık zeytun yağı - Təbii və keyfiyyətli Oilganic məhsulu.",
     "description": "Ayvalık zeytun yağı. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 45,
     "currency": "AZN",
+    "unitLabel": "l",
     "sizes": [
       {
-        "id": "size-33",
-        "label": "5L",
+        "id": "size-33-1",
+        "label": "5l",
         "price": 45,
         "inStock": true,
         "verificationStatus": "verified",
@@ -1063,7 +936,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/ayvalik-zeytun-yagi-5l.jpg",
-        "alt": "Ayvalık zeytun yağı"
+        "alt": "Ayvalık zeytun yağı (5l)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -1074,21 +947,21 @@ export const PRODUCTS: Product[] = [
       "oils",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-34",
+    "id": "prod-24",
     "slug": "badam-ezmesi",
     "name": "Badam əzməsi",
     "categoryId": "pastes",
-    "shortDescription": "Badam əzməsi - Tərkibi: Badam",
-    "description": "Badam əzməsi. Qeyd / Tərkib: Badam",
+    "shortDescription": "Badam əzməsi - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Badam əzməsi. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 8,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-34",
+        "id": "size-34-1",
         "label": "200gr",
         "price": 8,
         "inStock": true,
@@ -1096,7 +969,7 @@ export const PRODUCTS: Product[] = [
         "imageSrc": "/images/products/badam-ezmesi-200gr.jpg"
       },
       {
-        "id": "size-35",
+        "id": "size-35-2",
         "label": "500gr",
         "price": 16,
         "inStock": true,
@@ -1107,7 +980,11 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/badam-ezmesi-200gr.jpg",
-        "alt": "Badam əzməsi"
+        "alt": "Badam əzməsi (200gr)"
+      },
+      {
+        "src": "/images/products/badam-ezmesi-500gr.jpg",
+        "alt": "Badam əzməsi (500gr)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -1118,21 +995,21 @@ export const PRODUCTS: Product[] = [
       "pastes",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/badam-ezmesi-500gr-itemid-b7db10125a46654a90447089",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-36",
+    "id": "prod-25",
     "slug": "badam-lepesi",
     "name": "Badam ləpəsi",
     "categoryId": "seeds_flours",
-    "shortDescription": "Badam ləpəsi - Yerli və şəffaf istehsalat.",
+    "shortDescription": "Badam ləpəsi - Təbii və keyfiyyətli Oilganic məhsulu.",
     "description": "Badam ləpəsi. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 20,
     "currency": "AZN",
+    "unitLabel": "ədəd",
     "sizes": [
       {
-        "id": "size-36",
+        "id": "size-36-1",
         "label": "1 ədəd",
         "price": 20,
         "inStock": true,
@@ -1140,7 +1017,7 @@ export const PRODUCTS: Product[] = [
         "imageSrc": "/images/products/badam-lepesi.jpg"
       },
       {
-        "id": "size-37",
+        "id": "size-37-2",
         "label": "100gr",
         "price": 2.5,
         "inStock": true,
@@ -1151,7 +1028,11 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/badam-lepesi.jpg",
-        "alt": "Badam ləpəsi"
+        "alt": "Badam ləpəsi (1 ədəd)"
+      },
+      {
+        "src": "/images/products/badam-lepesi-100gr.jpg",
+        "alt": "Badam ləpəsi (100gr)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -1162,21 +1043,21 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/badam-lepesi-100gr-itemid-f9e92332f1770ccd0b175406",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-38",
+    "id": "prod-26",
     "slug": "badam-yagi",
     "name": "Badam yağı",
     "categoryId": "oils",
-    "shortDescription": "Badam yağı - Tərkibi: Badam",
-    "description": "Badam yağı. Qeyd / Tərkib: Badam",
+    "shortDescription": "Badam yağı - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Badam yağı. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 10,
     "currency": "AZN",
+    "unitLabel": "ml",
     "sizes": [
       {
-        "id": "size-38",
+        "id": "size-38-1",
         "label": "100ml",
         "price": 10,
         "inStock": true,
@@ -1184,7 +1065,7 @@ export const PRODUCTS: Product[] = [
         "imageSrc": "/images/products/badam-yagi-100ml.jpg"
       },
       {
-        "id": "size-39",
+        "id": "size-39-2",
         "label": "250ml",
         "price": 22,
         "inStock": true,
@@ -1195,7 +1076,11 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/badam-yagi-100ml.jpg",
-        "alt": "Badam yağı"
+        "alt": "Badam yağı (100ml)"
+      },
+      {
+        "src": "/images/products/badam-yagi-250ml.jpg",
+        "alt": "Badam yağı (250ml)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -1206,21 +1091,21 @@ export const PRODUCTS: Product[] = [
       "oils",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/badam-yagi-250ml-itemid-3f1ba0a2dd6b8e69366e3c9d",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-40",
+    "id": "prod-27",
     "slug": "balqabaq-siresi",
     "name": "Balqabaq şirəsi",
     "categoryId": "sweeteners",
-    "shortDescription": "Balqabaq şirəsi - Tərkibi: Balqabaq şirəsi",
-    "description": "Balqabaq şirəsi. Qeyd / Tərkib: Balqabaq şirəsi",
+    "shortDescription": "Balqabaq şirəsi - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Balqabaq şirəsi. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 3,
     "currency": "AZN",
+    "unitLabel": "ml",
     "sizes": [
       {
-        "id": "size-40",
+        "id": "size-40-1",
         "label": "500ml",
         "price": 3,
         "inStock": true,
@@ -1231,7 +1116,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/balqabaq-siresi-500ml.jpg",
-        "alt": "Balqabaq şirəsi"
+        "alt": "Balqabaq şirəsi (500ml)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -1242,22 +1127,22 @@ export const PRODUCTS: Product[] = [
       "sweeteners",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/balqabaq-siresi-500ml-itemid-e755cf7c4eb5dee074d02379",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-41",
-    "slug": "balqabaq-toxumu-kg",
-    "name": "Balqabaq toxumu kg",
+    "id": "prod-28",
+    "slug": "balqabaq-toxumu",
+    "name": "Balqabaq toxumu",
     "categoryId": "sweeteners",
-    "shortDescription": "Balqabaq toxumu kg - Yerli və şəffaf istehsalat.",
-    "description": "Balqabaq toxumu kg. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
+    "shortDescription": "Balqabaq toxumu - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Balqabaq toxumu. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 14,
     "currency": "AZN",
+    "unitLabel": "kg",
     "sizes": [
       {
-        "id": "size-41",
-        "label": "1 ədəd",
+        "id": "size-41-1",
+        "label": "1 kg",
         "price": 14,
         "inStock": true,
         "verificationStatus": "verified",
@@ -1267,7 +1152,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/balqabaq-toxumu-kg.jpg",
-        "alt": "Balqabaq toxumu kg"
+        "alt": "Balqabaq toxumu (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -1278,21 +1163,21 @@ export const PRODUCTS: Product[] = [
       "sweeteners",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-42",
+    "id": "prod-29",
     "slug": "balqabaq-tumu",
     "name": "Balqabaq tumu",
     "categoryId": "sweeteners",
-    "shortDescription": "Balqabaq tumu - Tərkibi: Balqabaq tumu",
-    "description": "Balqabaq tumu. Qeyd / Tərkib: Balqabaq tumu",
+    "shortDescription": "Balqabaq tumu - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Balqabaq tumu. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 2.5,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-42",
+        "id": "size-42-1",
         "label": "100gr",
         "price": 2.5,
         "inStock": true,
@@ -1303,7 +1188,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/balqabaq-tumu-100gr.jpg",
-        "alt": "Balqabaq tumu"
+        "alt": "Balqabaq tumu (100gr)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -1314,21 +1199,21 @@ export const PRODUCTS: Product[] = [
       "sweeteners",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/balqabaq-tumu-100gr-itemid-1ddb21b2217dd496f0bc1a4b",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-43",
+    "id": "prod-30",
     "slug": "balqabaq-tumu-ezmesi",
     "name": "Balqabaq tumu əzməsi",
     "categoryId": "pastes",
-    "shortDescription": "Balqabaq tumu əzməsi - Tərkibi: Balqabaq tumu",
-    "description": "Balqabaq tumu əzməsi. Qeyd / Tərkib: Balqabaq tumu",
+    "shortDescription": "Balqabaq tumu əzməsi - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Balqabaq tumu əzməsi. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 8,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-43",
+        "id": "size-43-1",
         "label": "200gr",
         "price": 8,
         "inStock": true,
@@ -1336,7 +1221,7 @@ export const PRODUCTS: Product[] = [
         "imageSrc": "/images/products/balqabaq-tumu-ezmesi-200gr.jpg"
       },
       {
-        "id": "size-44",
+        "id": "size-44-2",
         "label": "500gr",
         "price": 16,
         "inStock": true,
@@ -1347,7 +1232,11 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/balqabaq-tumu-ezmesi-200gr.jpg",
-        "alt": "Balqabaq tumu əzməsi"
+        "alt": "Balqabaq tumu əzməsi (200gr)"
+      },
+      {
+        "src": "/images/products/balqabaq-tumu-ezmesi-500gr.jpg",
+        "alt": "Balqabaq tumu əzməsi (500gr)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -1358,21 +1247,21 @@ export const PRODUCTS: Product[] = [
       "pastes",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/balqabaq-tumu-ezmesi-500gr-itemid-8eb0e32ecc097539add00c5d",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-45",
+    "id": "prod-31",
     "slug": "balqabaq-tumu-yagi",
     "name": "Balqabaq tumu yağı",
     "categoryId": "oils",
-    "shortDescription": "Balqabaq tumu yağı - Tərkibi: Balqabaq tumu",
-    "description": "Balqabaq tumu yağı. Qeyd / Tərkib: Balqabaq tumu",
+    "shortDescription": "Balqabaq tumu yağı - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Balqabaq tumu yağı. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 10,
     "currency": "AZN",
+    "unitLabel": "ml",
     "sizes": [
       {
-        "id": "size-45",
+        "id": "size-45-1",
         "label": "100ml",
         "price": 10,
         "inStock": true,
@@ -1380,7 +1269,7 @@ export const PRODUCTS: Product[] = [
         "imageSrc": "/images/products/balqabaq-tumu-yagi-100ml.jpg"
       },
       {
-        "id": "size-46",
+        "id": "size-46-2",
         "label": "250ml",
         "price": 23,
         "inStock": true,
@@ -1391,7 +1280,11 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/balqabaq-tumu-yagi-100ml.jpg",
-        "alt": "Balqabaq tumu yağı"
+        "alt": "Balqabaq tumu yağı (100ml)"
+      },
+      {
+        "src": "/images/products/balqabaq-tumu-yagi-250ml.jpg",
+        "alt": "Balqabaq tumu yağı (250ml)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -1402,58 +1295,30 @@ export const PRODUCTS: Product[] = [
       "oils",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/balqabaq-tumu-yagi-250ml-itemid-a41c86326200d8356c5bced5",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-47",
+    "id": "prod-32",
     "slug": "bamiye-toxumu",
     "name": "Bamiyə toxumu",
     "categoryId": "seeds_flours",
-    "shortDescription": "Bamiyə toxumu - Tərkibi: Bamiyə toxumu",
-    "description": "Bamiyə toxumu. Qeyd / Tərkib: Bamiyə toxumu",
+    "shortDescription": "Bamiyə toxumu - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Bamiyə toxumu. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 8,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-47",
+        "id": "size-47-1",
         "label": "100gr",
         "price": 8,
         "inStock": true,
         "verificationStatus": "verified",
         "imageSrc": "/images/products/bamiye-toxumu-100gr.jpg"
-      }
-    ],
-    "images": [
+      },
       {
-        "src": "/images/products/bamiye-toxumu-100gr.jpg",
-        "alt": "Bamiyə toxumu"
-      }
-    ],
-    "usage": "İstifadə və rasion üçün uyğundur.",
-    "storage": "Sərin və quru yerdə saxlayın.",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "seeds_flours",
-      "Oilganic"
-    ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/bamiye-toxumu-100gr-itemid-da5f8a5eb047045b85b56a69",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "prod-48",
-    "slug": "bamiye-toxumu-kg",
-    "name": "Bamiyə toxumu kg",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Bamiyə toxumu kg - Yerli və şəffaf istehsalat.",
-    "description": "Bamiyə toxumu kg. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
-    "price": 60,
-    "currency": "AZN",
-    "sizes": [
-      {
-        "id": "size-48",
-        "label": "1 ədəd",
+        "id": "size-48-2",
+        "label": "1 kg",
         "price": 60,
         "inStock": true,
         "verificationStatus": "verified",
@@ -1462,8 +1327,12 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
+        "src": "/images/products/bamiye-toxumu-100gr.jpg",
+        "alt": "Bamiyə toxumu (100gr)"
+      },
+      {
         "src": "/images/products/bamiye-toxumu-kg.jpg",
-        "alt": "Bamiyə toxumu kg"
+        "alt": "Bamiyə toxumu (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -1474,22 +1343,22 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/bamiye-toxumu-100gr-itemid-da5f8a5eb047045b85b56a69",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-49",
-    "slug": "braziilya-qozu-kg",
-    "name": "Braziilya qozu kg",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Braziilya qozu kg - Yerli və şəffaf istehsalat.",
-    "description": "Braziilya qozu kg. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
+    "id": "prod-33",
+    "slug": "braziilya-qozu",
+    "name": "Braziilya qozu",
+    "categoryId": "wellness",
+    "shortDescription": "Braziilya qozu - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Braziilya qozu. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 85,
     "currency": "AZN",
+    "unitLabel": "kg",
     "sizes": [
       {
-        "id": "size-49",
-        "label": "1 ədəd",
+        "id": "size-49-1",
+        "label": "1 kg",
         "price": 85,
         "inStock": true,
         "verificationStatus": "verified",
@@ -1499,7 +1368,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/braziilya-qozu-kg.jpg",
-        "alt": "Braziilya qozu kg"
+        "alt": "Braziilya qozu (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -1507,24 +1376,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-50",
+    "id": "prod-34",
     "slug": "braziliya-qozu",
     "name": "Braziliya qozu",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Braziliya qozu - Tərkibi: Braziliya qozu",
-    "description": "Braziliya qozu. Qeyd / Tərkib: Braziliya qozu",
+    "categoryId": "wellness",
+    "shortDescription": "Braziliya qozu - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Braziliya qozu. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 10,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-50",
+        "id": "size-50-1",
         "label": "100gr",
         "price": 10,
         "inStock": true,
@@ -1535,7 +1404,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/braziliya-qozu-100gr.jpg",
-        "alt": "Braziliya qozu"
+        "alt": "Braziliya qozu (100gr)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -1543,24 +1412,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/braziliya-qozu-100gr-itemid-09d108ca0e983e198f30013e",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-51",
+    "id": "prod-35",
     "slug": "bugda-cucertisi",
     "name": "Buğda cücərtisi",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Buğda cücərtisi - Yerli və şəffaf istehsalat.",
+    "categoryId": "wellness",
+    "shortDescription": "Buğda cücərtisi - Təbii və keyfiyyətli Oilganic məhsulu.",
     "description": "Buğda cücərtisi. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 5,
     "currency": "AZN",
+    "unitLabel": "ədəd",
     "sizes": [
       {
-        "id": "size-51",
+        "id": "size-51-1",
         "label": "1 ədəd",
         "price": 5,
         "inStock": true,
@@ -1571,7 +1440,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/bugda-cucertisi.jpg",
-        "alt": "Buğda cücərtisi"
+        "alt": "Buğda cücərtisi (1 ədəd)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -1579,25 +1448,25 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/bugda-cucertisi-itemid-ad6a6249b81c4d88aea5c5f6",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-52",
+    "id": "prod-36",
     "slug": "caksir-suyu-brokolili",
     "name": "Çakşır suyu brokolili",
-    "categoryId": "teas",
-    "shortDescription": "Çakşır suyu brokolili - Tərkibi: Çakşır , brokoli, zəncir otu, kənəvir",
-    "description": "Çakşır suyu brokolili. Qeyd / Tərkib: Çakşır , brokoli, zəncir otu, kənəvir",
+    "categoryId": "wellness",
+    "shortDescription": "Çakşır suyu brokolili - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Çakşır suyu brokolili. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 15,
     "currency": "AZN",
+    "unitLabel": "l",
     "sizes": [
       {
-        "id": "size-52",
-        "label": "1L",
+        "id": "size-52-1",
+        "label": "1l",
         "price": 15,
         "inStock": true,
         "verificationStatus": "verified",
@@ -1607,7 +1476,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/caksir-suyu-brokolili-1l.jpg",
-        "alt": "Çakşır suyu brokolili"
+        "alt": "Çakşır suyu brokolili (1l)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -1615,25 +1484,25 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "teas",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/caksir-suyu-brokolili-1l-itemid-f82e55da6cf9affc513c7531",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-53",
-    "slug": "casir-koku-kg",
-    "name": "Çaşır kökü kg",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Çaşır kökü kg - Yerli və şəffaf istehsalat.",
-    "description": "Çaşır kökü kg. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
+    "id": "prod-37",
+    "slug": "casir-koku",
+    "name": "Çaşır kökü",
+    "categoryId": "wellness",
+    "shortDescription": "Çaşır kökü - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Çaşır kökü. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 100,
     "currency": "AZN",
+    "unitLabel": "kg",
     "sizes": [
       {
-        "id": "size-53",
-        "label": "1 ədəd",
+        "id": "size-53-1",
+        "label": "1 kg",
         "price": 100,
         "inStock": true,
         "verificationStatus": "verified",
@@ -1643,7 +1512,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/casir-koku-kg.jpg",
-        "alt": "Çaşır kökü kg"
+        "alt": "Çaşır kökü (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -1651,24 +1520,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-54",
+    "id": "prod-38",
     "slug": "caytikani-yagi",
     "name": "Çaytikanı yağı",
     "categoryId": "oils",
-    "shortDescription": "Çaytikanı yağı - Tərkibi: Çaytikanı qurusu və soyuq sıxım zeytun yağı",
-    "description": "Çaytikanı yağı. Qeyd / Tərkib: Çaytikanı qurusu və soyuq sıxım zeytun yağı",
+    "shortDescription": "Çaytikanı yağı - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Çaytikanı yağı. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 15,
     "currency": "AZN",
+    "unitLabel": "ml",
     "sizes": [
       {
-        "id": "size-54",
+        "id": "size-54-1",
         "label": "100ml",
         "price": 15,
         "inStock": true,
@@ -1676,7 +1545,7 @@ export const PRODUCTS: Product[] = [
         "imageSrc": "/images/products/caytikani-yagi-100ml.jpg"
       },
       {
-        "id": "size-55",
+        "id": "size-55-2",
         "label": "250ml",
         "price": 35,
         "inStock": true,
@@ -1687,7 +1556,11 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/caytikani-yagi-100ml.jpg",
-        "alt": "Çaytikanı yağı"
+        "alt": "Çaytikanı yağı (100ml)"
+      },
+      {
+        "src": "/images/products/caytikani-yagi-250ml.jpg",
+        "alt": "Çaytikanı yağı (250ml)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -1698,22 +1571,22 @@ export const PRODUCTS: Product[] = [
       "oils",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/caytikani-yagi-250ml-itemid-34f38981af29357b33323dc6",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-56",
-    "slug": "cetene-toxumu-kg",
-    "name": "Çətənə toxumu kg",
+    "id": "prod-39",
+    "slug": "cetene-toxumu",
+    "name": "Çətənə toxumu",
     "categoryId": "seeds_flours",
-    "shortDescription": "Çətənə toxumu kg - Yerli və şəffaf istehsalat.",
-    "description": "Çətənə toxumu kg. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
+    "shortDescription": "Çətənə toxumu - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Çətənə toxumu. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 20,
     "currency": "AZN",
+    "unitLabel": "kg",
     "sizes": [
       {
-        "id": "size-56",
-        "label": "1 ədəd",
+        "id": "size-56-1",
+        "label": "1 kg",
         "price": 20,
         "inStock": true,
         "verificationStatus": "verified",
@@ -1723,7 +1596,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/cetene-toxumu-kg.jpg",
-        "alt": "Çətənə toxumu kg"
+        "alt": "Çətənə toxumu (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -1734,21 +1607,21 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-57",
+    "id": "prod-40",
     "slug": "cetene-yagi",
     "name": "Çətənə yağı",
     "categoryId": "oils",
-    "shortDescription": "Çətənə yağı - Tərkibi: Çətənə toxumu",
-    "description": "Çətənə yağı. Qeyd / Tərkib: Çətənə toxumu",
+    "shortDescription": "Çətənə yağı - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Çətənə yağı. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 15,
     "currency": "AZN",
+    "unitLabel": "ml",
     "sizes": [
       {
-        "id": "size-57",
+        "id": "size-57-1",
         "label": "100ml",
         "price": 15,
         "inStock": true,
@@ -1756,7 +1629,7 @@ export const PRODUCTS: Product[] = [
         "imageSrc": "/images/products/cetene-yagi-100ml.jpg"
       },
       {
-        "id": "size-58",
+        "id": "size-58-2",
         "label": "250ml",
         "price": 35,
         "inStock": true,
@@ -1767,7 +1640,11 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/cetene-yagi-100ml.jpg",
-        "alt": "Çətənə yağı"
+        "alt": "Çətənə yağı (100ml)"
+      },
+      {
+        "src": "/images/products/cetene-yagi-250ml.jpg",
+        "alt": "Çətənə yağı (250ml)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -1778,29 +1655,29 @@ export const PRODUCTS: Product[] = [
       "oils",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/cetene-yagi-250ml-itemid-2a9d61fe91afab2ba38de394",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-59",
+    "id": "prod-41",
     "slug": "cicek-bali",
     "name": "Çiçək balı",
     "categoryId": "sweeteners",
-    "shortDescription": "Çiçək balı - Tərkibi: Bal",
-    "description": "Çiçək balı. Qeyd / Tərkib: Bal",
+    "shortDescription": "Çiçək balı - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Çiçək balı. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 40,
     "currency": "AZN",
+    "unitLabel": "kg",
     "sizes": [
       {
-        "id": "size-59",
-        "label": "1kg",
+        "id": "size-59-1",
+        "label": "1 kg",
         "price": 40,
         "inStock": true,
         "verificationStatus": "verified",
         "imageSrc": "/images/products/cicek-bali-1kg.jpg"
       },
       {
-        "id": "size-60",
+        "id": "size-60-2",
         "label": "500gr",
         "price": 20,
         "inStock": true,
@@ -1811,7 +1688,11 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/cicek-bali-1kg.jpg",
-        "alt": "Çiçək balı"
+        "alt": "Çiçək balı (1 kg)"
+      },
+      {
+        "src": "/images/products/cicek-bali-500gr.jpg",
+        "alt": "Çiçək balı (500gr)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -1822,58 +1703,30 @@ export const PRODUCTS: Product[] = [
       "sweeteners",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/cicek-bali-500gr-itemid-ad061d910632ddd0682a3691",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-61",
+    "id": "prod-42",
     "slug": "cicek-tozu",
     "name": "Çiçək tozu",
-    "categoryId": "teas",
-    "shortDescription": "Çiçək tozu - Tərkibi: Çiçək tozu",
-    "description": "Çiçək tozu. Qeyd / Tərkib: Çiçək tozu",
+    "categoryId": "wellness",
+    "shortDescription": "Çiçək tozu - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Çiçək tozu. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 12,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-61",
+        "id": "size-61-1",
         "label": "100gr",
         "price": 12,
         "inStock": true,
         "verificationStatus": "verified",
         "imageSrc": "/images/products/cicek-tozu-100gr.jpg"
-      }
-    ],
-    "images": [
+      },
       {
-        "src": "/images/products/cicek-tozu-100gr.jpg",
-        "alt": "Çiçək tozu"
-      }
-    ],
-    "usage": "İstifadə və rasion üçün uyğundur.",
-    "storage": "Sərin və quru yerdə saxlayın.",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "teas",
-      "Oilganic"
-    ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/cicek-tozu-100gr-itemid-57d8f590c4ffc19d51a47e5b",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "prod-62",
-    "slug": "cicek-tozu-kg",
-    "name": "Çiçək tozu kg",
-    "categoryId": "teas",
-    "shortDescription": "Çiçək tozu kg - Tərkibi: Arı fermenti",
-    "description": "Çiçək tozu kg. Qeyd / Tərkib: Arı fermenti",
-    "price": 100,
-    "currency": "AZN",
-    "sizes": [
-      {
-        "id": "size-62",
-        "label": "1 ədəd",
+        "id": "size-62-2",
+        "label": "1 kg",
         "price": 100,
         "inStock": true,
         "verificationStatus": "verified",
@@ -1882,8 +1735,12 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
+        "src": "/images/products/cicek-tozu-100gr.jpg",
+        "alt": "Çiçək tozu (100gr)"
+      },
+      {
         "src": "/images/products/cicek-tozu-kg.jpg",
-        "alt": "Çiçək tozu kg"
+        "alt": "Çiçək tozu (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -1891,61 +1748,33 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "teas",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/cicek-tozu-100gr-itemid-57d8f590c4ffc19d51a47e5b",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-63",
+    "id": "prod-43",
     "slug": "ciya-toxumu",
     "name": "Çiya toxumu",
     "categoryId": "seeds_flours",
-    "shortDescription": "Çiya toxumu - Tərkibi: Çiya toxumu",
-    "description": "Çiya toxumu. Qeyd / Tərkib: Çiya toxumu",
+    "shortDescription": "Çiya toxumu - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Çiya toxumu. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 2,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-63",
+        "id": "size-63-1",
         "label": "100gr",
         "price": 2,
         "inStock": true,
         "verificationStatus": "verified",
         "imageSrc": "/images/products/ciya-toxumu-100gr.jpg"
-      }
-    ],
-    "images": [
+      },
       {
-        "src": "/images/products/ciya-toxumu-100gr.jpg",
-        "alt": "Çiya toxumu"
-      }
-    ],
-    "usage": "İstifadə və rasion üçün uyğundur.",
-    "storage": "Sərin və quru yerdə saxlayın.",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "seeds_flours",
-      "Oilganic"
-    ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/ciya-toxumu-100gr-itemid-998b62ff9b335b2f4c1d33d0",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "prod-64",
-    "slug": "ciya-toxumu-kg",
-    "name": "Çiya toxumu kg",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Çiya toxumu kg - Yerli və şəffaf istehsalat.",
-    "description": "Çiya toxumu kg. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
-    "price": 15,
-    "currency": "AZN",
-    "sizes": [
-      {
-        "id": "size-64",
-        "label": "1 ədəd",
+        "id": "size-64-2",
+        "label": "1 kg",
         "price": 15,
         "inStock": true,
         "verificationStatus": "verified",
@@ -1954,8 +1783,12 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
+        "src": "/images/products/ciya-toxumu-100gr.jpg",
+        "alt": "Çiya toxumu (100gr)"
+      },
+      {
         "src": "/images/products/ciya-toxumu-kg.jpg",
-        "alt": "Çiya toxumu kg"
+        "alt": "Çiya toxumu (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -1966,21 +1799,21 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/ciya-toxumu-100gr-itemid-998b62ff9b335b2f4c1d33d0",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-65",
+    "id": "prod-44",
     "slug": "corekotu-kapsul",
     "name": "Çörəkotu kapsul",
-    "categoryId": "teas",
-    "shortDescription": "Çörəkotu kapsul - Tərkibi: Çörəkotu tozu",
-    "description": "Çörəkotu kapsul. Qeyd / Tərkib: Çörəkotu tozu",
+    "categoryId": "wellness",
+    "shortDescription": "Çörəkotu kapsul - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Çörəkotu kapsul. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 15,
     "currency": "AZN",
+    "unitLabel": "ədəd",
     "sizes": [
       {
-        "id": "size-65",
+        "id": "size-65-1",
         "label": "180 ədəd",
         "price": 15,
         "inStock": true,
@@ -1991,7 +1824,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/corekotu-kapsul-180-eded.jpg",
-        "alt": "Çörəkotu kapsul"
+        "alt": "Çörəkotu kapsul (180 ədəd)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -1999,25 +1832,25 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "teas",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/corekotu-kapsul-180-eded-itemid-8cc966e54677128112fcfd02",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-66",
+    "id": "prod-45",
     "slug": "corekotu-yag-kapsulu",
     "name": "Çörəkotu yağ kapsulu",
     "categoryId": "oils",
-    "shortDescription": "Çörəkotu yağ kapsulu - Tərkibi: Çörəkotu toxumu yağı",
-    "description": "Çörəkotu yağ kapsulu. Qeyd / Tərkib: Çörəkotu toxumu yağı",
+    "shortDescription": "Çörəkotu yağ kapsulu - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Çörəkotu yağ kapsulu. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 15,
     "currency": "AZN",
+    "unitLabel": "ədəd",
     "sizes": [
       {
-        "id": "size-66",
-        "label": "100ədəd",
+        "id": "size-66-1",
+        "label": "100 ədəd",
         "price": 15,
         "inStock": true,
         "verificationStatus": "verified",
@@ -2027,7 +1860,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/corekotu-yag-kapsulu-100eded.jpg",
-        "alt": "Çörəkotu yağ kapsulu"
+        "alt": "Çörəkotu yağ kapsulu (100 ədəd)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -2038,22 +1871,22 @@ export const PRODUCTS: Product[] = [
       "oils",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/corekotu-yag-kapsulu-100eded-itemid-13ac156e3bbab7a5ed1e9e51",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-67",
-    "slug": "damla-sokolad-kg",
-    "name": "Damla şokolad kg",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Damla şokolad kg - Tərkibi: Şokolad",
-    "description": "Damla şokolad kg. Qeyd / Tərkib: Şokolad",
+    "id": "prod-46",
+    "slug": "damla-sokolad",
+    "name": "Damla şokolad",
+    "categoryId": "wellness",
+    "shortDescription": "Damla şokolad - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Damla şokolad. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 10,
     "currency": "AZN",
+    "unitLabel": "kg",
     "sizes": [
       {
-        "id": "size-67",
-        "label": "1 ədəd",
+        "id": "size-67-1",
+        "label": "1 kg",
         "price": 10,
         "inStock": true,
         "verificationStatus": "verified",
@@ -2063,7 +1896,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/damla-sokolad-kg.jpg",
-        "alt": "Damla şokolad kg"
+        "alt": "Damla şokolad (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -2071,61 +1904,33 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-68",
+    "id": "prod-47",
     "slug": "darcin-cubuq",
     "name": "Darçın çubuq",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Darçın çubuq - Tərkibi: Darçın",
-    "description": "Darçın çubuq. Qeyd / Tərkib: Darçın",
+    "categoryId": "wellness",
+    "shortDescription": "Darçın çubuq - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Darçın çubuq. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 3,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-68",
+        "id": "size-68-1",
         "label": "100gr",
         "price": 3,
         "inStock": true,
         "verificationStatus": "verified",
         "imageSrc": "/images/products/darcin-cubuq-100gr.jpg"
-      }
-    ],
-    "images": [
+      },
       {
-        "src": "/images/products/darcin-cubuq-100gr.jpg",
-        "alt": "Darçın çubuq"
-      }
-    ],
-    "usage": "İstifadə və rasion üçün uyğundur.",
-    "storage": "Sərin və quru yerdə saxlayın.",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "seeds_flours",
-      "Oilganic"
-    ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/darcin-cubuq-100gr-itemid-4946b2cdbc275073615a153a",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "prod-69",
-    "slug": "darcin-cubuq-kg",
-    "name": "Darçın çubuq kg",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Darçın çubuq kg - Tərkibi: Darçın çubuq",
-    "description": "Darçın çubuq kg. Qeyd / Tərkib: Darçın çubuq",
-    "price": 25,
-    "currency": "AZN",
-    "sizes": [
-      {
-        "id": "size-69",
-        "label": "1 ədəd",
+        "id": "size-69-2",
+        "label": "1 kg",
         "price": 25,
         "inStock": true,
         "verificationStatus": "verified",
@@ -2134,8 +1939,12 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
+        "src": "/images/products/darcin-cubuq-100gr.jpg",
+        "alt": "Darçın çubuq (100gr)"
+      },
+      {
         "src": "/images/products/darcin-cubuq-kg.jpg",
-        "alt": "Darçın çubuq kg"
+        "alt": "Darçın çubuq (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -2143,25 +1952,25 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/darcin-cubuq-100gr-itemid-4946b2cdbc275073615a153a",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-70",
-    "slug": "darcin-cubuq-sri-lanka-natural-kg",
-    "name": "Darçın çubuq Şri-lanka natural kg",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Darçın çubuq Şri-lanka natural kg - Tərkibi: Darçın çubuq Şri-lanka natural",
-    "description": "Darçın çubuq Şri-lanka natural kg. Qeyd / Tərkib: Darçın çubuq Şri-lanka natural",
+    "id": "prod-48",
+    "slug": "darcin-cubuq-sri-lanka-natural",
+    "name": "Darçın çubuq Şri-lanka natural",
+    "categoryId": "wellness",
+    "shortDescription": "Darçın çubuq Şri-lanka natural - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Darçın çubuq Şri-lanka natural. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 100,
     "currency": "AZN",
+    "unitLabel": "kg",
     "sizes": [
       {
-        "id": "size-70",
-        "label": "1 ədəd",
+        "id": "size-70-1",
+        "label": "1 kg",
         "price": 100,
         "inStock": true,
         "verificationStatus": "verified",
@@ -2171,7 +1980,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/darcin-cubuq-sri-lanka-natural-kg.jpg",
-        "alt": "Darçın çubuq Şri-lanka natural kg"
+        "alt": "Darçın çubuq Şri-lanka natural (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -2179,24 +1988,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/darcin-cubuq-100gr-itemid-4946b2cdbc275073615a153a",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-71",
+    "id": "prod-49",
     "slug": "darcin-sri-lanka",
     "name": "Darçın Şri-lanka",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Darçın Şri-lanka - Tərkibi: Darçın Şri-Lanka",
-    "description": "Darçın Şri-lanka. Qeyd / Tərkib: Darçın Şri-Lanka",
+    "categoryId": "wellness",
+    "shortDescription": "Darçın Şri-lanka - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Darçın Şri-lanka. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 12,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-71",
+        "id": "size-71-1",
         "label": "100gr",
         "price": 12,
         "inStock": true,
@@ -2207,7 +2016,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/darcin-sri-lanka-100gr.jpg",
-        "alt": "Darçın Şri-lanka"
+        "alt": "Darçın Şri-lanka (100gr)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -2215,61 +2024,33 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/darcin-sri-lanka-100gr-itemid-9bc8c9cd1b94fe74578dd2ae",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-72",
+    "id": "prod-50",
     "slug": "darcin-tozu",
     "name": "Darçın tozu",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Darçın tozu - Tərkibi: Darçın tozu",
-    "description": "Darçın tozu. Qeyd / Tərkib: Darçın tozu",
+    "categoryId": "wellness",
+    "shortDescription": "Darçın tozu - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Darçın tozu. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 3.5,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-72",
+        "id": "size-72-1",
         "label": "100gr",
         "price": 3.5,
         "inStock": true,
         "verificationStatus": "verified",
         "imageSrc": "/images/products/darcin-tozu-100gr.jpg"
-      }
-    ],
-    "images": [
+      },
       {
-        "src": "/images/products/darcin-tozu-100gr.jpg",
-        "alt": "Darçın tozu"
-      }
-    ],
-    "usage": "İstifadə və rasion üçün uyğundur.",
-    "storage": "Sərin və quru yerdə saxlayın.",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "seeds_flours",
-      "Oilganic"
-    ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/darcin-tozu-100gr-itemid-3263e35beb1b8fe30af9fd81",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "prod-73",
-    "slug": "darcin-tozu-kg",
-    "name": "Darçın tozu kg",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Darçın tozu kg - Tərkibi: Darçın",
-    "description": "Darçın tozu kg. Qeyd / Tərkib: Darçın",
-    "price": 30,
-    "currency": "AZN",
-    "sizes": [
-      {
-        "id": "size-73",
-        "label": "1 ədəd",
+        "id": "size-73-2",
+        "label": "1 kg",
         "price": 30,
         "inStock": true,
         "verificationStatus": "verified",
@@ -2278,8 +2059,12 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
+        "src": "/images/products/darcin-tozu-100gr.jpg",
+        "alt": "Darçın tozu (100gr)"
+      },
+      {
         "src": "/images/products/darcin-tozu-kg.jpg",
-        "alt": "Darçın tozu kg"
+        "alt": "Darçın tozu (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -2287,24 +2072,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/darcin-tozu-100gr-itemid-3263e35beb1b8fe30af9fd81",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-74",
+    "id": "prod-51",
     "slug": "daziotu-yagi",
     "name": "Dazıotu yağı",
     "categoryId": "oils",
-    "shortDescription": "Dazıotu yağı - Tərkibi: Dazı otu və soyuq sıxım zeytun yağı",
-    "description": "Dazıotu yağı. Qeyd / Tərkib: Dazı otu və soyuq sıxım zeytun yağı",
+    "shortDescription": "Dazıotu yağı - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Dazıotu yağı. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 12,
     "currency": "AZN",
+    "unitLabel": "ml",
     "sizes": [
       {
-        "id": "size-74",
+        "id": "size-74-1",
         "label": "100ml",
         "price": 12,
         "inStock": true,
@@ -2312,7 +2097,7 @@ export const PRODUCTS: Product[] = [
         "imageSrc": "/images/products/daziotu-yagi-100ml.jpg"
       },
       {
-        "id": "size-75",
+        "id": "size-75-2",
         "label": "250ml",
         "price": 28,
         "inStock": true,
@@ -2323,7 +2108,11 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/daziotu-yagi-100ml.jpg",
-        "alt": "Dazıotu yağı"
+        "alt": "Dazıotu yağı (100ml)"
+      },
+      {
+        "src": "/images/products/daziotu-yagi-250ml.jpg",
+        "alt": "Dazıotu yağı (250ml)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -2334,21 +2123,21 @@ export const PRODUCTS: Product[] = [
       "oils",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/daziotu-yagi-250ml-itemid-d38dedf10a1db46ff92dd76f",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-76",
+    "id": "prod-52",
     "slug": "detox-sirkesi",
     "name": "Detox Sirkəsi",
-    "categoryId": "teas",
-    "shortDescription": "Detox Sirkəsi - Tərkibi: Ananas, ərik, limon, cəfəri, cia toxumu, alma, bibəriyyə, ənginar, kivi, portağal, yaşıl çay, darçın, Aavakado, razyana",
-    "description": "Detox Sirkəsi. Qeyd / Tərkib: Ananas, ərik, limon, cəfəri, cia toxumu, alma, bibəriyyə, ənginar, kivi, portağal, yaşıl çay, darçın, Aavakado, razyana",
+    "categoryId": "vinegars",
+    "shortDescription": "Detox Sirkəsi - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Detox Sirkəsi. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 12,
     "currency": "AZN",
+    "unitLabel": "ml",
     "sizes": [
       {
-        "id": "size-76",
+        "id": "size-76-1",
         "label": "500ml",
         "price": 12,
         "inStock": true,
@@ -2359,7 +2148,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/detox-sirkesi-500ml.jpg",
-        "alt": "Detox Sirkəsi"
+        "alt": "Detox Sirkəsi (500ml)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -2367,24 +2156,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "teas",
+      "vinegars",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/detox-sirkesi-500ml-itemid-923927e4c1111536296b92c5",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-77",
+    "id": "prod-53",
     "slug": "enginar-sirkesi",
     "name": "Ənginar sirkəsi",
-    "categoryId": "teas",
-    "shortDescription": "Ənginar sirkəsi - Tərkibi: Ənginar",
-    "description": "Ənginar sirkəsi. Qeyd / Tərkib: Ənginar",
+    "categoryId": "vinegars",
+    "shortDescription": "Ənginar sirkəsi - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Ənginar sirkəsi. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 12,
     "currency": "AZN",
+    "unitLabel": "ml",
     "sizes": [
       {
-        "id": "size-77",
+        "id": "size-77-1",
         "label": "500ml",
         "price": 12,
         "inStock": true,
@@ -2395,7 +2184,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/enginar-sirkesi-500ml.jpg",
-        "alt": "Ənginar sirkəsi"
+        "alt": "Ənginar sirkəsi (500ml)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -2403,25 +2192,25 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "teas",
+      "vinegars",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/enginar-sirkesi-500ml-itemid-9bebc0844116d60413b0bcc8",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-78",
+    "id": "prod-54",
     "slug": "enginar-suyu-alaqanqalli",
     "name": "Ənginar suyu Alaqanqallı",
-    "categoryId": "teas",
-    "shortDescription": "Ənginar suyu Alaqanqallı - Tərkibi: Ənginar bitkisi, alaqanqal , qarabaş otu, zəncir otu",
-    "description": "Ənginar suyu Alaqanqallı. Qeyd / Tərkib: Ənginar bitkisi, alaqanqal , qarabaş otu, zəncir otu",
+    "categoryId": "wellness",
+    "shortDescription": "Ənginar suyu Alaqanqallı - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Ənginar suyu Alaqanqallı. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 15,
     "currency": "AZN",
+    "unitLabel": "l",
     "sizes": [
       {
-        "id": "size-78",
-        "label": "1L",
+        "id": "size-78-1",
+        "label": "1l",
         "price": 15,
         "inStock": true,
         "verificationStatus": "verified",
@@ -2431,7 +2220,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/enginar-suyu-alaqanqalli-1l.jpg",
-        "alt": "Ənginar suyu Alaqanqallı"
+        "alt": "Ənginar suyu Alaqanqallı (1l)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -2439,61 +2228,33 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "teas",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/enginar-suyu-alaqanqalli-1l-itemid-2b88d3976ba0905d0daa4021",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-79",
+    "id": "prod-55",
     "slug": "erkude",
     "name": "Ərküdə",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Ərküdə - Tərkibi: Ərküdə",
-    "description": "Ərküdə. Qeyd / Tərkib: Ərküdə",
+    "categoryId": "wellness",
+    "shortDescription": "Ərküdə - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Ərküdə. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 3,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-79",
+        "id": "size-79-1",
         "label": "50gr",
         "price": 3,
         "inStock": true,
         "verificationStatus": "verified",
         "imageSrc": "/images/products/erkude-50gr.jpg"
-      }
-    ],
-    "images": [
+      },
       {
-        "src": "/images/products/erkude-50gr.jpg",
-        "alt": "Ərküdə"
-      }
-    ],
-    "usage": "İstifadə və rasion üçün uyğundur.",
-    "storage": "Sərin və quru yerdə saxlayın.",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "seeds_flours",
-      "Oilganic"
-    ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/erkude-50gr-itemid-1474a08dbf8e2a8e416040d4",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "prod-80",
-    "slug": "erkude-kg",
-    "name": "Ərküdə kg",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Ərküdə kg - Tərkibi: Ərküdə",
-    "description": "Ərküdə kg. Qeyd / Tərkib: Ərküdə",
-    "price": 50,
-    "currency": "AZN",
-    "sizes": [
-      {
-        "id": "size-80",
-        "label": "1 ədəd",
+        "id": "size-80-2",
+        "label": "1 kg",
         "price": 50,
         "inStock": true,
         "verificationStatus": "verified",
@@ -2502,8 +2263,12 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
+        "src": "/images/products/erkude-50gr.jpg",
+        "alt": "Ərküdə (50gr)"
+      },
+      {
         "src": "/images/products/erkude-kg.jpg",
-        "alt": "Ərküdə kg"
+        "alt": "Ərküdə (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -2511,24 +2276,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/erkude-50gr-itemid-1474a08dbf8e2a8e416040d4",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-81",
+    "id": "prod-56",
     "slug": "feyxoa-siresi",
     "name": "Feyxoa şirəsi",
-    "categoryId": "sweeteners",
-    "shortDescription": "Feyxoa şirəsi - Tərkibi: Feyxoa şirəsi",
-    "description": "Feyxoa şirəsi. Qeyd / Tərkib: Feyxoa şirəsi",
+    "categoryId": "beverages",
+    "shortDescription": "Feyxoa şirəsi - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Feyxoa şirəsi. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 3,
     "currency": "AZN",
+    "unitLabel": "ml",
     "sizes": [
       {
-        "id": "size-81",
+        "id": "size-81-1",
         "label": "500ml",
         "price": 3,
         "inStock": true,
@@ -2539,7 +2304,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/feyxoa-siresi-500ml.jpg",
-        "alt": "Feyxoa şirəsi"
+        "alt": "Feyxoa şirəsi (500ml)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -2547,24 +2312,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "sweeteners",
+      "beverages",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/feyxoa-siresi-500ml-itemid-fd98e984fb8e792ab499cb9c",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-82",
+    "id": "prod-57",
     "slug": "findiq-ezmesi",
     "name": "Fındıq əzməsi",
     "categoryId": "pastes",
-    "shortDescription": "Fındıq əzməsi - Tərkibi: Fındıq",
-    "description": "Fındıq əzməsi. Qeyd / Tərkib: Fındıq",
+    "shortDescription": "Fındıq əzməsi - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Fındıq əzməsi. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 12,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-82",
+        "id": "size-82-1",
         "label": "200gr",
         "price": 12,
         "inStock": true,
@@ -2572,7 +2337,7 @@ export const PRODUCTS: Product[] = [
         "imageSrc": "/images/products/findiq-ezmesi-200gr.jpg"
       },
       {
-        "id": "size-83",
+        "id": "size-83-2",
         "label": "500gr",
         "price": 24,
         "inStock": true,
@@ -2583,7 +2348,11 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/findiq-ezmesi-200gr.jpg",
-        "alt": "Fındıq əzməsi"
+        "alt": "Fındıq əzməsi (200gr)"
+      },
+      {
+        "src": "/images/products/findiq-ezmesi-500gr.jpg",
+        "alt": "Fındıq əzməsi (500gr)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -2594,22 +2363,22 @@ export const PRODUCTS: Product[] = [
       "pastes",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/findiq-ezmesi-500gr-itemid-6dd982f0fab4c115c23bf2df",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-84",
-    "slug": "findiq-qovrulmus-kg",
-    "name": "Fındıq qovrulmuş kg",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Fındıq qovrulmuş kg - Yerli və şəffaf istehsalat.",
-    "description": "Fındıq qovrulmuş kg. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
+    "id": "prod-58",
+    "slug": "findiq-qovrulmus",
+    "name": "Fındıq qovrulmuş",
+    "categoryId": "wellness",
+    "shortDescription": "Fındıq qovrulmuş - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Fındıq qovrulmuş. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 32,
     "currency": "AZN",
+    "unitLabel": "kg",
     "sizes": [
       {
-        "id": "size-84",
-        "label": "1 ədəd",
+        "id": "size-84-1",
+        "label": "1 kg",
         "price": 32,
         "inStock": true,
         "verificationStatus": "verified",
@@ -2619,7 +2388,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/findiq-qovrulmus-kg.jpg",
-        "alt": "Fındıq qovrulmuş kg"
+        "alt": "Fındıq qovrulmuş (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -2627,24 +2396,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-85",
+    "id": "prod-59",
     "slug": "fistiq-kuncut-ezmesi",
     "name": "Fıstıq + Küncüt əzməsi",
     "categoryId": "pastes",
-    "shortDescription": "Fıstıq + Küncüt əzməsi - Tərkibi: Fıstıq + Küncüt",
-    "description": "Fıstıq + Küncüt əzməsi. Qeyd / Tərkib: Fıstıq + Küncüt",
+    "shortDescription": "Fıstıq + Küncüt əzməsi - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Fıstıq + Küncüt əzməsi. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 5,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-85",
+        "id": "size-85-1",
         "label": "200gr",
         "price": 5,
         "inStock": true,
@@ -2655,7 +2424,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/fistiq-kuncut-ezmesi-200gr.jpg",
-        "alt": "Fıstıq + Küncüt əzməsi"
+        "alt": "Fıstıq + Küncüt əzməsi (200gr)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -2666,21 +2435,21 @@ export const PRODUCTS: Product[] = [
       "pastes",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/fistiq-kuncut-ezmesi-200gr-itemid-9bd8ee1ebccdbafb850e49d8",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-86",
+    "id": "prod-60",
     "slug": "fistiq-ezmesi",
     "name": "Fıstıq əzməsi",
     "categoryId": "pastes",
-    "shortDescription": "Fıstıq əzməsi - Tərkibi: Fıstıq",
-    "description": "Fıstıq əzməsi. Qeyd / Tərkib: Fıstıq",
+    "shortDescription": "Fıstıq əzməsi - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Fıstıq əzməsi. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 5,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-86",
+        "id": "size-86-1",
         "label": "200gr",
         "price": 5,
         "inStock": true,
@@ -2688,7 +2457,7 @@ export const PRODUCTS: Product[] = [
         "imageSrc": "/images/products/fistiq-ezmesi-200gr.jpg"
       },
       {
-        "id": "size-87",
+        "id": "size-87-2",
         "label": "500gr",
         "price": 10,
         "inStock": true,
@@ -2699,7 +2468,11 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/fistiq-ezmesi-200gr.jpg",
-        "alt": "Fıstıq əzməsi"
+        "alt": "Fıstıq əzməsi (200gr)"
+      },
+      {
+        "src": "/images/products/fistiq-ezmesi-500gr.jpg",
+        "alt": "Fıstıq əzməsi (500gr)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -2710,21 +2483,21 @@ export const PRODUCTS: Product[] = [
       "pastes",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/fistiq-ezmesi-500gr-itemid-87a7998b3c3f8584ae4f2806",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-88",
+    "id": "prod-61",
     "slug": "fistiq-ezmesi-sokoladli",
     "name": "Fıstıq əzməsi şokoladli",
     "categoryId": "pastes",
-    "shortDescription": "Fıstıq əzməsi şokoladli - Tərkibi: Fıstıq və damla şokolad",
-    "description": "Fıstıq əzməsi şokoladli. Qeyd / Tərkib: Fıstıq və damla şokolad",
+    "shortDescription": "Fıstıq əzməsi şokoladli - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Fıstıq əzməsi şokoladli. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 6,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-88",
+        "id": "size-88-1",
         "label": "200gr",
         "price": 6,
         "inStock": true,
@@ -2732,7 +2505,7 @@ export const PRODUCTS: Product[] = [
         "imageSrc": "/images/products/fistiq-ezmesi-sokoladli-200gr.jpg"
       },
       {
-        "id": "size-89",
+        "id": "size-89-2",
         "label": "500gr",
         "price": 12,
         "inStock": true,
@@ -2743,7 +2516,11 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/fistiq-ezmesi-sokoladli-200gr.jpg",
-        "alt": "Fıstıq əzməsi şokoladli"
+        "alt": "Fıstıq əzməsi şokoladli (200gr)"
+      },
+      {
+        "src": "/images/products/fistiq-ezmesi-sokoladli-500gr.jpg",
+        "alt": "Fıstıq əzməsi şokoladli (500gr)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -2754,21 +2531,21 @@ export const PRODUCTS: Product[] = [
       "pastes",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/fistiq-ezmesi-sokoladli-500gr-itemid-cecd136a1f5e80b7c22545af",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-90",
-    "slug": "fistiq-kuncut-ezmesi",
+    "id": "prod-62",
+    "slug": "fistiqkuncut-ezmesi",
     "name": "Fıstıq+küncüt əzməsi",
     "categoryId": "pastes",
-    "shortDescription": "Fıstıq+küncüt əzməsi - Tərkibi: Fıstıq və küncüt",
-    "description": "Fıstıq+küncüt əzməsi. Qeyd / Tərkib: Fıstıq və küncüt",
+    "shortDescription": "Fıstıq+küncüt əzməsi - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Fıstıq+küncüt əzməsi. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 10,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-90",
+        "id": "size-90-1",
         "label": "500gr",
         "price": 10,
         "inStock": true,
@@ -2779,7 +2556,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/fistiq-kuncut-ezmesi-500gr.jpg",
-        "alt": "Fıstıq+küncüt əzməsi"
+        "alt": "Fıstıq+küncüt əzməsi (500gr)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -2790,58 +2567,30 @@ export const PRODUCTS: Product[] = [
       "pastes",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/fistiq-kuncut-ezmesi-500gr-itemid-5a7ff30b276a6ba70cfc9c49",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-91",
+    "id": "prod-63",
     "slug": "genegercek-toxumu",
     "name": "Gənəgərçək toxumu",
     "categoryId": "seeds_flours",
-    "shortDescription": "Gənəgərçək toxumu - Tərkibi: Gənəgərçək toxumu",
-    "description": "Gənəgərçək toxumu. Qeyd / Tərkib: Gənəgərçək toxumu",
+    "shortDescription": "Gənəgərçək toxumu - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Gənəgərçək toxumu. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 2,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-91",
+        "id": "size-91-1",
         "label": "100gr",
         "price": 2,
         "inStock": true,
         "verificationStatus": "verified",
         "imageSrc": "/images/products/genegercek-toxumu-100gr.jpg"
-      }
-    ],
-    "images": [
+      },
       {
-        "src": "/images/products/genegercek-toxumu-100gr.jpg",
-        "alt": "Gənəgərçək toxumu"
-      }
-    ],
-    "usage": "İstifadə və rasion üçün uyğundur.",
-    "storage": "Sərin və quru yerdə saxlayın.",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "seeds_flours",
-      "Oilganic"
-    ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/genegercek-toxumu-100gr-itemid-71fa6cd22ef31623fe8c7c09",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "prod-92",
-    "slug": "genegercek-toxumu-kg",
-    "name": "Gənəgərçək toxumu kg",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Gənəgərçək toxumu kg - Yerli və şəffaf istehsalat.",
-    "description": "Gənəgərçək toxumu kg. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
-    "price": 12,
-    "currency": "AZN",
-    "sizes": [
-      {
-        "id": "size-92",
-        "label": "1 ədəd",
+        "id": "size-92-2",
+        "label": "1 kg",
         "price": 12,
         "inStock": true,
         "verificationStatus": "verified",
@@ -2850,8 +2599,12 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
+        "src": "/images/products/genegercek-toxumu-100gr.jpg",
+        "alt": "Gənəgərçək toxumu (100gr)"
+      },
+      {
         "src": "/images/products/genegercek-toxumu-kg.jpg",
-        "alt": "Gənəgərçək toxumu kg"
+        "alt": "Gənəgərçək toxumu (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -2862,21 +2615,21 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/genegercek-toxumu-100gr-itemid-71fa6cd22ef31623fe8c7c09",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-93",
+    "id": "prod-64",
     "slug": "genegercek-yagi",
     "name": "Gənəgərçək yağı",
     "categoryId": "oils",
-    "shortDescription": "Gənəgərçək yağı - Tərkibi: Gənəgərçək toxumu",
-    "description": "Gənəgərçək yağı. Qeyd / Tərkib: Gənəgərçək toxumu",
+    "shortDescription": "Gənəgərçək yağı - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Gənəgərçək yağı. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 10,
     "currency": "AZN",
+    "unitLabel": "ml",
     "sizes": [
       {
-        "id": "size-93",
+        "id": "size-93-1",
         "label": "100ml",
         "price": 10,
         "inStock": true,
@@ -2884,7 +2637,7 @@ export const PRODUCTS: Product[] = [
         "imageSrc": "/images/products/genegercek-yagi-100ml.jpg"
       },
       {
-        "id": "size-94",
+        "id": "size-94-2",
         "label": "250ml",
         "price": 22,
         "inStock": true,
@@ -2895,7 +2648,11 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/genegercek-yagi-100ml.jpg",
-        "alt": "Gənəgərçək yağı"
+        "alt": "Gənəgərçək yağı (100ml)"
+      },
+      {
+        "src": "/images/products/genegercek-yagi-250ml.jpg",
+        "alt": "Gənəgərçək yağı (250ml)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -2906,22 +2663,22 @@ export const PRODUCTS: Product[] = [
       "oils",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/genegercek-yagi-250ml-itemid-5ba88c6304323af0208fdc09",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-95",
-    "slug": "gunebaxan-tumu-kg",
-    "name": "Günəbaxan tumu kg",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Günəbaxan tumu kg - Yerli və şəffaf istehsalat.",
-    "description": "Günəbaxan tumu kg. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
+    "id": "prod-65",
+    "slug": "gunebaxan-tumu",
+    "name": "Günəbaxan tumu",
+    "categoryId": "wellness",
+    "shortDescription": "Günəbaxan tumu - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Günəbaxan tumu. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 4,
     "currency": "AZN",
+    "unitLabel": "kg",
     "sizes": [
       {
-        "id": "size-95",
-        "label": "1 ədəd",
+        "id": "size-95-1",
+        "label": "1 kg",
         "price": 4,
         "inStock": true,
         "verificationStatus": "verified",
@@ -2931,7 +2688,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/gunebaxan-tumu-kg.jpg",
-        "alt": "Günəbaxan tumu kg"
+        "alt": "Günəbaxan tumu (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -2939,33 +2696,61 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-96",
-    "slug": "gunebaxan-yagi",
-    "name": "Günəbaxan yağı",
+    "id": "prod-66",
+    "slug": "gunebaxan-yagi-1litr",
+    "name": "Günəbaxan yağı 1litr",
     "categoryId": "oils",
-    "shortDescription": "Günəbaxan yağı - Tərkibi: Günəbaxan toxumu",
-    "description": "Günəbaxan yağı. Qeyd / Tərkib: Günəbaxan toxumu",
+    "shortDescription": "Günəbaxan yağı 1litr - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Günəbaxan yağı 1litr. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 8,
     "currency": "AZN",
+    "unitLabel": "ədəd",
     "sizes": [
       {
-        "id": "size-96",
-        "label": "1litr",
+        "id": "size-96-1",
+        "label": "1 ədəd",
         "price": 8,
         "inStock": true,
         "verificationStatus": "verified",
         "imageSrc": "/images/products/gunebaxan-yagi-1litr.jpg"
-      },
+      }
+    ],
+    "images": [
       {
-        "id": "size-97",
-        "label": "2litr",
+        "src": "/images/products/gunebaxan-yagi-1litr.jpg",
+        "alt": "Günəbaxan yağı 1litr (1 ədəd)"
+      }
+    ],
+    "usage": "İstifadə və rasion üçün uyğundur.",
+    "storage": "Sərin və quru yerdə saxlayın.",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "oils",
+      "Oilganic"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "prod-67",
+    "slug": "gunebaxan-yagi-2litr",
+    "name": "Günəbaxan yağı 2litr",
+    "categoryId": "oils",
+    "shortDescription": "Günəbaxan yağı 2litr - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Günəbaxan yağı 2litr. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
+    "price": 15,
+    "currency": "AZN",
+    "unitLabel": "ədəd",
+    "sizes": [
+      {
+        "id": "size-97-1",
+        "label": "1 ədəd",
         "price": 15,
         "inStock": true,
         "verificationStatus": "verified",
@@ -2974,8 +2759,8 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "src": "/images/products/gunebaxan-yagi-1litr.jpg",
-        "alt": "Günəbaxan yağı"
+        "src": "/images/products/gunebaxan-yagi-2litr.jpg",
+        "alt": "Günəbaxan yağı 2litr (1 ədəd)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -2986,30 +2771,58 @@ export const PRODUCTS: Product[] = [
       "oils",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/gunebaxan-yagi-1litr-itemid-12228cfaa934fb1cc4ed118e",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-98",
-    "slug": "gunebaxan-yagi-suzulmus",
-    "name": "Günəbaxan yağı süzülmüş",
+    "id": "prod-68",
+    "slug": "gunebaxan-yagi-suzulmus-1-litr",
+    "name": "Günəbaxan yağı süzülmüş 1 litr",
     "categoryId": "oils",
-    "shortDescription": "Günəbaxan yağı süzülmüş - Tərkibi: Günəbaxan toxumu",
-    "description": "Günəbaxan yağı süzülmüş. Qeyd / Tərkib: Günəbaxan toxumu",
+    "shortDescription": "Günəbaxan yağı süzülmüş 1 litr - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Günəbaxan yağı süzülmüş 1 litr. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 10,
     "currency": "AZN",
+    "unitLabel": "ədəd",
     "sizes": [
       {
-        "id": "size-98",
-        "label": "1 litr",
+        "id": "size-98-1",
+        "label": "1 ədəd",
         "price": 10,
         "inStock": true,
         "verificationStatus": "verified",
         "imageSrc": "/images/products/gunebaxan-yagi-suzulmus-1-litr.jpg"
-      },
+      }
+    ],
+    "images": [
       {
-        "id": "size-99",
-        "label": "2litr",
+        "src": "/images/products/gunebaxan-yagi-suzulmus-1-litr.jpg",
+        "alt": "Günəbaxan yağı süzülmüş 1 litr (1 ədəd)"
+      }
+    ],
+    "usage": "İstifadə və rasion üçün uyğundur.",
+    "storage": "Sərin və quru yerdə saxlayın.",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "oils",
+      "Oilganic"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "prod-69",
+    "slug": "gunebaxan-yagi-suzulmus-2litr",
+    "name": "Günəbaxan yağı süzülmüş 2litr",
+    "categoryId": "oils",
+    "shortDescription": "Günəbaxan yağı süzülmüş 2litr - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Günəbaxan yağı süzülmüş 2litr. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
+    "price": 18,
+    "currency": "AZN",
+    "unitLabel": "ədəd",
+    "sizes": [
+      {
+        "id": "size-99-1",
+        "label": "1 ədəd",
         "price": 18,
         "inStock": true,
         "verificationStatus": "verified",
@@ -3018,8 +2831,8 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "src": "/images/products/gunebaxan-yagi-suzulmus-1-litr.jpg",
-        "alt": "Günəbaxan yağı süzülmüş"
+        "src": "/images/products/gunebaxan-yagi-suzulmus-2litr.jpg",
+        "alt": "Günəbaxan yağı süzülmüş 2litr (1 ədəd)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -3030,21 +2843,21 @@ export const PRODUCTS: Product[] = [
       "oils",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/gunebaxan-yagi-suzulmus-1-litr-itemid-e3fb0aad1b5905b6622ec6e2",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-100",
+    "id": "prod-70",
     "slug": "heyva-siresi",
     "name": "Heyva şirəsi",
-    "categoryId": "sweeteners",
-    "shortDescription": "Heyva şirəsi - Tərkibi: Heyva şirəsi",
-    "description": "Heyva şirəsi. Qeyd / Tərkib: Heyva şirəsi",
+    "categoryId": "beverages",
+    "shortDescription": "Heyva şirəsi - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Heyva şirəsi. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 3,
     "currency": "AZN",
+    "unitLabel": "ml",
     "sizes": [
       {
-        "id": "size-100",
+        "id": "size-100-1",
         "label": "500ml",
         "price": 3,
         "inStock": true,
@@ -3055,7 +2868,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/heyva-siresi-500ml.jpg",
-        "alt": "Heyva şirəsi"
+        "alt": "Heyva şirəsi (500ml)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -3063,24 +2876,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "sweeteners",
+      "beverages",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/heyva-siresi-500ml-itemid-2873d1cc9badcd2328dce01e",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-101",
+    "id": "prod-71",
     "slug": "himalay-duzu",
     "name": "Himalay duzu",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Himalay duzu - Tərkibi: Himalay duzu",
-    "description": "Himalay duzu. Qeyd / Tərkib: Himalay duzu",
+    "categoryId": "wellness",
+    "shortDescription": "Himalay duzu - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Himalay duzu. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 2,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-101",
+        "id": "size-101-1",
         "label": "100gr",
         "price": 2,
         "inStock": true,
@@ -3088,7 +2901,7 @@ export const PRODUCTS: Product[] = [
         "imageSrc": "/images/products/himalay-duzu-100gr.jpg"
       },
       {
-        "id": "size-102",
+        "id": "size-102-2",
         "label": "100gr",
         "price": 3,
         "inStock": true,
@@ -3099,7 +2912,11 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/himalay-duzu-100gr.jpg",
-        "alt": "Himalay duzu"
+        "alt": "Himalay duzu (100gr)"
+      },
+      {
+        "src": "/images/products/himalay-duzu-100gr-2.jpg",
+        "alt": "Himalay duzu (100gr)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -3107,25 +2924,25 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/himalay-duzu-100gr-itemid-3ebfc503f3015fc81b5c376c",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-103",
-    "slug": "himalay-duzu-butov-kg",
-    "name": "Himalay duzu bütöv kg",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Himalay duzu bütöv kg - Tərkibi: Himalay duzu",
-    "description": "Himalay duzu bütöv kg. Qeyd / Tərkib: Himalay duzu",
+    "id": "prod-72",
+    "slug": "himalay-duzu-butov",
+    "name": "Himalay duzu bütöv",
+    "categoryId": "wellness",
+    "shortDescription": "Himalay duzu bütöv - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Himalay duzu bütöv. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 7,
     "currency": "AZN",
+    "unitLabel": "kg",
     "sizes": [
       {
-        "id": "size-103",
-        "label": "1 ədəd",
+        "id": "size-103-1",
+        "label": "1 kg",
         "price": 7,
         "inStock": true,
         "verificationStatus": "verified",
@@ -3135,7 +2952,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/himalay-duzu-butov-kg.jpg",
-        "alt": "Himalay duzu bütöv kg"
+        "alt": "Himalay duzu bütöv (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -3143,25 +2960,25 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/himalay-duzu-100gr-itemid-3ebfc503f3015fc81b5c376c",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-104",
-    "slug": "himalay-duzu-uyudulmus-kg",
-    "name": "Himalay duzu üyüdülmüş kg",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Himalay duzu üyüdülmüş kg - Tərkibi: Himalay duzu",
-    "description": "Himalay duzu üyüdülmüş kg. Qeyd / Tərkib: Himalay duzu",
+    "id": "prod-73",
+    "slug": "himalay-duzu-uyudulmus",
+    "name": "Himalay duzu üyüdülmüş",
+    "categoryId": "wellness",
+    "shortDescription": "Himalay duzu üyüdülmüş - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Himalay duzu üyüdülmüş. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 10,
     "currency": "AZN",
+    "unitLabel": "kg",
     "sizes": [
       {
-        "id": "size-104",
-        "label": "1 ədəd",
+        "id": "size-104-1",
+        "label": "1 kg",
         "price": 10,
         "inStock": true,
         "verificationStatus": "verified",
@@ -3171,7 +2988,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/himalay-duzu-uyudulmus-kg.jpg",
-        "alt": "Himalay duzu üyüdülmüş kg"
+        "alt": "Himalay duzu üyüdülmüş (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -3179,24 +2996,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/himalay-duzu-100gr-itemid-3ebfc503f3015fc81b5c376c",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-105",
+    "id": "prod-74",
     "slug": "xurmaci-alovlu-mecun",
     "name": "Xurmaçı Alovlu məcun",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Xurmaçı Alovlu məcun - Yerli və şəffaf istehsalat.",
+    "categoryId": "mecunlar",
+    "shortDescription": "Xurmaçı Alovlu məcun - Təbii və keyfiyyətli Oilganic məhsulu.",
     "description": "Xurmaçı Alovlu məcun. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 19,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-105",
+        "id": "size-105-1",
         "label": "250gr",
         "price": 19,
         "inStock": true,
@@ -3207,7 +3024,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/xurmaci-alovlu-mecun-250gr.jpg",
-        "alt": "Xurmaçı Alovlu məcun"
+        "alt": "Xurmaçı Alovlu məcun (250gr)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -3215,24 +3032,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "mecunlar",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/xurmaci-alovlu-mecun-250gr-itemid-bb0fd0e0d48314c3b39b55ee",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-106",
+    "id": "prod-75",
     "slug": "xurmaci-balli-erikli-mecun",
     "name": "Xurmaçı Ballı ərikli məcun",
     "categoryId": "sweeteners",
-    "shortDescription": "Xurmaçı Ballı ərikli məcun - Yerli və şəffaf istehsalat.",
+    "shortDescription": "Xurmaçı Ballı ərikli məcun - Təbii və keyfiyyətli Oilganic məhsulu.",
     "description": "Xurmaçı Ballı ərikli məcun. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 18,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-106",
+        "id": "size-106-1",
         "label": "250gr",
         "price": 18,
         "inStock": true,
@@ -3243,7 +3060,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/xurmaci-balli-erikli-mecun-250gr.jpg",
-        "alt": "Xurmaçı Ballı ərikli məcun"
+        "alt": "Xurmaçı Ballı ərikli məcun (250gr)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -3254,21 +3071,21 @@ export const PRODUCTS: Product[] = [
       "sweeteners",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/xurmaci-balli-erikli-mecun-250gr-itemid-326ad60558d3f638d25e22d2",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-107",
+    "id": "prod-76",
     "slug": "xurmaci-fit-mecun",
     "name": "Xurmaçı Fit məcun",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Xurmaçı Fit məcun - Tərkibi: qara kişmiş , çiya toxumu, qoz, qoji beri, yaşıl çay , kətan toxumui, keçibuynuzu bəhməzi , darçın, zəncəfil, süzmə bal, aclıq otu",
-    "description": "Xurmaçı Fit məcun. Qeyd / Tərkib: qara kişmiş , çiya toxumu, qoz, qoji beri, yaşıl çay , kətan toxumui, keçibuynuzu bəhməzi , darçın, zəncəfil, süzmə bal, aclıq otu",
+    "categoryId": "mecunlar",
+    "shortDescription": "Xurmaçı Fit məcun - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Xurmaçı Fit məcun. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 17,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-107",
+        "id": "size-107-1",
         "label": "250gr",
         "price": 17,
         "inStock": true,
@@ -3279,7 +3096,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/xurmaci-fit-mecun-250gr.jpg",
-        "alt": "Xurmaçı Fit məcun"
+        "alt": "Xurmaçı Fit məcun (250gr)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -3287,24 +3104,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "mecunlar",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/xurmaci-fit-mecun-250gr-itemid-edc4deb7b1c59b1b2b3f150a",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-108",
+    "id": "prod-77",
     "slug": "xurmaci-xurma-mecunu",
     "name": "Xurmaçı Xurma məcunu",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Xurmaçı Xurma məcunu - Yerli və şəffaf istehsalat.",
+    "categoryId": "mecunlar",
+    "shortDescription": "Xurmaçı Xurma məcunu - Təbii və keyfiyyətli Oilganic məhsulu.",
     "description": "Xurmaçı Xurma məcunu. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 15,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-108",
+        "id": "size-108-1",
         "label": "250gr",
         "price": 15,
         "inStock": true,
@@ -3315,7 +3132,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/xurmaci-xurma-mecunu-250gr.jpg",
-        "alt": "Xurmaçı Xurma məcunu"
+        "alt": "Xurmaçı Xurma məcunu (250gr)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -3323,24 +3140,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "mecunlar",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/xurmaci-xurma-mecunu-250gr-itemid-4486f69cfae212a97142830b",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-109",
+    "id": "prod-78",
     "slug": "xurmaci-kids",
     "name": "Xurmaçı Kids",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Xurmaçı Kids - Yerli və şəffaf istehsalat.",
+    "categoryId": "wellness",
+    "shortDescription": "Xurmaçı Kids - Təbii və keyfiyyətli Oilganic məhsulu.",
     "description": "Xurmaçı Kids. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 15,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-109",
+        "id": "size-109-1",
         "label": "250gr",
         "price": 15,
         "inStock": true,
@@ -3351,7 +3168,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/xurmaci-kids-250gr.jpg",
-        "alt": "Xurmaçı Kids"
+        "alt": "Xurmaçı Kids (250gr)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -3359,24 +3176,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/xurmaci-kids-250gr-itemid-4b02642f120a0bc165128606",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-110",
+    "id": "prod-79",
     "slug": "xurmaci-pross-mecun",
     "name": "Xurmaçı pross məcun",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Xurmaçı pross məcun - Yerli və şəffaf istehsalat.",
+    "categoryId": "mecunlar",
+    "shortDescription": "Xurmaçı pross məcun - Təbii və keyfiyyətli Oilganic məhsulu.",
     "description": "Xurmaçı pross məcun. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 22,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-110",
+        "id": "size-110-1",
         "label": "350gr",
         "price": 22,
         "inStock": true,
@@ -3387,7 +3204,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/xurmaci-pross-mecun-350gr.jpg",
-        "alt": "Xurmaçı pross məcun"
+        "alt": "Xurmaçı pross məcun (350gr)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -3395,24 +3212,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "mecunlar",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/xurmaci-pross-mecun-350gr-itemid-79a1b1ee4d12cdbf940c04fa",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-111",
+    "id": "prod-80",
     "slug": "xurmaci-protein-bombasi",
     "name": "Xurmaçı Protein bombası",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Xurmaçı Protein bombası - Tərkibi: Xurma əzməsi. keçibuynuzu bəhməzi. qoz. çiya toxumu kakao",
-    "description": "Xurmaçı Protein bombası. Qeyd / Tərkib: Xurma əzməsi. keçibuynuzu bəhməzi. qoz. çiya toxumu kakao",
+    "categoryId": "wellness",
+    "shortDescription": "Xurmaçı Protein bombası - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Xurmaçı Protein bombası. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 18,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-111",
+        "id": "size-111-1",
         "label": "350gr",
         "price": 18,
         "inStock": true,
@@ -3423,7 +3240,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/xurmaci-protein-bombasi-350gr.jpg",
-        "alt": "Xurmaçı Protein bombası"
+        "alt": "Xurmaçı Protein bombası (350gr)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -3431,24 +3248,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/xurmaci-protein-bombasi-350gr-itemid-5a95ff340191ab211f5dbbd5",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-112",
+    "id": "prod-81",
     "slug": "xurmaci-testo-strong-mecun",
     "name": "Xurmaçı Testo Strong məcun",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Xurmaçı Testo Strong məcun - Tərkibi: badam xurma tozu jenşen zəncəfil darçın küncüt nanə hilba ud hindi çörək otu badyan qirmızı istiot mixək keşniş toxumu kofe hind qozu keçibuynuzu doşabı xurma doşabı cökə balı",
-    "description": "Xurmaçı Testo Strong məcun. Qeyd / Tərkib: badam xurma tozu jenşen zəncəfil darçın küncüt nanə hilba ud hindi çörək otu badyan qirmızı istiot mixək keşniş toxumu kofe hind qozu keçibuynuzu doşabı xurma doşabı cökə balı",
+    "categoryId": "mecunlar",
+    "shortDescription": "Xurmaçı Testo Strong məcun - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Xurmaçı Testo Strong məcun. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 25,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-112",
+        "id": "size-112-1",
         "label": "250gr",
         "price": 25,
         "inStock": true,
@@ -3459,7 +3276,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/xurmaci-testo-strong-mecun-250gr.jpg",
-        "alt": "Xurmaçı Testo Strong məcun"
+        "alt": "Xurmaçı Testo Strong məcun (250gr)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -3467,24 +3284,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "mecunlar",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/xurmaci-testo-strong-mecun-250gr-itemid-dc0b5d7578131ef81c9aa603",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-113",
+    "id": "prod-82",
     "slug": "iskin-koku-sirkesi",
     "name": "Işkın kökü sirkəsi",
-    "categoryId": "teas",
-    "shortDescription": "Işkın kökü sirkəsi - Tərkibi: Işkın kökü",
-    "description": "Işkın kökü sirkəsi. Qeyd / Tərkib: Işkın kökü",
+    "categoryId": "vinegars",
+    "shortDescription": "Işkın kökü sirkəsi - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Işkın kökü sirkəsi. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 12,
     "currency": "AZN",
+    "unitLabel": "ml",
     "sizes": [
       {
-        "id": "size-113",
+        "id": "size-113-1",
         "label": "500ml",
         "price": 12,
         "inStock": true,
@@ -3495,7 +3312,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/iskin-koku-sirkesi-500ml.jpg",
-        "alt": "Işkın kökü sirkəsi"
+        "alt": "Işkın kökü sirkəsi (500ml)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -3503,24 +3320,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "teas",
+      "vinegars",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/iskin-koku-sirkesi-500ml-itemid-a216f152850352a65b04ef89",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-114",
+    "id": "prod-83",
     "slug": "istiot-toz",
     "name": "İstiot toz",
-    "categoryId": "seeds_flours",
-    "shortDescription": "İstiot toz - Tərkibi: İstiot",
-    "description": "İstiot toz. Qeyd / Tərkib: İstiot",
+    "categoryId": "wellness",
+    "shortDescription": "İstiot toz - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "İstiot toz. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 3.5,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-114",
+        "id": "size-114-1",
         "label": "100gr",
         "price": 3.5,
         "inStock": true,
@@ -3531,7 +3348,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/istiot-toz-100gr.jpg",
-        "alt": "İstiot toz"
+        "alt": "İstiot toz (100gr)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -3539,61 +3356,33 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/istiot-toz-100gr-itemid-147ac4b3ae5bbb89435c282c",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-115",
+    "id": "prod-84",
     "slug": "istiot-yumru",
     "name": "İstiot yumru",
-    "categoryId": "seeds_flours",
-    "shortDescription": "İstiot yumru - Tərkibi: İstiot yumru",
-    "description": "İstiot yumru. Qeyd / Tərkib: İstiot yumru",
+    "categoryId": "wellness",
+    "shortDescription": "İstiot yumru - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "İstiot yumru. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 3,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-115",
+        "id": "size-115-1",
         "label": "100gr",
         "price": 3,
         "inStock": true,
         "verificationStatus": "verified",
         "imageSrc": "/images/products/istiot-yumru-100gr.jpg"
-      }
-    ],
-    "images": [
+      },
       {
-        "src": "/images/products/istiot-yumru-100gr.jpg",
-        "alt": "İstiot yumru"
-      }
-    ],
-    "usage": "İstifadə və rasion üçün uyğundur.",
-    "storage": "Sərin və quru yerdə saxlayın.",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "seeds_flours",
-      "Oilganic"
-    ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/istiot-yumru-100gr-itemid-38fb53fc966aa19833775879",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "prod-116",
-    "slug": "istiot-yumru-kg",
-    "name": "İstiot yumru kg",
-    "categoryId": "seeds_flours",
-    "shortDescription": "İstiot yumru kg - Tərkibi: İstiot",
-    "description": "İstiot yumru kg. Qeyd / Tərkib: İstiot",
-    "price": 25,
-    "currency": "AZN",
-    "sizes": [
-      {
-        "id": "size-116",
-        "label": "1 ədəd",
+        "id": "size-116-2",
+        "label": "1 kg",
         "price": 25,
         "inStock": true,
         "verificationStatus": "verified",
@@ -3602,8 +3391,12 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
+        "src": "/images/products/istiot-yumru-100gr.jpg",
+        "alt": "İstiot yumru (100gr)"
+      },
+      {
         "src": "/images/products/istiot-yumru-kg.jpg",
-        "alt": "İstiot yumru kg"
+        "alt": "İstiot yumru (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -3611,25 +3404,25 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/istiot-yumru-100gr-itemid-38fb53fc966aa19833775879",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-117",
-    "slug": "istiot-yumru-uyudulmus-kg",
-    "name": "İstiot yumru üyüdülmüş kg",
-    "categoryId": "seeds_flours",
-    "shortDescription": "İstiot yumru üyüdülmüş kg - Tərkibi: İstiot",
-    "description": "İstiot yumru üyüdülmüş kg. Qeyd / Tərkib: İstiot",
+    "id": "prod-85",
+    "slug": "istiot-yumru-uyudulmus",
+    "name": "İstiot yumru üyüdülmüş",
+    "categoryId": "wellness",
+    "shortDescription": "İstiot yumru üyüdülmüş - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "İstiot yumru üyüdülmüş. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 30,
     "currency": "AZN",
+    "unitLabel": "kg",
     "sizes": [
       {
-        "id": "size-117",
-        "label": "1 ədəd",
+        "id": "size-117-1",
+        "label": "1 kg",
         "price": 30,
         "inStock": true,
         "verificationStatus": "verified",
@@ -3639,7 +3432,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/istiot-yumru-uyudulmus-kg.jpg",
-        "alt": "İstiot yumru üyüdülmüş kg"
+        "alt": "İstiot yumru üyüdülmüş (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -3647,24 +3440,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/istiot-yumru-100gr-itemid-38fb53fc966aa19833775879",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-118",
+    "id": "prod-86",
     "slug": "itburnu",
     "name": "İtburnu",
-    "categoryId": "seeds_flours",
-    "shortDescription": "İtburnu - Tərkibi: İtburnu",
-    "description": "İtburnu. Qeyd / Tərkib: İtburnu",
+    "categoryId": "wellness",
+    "shortDescription": "İtburnu - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "İtburnu. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 2.5,
     "currency": "AZN",
+    "unitLabel": "ml",
     "sizes": [
       {
-        "id": "size-118",
+        "id": "size-118-1",
         "label": "500ml",
         "price": 2.5,
         "inStock": true,
@@ -3675,7 +3468,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/itburnu-500ml.jpg",
-        "alt": "İtburnu"
+        "alt": "İtburnu (500ml)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -3683,24 +3476,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/itburnu-500ml-itemid-3a167ff3d89d742511750181",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-119",
+    "id": "prod-87",
     "slug": "itburnu-dosabi",
     "name": "İtburnu doşabı",
-    "categoryId": "sweeteners",
-    "shortDescription": "İtburnu doşabı - Yerli və şəffaf istehsalat.",
+    "categoryId": "wellness",
+    "shortDescription": "İtburnu doşabı - Təbii və keyfiyyətli Oilganic məhsulu.",
     "description": "İtburnu doşabı. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 10,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-119",
+        "id": "size-119-1",
         "label": "500gr",
         "price": 10,
         "inStock": true,
@@ -3711,7 +3504,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/itburnu-dosabi-500gr.jpg",
-        "alt": "İtburnu doşabı"
+        "alt": "İtburnu doşabı (500gr)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -3719,25 +3512,25 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "sweeteners",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/itburnu-500ml-itemid-3a167ff3d89d742511750181",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-120",
-    "slug": "iyde-kg",
-    "name": "İydə kg",
-    "categoryId": "seeds_flours",
-    "shortDescription": "İydə kg - Tərkibi: İydə",
-    "description": "İydə kg. Qeyd / Tərkib: İydə",
+    "id": "prod-88",
+    "slug": "iyde",
+    "name": "İydə",
+    "categoryId": "wellness",
+    "shortDescription": "İydə - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "İydə. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 15,
     "currency": "AZN",
+    "unitLabel": "kg",
     "sizes": [
       {
-        "id": "size-120",
-        "label": "1 ədəd",
+        "id": "size-120-1",
+        "label": "1 kg",
         "price": 15,
         "inStock": true,
         "verificationStatus": "verified",
@@ -3747,7 +3540,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/iyde-kg.jpg",
-        "alt": "İydə kg"
+        "alt": "İydə (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -3755,61 +3548,33 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-121",
+    "id": "prod-89",
     "slug": "iyde-tozu",
     "name": "İydə tozu",
-    "categoryId": "seeds_flours",
-    "shortDescription": "İydə tozu - Tərkibi: İydə",
-    "description": "İydə tozu. Qeyd / Tərkib: İydə",
+    "categoryId": "wellness",
+    "shortDescription": "İydə tozu - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "İydə tozu. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 2.5,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-121",
+        "id": "size-121-1",
         "label": "100gr",
         "price": 2.5,
         "inStock": true,
         "verificationStatus": "verified",
         "imageSrc": "/images/products/iyde-tozu-100gr.jpg"
-      }
-    ],
-    "images": [
+      },
       {
-        "src": "/images/products/iyde-tozu-100gr.jpg",
-        "alt": "İydə tozu"
-      }
-    ],
-    "usage": "İstifadə və rasion üçün uyğundur.",
-    "storage": "Sərin və quru yerdə saxlayın.",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "seeds_flours",
-      "Oilganic"
-    ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/iyde-tozu-100gr-itemid-e13cd9bc91d1671f037d8db6",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "prod-122",
-    "slug": "iyde-tozu-kg",
-    "name": "İydə tozu kg",
-    "categoryId": "seeds_flours",
-    "shortDescription": "İydə tozu kg - Tərkibi: İydə",
-    "description": "İydə tozu kg. Qeyd / Tərkib: İydə",
-    "price": 20,
-    "currency": "AZN",
-    "sizes": [
-      {
-        "id": "size-122",
-        "label": "1 ədəd",
+        "id": "size-122-2",
+        "label": "1 kg",
         "price": 20,
         "inStock": true,
         "verificationStatus": "verified",
@@ -3818,8 +3583,12 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
+        "src": "/images/products/iyde-tozu-100gr.jpg",
+        "alt": "İydə tozu (100gr)"
+      },
+      {
         "src": "/images/products/iyde-tozu-kg.jpg",
-        "alt": "İydə tozu kg"
+        "alt": "İydə tozu (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -3827,24 +3596,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/iyde-tozu-100gr-itemid-e13cd9bc91d1671f037d8db6",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-123",
+    "id": "prod-90",
     "slug": "jensen-kapsul",
     "name": "Jenşen kapsul",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Jenşen kapsul - Tərkibi: Jenşen tozu",
-    "description": "Jenşen kapsul. Qeyd / Tərkib: Jenşen tozu",
+    "categoryId": "wellness",
+    "shortDescription": "Jenşen kapsul - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Jenşen kapsul. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 15,
     "currency": "AZN",
+    "unitLabel": "ədəd",
     "sizes": [
       {
-        "id": "size-123",
+        "id": "size-123-1",
         "label": "100 ədəd",
         "price": 15,
         "inStock": true,
@@ -3855,7 +3624,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/jensen-kapsul-100-eded.jpg",
-        "alt": "Jenşen kapsul"
+        "alt": "Jenşen kapsul (100 ədəd)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -3863,61 +3632,33 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/jensen-kapsul-100-eded-itemid-bcab3a5b10a9a16e8f070413",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-124",
+    "id": "prod-91",
     "slug": "jensen-koku",
     "name": "Jenşen kökü",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Jenşen kökü - Tərkibi: Jenşen",
-    "description": "Jenşen kökü. Qeyd / Tərkib: Jenşen",
+    "categoryId": "wellness",
+    "shortDescription": "Jenşen kökü - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Jenşen kökü. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 15,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-124",
+        "id": "size-124-1",
         "label": "25gr",
         "price": 15,
         "inStock": true,
         "verificationStatus": "verified",
         "imageSrc": "/images/products/jensen-koku-25gr.jpg"
-      }
-    ],
-    "images": [
+      },
       {
-        "src": "/images/products/jensen-koku-25gr.jpg",
-        "alt": "Jenşen kökü"
-      }
-    ],
-    "usage": "İstifadə və rasion üçün uyğundur.",
-    "storage": "Sərin və quru yerdə saxlayın.",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "seeds_flours",
-      "Oilganic"
-    ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/jensen-koku-25gr-itemid-66dc99e06df2bfcdddb9db88",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "prod-125",
-    "slug": "jensen-koku-kg",
-    "name": "Jenşen kökü kg",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Jenşen kökü kg - Tərkibi: Jenşen",
-    "description": "Jenşen kökü kg. Qeyd / Tərkib: Jenşen",
-    "price": 500,
-    "currency": "AZN",
-    "sizes": [
-      {
-        "id": "size-125",
-        "label": "1 ədəd",
+        "id": "size-125-2",
+        "label": "1 kg",
         "price": 500,
         "inStock": true,
         "verificationStatus": "verified",
@@ -3926,8 +3667,12 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
+        "src": "/images/products/jensen-koku-25gr.jpg",
+        "alt": "Jenşen kökü (25gr)"
+      },
+      {
         "src": "/images/products/jensen-koku-kg.jpg",
-        "alt": "Jenşen kökü kg"
+        "alt": "Jenşen kökü (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -3935,25 +3680,25 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-126",
-    "slug": "kakos-kg",
-    "name": "Kakos kg",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Kakos kg - Yerli və şəffaf istehsalat.",
-    "description": "Kakos kg. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
+    "id": "prod-92",
+    "slug": "kakos",
+    "name": "Kakos",
+    "categoryId": "wellness",
+    "shortDescription": "Kakos - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Kakos. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 10,
     "currency": "AZN",
+    "unitLabel": "kg",
     "sizes": [
       {
-        "id": "size-126",
-        "label": "1 ədəd",
+        "id": "size-126-1",
+        "label": "1 kg",
         "price": 10,
         "inStock": true,
         "verificationStatus": "verified",
@@ -3963,7 +3708,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/kakos-kg.jpg",
-        "alt": "Kakos kg"
+        "alt": "Kakos (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -3971,24 +3716,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-127",
+    "id": "prod-93",
     "slug": "kakos-yagi",
     "name": "Kakos yağı",
     "categoryId": "oils",
-    "shortDescription": "Kakos yağı - Tərkibi: Kakos",
-    "description": "Kakos yağı. Qeyd / Tərkib: Kakos",
+    "shortDescription": "Kakos yağı - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Kakos yağı. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 7,
     "currency": "AZN",
+    "unitLabel": "ml",
     "sizes": [
       {
-        "id": "size-127",
+        "id": "size-127-1",
         "label": "100ml",
         "price": 7,
         "inStock": true,
@@ -3996,7 +3741,7 @@ export const PRODUCTS: Product[] = [
         "imageSrc": "/images/products/kakos-yagi-100ml.jpg"
       },
       {
-        "id": "size-128",
+        "id": "size-128-2",
         "label": "250ml",
         "price": 14,
         "inStock": true,
@@ -4007,7 +3752,11 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/kakos-yagi-100ml.jpg",
-        "alt": "Kakos yağı"
+        "alt": "Kakos yağı (100ml)"
+      },
+      {
+        "src": "/images/products/kakos-yagi-250ml.jpg",
+        "alt": "Kakos yağı (250ml)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -4018,22 +3767,22 @@ export const PRODUCTS: Product[] = [
       "oils",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/kakos-yagi-250ml-itemid-d657c4560779a08dea17e8cc",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-129",
+    "id": "prod-94",
     "slug": "karabas-otu-suyu",
     "name": "Karabaş otu suyu",
-    "categoryId": "teas",
-    "shortDescription": "Karabaş otu suyu - Tərkibi: Qarabaş otu",
-    "description": "Karabaş otu suyu. Qeyd / Tərkib: Qarabaş otu",
+    "categoryId": "wellness",
+    "shortDescription": "Karabaş otu suyu - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Karabaş otu suyu. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 15,
     "currency": "AZN",
+    "unitLabel": "l",
     "sizes": [
       {
-        "id": "size-129",
-        "label": "1L",
+        "id": "size-129-1",
+        "label": "1l",
         "price": 15,
         "inStock": true,
         "verificationStatus": "verified",
@@ -4043,7 +3792,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/karabas-otu-suyu-1l.jpg",
-        "alt": "Karabaş otu suyu"
+        "alt": "Karabaş otu suyu (1l)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -4051,25 +3800,25 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "teas",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/karabas-otu-suyu-1l-itemid-611025c97a3812c301e07c71",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-130",
-    "slug": "kecibuynuzu-kg",
-    "name": "Keçibuynuzu kg",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Keçibuynuzu kg - Tərkibi: Keçibuynuzu",
-    "description": "Keçibuynuzu kg. Qeyd / Tərkib: Keçibuynuzu",
+    "id": "prod-95",
+    "slug": "kecibuynuzu",
+    "name": "Keçibuynuzu",
+    "categoryId": "wellness",
+    "shortDescription": "Keçibuynuzu - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Keçibuynuzu. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 16,
     "currency": "AZN",
+    "unitLabel": "kg",
     "sizes": [
       {
-        "id": "size-130",
-        "label": "1 ədəd",
+        "id": "size-130-1",
+        "label": "1 kg",
         "price": 16,
         "inStock": true,
         "verificationStatus": "verified",
@@ -4079,7 +3828,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/kecibuynuzu-kg.jpg",
-        "alt": "Keçibuynuzu kg"
+        "alt": "Keçibuynuzu (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -4087,24 +3836,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-131",
+    "id": "prod-96",
     "slug": "kecibuynuzu-ozu",
     "name": "Keçibuynuzu özü",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Keçibuynuzu özü - Tərkibi: Keçibuynuzu",
-    "description": "Keçibuynuzu özü. Qeyd / Tərkib: Keçibuynuzu",
+    "categoryId": "wellness",
+    "shortDescription": "Keçibuynuzu özü - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Keçibuynuzu özü. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 2,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-131",
+        "id": "size-131-1",
         "label": "100gr",
         "price": 2,
         "inStock": true,
@@ -4115,7 +3864,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/kecibuynuzu-ozu-100gr.jpg",
-        "alt": "Keçibuynuzu özü"
+        "alt": "Keçibuynuzu özü (100gr)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -4123,61 +3872,33 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/kecibuynuzu-ozu-100gr-itemid-2d6e78fb175a3a8fa154ac1d",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-132",
+    "id": "prod-97",
     "slug": "kecibuynuzu-tozu",
     "name": "Keçibuynuzu tozu",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Keçibuynuzu tozu - Tərkibi: Keçibuynuzu",
-    "description": "Keçibuynuzu tozu. Qeyd / Tərkib: Keçibuynuzu",
+    "categoryId": "wellness",
+    "shortDescription": "Keçibuynuzu tozu - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Keçibuynuzu tozu. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 6,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-132",
+        "id": "size-132-1",
         "label": "100gr",
         "price": 6,
         "inStock": true,
         "verificationStatus": "verified",
         "imageSrc": "/images/products/kecibuynuzu-tozu-100gr.jpg"
-      }
-    ],
-    "images": [
+      },
       {
-        "src": "/images/products/kecibuynuzu-tozu-100gr.jpg",
-        "alt": "Keçibuynuzu tozu"
-      }
-    ],
-    "usage": "İstifadə və rasion üçün uyğundur.",
-    "storage": "Sərin və quru yerdə saxlayın.",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "seeds_flours",
-      "Oilganic"
-    ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/kecibuynuzu-tozu-100gr-itemid-7a610dbdf8aa7e93693da2fe",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "prod-133",
-    "slug": "kecibuynuzu-tozu-kg",
-    "name": "Keçibuynuzu tozu kg",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Keçibuynuzu tozu kg - Tərkibi: Keçibuynuzu",
-    "description": "Keçibuynuzu tozu kg. Qeyd / Tərkib: Keçibuynuzu",
-    "price": 50,
-    "currency": "AZN",
-    "sizes": [
-      {
-        "id": "size-133",
-        "label": "1 ədəd",
+        "id": "size-133-2",
+        "label": "1 kg",
         "price": 50,
         "inStock": true,
         "verificationStatus": "verified",
@@ -4186,8 +3907,12 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
+        "src": "/images/products/kecibuynuzu-tozu-100gr.jpg",
+        "alt": "Keçibuynuzu tozu (100gr)"
+      },
+      {
         "src": "/images/products/kecibuynuzu-tozu-kg.jpg",
-        "alt": "Keçibuynuzu tozu kg"
+        "alt": "Keçibuynuzu tozu (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -4195,61 +3920,33 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/kecibuynuzu-tozu-100gr-itemid-7a610dbdf8aa7e93693da2fe",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-134",
+    "id": "prod-98",
     "slug": "ketan-toxumu",
     "name": "Kətan toxumu",
     "categoryId": "seeds_flours",
-    "shortDescription": "Kətan toxumu - Tərkibi: Kətan toxumu",
-    "description": "Kətan toxumu. Qeyd / Tərkib: Kətan toxumu",
+    "shortDescription": "Kətan toxumu - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Kətan toxumu. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 1,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-134",
+        "id": "size-134-1",
         "label": "100gr",
         "price": 1,
         "inStock": true,
         "verificationStatus": "verified",
         "imageSrc": "/images/products/ketan-toxumu-100gr.jpg"
-      }
-    ],
-    "images": [
+      },
       {
-        "src": "/images/products/ketan-toxumu-100gr.jpg",
-        "alt": "Kətan toxumu"
-      }
-    ],
-    "usage": "İstifadə və rasion üçün uyğundur.",
-    "storage": "Sərin və quru yerdə saxlayın.",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "seeds_flours",
-      "Oilganic"
-    ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/ketan-toxumu-100gr-itemid-cdfdfaf0f653e27dba0544dc",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "prod-135",
-    "slug": "ketan-toxumu-kg",
-    "name": "Kətan toxumu kg",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Kətan toxumu kg - Yerli və şəffaf istehsalat.",
-    "description": "Kətan toxumu kg. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
-    "price": 6,
-    "currency": "AZN",
-    "sizes": [
-      {
-        "id": "size-135",
-        "label": "1 ədəd",
+        "id": "size-135-2",
+        "label": "1 kg",
         "price": 6,
         "inStock": true,
         "verificationStatus": "verified",
@@ -4258,8 +3955,12 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
+        "src": "/images/products/ketan-toxumu-100gr.jpg",
+        "alt": "Kətan toxumu (100gr)"
+      },
+      {
         "src": "/images/products/ketan-toxumu-kg.jpg",
-        "alt": "Kətan toxumu kg"
+        "alt": "Kətan toxumu (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -4270,21 +3971,21 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/ketan-toxumu-100gr-itemid-cdfdfaf0f653e27dba0544dc",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-136",
+    "id": "prod-99",
     "slug": "ketan-toxumu-unu",
     "name": "Kətan toxumu unu",
     "categoryId": "seeds_flours",
-    "shortDescription": "Kətan toxumu unu - Tərkibi: kətan toxumu",
-    "description": "Kətan toxumu unu. Qeyd / Tərkib: kətan toxumu",
+    "shortDescription": "Kətan toxumu unu - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Kətan toxumu unu. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 2,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-136",
+        "id": "size-136-1",
         "label": "200gr",
         "price": 2,
         "inStock": true,
@@ -4295,7 +3996,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/ketan-toxumu-unu-200gr.jpg",
-        "alt": "Kətan toxumu unu"
+        "alt": "Kətan toxumu unu (200gr)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -4306,21 +4007,21 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/ketan-toxumu-unu-200gr-itemid-161b4edf9e321cc1780b6ef3",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-137",
+    "id": "prod-100",
     "slug": "ketan-yagi",
     "name": "Kətan yağı",
     "categoryId": "oils",
-    "shortDescription": "Kətan yağı - Tərkibi: Kətantoxumu",
-    "description": "Kətan yağı. Qeyd / Tərkib: Kətantoxumu",
+    "shortDescription": "Kətan yağı - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Kətan yağı. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 6,
     "currency": "AZN",
+    "unitLabel": "ml",
     "sizes": [
       {
-        "id": "size-137",
+        "id": "size-137-1",
         "label": "100ml",
         "price": 6,
         "inStock": true,
@@ -4328,7 +4029,7 @@ export const PRODUCTS: Product[] = [
         "imageSrc": "/images/products/ketan-yagi-100ml.jpg"
       },
       {
-        "id": "size-138",
+        "id": "size-138-2",
         "label": "250ml",
         "price": 12,
         "inStock": true,
@@ -4339,7 +4040,11 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/ketan-yagi-100ml.jpg",
-        "alt": "Kətan yağı"
+        "alt": "Kətan yağı (100ml)"
+      },
+      {
+        "src": "/images/products/ketan-yagi-250ml.jpg",
+        "alt": "Kətan yağı (250ml)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -4350,22 +4055,22 @@ export const PRODUCTS: Product[] = [
       "oils",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/ketan-yagi-250ml-itemid-707f95afb5e791a39a28ec66",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-139",
-    "slug": "kinoa-kg",
-    "name": "Kinoa kg",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Kinoa kg - Yerli və şəffaf istehsalat.",
-    "description": "Kinoa kg. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
+    "id": "prod-101",
+    "slug": "kinoa",
+    "name": "Kinoa",
+    "categoryId": "wellness",
+    "shortDescription": "Kinoa - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Kinoa. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 25,
     "currency": "AZN",
+    "unitLabel": "kg",
     "sizes": [
       {
-        "id": "size-139",
-        "label": "1 ədəd",
+        "id": "size-139-1",
+        "label": "1 kg",
         "price": 25,
         "inStock": true,
         "verificationStatus": "verified",
@@ -4375,7 +4080,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/kinoa-kg.jpg",
-        "alt": "Kinoa kg"
+        "alt": "Kinoa (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -4383,61 +4088,33 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/kinoa-kg-itemid-592bc85b3fc92a31981cc0b4",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-140",
+    "id": "prod-102",
     "slug": "kuncut-ag",
     "name": "Küncüt ağ",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Küncüt ağ - Tərkibi: Küncüt ağ",
-    "description": "Küncüt ağ. Qeyd / Tərkib: Küncüt ağ",
+    "categoryId": "wellness",
+    "shortDescription": "Küncüt ağ - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Küncüt ağ. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 1.5,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-140",
+        "id": "size-140-1",
         "label": "100gr",
         "price": 1.5,
         "inStock": true,
         "verificationStatus": "verified",
         "imageSrc": "/images/products/kuncut-ag-100gr.jpg"
-      }
-    ],
-    "images": [
+      },
       {
-        "src": "/images/products/kuncut-ag-100gr.jpg",
-        "alt": "Küncüt ağ"
-      }
-    ],
-    "usage": "İstifadə və rasion üçün uyğundur.",
-    "storage": "Sərin və quru yerdə saxlayın.",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "seeds_flours",
-      "Oilganic"
-    ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/kuncut-ag-100gr-itemid-697aa37fc78e56b64ceba004",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "prod-141",
-    "slug": "kuncut-ag-kg",
-    "name": "Küncüt ağ kg",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Küncüt ağ kg - Yerli və şəffaf istehsalat.",
-    "description": "Küncüt ağ kg. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
-    "price": 10,
-    "currency": "AZN",
-    "sizes": [
-      {
-        "id": "size-141",
-        "label": "1 ədəd",
+        "id": "size-141-2",
+        "label": "1 kg",
         "price": 10,
         "inStock": true,
         "verificationStatus": "verified",
@@ -4446,8 +4123,12 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
+        "src": "/images/products/kuncut-ag-100gr.jpg",
+        "alt": "Küncüt ağ (100gr)"
+      },
+      {
         "src": "/images/products/kuncut-ag-kg.jpg",
-        "alt": "Küncüt ağ kg"
+        "alt": "Küncüt ağ (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -4455,61 +4136,33 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/kuncut-ag-100gr-itemid-697aa37fc78e56b64ceba004",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-142",
+    "id": "prod-103",
     "slug": "kuncut-qara",
     "name": "Küncüt qara",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Küncüt qara - Tərkibi: Küncüt qara",
-    "description": "Küncüt qara. Qeyd / Tərkib: Küncüt qara",
+    "categoryId": "wellness",
+    "shortDescription": "Küncüt qara - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Küncüt qara. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 2,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-142",
+        "id": "size-142-1",
         "label": "100gr",
         "price": 2,
         "inStock": true,
         "verificationStatus": "verified",
         "imageSrc": "/images/products/kuncut-qara-100gr.jpg"
-      }
-    ],
-    "images": [
+      },
       {
-        "src": "/images/products/kuncut-qara-100gr.jpg",
-        "alt": "Küncüt qara"
-      }
-    ],
-    "usage": "İstifadə və rasion üçün uyğundur.",
-    "storage": "Sərin və quru yerdə saxlayın.",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "seeds_flours",
-      "Oilganic"
-    ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/kuncut-qara-100gr-itemid-942d72c0b20d2ef7d4265494",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "prod-143",
-    "slug": "kuncut-qara-kg",
-    "name": "Küncüt qara kg",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Küncüt qara kg - Yerli və şəffaf istehsalat.",
-    "description": "Küncüt qara kg. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
-    "price": 12,
-    "currency": "AZN",
-    "sizes": [
-      {
-        "id": "size-143",
-        "label": "1 ədəd",
+        "id": "size-143-2",
+        "label": "1 kg",
         "price": 12,
         "inStock": true,
         "verificationStatus": "verified",
@@ -4518,8 +4171,12 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
+        "src": "/images/products/kuncut-qara-100gr.jpg",
+        "alt": "Küncüt qara (100gr)"
+      },
+      {
         "src": "/images/products/kuncut-qara-kg.jpg",
-        "alt": "Küncüt qara kg"
+        "alt": "Küncüt qara (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -4527,24 +4184,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/kuncut-qara-100gr-itemid-942d72c0b20d2ef7d4265494",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-144",
+    "id": "prod-104",
     "slug": "kuncut-yagi",
     "name": "Küncüt yağı",
     "categoryId": "oils",
-    "shortDescription": "Küncüt yağı - Tərkibi: Küncüt toxumu",
-    "description": "Küncüt yağı. Qeyd / Tərkib: Küncüt toxumu",
+    "shortDescription": "Küncüt yağı - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Küncüt yağı. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 7,
     "currency": "AZN",
+    "unitLabel": "ml",
     "sizes": [
       {
-        "id": "size-144",
+        "id": "size-144-1",
         "label": "100ml",
         "price": 7,
         "inStock": true,
@@ -4552,7 +4209,7 @@ export const PRODUCTS: Product[] = [
         "imageSrc": "/images/products/kuncut-yagi-100ml.jpg"
       },
       {
-        "id": "size-145",
+        "id": "size-145-2",
         "label": "250ml",
         "price": 14,
         "inStock": true,
@@ -4563,7 +4220,11 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/kuncut-yagi-100ml.jpg",
-        "alt": "Küncüt yağı"
+        "alt": "Küncüt yağı (100ml)"
+      },
+      {
+        "src": "/images/products/kuncut-yagi-250ml.jpg",
+        "alt": "Küncüt yağı (250ml)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -4574,58 +4235,30 @@ export const PRODUCTS: Product[] = [
       "oils",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/kuncut-yagi-250ml-itemid-191b25fa761f62f72aec4adc",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-146",
+    "id": "prod-105",
     "slug": "qara-halile",
     "name": "Qara halilə",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Qara halilə - Tərkibi: Qara halilə",
-    "description": "Qara halilə. Qeyd / Tərkib: Qara halilə",
+    "categoryId": "wellness",
+    "shortDescription": "Qara halilə - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Qara halilə. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 10,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-146",
+        "id": "size-146-1",
         "label": "100gr",
         "price": 10,
         "inStock": true,
         "verificationStatus": "verified",
         "imageSrc": "/images/products/qara-halile-100gr.jpg"
-      }
-    ],
-    "images": [
+      },
       {
-        "src": "/images/products/qara-halile-100gr.jpg",
-        "alt": "Qara halilə"
-      }
-    ],
-    "usage": "İstifadə və rasion üçün uyğundur.",
-    "storage": "Sərin və quru yerdə saxlayın.",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "seeds_flours",
-      "Oilganic"
-    ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/qara-halile-100gr-itemid-8bd7d579691cb3fb3189c831",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "prod-147",
-    "slug": "qara-halile-kg",
-    "name": "Qara halilə kg",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Qara halilə kg - Yerli və şəffaf istehsalat.",
-    "description": "Qara halilə kg. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
-    "price": 80,
-    "currency": "AZN",
-    "sizes": [
-      {
-        "id": "size-147",
-        "label": "1 ədəd",
+        "id": "size-147-2",
+        "label": "1 kg",
         "price": 80,
         "inStock": true,
         "verificationStatus": "verified",
@@ -4634,8 +4267,12 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
+        "src": "/images/products/qara-halile-100gr.jpg",
+        "alt": "Qara halilə (100gr)"
+      },
+      {
         "src": "/images/products/qara-halile-kg.jpg",
-        "alt": "Qara halilə kg"
+        "alt": "Qara halilə (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -4643,24 +4280,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/qara-halile-100gr-itemid-8bd7d579691cb3fb3189c831",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-148",
+    "id": "prod-106",
     "slug": "qara-kuncut-ezmesi",
     "name": "Qara küncüt əzməsi",
     "categoryId": "pastes",
-    "shortDescription": "Qara küncüt əzməsi - Tərkibi: Qara küncüt",
-    "description": "Qara küncüt əzməsi. Qeyd / Tərkib: Qara küncüt",
+    "shortDescription": "Qara küncüt əzməsi - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Qara küncüt əzməsi. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 6,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-148",
+        "id": "size-148-1",
         "label": "200gr",
         "price": 6,
         "inStock": true,
@@ -4668,7 +4305,7 @@ export const PRODUCTS: Product[] = [
         "imageSrc": "/images/products/qara-kuncut-ezmesi-200gr.jpg"
       },
       {
-        "id": "size-149",
+        "id": "size-149-2",
         "label": "500gr",
         "price": 12,
         "inStock": true,
@@ -4679,7 +4316,11 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/qara-kuncut-ezmesi-200gr.jpg",
-        "alt": "Qara küncüt əzməsi"
+        "alt": "Qara küncüt əzməsi (200gr)"
+      },
+      {
+        "src": "/images/products/qara-kuncut-ezmesi-500gr.jpg",
+        "alt": "Qara küncüt əzməsi (500gr)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -4690,21 +4331,21 @@ export const PRODUCTS: Product[] = [
       "pastes",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/qara-kuncut-ezmesi-500gr-itemid-25ad43c7aa7d0fa8c0397b56",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-150",
+    "id": "prod-107",
     "slug": "qara-qaragat-siresi",
     "name": "Qara qarağat şirəsi",
-    "categoryId": "sweeteners",
-    "shortDescription": "Qara qarağat şirəsi - Tərkibi: Qara qarağat şirəsi",
-    "description": "Qara qarağat şirəsi. Qeyd / Tərkib: Qara qarağat şirəsi",
+    "categoryId": "beverages",
+    "shortDescription": "Qara qarağat şirəsi - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Qara qarağat şirəsi. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 5,
     "currency": "AZN",
+    "unitLabel": "ml",
     "sizes": [
       {
-        "id": "size-150",
+        "id": "size-150-1",
         "label": "500ml",
         "price": 5,
         "inStock": true,
@@ -4715,7 +4356,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/qara-qaragat-siresi-500ml.jpg",
-        "alt": "Qara qarağat şirəsi"
+        "alt": "Qara qarağat şirəsi (500ml)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -4723,24 +4364,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "sweeteners",
+      "beverages",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/qara-qaragat-siresi-500ml-itemid-24a1f6536c13f11547c08b66",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-151",
+    "id": "prod-108",
     "slug": "qaraciyer-sirkesi",
     "name": "Qaraciyər Sirkəsi",
-    "categoryId": "teas",
-    "shortDescription": "Qaraciyər Sirkəsi - Tərkibi: Ənginar sapı, ənginar yarpağı, alaqanqal toxumu, zəncir otu, qarabaş otu",
-    "description": "Qaraciyər Sirkəsi. Qeyd / Tərkib: Ənginar sapı, ənginar yarpağı, alaqanqal toxumu, zəncir otu, qarabaş otu",
+    "categoryId": "vinegars",
+    "shortDescription": "Qaraciyər Sirkəsi - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Qaraciyər Sirkəsi. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 12,
     "currency": "AZN",
+    "unitLabel": "ml",
     "sizes": [
       {
-        "id": "size-151",
+        "id": "size-151-1",
         "label": "500ml",
         "price": 12,
         "inStock": true,
@@ -4751,7 +4392,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/qaraciyer-sirkesi-500ml.jpg",
-        "alt": "Qaraciyər Sirkəsi"
+        "alt": "Qaraciyər Sirkəsi (500ml)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -4759,24 +4400,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "teas",
+      "vinegars",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/qaraciyer-sirkesi-500ml-itemid-d4d14f27cfb4718980f0f59b",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-152",
+    "id": "prod-109",
     "slug": "qarazire-corekotu-toxumu-hebesistan",
     "name": "Qarazirə (çörəkotu) toxumu Həbəşistan",
-    "categoryId": "teas",
-    "shortDescription": "Qarazirə (çörəkotu) toxumu Həbəşistan - Yerli və şəffaf istehsalat.",
+    "categoryId": "seeds_flours",
+    "shortDescription": "Qarazirə (çörəkotu) toxumu Həbəşistan - Təbii və keyfiyyətli Oilganic məhsulu.",
     "description": "Qarazirə (çörəkotu) toxumu Həbəşistan. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 30,
     "currency": "AZN",
+    "unitLabel": "ədəd",
     "sizes": [
       {
-        "id": "size-152",
+        "id": "size-152-1",
         "label": "1 ədəd",
         "price": 30,
         "inStock": true,
@@ -4787,7 +4428,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/qarazire-corekotu-toxumu-hebesistan.jpg",
-        "alt": "Qarazirə (çörəkotu) toxumu Həbəşistan"
+        "alt": "Qarazirə (çörəkotu) toxumu Həbəşistan (1 ədəd)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -4795,24 +4436,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "teas",
+      "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-153",
+    "id": "prod-110",
     "slug": "qarazire-corekotu-toxumu-hindistan",
     "name": "Qarazirə (çörəkotu) toxumu Hindistan",
-    "categoryId": "teas",
-    "shortDescription": "Qarazirə (çörəkotu) toxumu Hindistan - Yerli və şəffaf istehsalat.",
+    "categoryId": "seeds_flours",
+    "shortDescription": "Qarazirə (çörəkotu) toxumu Hindistan - Təbii və keyfiyyətli Oilganic məhsulu.",
     "description": "Qarazirə (çörəkotu) toxumu Hindistan. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 12,
     "currency": "AZN",
+    "unitLabel": "ədəd",
     "sizes": [
       {
-        "id": "size-153",
+        "id": "size-153-1",
         "label": "1 ədəd",
         "price": 12,
         "inStock": true,
@@ -4823,7 +4464,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/qarazire-corekotu-toxumu-hindistan.jpg",
-        "alt": "Qarazirə (çörəkotu) toxumu Hindistan"
+        "alt": "Qarazirə (çörəkotu) toxumu Hindistan (1 ədəd)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -4831,24 +4472,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "teas",
+      "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-154",
+    "id": "prod-111",
     "slug": "qarazire-toxumu-suriya",
     "name": "Qarazirə toxumu Suriya",
     "categoryId": "seeds_flours",
-    "shortDescription": "Qarazirə toxumu Suriya - Yerli və şəffaf istehsalat.",
+    "shortDescription": "Qarazirə toxumu Suriya - Təbii və keyfiyyətli Oilganic məhsulu.",
     "description": "Qarazirə toxumu Suriya. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 15,
     "currency": "AZN",
+    "unitLabel": "ədəd",
     "sizes": [
       {
-        "id": "size-154",
+        "id": "size-154-1",
         "label": "1 ədəd",
         "price": 15,
         "inStock": true,
@@ -4859,7 +4500,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/qarazire-toxumu-suriya.jpg",
-        "alt": "Qarazirə toxumu Suriya"
+        "alt": "Qarazirə toxumu Suriya (1 ədəd)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -4870,21 +4511,21 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-155",
+    "id": "prod-112",
     "slug": "qarazire-toxumu-unu",
     "name": "Qarazirə toxumu unu",
     "categoryId": "seeds_flours",
-    "shortDescription": "Qarazirə toxumu unu - Tərkibi: Qarazirə toxumu",
-    "description": "Qarazirə toxumu unu. Qeyd / Tərkib: Qarazirə toxumu",
+    "shortDescription": "Qarazirə toxumu unu - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Qarazirə toxumu unu. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 2,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-155",
+        "id": "size-155-1",
         "label": "200gr",
         "price": 2,
         "inStock": true,
@@ -4895,7 +4536,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/qarazire-toxumu-unu-200gr.jpg",
-        "alt": "Qarazirə toxumu unu"
+        "alt": "Qarazirə toxumu unu (200gr)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -4906,21 +4547,21 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/qarazire-toxumu-unu-200gr-itemid-3e896f9960110944ab1920d9",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-156",
+    "id": "prod-113",
     "slug": "qarazire-yagi-hindistan-toxumu",
     "name": "Qarazirə yağı Hindistan toxumu",
     "categoryId": "oils",
-    "shortDescription": "Qarazirə yağı Hindistan toxumu - Tərkibi: Qarazirə Hindistan toxumu",
-    "description": "Qarazirə yağı Hindistan toxumu. Qeyd / Tərkib: Qarazirə Hindistan toxumu",
+    "shortDescription": "Qarazirə yağı Hindistan toxumu - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Qarazirə yağı Hindistan toxumu. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 8,
     "currency": "AZN",
+    "unitLabel": "ml",
     "sizes": [
       {
-        "id": "size-156",
+        "id": "size-156-1",
         "label": "100ml",
         "price": 8,
         "inStock": true,
@@ -4928,7 +4569,7 @@ export const PRODUCTS: Product[] = [
         "imageSrc": "/images/products/qarazire-yagi-100ml-hindistan-toxumu.jpg"
       },
       {
-        "id": "size-158",
+        "id": "size-158-2",
         "label": "250ml",
         "price": 18,
         "inStock": true,
@@ -4939,7 +4580,11 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/qarazire-yagi-100ml-hindistan-toxumu.jpg",
-        "alt": "Qarazirə yağı Hindistan toxumu"
+        "alt": "Qarazirə yağı Hindistan toxumu (100ml)"
+      },
+      {
+        "src": "/images/products/qarazire-yagi-250ml-hindistan-toxumu.jpg",
+        "alt": "Qarazirə yağı Hindistan toxumu (250ml)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -4950,21 +4595,21 @@ export const PRODUCTS: Product[] = [
       "oils",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-157",
+    "id": "prod-114",
     "slug": "qarazire-yagi-suriya-toxumundan",
     "name": "Qarazirə yağı Suriya toxumundan",
     "categoryId": "oils",
-    "shortDescription": "Qarazirə yağı Suriya toxumundan - Tərkibi: Qarazirə Suriya toxumu",
-    "description": "Qarazirə yağı Suriya toxumundan. Qeyd / Tərkib: Qarazirə Suriya toxumu",
+    "shortDescription": "Qarazirə yağı Suriya toxumundan - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Qarazirə yağı Suriya toxumundan. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 10,
     "currency": "AZN",
+    "unitLabel": "ml",
     "sizes": [
       {
-        "id": "size-157",
+        "id": "size-157-1",
         "label": "100ml",
         "price": 10,
         "inStock": true,
@@ -4975,7 +4620,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/qarazire-yagi-100ml-suriya-toxumundan.jpg",
-        "alt": "Qarazirə yağı Suriya toxumundan"
+        "alt": "Qarazirə yağı Suriya toxumundan (100ml)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -4986,21 +4631,21 @@ export const PRODUCTS: Product[] = [
       "oils",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-159",
+    "id": "prod-115",
     "slug": "qarazire-yagi-suriya-toxumu",
     "name": "Qarazirə yağı Suriya toxumu",
     "categoryId": "oils",
-    "shortDescription": "Qarazirə yağı Suriya toxumu - Tərkibi: Qarazirə Suriya toxumu",
-    "description": "Qarazirə yağı Suriya toxumu. Qeyd / Tərkib: Qarazirə Suriya toxumu",
+    "shortDescription": "Qarazirə yağı Suriya toxumu - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Qarazirə yağı Suriya toxumu. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 23,
     "currency": "AZN",
+    "unitLabel": "ml",
     "sizes": [
       {
-        "id": "size-159",
+        "id": "size-159-1",
         "label": "250ml",
         "price": 23,
         "inStock": true,
@@ -5011,7 +4656,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/qarazire-yagi-250ml-suriya-toxumu.jpg",
-        "alt": "Qarazirə yağı Suriya toxumu"
+        "alt": "Qarazirə yağı Suriya toxumu (250ml)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -5022,21 +4667,21 @@ export const PRODUCTS: Product[] = [
       "oils",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-160",
+    "id": "prod-116",
     "slug": "qarazire-yagi-hebesistan",
     "name": "Qarazirə yağı Həbəşistan",
     "categoryId": "oils",
-    "shortDescription": "Qarazirə yağı Həbəşistan - Tərkibi: Qarazirə Həbəşistan toxumu",
-    "description": "Qarazirə yağı Həbəşistan. Qeyd / Tərkib: Qarazirə Həbəşistan toxumu",
+    "shortDescription": "Qarazirə yağı Həbəşistan - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Qarazirə yağı Həbəşistan. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 15,
     "currency": "AZN",
+    "unitLabel": "ml",
     "sizes": [
       {
-        "id": "size-160",
+        "id": "size-160-1",
         "label": "100ml",
         "price": 15,
         "inStock": true,
@@ -5044,7 +4689,7 @@ export const PRODUCTS: Product[] = [
         "imageSrc": "/images/products/qarazire-yagi-hebesistan-100ml.jpg"
       },
       {
-        "id": "size-161",
+        "id": "size-161-2",
         "label": "250ml",
         "price": 35,
         "inStock": true,
@@ -5055,7 +4700,11 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/qarazire-yagi-hebesistan-100ml.jpg",
-        "alt": "Qarazirə yağı Həbəşistan"
+        "alt": "Qarazirə yağı Həbəşistan (100ml)"
+      },
+      {
+        "src": "/images/products/qarazire-yagi-hebesistan-250ml.jpg",
+        "alt": "Qarazirə yağı Həbəşistan (250ml)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -5066,21 +4715,21 @@ export const PRODUCTS: Product[] = [
       "oils",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/qarazire-yagi-hebesistan-250ml-itemid-47466500a15b2fcebac69927",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-162",
-    "slug": "qarazire-corekotu-toxumu-hebesistan",
+    "id": "prod-117",
+    "slug": "qarazirecorekotutoxumu-hebesistan",
     "name": "Qarazirə(Çörəkotu)toxumu Həbəşistan",
-    "categoryId": "teas",
-    "shortDescription": "Qarazirə(Çörəkotu)toxumu Həbəşistan - Tərkibi: Qarazirə(Çörəkotu)toxumu",
-    "description": "Qarazirə(Çörəkotu)toxumu Həbəşistan. Qeyd / Tərkib: Qarazirə(Çörəkotu)toxumu",
+    "categoryId": "seeds_flours",
+    "shortDescription": "Qarazirə(Çörəkotu)toxumu Həbəşistan - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Qarazirə(Çörəkotu)toxumu Həbəşistan. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 3,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-162",
+        "id": "size-162-1",
         "label": "100gr",
         "price": 3,
         "inStock": true,
@@ -5091,7 +4740,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/qarazire-corekotu-toxumu-hebesistan-100gr.jpg",
-        "alt": "Qarazirə(Çörəkotu)toxumu Həbəşistan"
+        "alt": "Qarazirə(Çörəkotu)toxumu Həbəşistan (100gr)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -5099,24 +4748,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "teas",
+      "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/qarazire-corekotu-toxumu-hebesistan-100gr-itemid-7e2fea17cd369016799956d3",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-163",
-    "slug": "qarazire-corekotu-toxumu-hindistan",
+    "id": "prod-118",
+    "slug": "qarazirecorekotutoxumu-hindistan",
     "name": "Qarazirə(Çörəkotu)toxumu Hindistan",
-    "categoryId": "teas",
-    "shortDescription": "Qarazirə(Çörəkotu)toxumu Hindistan - Tərkibi: Qarazirə(Çörəkotu)toxumu",
-    "description": "Qarazirə(Çörəkotu)toxumu Hindistan. Qeyd / Tərkib: Qarazirə(Çörəkotu)toxumu",
+    "categoryId": "seeds_flours",
+    "shortDescription": "Qarazirə(Çörəkotu)toxumu Hindistan - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Qarazirə(Çörəkotu)toxumu Hindistan. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 1.5,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-163",
+        "id": "size-163-1",
         "label": "100gr",
         "price": 1.5,
         "inStock": true,
@@ -5127,7 +4776,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/qarazire-corekotu-toxumu-hindistan-100gr.jpg",
-        "alt": "Qarazirə(Çörəkotu)toxumu Hindistan"
+        "alt": "Qarazirə(Çörəkotu)toxumu Hindistan (100gr)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -5135,24 +4784,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "teas",
+      "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/qarazire-corekotu-toxumu-hindistan-100gr-itemid-3de9c3c9d624b54f4746b80b",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-164",
-    "slug": "qarazire-corekotu-toxumu-suriya",
+    "id": "prod-119",
+    "slug": "qarazirecorekotutoxumu-suriya",
     "name": "Qarazirə(Çörəkotu)toxumu Suriya",
-    "categoryId": "teas",
-    "shortDescription": "Qarazirə(Çörəkotu)toxumu Suriya - Tərkibi: Qarazirə toxumu",
-    "description": "Qarazirə(Çörəkotu)toxumu Suriya. Qeyd / Tərkib: Qarazirə toxumu",
+    "categoryId": "seeds_flours",
+    "shortDescription": "Qarazirə(Çörəkotu)toxumu Suriya - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Qarazirə(Çörəkotu)toxumu Suriya. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 2,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-164",
+        "id": "size-164-1",
         "label": "100gr",
         "price": 2,
         "inStock": true,
@@ -5163,43 +4812,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/qarazire-corekotu-toxumu-suriya-100gr.jpg",
-        "alt": "Qarazirə(Çörəkotu)toxumu Suriya"
-      }
-    ],
-    "usage": "İstifadə və rasion üçün uyğundur.",
-    "storage": "Sərin və quru yerdə saxlayın.",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "teas",
-      "Oilganic"
-    ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/qarazire-corekotu-toxumu-suriya-100gr-itemid-d0f3172796bacd0b5e25b4ea",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "prod-165",
-    "slug": "qarisiq-cerez-kg",
-    "name": "Qarışıq çərəz kg",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Qarışıq çərəz kg - Yerli və şəffaf istehsalat.",
-    "description": "Qarışıq çərəz kg. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
-    "price": 20,
-    "currency": "AZN",
-    "sizes": [
-      {
-        "id": "size-165",
-        "label": "1 ədəd",
-        "price": 20,
-        "inStock": true,
-        "verificationStatus": "verified",
-        "imageSrc": "/images/products/qarisiq-cerez-kg.jpg"
-      }
-    ],
-    "images": [
-      {
-        "src": "/images/products/qarisiq-cerez-kg.jpg",
-        "alt": "Qarışıq çərəz kg"
+        "alt": "Qarazirə(Çörəkotu)toxumu Suriya (100gr)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -5210,40 +4823,68 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-166",
-    "slug": "qarisiq-ezme",
-    "name": "Qarışıq əzmə",
-    "categoryId": "pastes",
-    "shortDescription": "Qarışıq əzmə - Tərkibi: Qoz, findiq, badam, ağ küncüt, qara küncüt , araxis, balqabaq tumu",
-    "description": "Qarışıq əzmə. Qeyd / Tərkib: Qoz, findiq, badam, ağ küncüt, qara küncüt , araxis, balqabaq tumu",
-    "price": 10,
+    "id": "prod-120",
+    "slug": "qarisiq-cerez",
+    "name": "Qarışıq çərəz",
+    "categoryId": "seeds_flours",
+    "shortDescription": "Qarışıq çərəz - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Qarışıq çərəz. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
+    "price": 20,
     "currency": "AZN",
+    "unitLabel": "kg",
     "sizes": [
       {
-        "id": "size-166",
-        "label": "0.2kg",
+        "id": "size-165-1",
+        "label": "1 kg",
+        "price": 20,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/qarisiq-cerez-kg.jpg"
+      }
+    ],
+    "images": [
+      {
+        "src": "/images/products/qarisiq-cerez-kg.jpg",
+        "alt": "Qarışıq çərəz (1 kg)"
+      }
+    ],
+    "usage": "İstifadə və rasion üçün uyğundur.",
+    "storage": "Sərin və quru yerdə saxlayın.",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "seeds_flours",
+      "Oilganic"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "prod-121",
+    "slug": "qarisiq-ezme-02kg",
+    "name": "Qarışıq əzmə 0.2kg",
+    "categoryId": "pastes",
+    "shortDescription": "Qarışıq əzmə 0.2kg - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Qarışıq əzmə 0.2kg. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
+    "price": 10,
+    "currency": "AZN",
+    "unitLabel": "ədəd",
+    "sizes": [
+      {
+        "id": "size-166-1",
+        "label": "1 ədəd",
         "price": 10,
         "inStock": true,
         "verificationStatus": "verified",
         "imageSrc": "/images/products/qarisiq-ezme-0-2kg.jpg"
-      },
-      {
-        "id": "size-167",
-        "label": "500gr",
-        "price": 20,
-        "inStock": true,
-        "verificationStatus": "verified",
-        "imageSrc": "/images/products/qarisiq-ezme-500gr.jpg"
       }
     ],
     "images": [
       {
         "src": "/images/products/qarisiq-ezme-0-2kg.jpg",
-        "alt": "Qarışıq əzmə"
+        "alt": "Qarışıq əzmə 0.2kg (1 ədəd)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -5254,32 +4895,32 @@ export const PRODUCTS: Product[] = [
       "pastes",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/qarisiq-ezme-500gr-itemid-27c783f7b40aa3bf71e1c41f",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-168",
-    "slug": "qehve-denesi",
-    "name": "Qəhvə dənəsi",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Qəhvə dənəsi - Tərkibi: Qəhvə",
-    "description": "Qəhvə dənəsi. Qeyd / Tərkib: Qəhvə",
-    "price": 6,
+    "id": "prod-122",
+    "slug": "qarisiq-ezme",
+    "name": "Qarışıq əzmə",
+    "categoryId": "pastes",
+    "shortDescription": "Qarışıq əzmə - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Qarışıq əzmə. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
+    "price": 20,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-168",
-        "label": "100gr",
-        "price": 6,
+        "id": "size-167-1",
+        "label": "500gr",
+        "price": 20,
         "inStock": true,
         "verificationStatus": "verified",
-        "imageSrc": "/images/products/qehve-denesi-100gr.jpg"
+        "imageSrc": "/images/products/qarisiq-ezme-500gr.jpg"
       }
     ],
     "images": [
       {
-        "src": "/images/products/qehve-denesi-100gr.jpg",
-        "alt": "Qəhvə dənəsi"
+        "src": "/images/products/qarisiq-ezme-500gr.jpg",
+        "alt": "Qarışıq əzmə (500gr)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -5287,25 +4928,33 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "pastes",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/qehve-denesi-100gr-itemid-2ba20eafa67efd48f4126836",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-169",
-    "slug": "qehve-denesi-kg",
-    "name": "Qəhvə dənəsi kg",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Qəhvə dənəsi kg - Tərkibi: Qəhvə",
-    "description": "Qəhvə dənəsi kg. Qeyd / Tərkib: Qəhvə",
-    "price": 40,
+    "id": "prod-123",
+    "slug": "qehve-denesi",
+    "name": "Qəhvə dənəsi",
+    "categoryId": "wellness",
+    "shortDescription": "Qəhvə dənəsi - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Qəhvə dənəsi. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
+    "price": 6,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-169",
-        "label": "1 ədəd",
+        "id": "size-168-1",
+        "label": "100gr",
+        "price": 6,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/qehve-denesi-100gr.jpg"
+      },
+      {
+        "id": "size-169-2",
+        "label": "1 kg",
         "price": 40,
         "inStock": true,
         "verificationStatus": "verified",
@@ -5314,8 +4963,12 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
+        "src": "/images/products/qehve-denesi-100gr.jpg",
+        "alt": "Qəhvə dənəsi (100gr)"
+      },
+      {
         "src": "/images/products/qehve-denesi-kg.jpg",
-        "alt": "Qəhvə dənəsi kg"
+        "alt": "Qəhvə dənəsi (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -5323,24 +4976,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/qehve-denesi-100gr-itemid-2ba20eafa67efd48f4126836",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-170",
+    "id": "prod-124",
     "slug": "qehve-denesi-uyudulmus",
     "name": "Qəhvə dənəsi üyüdülmüş",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Qəhvə dənəsi üyüdülmüş - Tərkibi: qəhvə",
-    "description": "Qəhvə dənəsi üyüdülmüş. Qeyd / Tərkib: qəhvə",
+    "categoryId": "wellness",
+    "shortDescription": "Qəhvə dənəsi üyüdülmüş - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Qəhvə dənəsi üyüdülmüş. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 7,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-170",
+        "id": "size-170-1",
         "label": "100gr",
         "price": 7,
         "inStock": true,
@@ -5351,7 +5004,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/qehve-denesi-uyudulmus-100gr.jpg",
-        "alt": "Qəhvə dənəsi üyüdülmüş"
+        "alt": "Qəhvə dənəsi üyüdülmüş (100gr)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -5359,25 +5012,25 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/qehve-denesi-uyudulmus-100gr-itemid-d55375da5d741d2e8f897f8d",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-171",
-    "slug": "qehve-uyudulmus-kg",
-    "name": "Qəhvə üyüdülmüş kg",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Qəhvə üyüdülmüş kg - Tərkibi: Qəhvə",
-    "description": "Qəhvə üyüdülmüş kg. Qeyd / Tərkib: Qəhvə",
+    "id": "prod-125",
+    "slug": "qehve-uyudulmus",
+    "name": "Qəhvə üyüdülmüş",
+    "categoryId": "wellness",
+    "shortDescription": "Qəhvə üyüdülmüş - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Qəhvə üyüdülmüş. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 50,
     "currency": "AZN",
+    "unitLabel": "kg",
     "sizes": [
       {
-        "id": "size-171",
-        "label": "1 ədəd",
+        "id": "size-171-1",
+        "label": "1 kg",
         "price": 50,
         "inStock": true,
         "verificationStatus": "verified",
@@ -5387,7 +5040,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/qehve-uyudulmus-kg.jpg",
-        "alt": "Qəhvə üyüdülmüş kg"
+        "alt": "Qəhvə üyüdülmüş (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -5395,24 +5048,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-172",
+    "id": "prod-126",
     "slug": "qirmizi-qaragat-siresi",
     "name": "Qırmızı qarağat şirəsi",
-    "categoryId": "sweeteners",
-    "shortDescription": "Qırmızı qarağat şirəsi - Tərkibi: Qırmızı qarağat şirəsi",
-    "description": "Qırmızı qarağat şirəsi. Qeyd / Tərkib: Qırmızı qarağat şirəsi",
+    "categoryId": "beverages",
+    "shortDescription": "Qırmızı qarağat şirəsi - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Qırmızı qarağat şirəsi. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 4,
     "currency": "AZN",
+    "unitLabel": "ml",
     "sizes": [
       {
-        "id": "size-172",
+        "id": "size-172-1",
         "label": "500ml",
         "price": 4,
         "inStock": true,
@@ -5423,7 +5076,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/qirmizi-qaragat-siresi-500ml.jpg",
-        "alt": "Qırmızı qarağat şirəsi"
+        "alt": "Qırmızı qarağat şirəsi (500ml)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -5431,24 +5084,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "sweeteners",
+      "beverages",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/qirmizi-qaragat-siresi-500ml-itemid-274f39d8a04a63a5a44d6a71",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-173",
+    "id": "prod-127",
     "slug": "qoz-ezmesi",
     "name": "Qoz əzməsi",
     "categoryId": "pastes",
-    "shortDescription": "Qoz əzməsi - Tərkibi: Qoz ləpəsi",
-    "description": "Qoz əzməsi. Qeyd / Tərkib: Qoz ləpəsi",
+    "shortDescription": "Qoz əzməsi - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Qoz əzməsi. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 8,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-173",
+        "id": "size-173-1",
         "label": "200gr",
         "price": 8,
         "inStock": true,
@@ -5456,7 +5109,7 @@ export const PRODUCTS: Product[] = [
         "imageSrc": "/images/products/qoz-ezmesi-200gr.jpg"
       },
       {
-        "id": "size-174",
+        "id": "size-174-2",
         "label": "500gr",
         "price": 16,
         "inStock": true,
@@ -5467,7 +5120,11 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/qoz-ezmesi-200gr.jpg",
-        "alt": "Qoz əzməsi"
+        "alt": "Qoz əzməsi (200gr)"
+      },
+      {
+        "src": "/images/products/qoz-ezmesi-500gr.jpg",
+        "alt": "Qoz əzməsi (500gr)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -5478,22 +5135,22 @@ export const PRODUCTS: Product[] = [
       "pastes",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/qoz-ezmesi-500gr-itemid-ef491f683ff8dbe7f928ae94",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-175",
-    "slug": "qoz-lepesi-kg",
-    "name": "Qoz ləpəsi kg",
+    "id": "prod-128",
+    "slug": "qoz-lepesi",
+    "name": "Qoz ləpəsi",
     "categoryId": "seeds_flours",
-    "shortDescription": "Qoz ləpəsi kg - Yerli və şəffaf istehsalat.",
-    "description": "Qoz ləpəsi kg. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
+    "shortDescription": "Qoz ləpəsi - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Qoz ləpəsi. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 16,
     "currency": "AZN",
+    "unitLabel": "kg",
     "sizes": [
       {
-        "id": "size-175",
-        "label": "1 ədəd",
+        "id": "size-175-1",
+        "label": "1 kg",
         "price": 16,
         "inStock": true,
         "verificationStatus": "verified",
@@ -5503,7 +5160,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/qoz-lepesi-kg.jpg",
-        "alt": "Qoz ləpəsi kg"
+        "alt": "Qoz ləpəsi (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -5514,21 +5171,21 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-176",
+    "id": "prod-129",
     "slug": "qoz-yagi",
     "name": "Qoz yağı",
     "categoryId": "oils",
-    "shortDescription": "Qoz yağı - Tərkibi: Qoz",
-    "description": "Qoz yağı. Qeyd / Tərkib: Qoz",
+    "shortDescription": "Qoz yağı - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Qoz yağı. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 10,
     "currency": "AZN",
+    "unitLabel": "ml",
     "sizes": [
       {
-        "id": "size-176",
+        "id": "size-176-1",
         "label": "100ml",
         "price": 10,
         "inStock": true,
@@ -5536,7 +5193,7 @@ export const PRODUCTS: Product[] = [
         "imageSrc": "/images/products/qoz-yagi-100ml.jpg"
       },
       {
-        "id": "size-177",
+        "id": "size-177-2",
         "label": "250ml",
         "price": 22,
         "inStock": true,
@@ -5547,7 +5204,11 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/qoz-yagi-100ml.jpg",
-        "alt": "Qoz yağı"
+        "alt": "Qoz yağı (100ml)"
+      },
+      {
+        "src": "/images/products/qoz-yagi-250ml.jpg",
+        "alt": "Qoz yağı (250ml)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -5558,22 +5219,22 @@ export const PRODUCTS: Product[] = [
       "oils",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/qoz-yagi-250ml-itemid-b61bb87fce01db2cfe075f47",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-178",
-    "slug": "limon-duzu-kg",
-    "name": "Limon duzu kg",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Limon duzu kg - Tərkibi: Limon duzu",
-    "description": "Limon duzu kg. Qeyd / Tərkib: Limon duzu",
+    "id": "prod-130",
+    "slug": "limon-duzu",
+    "name": "Limon duzu",
+    "categoryId": "wellness",
+    "shortDescription": "Limon duzu - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Limon duzu. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 8,
     "currency": "AZN",
+    "unitLabel": "kg",
     "sizes": [
       {
-        "id": "size-178",
-        "label": "1 ədəd",
+        "id": "size-178-1",
+        "label": "1 kg",
         "price": 8,
         "inStock": true,
         "verificationStatus": "verified",
@@ -5583,7 +5244,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/limon-duzu-kg.jpg",
-        "alt": "Limon duzu kg"
+        "alt": "Limon duzu (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -5591,24 +5252,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-179",
+    "id": "prod-131",
     "slug": "mas-cucertisi",
     "name": "Maş cücərtisi",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Maş cücərtisi - Yerli və şəffaf istehsalat.",
+    "categoryId": "wellness",
+    "shortDescription": "Maş cücərtisi - Təbii və keyfiyyətli Oilganic məhsulu.",
     "description": "Maş cücərtisi. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 6,
     "currency": "AZN",
+    "unitLabel": "ədəd",
     "sizes": [
       {
-        "id": "size-179",
+        "id": "size-179-1",
         "label": "1 ədəd",
         "price": 6,
         "inStock": true,
@@ -5619,7 +5280,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/mas-cucertisi.jpg",
-        "alt": "Maş cücərtisi"
+        "alt": "Maş cücərtisi (1 ədəd)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -5627,25 +5288,25 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/mas-cucertisi-itemid-f5d8e52add0e10ebba304fcb",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-180",
-    "slug": "mekke-gulu-kg",
-    "name": "Məkkə gülü kg",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Məkkə gülü kg - Tərkibi: Məkkə gülü",
-    "description": "Məkkə gülü kg. Qeyd / Tərkib: Məkkə gülü",
+    "id": "prod-132",
+    "slug": "mekke-gulu",
+    "name": "Məkkə gülü",
+    "categoryId": "wellness",
+    "shortDescription": "Məkkə gülü - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Məkkə gülü. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 40,
     "currency": "AZN",
+    "unitLabel": "kg",
     "sizes": [
       {
-        "id": "size-180",
-        "label": "1 ədəd",
+        "id": "size-180-1",
+        "label": "1 kg",
         "price": 40,
         "inStock": true,
         "verificationStatus": "verified",
@@ -5655,7 +5316,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/mekke-gulu-kg.jpg",
-        "alt": "Məkkə gülü kg"
+        "alt": "Məkkə gülü (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -5663,25 +5324,25 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-181",
-    "slug": "naxcivan-duzu-kg",
-    "name": "Naxçıvan duzu kg",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Naxçıvan duzu kg - Tərkibi: Duz",
-    "description": "Naxçıvan duzu kg. Qeyd / Tərkib: Duz",
+    "id": "prod-133",
+    "slug": "naxcivan-duzu",
+    "name": "Naxçıvan duzu",
+    "categoryId": "wellness",
+    "shortDescription": "Naxçıvan duzu - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Naxçıvan duzu. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 4,
     "currency": "AZN",
+    "unitLabel": "kg",
     "sizes": [
       {
-        "id": "size-181",
-        "label": "1 ədəd",
+        "id": "size-181-1",
+        "label": "1 kg",
         "price": 4,
         "inStock": true,
         "verificationStatus": "verified",
@@ -5691,7 +5352,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/naxcivan-duzu-kg.jpg",
-        "alt": "Naxçıvan duzu kg"
+        "alt": "Naxçıvan duzu (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -5699,24 +5360,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-182",
+    "id": "prod-134",
     "slug": "oilganic-kecibuynuzu-behmezi",
     "name": "Oilganic Keçibuynuzu bəhməzi",
     "categoryId": "sweeteners",
-    "shortDescription": "Oilganic Keçibuynuzu bəhməzi - Tərkibi: Keçibuynuzu bəhməzi",
-    "description": "Oilganic Keçibuynuzu bəhməzi. Qeyd / Tərkib: Keçibuynuzu bəhməzi",
+    "shortDescription": "Oilganic Keçibuynuzu bəhməzi - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Oilganic Keçibuynuzu bəhməzi. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 6,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-182",
+        "id": "size-182-1",
         "label": "350gr",
         "price": 6,
         "inStock": true,
@@ -5724,7 +5385,7 @@ export const PRODUCTS: Product[] = [
         "imageSrc": "/images/products/oilganic-kecibuynuzu-behmezi-350gr.jpg"
       },
       {
-        "id": "size-183",
+        "id": "size-183-2",
         "label": "700gr",
         "price": 10,
         "inStock": true,
@@ -5735,7 +5396,11 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/oilganic-kecibuynuzu-behmezi-350gr.jpg",
-        "alt": "Oilganic Keçibuynuzu bəhməzi"
+        "alt": "Oilganic Keçibuynuzu bəhməzi (350gr)"
+      },
+      {
+        "src": "/images/products/oilganic-kecibuynuzu-behmezi-700gr.jpg",
+        "alt": "Oilganic Keçibuynuzu bəhməzi (700gr)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -5746,22 +5411,22 @@ export const PRODUCTS: Product[] = [
       "sweeteners",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/oilganic-kecibuynuzu-behmezi-350gr-itemid-b87e7e7ba0754afc6386fd90",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-184",
+    "id": "prod-135",
     "slug": "pegah-erimis-iran-yagi",
     "name": "Pegah ərimiş İran yağı",
     "categoryId": "oils",
-    "shortDescription": "Pegah ərimiş İran yağı - Yerli və şəffaf istehsalat.",
+    "shortDescription": "Pegah ərimiş İran yağı - Təbii və keyfiyyətli Oilganic məhsulu.",
     "description": "Pegah ərimiş İran yağı. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 17,
     "currency": "AZN",
+    "unitLabel": "kg",
     "sizes": [
       {
-        "id": "size-184",
-        "label": "1kg",
+        "id": "size-184-1",
+        "label": "1 kg",
         "price": 17,
         "inStock": true,
         "verificationStatus": "verified",
@@ -5771,7 +5436,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/pegah-erimis-iran-yagi-1kg.jpg",
-        "alt": "Pegah ərimiş İran yağı"
+        "alt": "Pegah ərimiş İran yağı (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -5782,22 +5447,22 @@ export const PRODUCTS: Product[] = [
       "oils",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-185",
-    "slug": "perga-ari-coreyi-kg",
-    "name": "Perga(arı çörəyi) kg",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Perga(arı çörəyi) kg - Yerli və şəffaf istehsalat.",
-    "description": "Perga(arı çörəyi) kg. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
+    "id": "prod-136",
+    "slug": "pergaari-coreyi",
+    "name": "Perga(arı çörəyi)",
+    "categoryId": "wellness",
+    "shortDescription": "Perga(arı çörəyi) - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Perga(arı çörəyi). Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 200,
     "currency": "AZN",
+    "unitLabel": "kg",
     "sizes": [
       {
-        "id": "size-185",
-        "label": "1 ədəd",
+        "id": "size-185-1",
+        "label": "1 kg",
         "price": 200,
         "inStock": true,
         "verificationStatus": "verified",
@@ -5807,7 +5472,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/perga-ari-coreyi-kg.jpg",
-        "alt": "Perga(arı çörəyi) kg"
+        "alt": "Perga(arı çörəyi) (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -5815,24 +5480,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-186",
+    "id": "prod-137",
     "slug": "pomidor-siresi",
     "name": "Pomidor şirəsi",
-    "categoryId": "sweeteners",
-    "shortDescription": "Pomidor şirəsi - Tərkibi: Pomidor şirəsi",
-    "description": "Pomidor şirəsi. Qeyd / Tərkib: Pomidor şirəsi",
+    "categoryId": "beverages",
+    "shortDescription": "Pomidor şirəsi - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Pomidor şirəsi. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 3,
     "currency": "AZN",
+    "unitLabel": "ml",
     "sizes": [
       {
-        "id": "size-186",
+        "id": "size-186-1",
         "label": "500ml",
         "price": 3,
         "inStock": true,
@@ -5843,7 +5508,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/pomidor-siresi-500ml.jpg",
-        "alt": "Pomidor şirəsi"
+        "alt": "Pomidor şirəsi (500ml)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -5851,25 +5516,25 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "sweeteners",
+      "beverages",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/pomidor-siresi-500ml-itemid-18a17bacd2e3b4d585186e81",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-187",
-    "slug": "psilium-kg",
-    "name": "Psilium kg",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Psilium kg - Yerli və şəffaf istehsalat.",
-    "description": "Psilium kg. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
+    "id": "prod-138",
+    "slug": "psilium",
+    "name": "Psilium",
+    "categoryId": "wellness",
+    "shortDescription": "Psilium - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Psilium. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 50,
     "currency": "AZN",
+    "unitLabel": "kg",
     "sizes": [
       {
-        "id": "size-187",
-        "label": "1 ədəd",
+        "id": "size-187-1",
+        "label": "1 kg",
         "price": 50,
         "inStock": true,
         "verificationStatus": "verified",
@@ -5879,7 +5544,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/psilium-kg.jpg",
-        "alt": "Psilium kg"
+        "alt": "Psilium (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -5887,24 +5552,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-188",
+    "id": "prod-139",
     "slug": "psilium-toxumu",
     "name": "Psilium toxumu",
     "categoryId": "seeds_flours",
-    "shortDescription": "Psilium toxumu - Tərkibi: Psilium(Bağayapağı toxumu)",
-    "description": "Psilium toxumu. Qeyd / Tərkib: Psilium(Bağayapağı toxumu)",
+    "shortDescription": "Psilium toxumu - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Psilium toxumu. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 5,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-188",
+        "id": "size-188-1",
         "label": "100gr",
         "price": 5,
         "inStock": true,
@@ -5915,7 +5580,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/psilium-toxumu-100gr.jpg",
-        "alt": "Psilium toxumu"
+        "alt": "Psilium toxumu (100gr)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -5926,58 +5591,30 @@ export const PRODUCTS: Product[] = [
       "seeds_flours",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/psilium-toxumu-100gr-itemid-d8d849c0768396aee470213f",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-189",
+    "id": "prod-140",
     "slug": "pul-biber",
     "name": "Pul bibər",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Pul bibər - Tərkibi: Pul bibər",
-    "description": "Pul bibər. Qeyd / Tərkib: Pul bibər",
+    "categoryId": "wellness",
+    "shortDescription": "Pul bibər - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Pul bibər. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 2,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-189",
+        "id": "size-189-1",
         "label": "100gr",
         "price": 2,
         "inStock": true,
         "verificationStatus": "verified",
         "imageSrc": "/images/products/pul-biber-100gr.jpg"
-      }
-    ],
-    "images": [
+      },
       {
-        "src": "/images/products/pul-biber-100gr.jpg",
-        "alt": "Pul bibər"
-      }
-    ],
-    "usage": "İstifadə və rasion üçün uyğundur.",
-    "storage": "Sərin və quru yerdə saxlayın.",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "seeds_flours",
-      "Oilganic"
-    ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/pul-biber-100gr-itemid-6e1d778571f4480f548e10e8",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "prod-190",
-    "slug": "pul-biber-kg",
-    "name": "Pul bibər kg",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Pul bibər kg - Tərkibi: Pul bibər",
-    "description": "Pul bibər kg. Qeyd / Tərkib: Pul bibər",
-    "price": 15,
-    "currency": "AZN",
-    "sizes": [
-      {
-        "id": "size-190",
-        "label": "1 ədəd",
+        "id": "size-190-2",
+        "label": "1 kg",
         "price": 15,
         "inStock": true,
         "verificationStatus": "verified",
@@ -5986,8 +5623,12 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
+        "src": "/images/products/pul-biber-100gr.jpg",
+        "alt": "Pul bibər (100gr)"
+      },
+      {
         "src": "/images/products/pul-biber-kg.jpg",
-        "alt": "Pul bibər kg"
+        "alt": "Pul bibər (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -5995,24 +5636,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/pul-biber-100gr-itemid-6e1d778571f4480f548e10e8",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-191",
+    "id": "prod-141",
     "slug": "rozmarin-yagi",
     "name": "Rozmarin yağı",
     "categoryId": "oils",
-    "shortDescription": "Rozmarin yağı - Tərkibi: Rozmarin (Bibəriyyə)",
-    "description": "Rozmarin yağı. Qeyd / Tərkib: Rozmarin (Bibəriyyə)",
+    "shortDescription": "Rozmarin yağı - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Rozmarin yağı. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 20,
     "currency": "AZN",
+    "unitLabel": "ml",
     "sizes": [
       {
-        "id": "size-191",
+        "id": "size-191-1",
         "label": "100ml",
         "price": 20,
         "inStock": true,
@@ -6020,7 +5661,7 @@ export const PRODUCTS: Product[] = [
         "imageSrc": "/images/products/rozmarin-yagi-100ml.jpg"
       },
       {
-        "id": "size-192",
+        "id": "size-192-2",
         "label": "250ml",
         "price": 55,
         "inStock": true,
@@ -6031,7 +5672,11 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/rozmarin-yagi-100ml.jpg",
-        "alt": "Rozmarin yağı"
+        "alt": "Rozmarin yağı (100ml)"
+      },
+      {
+        "src": "/images/products/rozmarin-yagi-250ml.jpg",
+        "alt": "Rozmarin yağı (250ml)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -6042,22 +5687,22 @@ export const PRODUCTS: Product[] = [
       "oils",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/rozmarin-yagi-250ml-itemid-e9806d7ebb1879886be02520",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-193",
-    "slug": "sari-kok-cubuq-natural-kg",
-    "name": "Sarı kök çubuq natural kg",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Sarı kök çubuq natural kg - Tərkibi: Sarı kök",
-    "description": "Sarı kök çubuq natural kg. Qeyd / Tərkib: Sarı kök",
+    "id": "prod-142",
+    "slug": "sari-kok-cubuq-natural",
+    "name": "Sarı kök çubuq natural",
+    "categoryId": "wellness",
+    "shortDescription": "Sarı kök çubuq natural - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Sarı kök çubuq natural. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 15,
     "currency": "AZN",
+    "unitLabel": "kg",
     "sizes": [
       {
-        "id": "size-193",
-        "label": "1 ədəd",
+        "id": "size-193-1",
+        "label": "1 kg",
         "price": 15,
         "inStock": true,
         "verificationStatus": "verified",
@@ -6067,7 +5712,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/sari-kok-cubuq-natural-kg.jpg",
-        "alt": "Sarı kök çubuq natural kg"
+        "alt": "Sarı kök çubuq natural (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -6075,25 +5720,25 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-194",
-    "slug": "sari-kok-cubuq-uyudulmus-natural-kg",
-    "name": "Sarı kök çubuq üyüdülmüş natural kg",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Sarı kök çubuq üyüdülmüş natural kg - Tərkibi: Sarı kök",
-    "description": "Sarı kök çubuq üyüdülmüş natural kg. Qeyd / Tərkib: Sarı kök",
+    "id": "prod-143",
+    "slug": "sari-kok-cubuq-uyudulmus-natural",
+    "name": "Sarı kök çubuq üyüdülmüş natural",
+    "categoryId": "wellness",
+    "shortDescription": "Sarı kök çubuq üyüdülmüş natural - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Sarı kök çubuq üyüdülmüş natural. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 20,
     "currency": "AZN",
+    "unitLabel": "kg",
     "sizes": [
       {
-        "id": "size-194",
-        "label": "1 ədəd",
+        "id": "size-194-1",
+        "label": "1 kg",
         "price": 20,
         "inStock": true,
         "verificationStatus": "verified",
@@ -6103,7 +5748,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/sari-kok-cubuq-uyudulmus-natural-kg.jpg",
-        "alt": "Sarı kök çubuq üyüdülmüş natural kg"
+        "alt": "Sarı kök çubuq üyüdülmüş natural (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -6111,24 +5756,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-195",
+    "id": "prod-144",
     "slug": "saricicek",
     "name": "Sarıçiçək",
-    "categoryId": "teas",
-    "shortDescription": "Sarıçiçək - Tərkibi: Sarıçiçək",
-    "description": "Sarıçiçək. Qeyd / Tərkib: Sarıçiçək",
+    "categoryId": "wellness",
+    "shortDescription": "Sarıçiçək - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Sarıçiçək. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 7,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-195",
+        "id": "size-195-1",
         "label": "100gr",
         "price": 7,
         "inStock": true,
@@ -6139,7 +5784,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/saricicek-100gr.jpg",
-        "alt": "Sarıçiçək"
+        "alt": "Sarıçiçək (100gr)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -6147,24 +5792,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "teas",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/saricicek-100gr-itemid-89fc70a956ec3cca1e00a0c1",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-196",
+    "id": "prod-145",
     "slug": "sarikok-cubuq",
     "name": "Sarıkök çubuq",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Sarıkök çubuq - Tərkibi: Sarıkök",
-    "description": "Sarıkök çubuq. Qeyd / Tərkib: Sarıkök",
+    "categoryId": "wellness",
+    "shortDescription": "Sarıkök çubuq - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Sarıkök çubuq. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 2,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-196",
+        "id": "size-196-1",
         "label": "100gr",
         "price": 2,
         "inStock": true,
@@ -6175,7 +5820,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/sarikok-cubuq-100gr.jpg",
-        "alt": "Sarıkök çubuq"
+        "alt": "Sarıkök çubuq (100gr)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -6183,24 +5828,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/sarikok-cubuq-100gr-itemid-dc4d333db8c663da24a6255e",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-197",
+    "id": "prod-146",
     "slug": "sarikok-tozu",
     "name": "Sarıkök tozu",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Sarıkök tozu - Tərkibi: Sarıkök",
-    "description": "Sarıkök tozu. Qeyd / Tərkib: Sarıkök",
+    "categoryId": "wellness",
+    "shortDescription": "Sarıkök tozu - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Sarıkök tozu. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 2.5,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-197",
+        "id": "size-197-1",
         "label": "100gr",
         "price": 2.5,
         "inStock": true,
@@ -6211,7 +5856,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/sarikok-tozu-100gr.jpg",
-        "alt": "Sarıkök tozu"
+        "alt": "Sarıkök tozu (100gr)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -6219,24 +5864,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/sarikok-tozu-100gr-itemid-67e1e2814f1b4a965174bb06",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-198",
+    "id": "prod-147",
     "slug": "shakelli-erimis-yag",
     "name": "Shakelli ərimiş yağ",
     "categoryId": "oils",
-    "shortDescription": "Shakelli ərimiş yağ - Yerli və şəffaf istehsalat.",
+    "shortDescription": "Shakelli ərimiş yağ - Təbii və keyfiyyətli Oilganic məhsulu.",
     "description": "Shakelli ərimiş yağ. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 20,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-198",
+        "id": "size-198-1",
         "label": "1000gr",
         "price": 20,
         "inStock": true,
@@ -6247,7 +5892,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/shakelli-erimis-yag-1000gr.jpg",
-        "alt": "Shakelli ərimiş yağ"
+        "alt": "Shakelli ərimiş yağ (1000gr)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -6258,58 +5903,30 @@ export const PRODUCTS: Product[] = [
       "oils",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-199",
+    "id": "prod-148",
     "slug": "sumax-lecek",
     "name": "Sumax ləçək",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Sumax ləçək - Tərkibi: Sumax",
-    "description": "Sumax ləçək. Qeyd / Tərkib: Sumax",
+    "categoryId": "wellness",
+    "shortDescription": "Sumax ləçək - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Sumax ləçək. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 4,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-199",
+        "id": "size-199-1",
         "label": "100gr",
         "price": 4,
         "inStock": true,
         "verificationStatus": "verified",
         "imageSrc": "/images/products/sumax-lecek-100gr.jpg"
-      }
-    ],
-    "images": [
+      },
       {
-        "src": "/images/products/sumax-lecek-100gr.jpg",
-        "alt": "Sumax ləçək"
-      }
-    ],
-    "usage": "İstifadə və rasion üçün uyğundur.",
-    "storage": "Sərin və quru yerdə saxlayın.",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "seeds_flours",
-      "Oilganic"
-    ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/sumax-lecek-100gr-itemid-120410c4c545cebfd06c8917",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "prod-200",
-    "slug": "sumax-lecek-kg",
-    "name": "Sumax ləçək kg",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Sumax ləçək kg - Tərkibi: Sumax",
-    "description": "Sumax ləçək kg. Qeyd / Tərkib: Sumax",
-    "price": 30,
-    "currency": "AZN",
-    "sizes": [
-      {
-        "id": "size-200",
-        "label": "1 ədəd",
+        "id": "size-200-2",
+        "label": "1 kg",
         "price": 30,
         "inStock": true,
         "verificationStatus": "verified",
@@ -6318,8 +5935,12 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
+        "src": "/images/products/sumax-lecek-100gr.jpg",
+        "alt": "Sumax ləçək (100gr)"
+      },
+      {
         "src": "/images/products/sumax-lecek-kg.jpg",
-        "alt": "Sumax ləçək kg"
+        "alt": "Sumax ləçək (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -6327,61 +5948,33 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/sumax-lecek-100gr-itemid-120410c4c545cebfd06c8917",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-201",
+    "id": "prod-149",
     "slug": "sumax-uyudulmus",
     "name": "Sumax üyüdülmüş",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Sumax üyüdülmüş - Tərkibi: Sumax",
-    "description": "Sumax üyüdülmüş. Qeyd / Tərkib: Sumax",
+    "categoryId": "wellness",
+    "shortDescription": "Sumax üyüdülmüş - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Sumax üyüdülmüş. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 2,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-201",
+        "id": "size-201-1",
         "label": "100gr",
         "price": 2,
         "inStock": true,
         "verificationStatus": "verified",
         "imageSrc": "/images/products/sumax-uyudulmus-100gr.jpg"
-      }
-    ],
-    "images": [
+      },
       {
-        "src": "/images/products/sumax-uyudulmus-100gr.jpg",
-        "alt": "Sumax üyüdülmüş"
-      }
-    ],
-    "usage": "İstifadə və rasion üçün uyğundur.",
-    "storage": "Sərin və quru yerdə saxlayın.",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "seeds_flours",
-      "Oilganic"
-    ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/sumax-uyudulmus-100gr-itemid-c81b0e08479ad68869dc84e9",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "prod-202",
-    "slug": "sumax-uyudulmus-kg",
-    "name": "Sumax üyüdülmüş kg",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Sumax üyüdülmüş kg - Tərkibi: Sumax",
-    "description": "Sumax üyüdülmüş kg. Qeyd / Tərkib: Sumax",
-    "price": 15,
-    "currency": "AZN",
-    "sizes": [
-      {
-        "id": "size-202",
-        "label": "1 ədəd",
+        "id": "size-202-2",
+        "label": "1 kg",
         "price": 15,
         "inStock": true,
         "verificationStatus": "verified",
@@ -6390,8 +5983,12 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
+        "src": "/images/products/sumax-uyudulmus-100gr.jpg",
+        "alt": "Sumax üyüdülmüş (100gr)"
+      },
+      {
         "src": "/images/products/sumax-uyudulmus-kg.jpg",
-        "alt": "Sumax üyüdülmüş kg"
+        "alt": "Sumax üyüdülmüş (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -6399,24 +5996,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/sumax-uyudulmus-100gr-itemid-c81b0e08479ad68869dc84e9",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-203",
+    "id": "prod-150",
     "slug": "sam-qozasi-behmezi",
     "name": "Şam qozası bəhməzi",
     "categoryId": "sweeteners",
-    "shortDescription": "Şam qozası bəhməzi - Tərkibi: Şam qozası bəhməzi",
-    "description": "Şam qozası bəhməzi. Qeyd / Tərkib: Şam qozası bəhməzi",
+    "shortDescription": "Şam qozası bəhməzi - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Şam qozası bəhməzi. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 10,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-203",
+        "id": "size-203-1",
         "label": "340gr",
         "price": 10,
         "inStock": true,
@@ -6424,7 +6021,7 @@ export const PRODUCTS: Product[] = [
         "imageSrc": "/images/products/sam-qozasi-behmezi-340gr.jpg"
       },
       {
-        "id": "size-204",
+        "id": "size-204-2",
         "label": "680gr",
         "price": 15,
         "inStock": true,
@@ -6435,7 +6032,11 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/sam-qozasi-behmezi-340gr.jpg",
-        "alt": "Şam qozası bəhməzi"
+        "alt": "Şam qozası bəhməzi (340gr)"
+      },
+      {
+        "src": "/images/products/sam-qozasi-behmezi-680gr.jpg",
+        "alt": "Şam qozası bəhməzi (680gr)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -6446,21 +6047,21 @@ export const PRODUCTS: Product[] = [
       "sweeteners",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/sam-qozasi-behmezi-340gr-itemid-1eb09b4b172c63d1dc8b4699",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-205",
+    "id": "prod-151",
     "slug": "sri-lanka-cayi-etirli",
     "name": "Şri-Lanka çayı ətirli",
     "categoryId": "teas",
-    "shortDescription": "Şri-Lanka çayı ətirli - Tərkibi: Qara çayı",
-    "description": "Şri-Lanka çayı ətirli. Qeyd / Tərkib: Qara çayı",
+    "shortDescription": "Şri-Lanka çayı ətirli - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Şri-Lanka çayı ətirli. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 5,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-205",
+        "id": "size-205-1",
         "label": "100gr",
         "price": 5,
         "inStock": true,
@@ -6471,7 +6072,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/sri-lanka-cayi-etirli-100gr.jpg",
-        "alt": "Şri-Lanka çayı ətirli"
+        "alt": "Şri-Lanka çayı ətirli (100gr)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -6482,22 +6083,22 @@ export const PRODUCTS: Product[] = [
       "teas",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/sri-lanka-cayi-etirli-100gr-itemid-9031b09e9d2981bd66369522",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-206",
-    "slug": "sri-lanka-cayi-etirli-kg",
-    "name": "Şri-lanka çayı ətirli kg",
+    "id": "prod-152",
+    "slug": "sri-lanka-cayi-etirli-1",
+    "name": "Şri-lanka çayı ətirli",
     "categoryId": "teas",
-    "shortDescription": "Şri-lanka çayı ətirli kg - Tərkibi: Qara çay",
-    "description": "Şri-lanka çayı ətirli kg. Qeyd / Tərkib: Qara çay",
+    "shortDescription": "Şri-lanka çayı ətirli - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Şri-lanka çayı ətirli. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 40,
     "currency": "AZN",
+    "unitLabel": "kg",
     "sizes": [
       {
-        "id": "size-206",
-        "label": "1 ədəd",
+        "id": "size-206-1",
+        "label": "1 kg",
         "price": 40,
         "inStock": true,
         "verificationStatus": "verified",
@@ -6507,7 +6108,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/sri-lanka-cayi-etirli-kg.jpg",
-        "alt": "Şri-lanka çayı ətirli kg"
+        "alt": "Şri-lanka çayı ətirli (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -6518,21 +6119,21 @@ export const PRODUCTS: Product[] = [
       "teas",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/sri-lanka-cayi-etirli-100gr-itemid-9031b09e9d2981bd66369522",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-207",
+    "id": "prod-153",
     "slug": "sri-lanka-cayi-premium",
     "name": "Şri-Lanka çayı premium",
     "categoryId": "teas",
-    "shortDescription": "Şri-Lanka çayı premium - Tərkibi: Qara Çay",
-    "description": "Şri-Lanka çayı premium. Qeyd / Tərkib: Qara Çay",
+    "shortDescription": "Şri-Lanka çayı premium - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Şri-Lanka çayı premium. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 6,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-207",
+        "id": "size-207-1",
         "label": "100gr",
         "price": 6,
         "inStock": true,
@@ -6543,7 +6144,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/sri-lanka-cayi-premium-100gr.jpg",
-        "alt": "Şri-Lanka çayı premium"
+        "alt": "Şri-Lanka çayı premium (100gr)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -6554,22 +6155,22 @@ export const PRODUCTS: Product[] = [
       "teas",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/sri-lanka-cayi-premium-100gr-itemid-fd2f9428b3407b5add557f53",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-208",
-    "slug": "sri-lanka-cayi-premium-kg",
-    "name": "Şri-lanka çayı premium kg",
+    "id": "prod-154",
+    "slug": "sri-lanka-cayi-premium-1",
+    "name": "Şri-lanka çayı premium",
     "categoryId": "teas",
-    "shortDescription": "Şri-lanka çayı premium kg - Tərkibi: Qara çay",
-    "description": "Şri-lanka çayı premium kg. Qeyd / Tərkib: Qara çay",
+    "shortDescription": "Şri-lanka çayı premium - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Şri-lanka çayı premium. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 50,
     "currency": "AZN",
+    "unitLabel": "kg",
     "sizes": [
       {
-        "id": "size-208",
-        "label": "1 ədəd",
+        "id": "size-208-1",
+        "label": "1 kg",
         "price": 50,
         "inStock": true,
         "verificationStatus": "verified",
@@ -6579,7 +6180,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/sri-lanka-cayi-premium-kg.jpg",
-        "alt": "Şri-lanka çayı premium kg"
+        "alt": "Şri-lanka çayı premium (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -6590,21 +6191,21 @@ export const PRODUCTS: Product[] = [
       "teas",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/sri-lanka-cayi-premium-100gr-itemid-fd2f9428b3407b5add557f53",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-209",
+    "id": "prod-155",
     "slug": "tahin-kuncut-ezmesi-ciy",
     "name": "Tahin (küncüt əzməsi) çiy",
     "categoryId": "pastes",
-    "shortDescription": "Tahin (küncüt əzməsi) çiy - Tərkibi: Ağ küncüt",
-    "description": "Tahin (küncüt əzməsi) çiy. Qeyd / Tərkib: Ağ küncüt",
+    "shortDescription": "Tahin (küncüt əzməsi) çiy - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Tahin (küncüt əzməsi) çiy. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 5,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-209",
+        "id": "size-209-1",
         "label": "200gr",
         "price": 5,
         "inStock": true,
@@ -6612,7 +6213,7 @@ export const PRODUCTS: Product[] = [
         "imageSrc": "/images/products/tahin-kuncut-ezmesi-ciy-200gr.jpg"
       },
       {
-        "id": "size-210",
+        "id": "size-210-2",
         "label": "500gr",
         "price": 10,
         "inStock": true,
@@ -6623,7 +6224,11 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/tahin-kuncut-ezmesi-ciy-200gr.jpg",
-        "alt": "Tahin (küncüt əzməsi) çiy"
+        "alt": "Tahin (küncüt əzməsi) çiy (200gr)"
+      },
+      {
+        "src": "/images/products/tahin-kuncut-ezmesi-ciy-500gr.jpg",
+        "alt": "Tahin (küncüt əzməsi) çiy (500gr)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -6634,21 +6239,21 @@ export const PRODUCTS: Product[] = [
       "pastes",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/tahin-kuncut-ezmesi-ciy-500gr-itemid-749903c6ba67d1e551632cce",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-211",
+    "id": "prod-156",
     "slug": "tahin-kuncut-ezmesi-qovrulmus",
     "name": "Tahin (küncüt əzməsi) qovrulmuş",
     "categoryId": "pastes",
-    "shortDescription": "Tahin (küncüt əzməsi) qovrulmuş - Tərkibi: Ağ küncüt",
-    "description": "Tahin (küncüt əzməsi) qovrulmuş. Qeyd / Tərkib: Ağ küncüt",
+    "shortDescription": "Tahin (küncüt əzməsi) qovrulmuş - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Tahin (küncüt əzməsi) qovrulmuş. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 5,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-211",
+        "id": "size-211-1",
         "label": "200gr",
         "price": 5,
         "inStock": true,
@@ -6656,7 +6261,7 @@ export const PRODUCTS: Product[] = [
         "imageSrc": "/images/products/tahin-kuncut-ezmesi-qovrulmus-200gr.jpg"
       },
       {
-        "id": "size-212",
+        "id": "size-212-2",
         "label": "500gr",
         "price": 10,
         "inStock": true,
@@ -6667,7 +6272,11 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/tahin-kuncut-ezmesi-qovrulmus-200gr.jpg",
-        "alt": "Tahin (küncüt əzməsi) qovrulmuş"
+        "alt": "Tahin (küncüt əzməsi) qovrulmuş (200gr)"
+      },
+      {
+        "src": "/images/products/tahin-kuncut-ezmesi-qovrulmus-500gr.jpg",
+        "alt": "Tahin (küncüt əzməsi) qovrulmuş (500gr)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -6678,21 +6287,21 @@ export const PRODUCTS: Product[] = [
       "pastes",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/tahin-kuncut-ezmesi-qovrulmus-500gr-itemid-66b9fcb3a0300532ecae9f40",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-213",
+    "id": "prod-157",
     "slug": "tahin-behmez",
     "name": "Tahin bəhməz",
-    "categoryId": "pastes",
-    "shortDescription": "Tahin bəhməz - Tərkibi: Ağ küncüt və keçibuynuzu bəhməzi",
-    "description": "Tahin bəhməz. Qeyd / Tərkib: Ağ küncüt və keçibuynuzu bəhməzi",
+    "categoryId": "sweeteners",
+    "shortDescription": "Tahin bəhməz - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Tahin bəhməz. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 8,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-213",
+        "id": "size-213-1",
         "label": "200gr",
         "price": 8,
         "inStock": true,
@@ -6700,7 +6309,7 @@ export const PRODUCTS: Product[] = [
         "imageSrc": "/images/products/tahin-behmez-200gr.jpg"
       },
       {
-        "id": "size-214",
+        "id": "size-214-2",
         "label": "500gr",
         "price": 16,
         "inStock": true,
@@ -6711,7 +6320,11 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/tahin-behmez-200gr.jpg",
-        "alt": "Tahin bəhməz"
+        "alt": "Tahin bəhməz (200gr)"
+      },
+      {
+        "src": "/images/products/tahin-behmez-500gr.jpg",
+        "alt": "Tahin bəhməz (500gr)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -6719,24 +6332,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "pastes",
+      "sweeteners",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/tahin-behmez-500gr-itemid-e8eeb40a16c30e2009be6241",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-215",
+    "id": "prod-158",
     "slug": "tahin-sokoladli",
     "name": "Tahin şokoladlı",
-    "categoryId": "pastes",
-    "shortDescription": "Tahin şokoladlı - Tərkibi: Ağ küncüt və damla şokolad",
-    "description": "Tahin şokoladlı. Qeyd / Tərkib: Ağ küncüt və damla şokolad",
+    "categoryId": "wellness",
+    "shortDescription": "Tahin şokoladlı - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Tahin şokoladlı. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 6,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-215",
+        "id": "size-215-1",
         "label": "200gr",
         "price": 6,
         "inStock": true,
@@ -6744,7 +6357,7 @@ export const PRODUCTS: Product[] = [
         "imageSrc": "/images/products/tahin-sokoladli-200gr.jpg"
       },
       {
-        "id": "size-216",
+        "id": "size-216-2",
         "label": "500gr",
         "price": 12,
         "inStock": true,
@@ -6755,7 +6368,11 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/tahin-sokoladli-200gr.jpg",
-        "alt": "Tahin şokoladlı"
+        "alt": "Tahin şokoladlı (200gr)"
+      },
+      {
+        "src": "/images/products/tahin-sokoladli-500gr.jpg",
+        "alt": "Tahin şokoladlı (500gr)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -6763,25 +6380,25 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "pastes",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/tahin-sokoladli-500gr-itemid-eff99c7b78c6a99fe8db29c2",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-217",
-    "slug": "tat-zeytun-yagi",
-    "name": "Tat zeytun yağı",
+    "id": "prod-159",
+    "slug": "tat-zeytun-yagi-5litr",
+    "name": "Tat zeytun yağı 5litr",
     "categoryId": "oils",
-    "shortDescription": "Tat zeytun yağı - Tərkibi: zeytun",
-    "description": "Tat zeytun yağı. Qeyd / Tərkib: zeytun",
+    "shortDescription": "Tat zeytun yağı 5litr - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Tat zeytun yağı 5litr. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 45,
     "currency": "AZN",
+    "unitLabel": "ədəd",
     "sizes": [
       {
-        "id": "size-217",
-        "label": "5litr",
+        "id": "size-217-1",
+        "label": "1 ədəd",
         "price": 45,
         "inStock": true,
         "verificationStatus": "verified",
@@ -6791,7 +6408,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/tat-zeytun-yagi-5litr.jpg",
-        "alt": "Tat zeytun yağı"
+        "alt": "Tat zeytun yağı 5litr (1 ədəd)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -6802,21 +6419,21 @@ export const PRODUCTS: Product[] = [
       "oils",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/tat-zeytun-yagi-5litr-itemid-ba40eea1d628a4312590951f",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-218",
+    "id": "prod-160",
     "slug": "ud-hindi-ve-corekotu-kapsulu",
     "name": "Ud hindi və çörəkotu kapsulu",
-    "categoryId": "teas",
-    "shortDescription": "Ud hindi və çörəkotu kapsulu - Yerli və şəffaf istehsalat.",
+    "categoryId": "wellness",
+    "shortDescription": "Ud hindi və çörəkotu kapsulu - Təbii və keyfiyyətli Oilganic məhsulu.",
     "description": "Ud hindi və çörəkotu kapsulu. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 15,
     "currency": "AZN",
+    "unitLabel": "ədəd",
     "sizes": [
       {
-        "id": "size-218",
+        "id": "size-218-1",
         "label": "1 ədəd",
         "price": 15,
         "inStock": true,
@@ -6827,7 +6444,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/ud-hindi-ve-corekotu-kapsulu.jpg",
-        "alt": "Ud hindi və çörəkotu kapsulu"
+        "alt": "Ud hindi və çörəkotu kapsulu (1 ədəd)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -6835,25 +6452,25 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "teas",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/corekotu-kapsul-180-eded-itemid-8cc966e54677128112fcfd02",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-219",
-    "slug": "udhindi-tablet",
-    "name": "Udhindi tablet",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Udhindi tablet - Tərkibi: Udhindi",
-    "description": "Udhindi tablet. Qeyd / Tərkib: Udhindi",
+    "id": "prod-161",
+    "slug": "udhindi-tablet-220-ed",
+    "name": "Udhindi tablet 220 əd",
+    "categoryId": "wellness",
+    "shortDescription": "Udhindi tablet 220 əd - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Udhindi tablet 220 əd. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 15,
     "currency": "AZN",
+    "unitLabel": "ədəd",
     "sizes": [
       {
-        "id": "size-219",
-        "label": "220 əd",
+        "id": "size-219-1",
+        "label": "1 ədəd",
         "price": 15,
         "inStock": true,
         "verificationStatus": "verified",
@@ -6863,7 +6480,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/udhindi-tablet-220-ed.jpg",
-        "alt": "Udhindi tablet"
+        "alt": "Udhindi tablet 220 əd (1 ədəd)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -6871,24 +6488,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/udhindi-tablet-220-ed-itemid-b620e0e774526562601e71ff",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-220",
+    "id": "prod-162",
     "slug": "udukumin-100kapsul",
     "name": "Udukumin 100kapsul",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Udukumin 100kapsul - Tərkibi: uthindi, çörəkotu, sarıkök",
-    "description": "Udukumin 100kapsul. Qeyd / Tərkib: uthindi, çörəkotu, sarıkök",
+    "categoryId": "wellness",
+    "shortDescription": "Udukumin 100kapsul - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Udukumin 100kapsul. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 15,
     "currency": "AZN",
+    "unitLabel": "ədəd",
     "sizes": [
       {
-        "id": "size-220",
+        "id": "size-220-1",
         "label": "1 ədəd",
         "price": 15,
         "inStock": true,
@@ -6899,7 +6516,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/udukumin-100kapsul.jpg",
-        "alt": "Udukumin 100kapsul"
+        "alt": "Udukumin 100kapsul (1 ədəd)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -6907,25 +6524,25 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/udukumin-100kapsul-itemid-23489d7ac0e42355b95194e9",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-221",
-    "slug": "uthindi-cubuq-kg",
-    "name": "Uthindi çubuq kg",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Uthindi çubuq kg - Tərkibi: Uthindi",
-    "description": "Uthindi çubuq kg. Qeyd / Tərkib: Uthindi",
+    "id": "prod-163",
+    "slug": "uthindi-cubuq",
+    "name": "Uthindi çubuq",
+    "categoryId": "wellness",
+    "shortDescription": "Uthindi çubuq - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Uthindi çubuq. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 40,
     "currency": "AZN",
+    "unitLabel": "kg",
     "sizes": [
       {
-        "id": "size-221",
-        "label": "1 ədəd",
+        "id": "size-221-1",
+        "label": "1 kg",
         "price": 40,
         "inStock": true,
         "verificationStatus": "verified",
@@ -6935,7 +6552,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/uthindi-cubuq-kg.jpg",
-        "alt": "Uthindi çubuq kg"
+        "alt": "Uthindi çubuq (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -6943,24 +6560,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-222",
+    "id": "prod-164",
     "slug": "uthindi-kapsul",
     "name": "Uthindi kapsul",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Uthindi kapsul - Tərkibi: Uthindi tozu",
-    "description": "Uthindi kapsul. Qeyd / Tərkib: Uthindi tozu",
+    "categoryId": "wellness",
+    "shortDescription": "Uthindi kapsul - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Uthindi kapsul. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 15,
     "currency": "AZN",
+    "unitLabel": "ədəd",
     "sizes": [
       {
-        "id": "size-222",
+        "id": "size-222-1",
         "label": "180 ədəd",
         "price": 15,
         "inStock": true,
@@ -6971,7 +6588,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/uthindi-kapsul-180-eded.jpg",
-        "alt": "Uthindi kapsul"
+        "alt": "Uthindi kapsul (180 ədəd)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -6979,24 +6596,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/uthindi-kapsul-180-eded-itemid-6ef0b0e16685045a55e00f88",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-223",
+    "id": "prod-165",
     "slug": "uthindi-kotuk",
     "name": "Uthindi kötük",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Uthindi kötük - Tərkibi: Uthindi",
-    "description": "Uthindi kötük. Qeyd / Tərkib: Uthindi",
+    "categoryId": "wellness",
+    "shortDescription": "Uthindi kötük - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Uthindi kötük. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 5,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-223",
+        "id": "size-223-1",
         "label": "100gr",
         "price": 5,
         "inStock": true,
@@ -7007,7 +6624,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/uthindi-kotuk-100gr.jpg",
-        "alt": "Uthindi kötük"
+        "alt": "Uthindi kötük (100gr)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -7015,25 +6632,25 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/uthindi-kotuk-100gr-itemid-6533a41adc537b3961197ad5",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-224",
-    "slug": "uthindi-toz-kg",
-    "name": "Uthindi toz kg",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Uthindi toz kg - Tərkibi: Uthindi",
-    "description": "Uthindi toz kg. Qeyd / Tərkib: Uthindi",
+    "id": "prod-166",
+    "slug": "uthindi-toz",
+    "name": "Uthindi toz",
+    "categoryId": "wellness",
+    "shortDescription": "Uthindi toz - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Uthindi toz. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 50,
     "currency": "AZN",
+    "unitLabel": "kg",
     "sizes": [
       {
-        "id": "size-224",
-        "label": "1 ədəd",
+        "id": "size-224-1",
+        "label": "1 kg",
         "price": 50,
         "inStock": true,
         "verificationStatus": "verified",
@@ -7043,7 +6660,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/uthindi-toz-kg.jpg",
-        "alt": "Uthindi toz kg"
+        "alt": "Uthindi toz (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -7051,24 +6668,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-225",
+    "id": "prod-167",
     "slug": "uthindi-tozu",
     "name": "Uthindi tozu",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Uthindi tozu - Tərkibi: Uthindi",
-    "description": "Uthindi tozu. Qeyd / Tərkib: Uthindi",
+    "categoryId": "wellness",
+    "shortDescription": "Uthindi tozu - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Uthindi tozu. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 6,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-225",
+        "id": "size-225-1",
         "label": "100gr",
         "price": 6,
         "inStock": true,
@@ -7079,7 +6696,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/uthindi-tozu-100gr.jpg",
-        "alt": "Uthindi tozu"
+        "alt": "Uthindi tozu (100gr)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -7087,24 +6704,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/uthindi-tozu-100gr-itemid-1f8a4ccc56c29caafba16e16",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-226",
+    "id": "prod-168",
     "slug": "uthindi-yagi",
     "name": "Uthindi yağı",
     "categoryId": "oils",
-    "shortDescription": "Uthindi yağı - Tərkibi: Uthindi tozu və soyuq sıxım zeytun yağı",
-    "description": "Uthindi yağı. Qeyd / Tərkib: Uthindi tozu və soyuq sıxım zeytun yağı",
+    "shortDescription": "Uthindi yağı - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Uthindi yağı. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 15,
     "currency": "AZN",
+    "unitLabel": "ml",
     "sizes": [
       {
-        "id": "size-226",
+        "id": "size-226-1",
         "label": "100ml",
         "price": 15,
         "inStock": true,
@@ -7112,7 +6729,7 @@ export const PRODUCTS: Product[] = [
         "imageSrc": "/images/products/uthindi-yagi-100ml.jpg"
       },
       {
-        "id": "size-227",
+        "id": "size-227-2",
         "label": "250ml",
         "price": 35,
         "inStock": true,
@@ -7123,7 +6740,11 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/uthindi-yagi-100ml.jpg",
-        "alt": "Uthindi yağı"
+        "alt": "Uthindi yağı (100ml)"
+      },
+      {
+        "src": "/images/products/uthindi-yagi-250ml.jpg",
+        "alt": "Uthindi yağı (250ml)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -7134,22 +6755,22 @@ export const PRODUCTS: Product[] = [
       "oils",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/uthindi-yagi-250ml-itemid-db073ca3ee8bb02aafb140af",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-228",
+    "id": "prod-169",
     "slug": "yaki-otu-suyu",
     "name": "Yakı otu suyu",
-    "categoryId": "teas",
-    "shortDescription": "Yakı otu suyu - Tərkibi: Yakı otu bitkisi, kərəviz toxumu, qırmızı ardıc toxumu, solmaz çiçəyi, propolis, qatır quyruğu, sərv ağacı qozası, ayrıq otu, mersin yarpağı",
-    "description": "Yakı otu suyu. Qeyd / Tərkib: Yakı otu bitkisi, kərəviz toxumu, qırmızı ardıc toxumu, solmaz çiçəyi, propolis, qatır quyruğu, sərv ağacı qozası, ayrıq otu, mersin yarpağı",
+    "categoryId": "wellness",
+    "shortDescription": "Yakı otu suyu - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Yakı otu suyu. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 15,
     "currency": "AZN",
+    "unitLabel": "l",
     "sizes": [
       {
-        "id": "size-228",
-        "label": "1L",
+        "id": "size-228-1",
+        "label": "1l",
         "price": 15,
         "inStock": true,
         "verificationStatus": "verified",
@@ -7159,7 +6780,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/yaki-otu-suyu-1l.jpg",
-        "alt": "Yakı otu suyu"
+        "alt": "Yakı otu suyu (1l)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -7167,61 +6788,33 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "teas",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/yaki-otu-suyu-1l-itemid-947b1b9b2f0739bf6d6e4747",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-229",
+    "id": "prod-170",
     "slug": "yasil-cay",
     "name": "Yaşıl çay",
     "categoryId": "teas",
-    "shortDescription": "Yaşıl çay - Tərkibi: Yaşıl çay",
-    "description": "Yaşıl çay. Qeyd / Tərkib: Yaşıl çay",
+    "shortDescription": "Yaşıl çay - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Yaşıl çay. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 3,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-229",
+        "id": "size-229-1",
         "label": "100gr",
         "price": 3,
         "inStock": true,
         "verificationStatus": "verified",
         "imageSrc": "/images/products/yasil-cay-100gr.jpg"
-      }
-    ],
-    "images": [
+      },
       {
-        "src": "/images/products/yasil-cay-100gr.jpg",
-        "alt": "Yaşıl çay"
-      }
-    ],
-    "usage": "İstifadə və rasion üçün uyğundur.",
-    "storage": "Sərin və quru yerdə saxlayın.",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "teas",
-      "Oilganic"
-    ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/yasil-cay-100gr-itemid-7ffc92c75bcebad845ae86c4",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "prod-230",
-    "slug": "yasil-cay-kg",
-    "name": "Yaşıl çay kg",
-    "categoryId": "teas",
-    "shortDescription": "Yaşıl çay kg - Tərkibi: Yaşıl çay",
-    "description": "Yaşıl çay kg. Qeyd / Tərkib: Yaşıl çay",
-    "price": 20,
-    "currency": "AZN",
-    "sizes": [
-      {
-        "id": "size-230",
-        "label": "1 ədəd",
+        "id": "size-230-2",
+        "label": "1 kg",
         "price": 20,
         "inStock": true,
         "verificationStatus": "verified",
@@ -7230,8 +6823,12 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
+        "src": "/images/products/yasil-cay-100gr.jpg",
+        "alt": "Yaşıl çay (100gr)"
+      },
+      {
         "src": "/images/products/yasil-cay-kg.jpg",
-        "alt": "Yaşıl çay kg"
+        "alt": "Yaşıl çay (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -7242,21 +6839,21 @@ export const PRODUCTS: Product[] = [
       "teas",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/yasil-cay-100gr-itemid-7ffc92c75bcebad845ae86c4",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-231",
+    "id": "prod-171",
     "slug": "yemisan",
     "name": "Yemişan",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Yemişan - Tərkibi: Yemişan",
-    "description": "Yemişan. Qeyd / Tərkib: Yemişan",
+    "categoryId": "wellness",
+    "shortDescription": "Yemişan - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Yemişan. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 2.5,
     "currency": "AZN",
+    "unitLabel": "ml",
     "sizes": [
       {
-        "id": "size-231",
+        "id": "size-231-1",
         "label": "500ml",
         "price": 2.5,
         "inStock": true,
@@ -7267,7 +6864,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/yemisan-500ml.jpg",
-        "alt": "Yemişan"
+        "alt": "Yemişan (500ml)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -7275,33 +6872,61 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/yemisan-500ml-itemid-3dfcc90d6af197e9e00334d6",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-232",
-    "slug": "zeytun-yagi-rafine",
-    "name": "Zeytun yağı rafinə",
+    "id": "prod-172",
+    "slug": "zeytun-yagi-rafine-1litr",
+    "name": "Zeytun yağı rafinə 1litr",
     "categoryId": "oils",
-    "shortDescription": "Zeytun yağı rafinə - Tərkibi: Zeytun",
-    "description": "Zeytun yağı rafinə. Qeyd / Tərkib: Zeytun",
+    "shortDescription": "Zeytun yağı rafinə 1litr - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Zeytun yağı rafinə 1litr. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 15,
     "currency": "AZN",
+    "unitLabel": "ədəd",
     "sizes": [
       {
-        "id": "size-232",
-        "label": "1litr",
+        "id": "size-232-1",
+        "label": "1 ədəd",
         "price": 15,
         "inStock": true,
         "verificationStatus": "verified",
         "imageSrc": "/images/products/zeytun-yagi-rafine-1litr.jpg"
-      },
+      }
+    ],
+    "images": [
       {
-        "id": "size-233",
-        "label": "2litr",
+        "src": "/images/products/zeytun-yagi-rafine-1litr.jpg",
+        "alt": "Zeytun yağı rafinə 1litr (1 ədəd)"
+      }
+    ],
+    "usage": "İstifadə və rasion üçün uyğundur.",
+    "storage": "Sərin və quru yerdə saxlayın.",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "oils",
+      "Oilganic"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "prod-173",
+    "slug": "zeytun-yagi-rafine-2litr",
+    "name": "Zeytun yağı rafinə 2litr",
+    "categoryId": "oils",
+    "shortDescription": "Zeytun yağı rafinə 2litr - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Zeytun yağı rafinə 2litr. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
+    "price": 28,
+    "currency": "AZN",
+    "unitLabel": "ədəd",
+    "sizes": [
+      {
+        "id": "size-233-1",
+        "label": "1 ədəd",
         "price": 28,
         "inStock": true,
         "verificationStatus": "verified",
@@ -7310,8 +6935,8 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "src": "/images/products/zeytun-yagi-rafine-1litr.jpg",
-        "alt": "Zeytun yağı rafinə"
+        "src": "/images/products/zeytun-yagi-rafine-2litr.jpg",
+        "alt": "Zeytun yağı rafinə 2litr (1 ədəd)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -7322,30 +6947,58 @@ export const PRODUCTS: Product[] = [
       "oils",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/zeytun-yagi-rafine-1litr-itemid-ae8408113e0114f378de83f0",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-234",
-    "slug": "zeytun-yagi-soyuq-sixim",
-    "name": "Zeytun yağı soyuq sıxım",
+    "id": "prod-174",
+    "slug": "zeytun-yagi-soyuq-sixim-1litr",
+    "name": "Zeytun yağı soyuq sıxım 1litr",
     "categoryId": "oils",
-    "shortDescription": "Zeytun yağı soyuq sıxım - Tərkibi: Zeytun",
-    "description": "Zeytun yağı soyuq sıxım. Qeyd / Tərkib: Zeytun",
+    "shortDescription": "Zeytun yağı soyuq sıxım 1litr - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Zeytun yağı soyuq sıxım 1litr. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 20,
     "currency": "AZN",
+    "unitLabel": "ədəd",
     "sizes": [
       {
-        "id": "size-234",
-        "label": "1litr",
+        "id": "size-234-1",
+        "label": "1 ədəd",
         "price": 20,
         "inStock": true,
         "verificationStatus": "verified",
         "imageSrc": "/images/products/zeytun-yagi-soyuq-sixim-1litr.jpg"
-      },
+      }
+    ],
+    "images": [
       {
-        "id": "size-235",
-        "label": "2 litr",
+        "src": "/images/products/zeytun-yagi-soyuq-sixim-1litr.jpg",
+        "alt": "Zeytun yağı soyuq sıxım 1litr (1 ədəd)"
+      }
+    ],
+    "usage": "İstifadə və rasion üçün uyğundur.",
+    "storage": "Sərin və quru yerdə saxlayın.",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "oils",
+      "Oilganic"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "prod-175",
+    "slug": "zeytun-yagi-soyuq-sixim-2-litr",
+    "name": "Zeytun yağı soyuq sıxım 2 litr",
+    "categoryId": "oils",
+    "shortDescription": "Zeytun yağı soyuq sıxım 2 litr - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Zeytun yağı soyuq sıxım 2 litr. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
+    "price": 38,
+    "currency": "AZN",
+    "unitLabel": "ədəd",
+    "sizes": [
+      {
+        "id": "size-235-1",
+        "label": "1 ədəd",
         "price": 38,
         "inStock": true,
         "verificationStatus": "verified",
@@ -7354,8 +7007,8 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
-        "src": "/images/products/zeytun-yagi-soyuq-sixim-1litr.jpg",
-        "alt": "Zeytun yağı soyuq sıxım"
+        "src": "/images/products/zeytun-yagi-soyuq-sixim-2-litr.jpg",
+        "alt": "Zeytun yağı soyuq sıxım 2 litr (1 ədəd)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -7366,21 +7019,21 @@ export const PRODUCTS: Product[] = [
       "oils",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/zeytun-yagi-soyuq-sixim-1litr-itemid-626279874d9a40d69481845d",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-236",
+    "id": "prod-176",
     "slug": "zeferan-limonadi",
     "name": "Zəfəran limonadı",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Zəfəran limonadı - Tərkibi: Zəfəran limonadı",
-    "description": "Zəfəran limonadı. Qeyd / Tərkib: Zəfəran limonadı",
+    "categoryId": "wellness",
+    "shortDescription": "Zəfəran limonadı - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Zəfəran limonadı. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 3,
     "currency": "AZN",
+    "unitLabel": "ml",
     "sizes": [
       {
-        "id": "size-236",
+        "id": "size-236-1",
         "label": "500ml",
         "price": 3,
         "inStock": true,
@@ -7391,7 +7044,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/zeferan-limonadi-500ml.jpg",
-        "alt": "Zəfəran limonadı"
+        "alt": "Zəfəran limonadı (500ml)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -7399,61 +7052,33 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/zeferan-limonadi-500ml-itemid-6703920b3b5bb167d43b8541",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-237",
+    "id": "prod-177",
     "slug": "zencefil-cubuq",
     "name": "Zəncəfil çubuq",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Zəncəfil çubuq - Tərkibi: Zəncəfil",
-    "description": "Zəncəfil çubuq. Qeyd / Tərkib: Zəncəfil",
+    "categoryId": "wellness",
+    "shortDescription": "Zəncəfil çubuq - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Zəncəfil çubuq. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 3.5,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-237",
+        "id": "size-237-1",
         "label": "100gr",
         "price": 3.5,
         "inStock": true,
         "verificationStatus": "verified",
         "imageSrc": "/images/products/zencefil-cubuq-100gr.jpg"
-      }
-    ],
-    "images": [
+      },
       {
-        "src": "/images/products/zencefil-cubuq-100gr.jpg",
-        "alt": "Zəncəfil çubuq"
-      }
-    ],
-    "usage": "İstifadə və rasion üçün uyğundur.",
-    "storage": "Sərin və quru yerdə saxlayın.",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "seeds_flours",
-      "Oilganic"
-    ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/zencefil-cubuq-100gr-itemid-0e7f0acc679b36b5d454e59d",
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "prod-238",
-    "slug": "zencefil-cubuq-kg",
-    "name": "Zəncəfil çubuq kg",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Zəncəfil çubuq kg - Tərkibi: Zəncəfil",
-    "description": "Zəncəfil çubuq kg. Qeyd / Tərkib: Zəncəfil",
-    "price": 20,
-    "currency": "AZN",
-    "sizes": [
-      {
-        "id": "size-238",
-        "label": "1 ədəd",
+        "id": "size-238-2",
+        "label": "1 kg",
         "price": 20,
         "inStock": true,
         "verificationStatus": "verified",
@@ -7462,8 +7087,12 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
+        "src": "/images/products/zencefil-cubuq-100gr.jpg",
+        "alt": "Zəncəfil çubuq (100gr)"
+      },
+      {
         "src": "/images/products/zencefil-cubuq-kg.jpg",
-        "alt": "Zəncəfil çubuq kg"
+        "alt": "Zəncəfil çubuq (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -7471,24 +7100,24 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/zencefil-cubuq-100gr-itemid-0e7f0acc679b36b5d454e59d",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-239",
+    "id": "prod-178",
     "slug": "zencefil-quru",
     "name": "Zəncəfil quru",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Zəncəfil quru - Tərkibi: Zəncəfil",
-    "description": "Zəncəfil quru. Qeyd / Tərkib: Zəncəfil",
+    "categoryId": "wellness",
+    "shortDescription": "Zəncəfil quru - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Zəncəfil quru. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 3,
     "currency": "AZN",
+    "unitLabel": "gr",
     "sizes": [
       {
-        "id": "size-239",
+        "id": "size-239-1",
         "label": "100gr",
         "price": 3,
         "inStock": true,
@@ -7499,7 +7128,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/zencefil-quru-100gr.jpg",
-        "alt": "Zəncəfil quru"
+        "alt": "Zəncəfil quru (100gr)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -7507,25 +7136,25 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop/zencefil-quru-100gr-itemid-ac1a0f01a87b7d197c4b8a8a",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-240",
-    "slug": "zencefil-toz-kg",
-    "name": "Zəncəfil toz kg",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Zəncəfil toz kg - Tərkibi: Zəncəfil",
-    "description": "Zəncəfil toz kg. Qeyd / Tərkib: Zəncəfil",
+    "id": "prod-179",
+    "slug": "zencefil-toz",
+    "name": "Zəncəfil toz",
+    "categoryId": "wellness",
+    "shortDescription": "Zəncəfil toz - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Zəncəfil toz. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 30,
     "currency": "AZN",
+    "unitLabel": "kg",
     "sizes": [
       {
-        "id": "size-240",
-        "label": "1 ədəd",
+        "id": "size-240-1",
+        "label": "1 kg",
         "price": 30,
         "inStock": true,
         "verificationStatus": "verified",
@@ -7535,7 +7164,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/zencefil-toz-kg.jpg",
-        "alt": "Zəncəfil toz kg"
+        "alt": "Zəncəfil toz (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -7543,25 +7172,25 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
     "verificationStatus": "verified"
   },
   {
-    "id": "prod-241",
-    "slug": "zencefil-yas-kg",
-    "name": "Zəncəfil yaş kg",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Zəncəfil yaş kg - Tərkibi: Zəncəfil",
-    "description": "Zəncəfil yaş kg. Qeyd / Tərkib: Zəncəfil",
+    "id": "prod-180",
+    "slug": "zencefil-yas",
+    "name": "Zəncəfil yaş",
+    "categoryId": "wellness",
+    "shortDescription": "Zəncəfil yaş - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Zəncəfil yaş. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 15,
     "currency": "AZN",
+    "unitLabel": "kg",
     "sizes": [
       {
-        "id": "size-241",
-        "label": "1 ədəd",
+        "id": "size-241-1",
+        "label": "1 kg",
         "price": 15,
         "inStock": true,
         "verificationStatus": "verified",
@@ -7571,7 +7200,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       {
         "src": "/images/products/zencefil-yas-kg.jpg",
-        "alt": "Zəncəfil yaş kg"
+        "alt": "Zəncəfil yaş (1 kg)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -7579,10 +7208,9 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "seeds_flours",
+      "wellness",
       "Oilganic"
     ],
-    "woltUrl": "https://wolt.com/en/aze/baku/venue/oilganic-shop",
     "verificationStatus": "verified"
   }
 ];
