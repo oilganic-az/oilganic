@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Plus, Search, Edit2, Trash2, RotateCcw, LogOut, Package, Upload } from 'lucide-react';
+import { Plus, Search, Edit2, Trash2, RotateCcw, LogOut, Package, Upload, Lock } from 'lucide-react';
 import { useProducts } from '../../context/ProductsContext';
 import { CATEGORIES } from '../../data/categories';
 import { Product } from '../../types/product';
@@ -8,7 +8,7 @@ import { Button } from '../../components/common/Button/Button';
 import { formatCurrency } from '../../utils/formatters';
 import { SEO } from '../../components/common/SEO/SEO';
 import { ADMIN_AUTH_KEY, ADMIN_LAST_ACTIVE_KEY } from './AdminLoginPage';
-import { SESSION_INACTIVITY_TIMEOUT_MS, sanitizeInput } from '../../utils/security';
+import { SESSION_INACTIVITY_TIMEOUT_MS, sanitizeInput, hashString, ADMIN_PASSWORD_HASH } from '../../utils/security';
 import styles from './AdminPage.module.css';
 
 export const AdminDashboardPage: React.FC = () => {
@@ -23,6 +23,14 @@ export const AdminDashboardPage: React.FC = () => {
   const [editingProduct, setEditingProduct] = useState<Partial<Product> | null>(null);
   const [isAddMode, setIsAddMode] = useState(false);
 
+  // Password change modal state
+  const [isPasswordModalOpen, setIsPasswordModalOpen] = useState(false);
+  const [currentPassword, setCurrentPassword] = useState('');
+  const [newPassword, setNewPassword] = useState('');
+  const [confirmPassword, setConfirmPassword] = useState('');
+  const [passwordError, setPasswordError] = useState('');
+  const [passwordSuccess, setPasswordSuccess] = useState('');
+
   // Authentication & Inactivity Monitoring
   useEffect(() => {
     const isAuth = sessionStorage.getItem(ADMIN_AUTH_KEY) === 'true';
@@ -34,7 +42,6 @@ export const AdminDashboardPage: React.FC = () => {
       return;
     }
 
-    // Update activity timestamp on user interaction
     const updateActivity = () => {
       sessionStorage.setItem(ADMIN_LAST_ACTIVE_KEY, Date.now().toString());
     };
@@ -48,7 +55,7 @@ export const AdminDashboardPage: React.FC = () => {
       if (currentLastActive && Date.now() - currentLastActive > SESSION_INACTIVITY_TIMEOUT_MS) {
         handleLogout();
       }
-    }, 60000); // Check every minute
+    }, 60000);
 
     return () => {
       window.removeEventListener('mousemove', updateActivity);
@@ -169,6 +176,47 @@ export const AdminDashboardPage: React.FC = () => {
     }
   };
 
+  const handlePasswordChange = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setPasswordError('');
+    setPasswordSuccess('');
+
+    try {
+      const activeHash = localStorage.getItem('oilganic_admin_password_hash') || ADMIN_PASSWORD_HASH;
+      const currentHash = await hashString(currentPassword);
+
+      if (currentHash !== activeHash) {
+        setPasswordError('Cari şifrə yanlışdır.');
+        return;
+      }
+
+      if (newPassword.length < 6) {
+        setPasswordError('Yeni şifrə en azı 6 simvoldan ibarət olmalıdır.');
+        return;
+      }
+
+      if (newPassword !== confirmPassword) {
+        setPasswordError('Yeni şifrələr uyğun gəlmir.');
+        return;
+      }
+
+      const newHash = await hashString(newPassword);
+      localStorage.setItem('oilganic_admin_password_hash', newHash);
+      setPasswordSuccess('Şifrə uğurla dəyişdirildi!');
+
+      setCurrentPassword('');
+      setNewPassword('');
+      setConfirmPassword('');
+
+      setTimeout(() => {
+        setIsPasswordModalOpen(false);
+        setPasswordSuccess('');
+      }, 2000);
+    } catch (err) {
+      setPasswordError('Şifrə dəyişdirilərkən xəta baş verdi.');
+    }
+  };
+
   return (
     <>
       <SEO title="Admin İdarəetmə Paneli - Oilganic" description="Məhsulların idarə edilməsi" canonicalPath="/admin" />
@@ -183,6 +231,9 @@ export const AdminDashboardPage: React.FC = () => {
           <div className={styles.dashActions}>
             <Button variant="primary" icon={<Plus size={18} />} onClick={openAddModal}>
               Yeni məhsul əlavə et
+            </Button>
+            <Button variant="outline" icon={<Lock size={16} />} onClick={() => setIsPasswordModalOpen(true)}>
+              Şifrəni dəyiş
             </Button>
             <Button variant="outline" icon={<RotateCcw size={16} />} onClick={handleReset} title="İlkin sıfırlama">
               Sıfırla
@@ -451,6 +502,69 @@ export const AdminDashboardPage: React.FC = () => {
 
               <div className={styles.modalFooter}>
                 <Button type="button" variant="outline" onClick={() => setIsEditModalOpen(false)}>
+                  Ləğv et
+                </Button>
+                <Button type="submit" variant="primary">
+                  Yadda saxla
+                </Button>
+              </div>
+            </form>
+          </div>
+        </div>
+      )}
+
+      {/* Change Password Modal */}
+      {isPasswordModalOpen && (
+        <div className={styles.modalOverlay}>
+          <div className={styles.modalBox} style={{ maxWidth: '420px' }}>
+            <h2 className={styles.modalTitle}>Şifrəni dəyiş</h2>
+            
+            {passwordError && <div className={styles.errorBanner}>{passwordError}</div>}
+            {passwordSuccess && (
+              <div className={styles.errorBanner} style={{ background: '#dcfce7', borderColor: '#bbf7d0', color: '#166534' }}>
+                {passwordSuccess}
+              </div>
+            )}
+
+            <form onSubmit={handlePasswordChange}>
+              <div className={styles.formGroup}>
+                <label className={styles.formLabel}>Cari şifrə *</label>
+                <input
+                  type="password"
+                  className={styles.formInput}
+                  value={currentPassword}
+                  onChange={e => setCurrentPassword(e.target.value)}
+                  placeholder="••••••••"
+                  required
+                />
+              </div>
+
+              <div className={styles.formGroup}>
+                <label className={styles.formLabel}>Yeni şifrə *</label>
+                <input
+                  type="password"
+                  className={styles.formInput}
+                  value={newPassword}
+                  onChange={e => setNewPassword(e.target.value)}
+                  placeholder="ən azı 6 simvol"
+                  required
+                />
+              </div>
+
+              <div className={styles.formGroup}>
+                <label className={styles.formLabel}>Yeni şifrənin təsdiqi *</label>
+                <input
+                  type="password"
+                  className={styles.formInput}
+                  value={confirmPassword}
+                  onChange={e => setConfirmPassword(e.target.value)}
+                  placeholder="••••••••"
+                  required
+                />
+              </div>
+
+              <div className={styles.modalFooter}>
+                <Button type="button" variant="outline" onClick={() => setIsPasswordModalOpen(false)}>
                   Ləğv et
                 </Button>
                 <Button type="submit" variant="primary">

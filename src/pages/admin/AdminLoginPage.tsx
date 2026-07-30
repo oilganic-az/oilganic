@@ -58,7 +58,8 @@ export const AdminLoginPage: React.FC = () => {
     setIsSubmitting(true);
     try {
       const inputHash = await hashString(password);
-      if (username.trim() === ADMIN_USERNAME && inputHash === ADMIN_PASSWORD_HASH) {
+      const activeHash = localStorage.getItem('oilganic_admin_password_hash') || ADMIN_PASSWORD_HASH;
+      if (username.trim() === ADMIN_USERNAME && inputHash === activeHash) {
         // Clear login attempts
         localStorage.removeItem(ATTEMPTS_KEY);
         localStorage.removeItem(LOCKOUT_KEY);
