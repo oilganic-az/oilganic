@@ -30,7 +30,6 @@ export const CategoryNavigator: React.FC = () => {
                 data-interactive
               >
                 <div className={styles.cardHeader}>
-                  {cat.badge && <span className={styles.badge}>{cat.badge}</span>}
                   <span className={styles.arrowIcon}>
                     <ArrowUpRight size={20} />
                   </span>

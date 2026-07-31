@@ -18,7 +18,7 @@ export const PROCESS_STEPS: ProcessStep[] = [
     stepNumber: 2,
     title: 'Soyuq sıxım, isti sıxım, əzmə və üyütmə prosesi',
     subtitle: 'Gözünüzün qarşısında mağazada hazırlanır',
-    description: 'Xammal xüsusi aparatlarla hazırlanır.',
+    description: 'İstehsal göz önündə aparılır və məhsullar xüsusi aparatlarla hazırlanır.',
     details: []
   },
   {

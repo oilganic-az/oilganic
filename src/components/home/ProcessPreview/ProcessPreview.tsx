@@ -43,10 +43,10 @@ export const ProcessPreview: React.FC = () => {
           <div className={styles.topBox}>
             <div>
               <span className={styles.sectionBadge}>Brendin fərqi</span>
-              <h2 className={styles.sectionTitle}>Gözünüzün qarşısında hazırlanan şəffaf istehsalat</h2>
+              <h2 className={styles.sectionTitle}>Gözünüzün qarşısında aparılan şəffaf istehsalat</h2>
             </div>
             <p className={styles.sectionSubtitle}>
-              Oilganic-də təbii yağlar və çərəz əzmələri mağazamızda müştərilərimizin gözü qarşısında soyuq sıxım texnologiyası ilə təzə sıxılır.
+              Oilganic-də təbii yağlar və çərəz əzmələri mağazamızda müştərilərimizin gözü qarşısında soyuq sıxım texnologiyası ilə təzə hazırlanır.
             </p>
           </div>
         </Reveal>

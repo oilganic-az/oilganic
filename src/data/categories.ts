@@ -6,16 +6,14 @@ export const CATEGORIES: Category[] = [
     slug: 'yaglar',
     name: 'Təbii yağlar',
     description: 'Soyuq və isti sıxım üsulu ilə mağazada gözünüzün qarşısında hazırlanan müxtəlif  təbii yağlar.',
-    group: 'oils',
-    badge: 'Soyuq sıxım'
+    group: 'oils'
   },
   {
     id: 'pastes',
     slug: 'azmeler',
     name: 'Təbii əzmələr',
     description: 'Şəkərsiz, qatqısız, 100% təbii çərəzlərdən hazırlanan əzmələr.',
-    group: 'pastes',
-    badge: 'Qatqısız'
+    group: 'pastes'
   },
   {
     id: 'sweeteners',
@@ -43,8 +41,7 @@ export const CATEGORIES: Category[] = [
     slug: 'mecunlar',
     name: 'Məcunlar',
     description: 'Tam təbii üsulla hazırlanmış  məcun çeşidləri.',
-    group: 'mecunlar',
-    badge: 'Xurmaçı'
+    group: 'mecunlar'
   },
   {
     id: 'teas',
@@ -63,8 +60,8 @@ export const CATEGORIES: Category[] = [
   {
     id: 'wellness',
     slug: 'wellness',
-    name: 'Wellness & bitki məhsulları',
-    description: 'Buğda otu məhsulları, seçilmiş məcunlar və təbii qida əlavələri.',
+    name: 'Buğda otu və digər bitki məhsulları',
+    description: 'Buğda otu şirəsi, buğda və maş cücərtisi və s.',
     group: 'wellness'
   },
   {
