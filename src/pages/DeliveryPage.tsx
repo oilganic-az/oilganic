@@ -1,5 +1,5 @@
 import React from 'react';
-import { MessageCircle, Check, Truck } from 'lucide-react';
+import { MessageCircle, Check, Truck, ShieldCheck, Clock, ThumbsUp } from 'lucide-react';
 import { BUSINESS_CONFIG } from '../config/business';
 import { Button } from '../components/common/Button/Button';
 import { WoltIcon } from '../components/common/WoltIcon/WoltIcon';
@@ -27,6 +27,7 @@ export const DeliveryPage: React.FC = () => {
             </p>
           </div>
 
+          {/* Top Wolt and WhatsApp Options */}
           <div className={styles.grid}>
             {/* Wolt Option */}
             <div className={styles.card}>
@@ -38,9 +39,9 @@ export const DeliveryPage: React.FC = () => {
                 Bakı şəhəri daxilində ünvanınıza 30-45 dəqiqə ərzində kuryer çatdırılması. Wolt tətbiqi vasitəsilə sifarişinizi anlıq izləyə bilərsiniz.
               </p>
               <ul className={styles.featureList}>
-                <li><Check size={16} color="var(--color-brand-green)" /> Operativ kuryer çatdırılması</li>
-                <li><Check size={16} color="var(--color-brand-green)" /> Wolt tətbiqi üzərindən kartla onlayn ödəniş</li>
-                <li><Check size={16} color="var(--color-brand-green)" /> Bakı ərazisi üzrə geniş əhatə</li>
+                <li><Check size={16} color="var(--color-brand-green)" style={{ display: 'inline', marginRight: '6px', verticalAlign: 'middle' }} /> Operativ kuryer çatdırılması</li>
+                <li><Check size={16} color="var(--color-brand-green)" style={{ display: 'inline', marginRight: '6px', verticalAlign: 'middle' }} /> Wolt tətbiqi üzərindən kartla onlayn ödəniş</li>
+                <li><Check size={16} color="var(--color-brand-green)" style={{ display: 'inline', marginRight: '6px', verticalAlign: 'middle' }} /> Bakı ərazisi üzrə geniş əhatə</li>
               </ul>
               <a href={BUSINESS_CONFIG.woltUrl} target="_blank" rel="noopener noreferrer">
                 <Button variant="wolt" fullWidth icon={<WoltIcon size={20} />}>
@@ -59,9 +60,9 @@ export const DeliveryPage: React.FC = () => {
                 Saytımızda səbət toplayaraq birbaşa WhatsApp vasitəsilə menecerimizə yaza bilərsiniz. Sifarişiniz mağazada dərhal təzə hazırlanır.
               </p>
               <ul className={styles.featureList}>
-                <li><Check size={16} color="var(--color-brand-green)" /> Canlı operator dəstəyi və məsləhət</li>
-                <li><Check size={16} color="var(--color-brand-green)" /> Sifarişin planlaşdırılması</li>
-                <li><Check size={16} color="var(--color-brand-green)" /> Öncədən ödəniş</li>
+                <li><Check size={16} color="var(--color-brand-green)" style={{ display: 'inline', marginRight: '6px', verticalAlign: 'middle' }} /> Canlı operator dəstəyi və məsləhət</li>
+                <li><Check size={16} color="var(--color-brand-green)" style={{ display: 'inline', marginRight: '6px', verticalAlign: 'middle' }} /> Sifarişin planlaşdırılması</li>
+                <li><Check size={16} color="var(--color-brand-green)" style={{ display: 'inline', marginRight: '6px', verticalAlign: 'middle' }} /> Öncədən ödəniş</li>
               </ul>
               <a href={BUSINESS_CONFIG.whatsappLink} target="_blank" rel="noopener noreferrer">
                 <Button variant="whatsapp" fullWidth icon={<MessageCircle size={20} />}>
@@ -69,41 +70,94 @@ export const DeliveryPage: React.FC = () => {
                 </Button>
               </a>
             </div>
+          </div>
 
-            {/* Expargo Option */}
-            <div className={styles.card}>
-              <div className={styles.cardHeader}>
-                <Truck size={36} style={{ color: '#15803d' }} />
-                <h3 className={styles.cardTitle}>Rayonlara və şəhər ətrafı ərazilərə çatdırılma</h3>
+          {/* Expargo Section Styling matched to User design banner */}
+          <div className={styles.expargoSection}>
+            <div className={styles.expargoGrid}>
+              <div className={styles.expargoTextCol}>
+                <div className={styles.expargoHeader}>
+                  <span className={styles.expargoBadge}>
+                    <Truck size={14} /> Expargo vasitəsilə həyata keçirilir
+                  </span>
+                  <h2 className={styles.expargoTitle}>Rayonlara və şəhər ətrafı ərazilərə çatdırılma</h2>
+                </div>
+
+                <div className={styles.expargoList}>
+                  <div className={styles.expargoItem}>
+                    <div className={styles.expargoIconContainer}>
+                      <Truck size={24} color="#15803d" />
+                    </div>
+                    <div className={styles.expargoItemContent}>
+                      <h4 className={styles.expargoItemTitle}>ÇATDIRILMA</h4>
+                      <p className={styles.expargoItemText}>Çatdırılma Expargo vasitəsilə həyata keçirilir.</p>
+                    </div>
+                  </div>
+
+                  <div className={styles.expargoItem}>
+                    <div className={styles.expargoIconContainer}>
+                      <span className={styles.weightIcon}>5 KG</span>
+                    </div>
+                    <div className={styles.expargoItemContent}>
+                      <h4 className={styles.expargoItemTitle}>ÇATDIRILMA ÖDƏNİŞİ</h4>
+                      <p className={styles.expargoItemText}>
+                        5 kq-a qədər bağlamalar üçün çatdırılma haqqı
+                        <span className={styles.greenPriceBadge}>5 ₼</span>
+                        təşkil edir.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className={styles.expargoItem}>
+                    <div className={styles.expargoIconContainer}>
+                      <span className={styles.calendarIcon}>1-3</span>
+                    </div>
+                    <div className={styles.expargoItemContent}>
+                      <h4 className={styles.expargoItemTitle}>ÇATDIRILMA MÜDDƏTİ</h4>
+                      <p className={styles.expargoItemText}>Sifarişlər 1–3 iş günü ərzində ünvanınıza çatdırılır.</p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Warning note box */}
+                <div className={styles.expargoNote}>
+                  <span className={styles.noteExclamation}>!</span>
+                  <div>
+                    <strong>QEYD:</strong> 5 kq-dan artıq sifarişlər üçün çatdırılma haqqı bağlamanın çəkisinə uyğun hesablanır.
+                  </div>
+                </div>
               </div>
-              <div className={styles.cardText} style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
-                <p>
-                  <strong>Çatdırılma:</strong> Çatdırılma Expargo vasitəsilə həyata keçirilir.
-                </p>
-                <p>
-                  <strong>Çatdırılma ödənişi:</strong> 5 kq-a qədər bağlamalar üçün çatdırılma haqqı 5 ₼ təşkil edir.
-                </p>
-                <p>
-                  <strong>Çatdırılma müddəti:</strong> Sifarişlər 1–3 iş günü ərzində ünvanınıza çatdırılır.
-                </p>
-                <p style={{ fontSize: '0.85rem', fontStyle: 'italic', color: 'var(--text-subtle)' }}>
-                  <strong>Qeyd:</strong> 5 kq-dan artıq sifarişlər üçün çatdırılma haqqı bağlamanın çəkisinə uyğun hesablanır.
-                </p>
+
+              <div className={styles.expargoVisualCol}>
+                <img
+                  src="/images/expargo-delivery.png"
+                  alt="Rayonlara çatdırılma xəritəsi"
+                  className={styles.expargoImage}
+                />
               </div>
-              <ul className={styles.featureList}>
-                <li><Check size={16} color="var(--color-brand-green)" /> Təhlükəsiz çatdırılma</li>
-                <li><Check size={16} color="var(--color-brand-green)" /> Etibarlı və peşəkar xidmət</li>
-                <li><Check size={16} color="var(--color-brand-green)" /> Zamana dəqiq</li>
-                <li><Check size={16} color="var(--color-brand-green)" /> Müştəri məmnuniyyəti</li>
-              </ul>
-              <a href={BUSINESS_CONFIG.whatsappLink} target="_blank" rel="noopener noreferrer">
-                <Button variant="primary" fullWidth icon={<Truck size={20} />}>
-                  Expargo ilə sifariş et
-                </Button>
-              </a>
             </div>
 
+            {/* Bottom advantages Trust Strip */}
+            <div className={styles.expargoTrustStrip}>
+              <div className={styles.trustItem}>
+                <ShieldCheck size={18} />
+                <span>Təhlükəsiz çatdırılma</span>
+              </div>
+              <div className={styles.trustItem}>
+                <Truck size={18} />
+                <span>Etibarlı və peşəkar xidmət</span>
+              </div>
+              <div className={styles.trustItem}>
+                <Clock size={18} />
+                <span>Zamana dəqiq</span>
+              </div>
+              <div className={styles.trustItem}>
+                <ThumbsUp size={18} />
+                <span>Müştəri məmnuniyyəti</span>
+              </div>
+            </div>
           </div>
+
         </div>
       </div>
     </>

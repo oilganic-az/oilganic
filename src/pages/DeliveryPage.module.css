@@ -32,21 +32,17 @@
   line-height: 1.6;
 }
 
+/* 2 Column Top Grid (Wolt & WhatsApp) */
 .grid {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: var(--space-8);
+  margin-bottom: 4rem;
 }
 
 @media (min-width: 768px) {
   .grid {
     grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (min-width: 992px) {
-  .grid {
-    grid-template-columns: repeat(3, 1fr);
   }
 }
 
@@ -93,4 +89,191 @@
   font-size: var(--font-size-sm);
   color: var(--color-charcoal-700);
   margin: var(--space-2) 0;
+}
+
+/* Custom Standout Expargo Section */
+.expargoSection {
+  background-color: #faf9f6;
+  border: 1px solid #e2e1dc;
+  border-radius: 24px;
+  padding: 3rem 2rem;
+  margin-top: 4rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.02);
+}
+
+@media (min-width: 768px) {
+  .expargoSection {
+    padding: 4rem;
+  }
+}
+
+.expargoGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+@media (min-width: 992px) {
+  .expargoGrid {
+    grid-template-columns: 1.25fr 1fr;
+  }
+}
+
+.expargoTextCol {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.expargoHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.expargoBadge {
+  background-color: #15803d;
+  color: #ffffff;
+  padding: 0.5rem 1.25rem;
+  border-radius: 9999px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.expargoTitle {
+  font-size: 2.25rem;
+  color: #113c22;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.expargoList {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+}
+
+.expargoItem {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.expargoIconContainer {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: #f0fdf4;
+  border: 1px solid rgba(21, 128, 61, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.weightIcon, .calendarIcon {
+  font-size: 0.825rem;
+  font-weight: 800;
+  color: #15803d;
+}
+
+.expargoItemContent {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.expargoItemTitle {
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: #15803d;
+  letter-spacing: 0.05em;
+}
+
+.expargoItemText {
+  font-size: 1rem;
+  color: #374151;
+  line-height: 1.5;
+}
+
+.greenPriceBadge {
+  background-color: #15803d;
+  color: #ffffff;
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  font-weight: 800;
+  font-size: 0.95rem;
+  display: inline-block;
+  margin: 0 0.25rem;
+}
+
+.expargoNote {
+  background-color: #fcfdf2;
+  border: 1px solid #e2e8b6;
+  padding: 1.25rem 1.5rem;
+  border-radius: 12px;
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  font-size: 0.925rem;
+  color: #454737;
+  line-height: 1.5;
+}
+
+.noteExclamation {
+  background-color: #15803d;
+  color: #ffffff;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 0.85rem;
+  flex-shrink: 0;
+}
+
+.expargoVisualCol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.expargoImage {
+  width: 100%;
+  max-width: 440px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+}
+
+.expargoTrustStrip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: space-around;
+  border-top: 1px solid #e2e1dc;
+  margin-top: 3.5rem;
+  padding-top: 2rem;
+}
+
+.trustItem {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 700;
+  color: #113c22;
+  font-size: 0.95rem;
+}
+
+.trustItem svg {
+  color: #15803d;
 }
