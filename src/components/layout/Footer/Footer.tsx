@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Instagram, ShoppingBag, MessageCircle, MapPin, Clock, Phone } from 'lucide-react';
+import { Instagram, ShoppingBag, MessageCircle, MapPin, Clock, Phone, Linkedin } from 'lucide-react';
 import { OilganicLogo } from '../../common/OilganicLogo/OilganicLogo';
 import { BUSINESS_CONFIG } from '../../../config/business';
 import { MAIN_NAV_ITEMS, FOOTER_LEGAL_ITEMS } from '../../../config/navigation';
@@ -8,7 +8,7 @@ import { CATEGORIES } from '../../../data/categories';
 import styles from './Footer.module.css';
 
 export const Footer: React.FC = () => {
-  const [showDeveloperCard, setShowDeveloperCard] = useState(false);
+  const [showDeveloperCard, setShowDeveloperCard] = useState<boolean>(false);
 
   return (
     <footer className={styles.footer}>
@@ -114,7 +114,7 @@ export const Footer: React.FC = () => {
                 <button
                   type="button"
                   className={styles.developerBtn}
-                  onClick={() => setShowDeveloperCard(prev => !prev)}
+                  onClick={() => setShowDeveloperCard(!showDeveloperCard)}
                   aria-expanded={showDeveloperCard}
                   aria-label="Hazırlayan haqqında məlumat"
                 >
