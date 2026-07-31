@@ -122,10 +122,6 @@ export const Footer: React.FC = () => {
                 </button>
                 {showDeveloperCard && (
                   <div className={styles.developerCard}>
-                    <div className={styles.developerHeader}>
-                      <span className={styles.developerName}>Elməddin Möhübbətov</span>
-                    </div>
-                    <p className={styles.developerRole}>Tərtibatçı ilə əlaqə</p>
                     <div className={styles.developerSocials}>
                       <a
                         href="https://wa.me/994773343536"

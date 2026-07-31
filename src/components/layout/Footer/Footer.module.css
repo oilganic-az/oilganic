@@ -184,21 +184,20 @@
 
 .developerCard {
   position: absolute;
-  bottom: calc(100% + 12px);
+  bottom: calc(100% + 10px);
   left: 50%;
   transform: translateX(-50%);
-  width: 220px;
-  padding: var(--space-3.5);
+  padding: 6px 10px;
   background: rgba(18, 53, 36, 0.95);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  border-radius: var(--radius-lg);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: var(--radius-full);
   box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4);
   z-index: 100;
   display: flex;
-  flex-direction: column;
-  gap: var(--space-2);
+  align-items: center;
+  justify-content: center;
   animation: popUpFade 0.2s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
@@ -224,30 +223,11 @@
   }
 }
 
-.developerHeader {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.developerName {
-  font-size: var(--font-size-sm);
-  font-weight: 700;
-  color: var(--color-white);
-}
-
-.developerRole {
-  font-size: var(--font-size-xs);
-  color: var(--color-sage-200);
-  margin: 0;
-}
-
 .developerSocials {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   gap: var(--space-2);
-  margin-top: var(--space-1);
 }
 
 .devSocialIcon {
