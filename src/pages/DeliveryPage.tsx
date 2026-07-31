@@ -127,14 +127,6 @@ export const DeliveryPage: React.FC = () => {
                   </div>
                 </div>
               </div>
-
-              <div className={styles.expargoVisualCol}>
-                <img
-                  src="/images/expargo-delivery.png"
-                  alt="Rayonlara çatdırılma xəritəsi"
-                  className={styles.expargoImage}
-                />
-              </div>
             </div>
 
             {/* Bottom advantages Trust Strip */}
@@ -149,7 +141,7 @@ export const DeliveryPage: React.FC = () => {
               </div>
               <div className={styles.trustItem}>
                 <Clock size={18} />
-                <span>Zamana dəqiq</span>
+                <span>Dəqiqlik və </span>
               </div>
               <div className={styles.trustItem}>
                 <ThumbsUp size={18} />

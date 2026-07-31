@@ -108,16 +108,8 @@
 }
 
 .expargoGrid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 3rem;
-  align-items: center;
-}
-
-@media (min-width: 992px) {
-  .expargoGrid {
-    grid-template-columns: 1.25fr 1fr;
-  }
+  max-width: 780px;
+  margin: 0 auto;
 }
 
 .expargoTextCol {
