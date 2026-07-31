@@ -42,17 +42,8 @@ export const AdminDashboardPage: React.FC = () => {
   const [campEndDate, setCampEndDate] = useState('');
   const [campImageSrc, setCampImageSrc] = useState('');
 
-  // Authentication & Inactivity Monitoring
+  // Inactivity Monitoring while Dashboard is active
   useEffect(() => {
-    const isAuth = sessionStorage.getItem(ADMIN_AUTH_KEY) === 'true';
-    const lastActiveStr = sessionStorage.getItem(ADMIN_LAST_ACTIVE_KEY);
-    const lastActive = lastActiveStr ? parseInt(lastActiveStr, 10) : 0;
-
-    if (!isAuth || (lastActive && Date.now() - lastActive > SESSION_INACTIVITY_TIMEOUT_MS)) {
-      handleLogout();
-      return;
-    }
-
     const updateActivity = () => {
       sessionStorage.setItem(ADMIN_LAST_ACTIVE_KEY, Date.now().toString());
     };
@@ -63,7 +54,7 @@ export const AdminDashboardPage: React.FC = () => {
     const interval = setInterval(() => {
       const currentLastActiveStr = sessionStorage.getItem(ADMIN_LAST_ACTIVE_KEY);
       const currentLastActive = currentLastActiveStr ? parseInt(currentLastActiveStr, 10) : 0;
-      if (currentLastActive && Date.now() - currentLastActive > SESSION_INACTIVITY_TIMEOUT_MS) {
+      if (!currentLastActive || Date.now() - currentLastActive > SESSION_INACTIVITY_TIMEOUT_MS) {
         handleLogout();
       }
     }, 60000);

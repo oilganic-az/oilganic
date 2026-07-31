@@ -1,13 +1,13 @@
 # Product Catalog Sync Report
 
-**Generated on**: `2026-07-31T10:07:50.422Z`
+**Generated on**: `2026-07-31T18:54:48.729Z`
 
 ## 1. Raw Source Record Count
 - **Total raw Clopos source products**: `244`
 - **Total raw Clopos categories**: `19`
 
 ## 2. Final Semantic Product Count
-- **Total final website products**: `170`
+- **Total final website products**: `169`
 
 ## 3. Final Size / Variant Count
 - **Total sizes across all products**: `244`
@@ -39,7 +39,8 @@
 - `Keşu` (prod-kesu)
 
 ## 6. Products Merged
-- **Count**: `18`
+- **Count**: `19`
+- `Acı ərik` (`aci-erik`) merged into `Acı ərik tumu` (`aci-erik-tumu`)
 - `Braziilya qozu` (`braziilya-qozu`) merged into `Braziliya qozu` (`braziliya-qozu`)
 - `Fıstıq+küncüt əzməsi` (`fistiqkuncut-ezmesi`) merged into `Fıstıq + Küncüt əzməsi` (`fistiq-kuncut-ezmesi`)
 - `Günəbaxan yağı 1litr` (`gunebaxan-yagi-1litr`) merged into `Günəbaxan yağı` (`gunebaxan-yagi`)
@@ -91,21 +92,21 @@ Mapped Clopos categories into primary website categories:
 - **teas**: 8 products
 - **spices**: 38 products
 - **vinegars**: 10 products
-- **seeds_flours**: 37 products
+- **seeds_flours**: 36 products
 - **wellness**: 11 products
 - **mecunlar**: 8 products
 - **beverages**: 9 products
 
 ## 12. Images Downloaded / Reused / Missing
-- **Reused local images**: `242`
-- **Downloaded from CDN**: `0`
+- **Reused local images**: `241`
+- **Downloaded from CDN**: `1`
 - **Missing images (fallback to `/images/products/placeholder.svg`)**: `2`
 
 ## 13. Legacy ID Aliases
-- **Total ID aliases registered**: `18`
+- **Total ID aliases registered**: `19`
 
 ## 14. Legacy Slug Aliases
-- **Total slug aliases registered**: `18`
+- **Total slug aliases registered**: `19`
 
 ## 15. Manual-Review Items
 - **Total records needing review**: `6`

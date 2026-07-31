@@ -3,6 +3,7 @@ export const NAME_ALIASES: Record<string, string> = {
   "fıstıq+küncüt əzməsi": "Fıstıq + küncüt əzməsi",
   "uthindi toz": "Uthindi tozu",
   "acı badam ləpə": "Acı badam ləpəsi",
+  "acı ərik": "Acı ərik tumu",
   "zəncəfil toz": "Zəncəfil tozu"
 };
 

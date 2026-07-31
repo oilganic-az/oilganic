@@ -190,6 +190,14 @@
   ],
   "productsMerged": [
     {
+      "oldId": "prod-4",
+      "oldSlug": "aci-erik",
+      "oldName": "Acı ərik",
+      "newId": "prod-5",
+      "newSlug": "aci-erik-tumu",
+      "newName": "Acı ərik tumu"
+    },
+    {
       "oldId": "prod-33",
       "oldSlug": "braziilya-qozu",
       "oldName": "Braziilya qozu",
@@ -336,6 +344,7 @@
   ],
   "variantsAdded": 3,
   "idAliases": {
+    "prod-4": "prod-5",
     "prod-33": "prod-34",
     "prod-62": "prod-59",
     "prod-66": "prod-66",
@@ -356,6 +365,7 @@
     "prod-179": "prod-179"
   },
   "slugAliases": {
+    "aci-erik": "aci-erik-tumu",
     "braziilya-qozu": "braziliya-qozu",
     "fistiqkuncut-ezmesi": "fistiq-kuncut-ezmesi",
     "gunebaxan-yagi-1litr": "gunebaxan-yagi",

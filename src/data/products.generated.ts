@@ -2988,31 +2988,45 @@ export const PRODUCTS: Product[] = [
     "quantityStatus": "verified"
   },
   {
-    "id": "prod-4",
-    "slug": "aci-erik",
-    "name": "Acı ərik",
+    "id": "prod-5",
+    "slug": "aci-erik-tumu",
+    "name": "Acı ərik tumu",
     "categoryId": "seeds_flours",
-    "shortDescription": "Acı ərik - Təbii və keyfiyyətli Oilganic məhsulu.",
-    "description": "Acı ərik. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
-    "price": 20,
+    "shortDescription": "Acı ərik tumu - Təbii və keyfiyyətli Oilganic məhsulu.",
+    "description": "Acı ərik tumu. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
+    "price": 2.5,
     "currency": "AZN",
     "unitLabel": "1 kg",
     "sizes": [
       {
-        "id": "size-7-1",
+        "id": "size-8-1",
+        "label": "100 gr",
+        "price": 2.5,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/aci-erik-tumu-100-gr.jpg",
+        "priceStatus": "verified",
+        "quantityStatus": "verified"
+      },
+      {
+        "id": "size-aci-erik-tumu-1-kg",
         "label": "1 kg",
         "price": 20,
         "inStock": true,
         "verificationStatus": "verified",
-        "imageSrc": "/images/products/aci-erik-1-kg.png",
+        "imageSrc": "/images/products/aci-erik-tumu-1-kg.png",
         "priceStatus": "verified",
         "quantityStatus": "verified"
       }
     ],
     "images": [
       {
-        "src": "/images/products/aci-erik-1-kg.png",
-        "alt": "Acı ərik"
+        "src": "/images/products/aci-erik-tumu-100-gr.jpg",
+        "alt": "Acı ərik tumu"
+      },
+      {
+        "src": "/images/products/aci-erik-tumu-1-kg.png",
+        "alt": "Acı ərik tumu"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -6683,46 +6697,6 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "Oilganic"
-    ],
-    "verificationStatus": "verified",
-    "priceStatus": "verified",
-    "quantityStatus": "verified"
-  },
-  {
-    "id": "prod-5",
-    "slug": "aci-erik-tumu",
-    "name": "Acı ərik tumu",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Acı ərik tumu - Təbii və keyfiyyətli Oilganic məhsulu.",
-    "description": "Acı ərik tumu. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
-    "price": 2.5,
-    "currency": "AZN",
-    "unitLabel": "100 gr",
-    "sizes": [
-      {
-        "id": "size-8-1",
-        "label": "100 gr",
-        "price": 2.5,
-        "inStock": true,
-        "verificationStatus": "verified",
-        "imageSrc": "/images/products/aci-erik-tumu-100-gr.jpg",
-        "priceStatus": "verified",
-        "quantityStatus": "verified"
-      }
-    ],
-    "images": [
-      {
-        "src": "/images/products/aci-erik-tumu-100-gr.jpg",
-        "alt": "Acı ərik tumu"
-      }
-    ],
-    "usage": "İstifadə və rasion üçün uyğundur.",
-    "storage": "Sərin və quru yerdə saxlayın.",
-    "inStock": true,
-    "featured": true,
-    "tags": [
-      "wellness",
       "Oilganic"
     ],
     "verificationStatus": "verified",

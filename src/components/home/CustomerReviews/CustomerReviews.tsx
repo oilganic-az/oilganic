@@ -22,12 +22,6 @@ const REVIEWS: CustomerReview[] = [
     imageSrc: '/images/reviews/review-2.png',
     alt: 'Müştəri rəyi - Operativ kuryer çatdırılması və fıstıq küncüt əzməsi',
     caption: '"Mən müxtəlif səhifələrdən bu qədər online sifarişlər edirəm hələ belə tez, operativ çatdırılma olmamışdı. Fıstıq və küncüt əzməsi qarışımı dadlıdır..."'
-  },
-  {
-    id: 'rev-3',
-    imageSrc: '/images/reviews/review-3.png',
-    alt: 'Müştəri rəyi - Təbii məhsul təcrübəsi',
-    caption: '"Abitət Cəərçiyeva: 1 həftədir içirəm pilləkənləri qaca-qaca düşürəm vallah... 10 yaş cavanlaşmışam çox gümrah olmuşam"'
   }
 ];
 

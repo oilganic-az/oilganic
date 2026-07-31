@@ -22,6 +22,7 @@ import { TermsPage } from './pages/TermsPage';
 import { NotFoundPage } from './pages/NotFoundPage';
 import { AdminLoginPage } from './pages/admin/AdminLoginPage';
 import { AdminDashboardPage } from './pages/admin/AdminDashboardPage';
+import { ProtectedRoute, PublicAdminRoute } from './components/auth/AdminGuard';
 import { ScrollToTop } from './components/common/ScrollToTop/ScrollToTop';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
@@ -32,8 +33,30 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
           <BrowserRouter>
             <ScrollToTop />
             <Routes>
-              <Route path="/admin/login" element={<AdminLoginPage />} />
-              <Route path="/admin" element={<AdminDashboardPage />} />
+              <Route
+                path="/admin/login"
+                element={
+                  <PublicAdminRoute>
+                    <AdminLoginPage />
+                  </PublicAdminRoute>
+                }
+              />
+              <Route
+                path="/admin"
+                element={
+                  <ProtectedRoute>
+                    <AdminDashboardPage />
+                  </ProtectedRoute>
+                }
+              />
+              <Route
+                path="/admin/*"
+                element={
+                  <ProtectedRoute>
+                    <AdminDashboardPage />
+                  </ProtectedRoute>
+                }
+              />
               <Route path="/" element={<AppLayout />}>
                 <Route index element={<HomePage />} />
                 <Route path="products" element={<ProductsPage />} />

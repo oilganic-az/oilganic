@@ -1,5 +1,6 @@
 // Automatically generated legacy product aliases for backward compatibility redirection
 export const PRODUCT_ID_ALIASES: Record<string, string> = {
+  "prod-4": "prod-5",
   "prod-33": "prod-34",
   "prod-62": "prod-59",
   "prod-66": "prod-66",
@@ -21,6 +22,7 @@ export const PRODUCT_ID_ALIASES: Record<string, string> = {
 };
 
 export const PRODUCT_SLUG_ALIASES: Record<string, string> = {
+  "aci-erik": "aci-erik-tumu",
   "braziilya-qozu": "braziliya-qozu",
   "fistiqkuncut-ezmesi": "fistiq-kuncut-ezmesi",
   "gunebaxan-yagi-1litr": "gunebaxan-yagi",

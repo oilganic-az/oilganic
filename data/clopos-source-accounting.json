@@ -951,14 +951,14 @@
   {
     "sourceProductId": "726",
     "sourceName": "Acı ərik kg",
-    "finalProductId": "prod-4",
-    "finalProductName": "Acı ərik",
-    "finalSizeId": "size-7-1",
+    "finalProductId": "prod-5",
+    "finalProductName": "Acı ərik tumu",
+    "finalSizeId": "size-aci-erik-tumu-1-kg",
     "finalSizeLabel": "1 kg",
     "price": 20,
     "status": "mapped",
-    "groupingMethod": "normalized-semantic-name",
-    "confidence": "high",
+    "groupingMethod": "alias-normalized-semantic-name",
+    "confidence": "medium",
     "notes": null
   },
   {
