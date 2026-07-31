@@ -6,6 +6,8 @@ node_modules
 dist
 dist-ssr
 *.local
+*.zip
+*.tar.gz
 
 # Logs and debugs
 npm-debug.log*
