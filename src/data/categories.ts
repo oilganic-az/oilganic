@@ -5,7 +5,7 @@ export const CATEGORIES: Category[] = [
     id: 'oils',
     slug: 'yaglar',
     name: 'Təbii yağlar',
-    description: 'Soyuq sıxım texnologiyası ilə mağazada gözünüzün qarşısında hazırlanan təbii bitki və çərəz yağları.',
+    description: 'Soyuq və isti sıxım üsulu ilə mağazada gözünüzün qarşısında hazırlanan müxtəlif  təbii yağlar.',
     group: 'oils',
     badge: 'Soyuq sıxım'
   },
@@ -13,7 +13,7 @@ export const CATEGORIES: Category[] = [
     id: 'pastes',
     slug: 'azmeler',
     name: 'Təbii əzmələr',
-    description: 'Şəkərsiz, qatqısız, 100% təbii çərəzlərdən təzə hazırlanan əzmələr.',
+    description: 'Şəkərsiz, qatqısız, 100% təbii çərəzlərdən hazırlanan əzmələr.',
     group: 'pastes',
     badge: 'Qatqısız'
   },
@@ -21,7 +21,7 @@ export const CATEGORIES: Category[] = [
     id: 'sweeteners',
     slug: 'bal-behmez',
     name: 'Bal və bəhməzlər',
-    description: 'Təbii dağ balı, tut, xurma və üzüm bəhməzləri, məcunlar.',
+    description: 'Təbii dağ balı, arı məhsulları və bəhməzlər.',
     group: 'sweeteners'
   },
   {
@@ -35,14 +35,14 @@ export const CATEGORIES: Category[] = [
     id: 'vinegars',
     slug: 'sirkeler',
     name: 'Sirkələr',
-    description: 'Alma, ənginar, detoks, qaraciyər, ışkın, ananas sirkələri və şəfalı sular.',
+    description: 'Müxtəlif təbii üsulla hazırlanmış sirkələr və şəfalı sular.',
     group: 'vinegars'
   },
   {
     id: 'mecunlar',
     slug: 'mecunlar',
     name: 'Məcunlar',
-    description: 'Xurmaçı brendinin wellness məcunları — fit, enerji, protein, uşaq, güc formulları.',
+    description: 'Tam təbii üsulla hazırlanmış  məcun çeşidləri.',
     group: 'mecunlar',
     badge: 'Xurmaçı'
   },
@@ -50,14 +50,14 @@ export const CATEGORIES: Category[] = [
     id: 'teas',
     slug: 'caylar-bitkiler',
     name: 'Çaylar və bitkilər',
-    description: 'Təbii dağ bitkiləri, açıq çaylar və müalicəvi paket çaylar.',
+    description: 'Müxtəlif çaylar, otlar və qəhvə  çeşidləri.',
     group: 'teas'
   },
   {
     id: 'seeds_flours',
     slug: 'toxumlar-unlar',
     name: 'Toxumlar və unlar',
-    description: 'Təbii toxumlar, qlütensiz unlar və ədviyyatlar.',
+    description: 'Saf toxumlar və qlütensiz unlar',
     group: 'seeds_flours'
   },
   {
@@ -66,6 +66,13 @@ export const CATEGORIES: Category[] = [
     name: 'Wellness & bitki məhsulları',
     description: 'Buğda otu məhsulları, seçilmiş məcunlar və təbii qida əlavələri.',
     group: 'wellness'
+  },
+  {
+    id: 'spices',
+    slug: 'edviyyatlar',
+    name: 'Ədviyyatlar',
+    description: 'Göz önündə üyüdülən növbənöv ədviyyatlar',
+    group: 'spices'
   }
 ];
 

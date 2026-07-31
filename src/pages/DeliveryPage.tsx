@@ -141,7 +141,7 @@ export const DeliveryPage: React.FC = () => {
               </div>
               <div className={styles.trustItem}>
                 <Clock size={18} />
-                <span>Dəqiqlik və </span>
+                <span>Dəqiqlik və operativlik</span>
               </div>
               <div className={styles.trustItem}>
                 <ThumbsUp size={18} />
