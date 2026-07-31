@@ -75,19 +75,6 @@ export const ProcessPage: React.FC = () => {
           <div className={styles.videoOverlay} />
 
           <div className={`container ${styles.contentWrapper}`}>
-            {/* Hygiene Banner */}
-            <div className={styles.hygieneBanner}>
-              <div className={styles.bannerIcon}>
-                <Shield size={32} />
-              </div>
-              <div>
-                <h3 className={styles.bannerTitle}>Mağazada gigiyena və keyfiyyət standartı</h3>
-                <p className={styles.bannerText}>
-                  Bütün cihazlarımız hər sıxımdan sonra təmizlənir və tam gigiyenik hazırlanma prosesi qorunur.
-                </p>
-              </div>
-            </div>
-
             {/* Timeline Steps 3 & 4 */}
             <div className={styles.timeline}>
               {PROCESS_STEPS.slice(2).map(step => (
@@ -117,9 +104,22 @@ export const ProcessPage: React.FC = () => {
               ))}
             </div>
 
+            {/* Hygiene Banner */}
+            <div className={styles.hygieneBanner} style={{ marginTop: '3rem', marginBottom: '3rem' }}>
+              <div className={styles.bannerIcon}>
+                <Shield size={32} />
+              </div>
+              <div>
+                <h3 className={styles.bannerTitle}>Mağazada gigiyena və keyfiyyət standartı</h3>
+                <p className={styles.bannerText}>
+                  Bütün cihazlarımız hər sıxımdan sonra təmizlənir və tam gigiyenik hazırlanma prosesi qorunur.
+                </p>
+              </div>
+            </div>
+
             {/* Bottom CTA */}
             <div className={styles.bottomCta}>
-              <h3 className={styles.ctaTitle}>Yeni hazırlanmış məhsullarımızı sınaqdan keçirin</h3>
+              <h3 className={styles.ctaTitle}>Yeni hazırlanmış məhsullarimizi sınaqdan keçirin</h3>
               <p className={styles.ctaSub}>
                 Canlı hazırlanmış soyuq sıxım yağlarımızdan və şəkərsiz əzmələrimizdən dərhal sifariş edin.
               </p>

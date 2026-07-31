@@ -46,8 +46,8 @@ export const HeroSection: React.FC = () => {
             className={styles.heroTitle}
             text="Təbii yağlar və əzmələr - gözünüzün qarşısında hazırlanır."
             lines={[
-              <>Təbii yağlar və əzmələr -</>,
-              <><span className={styles.greenHighlight}>gözünüzün qarşısında</span> hazırlanır.</>
+              <>Təbii yağlar və əzmələr</>,
+              <>- <span className={styles.greenHighlight}>gözünüzün qarşısında</span> hazırlanır.</>
             ]}
             delay={0.2}
           />

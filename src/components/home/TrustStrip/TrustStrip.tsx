@@ -12,12 +12,12 @@ export const TrustStrip: React.FC = () => {
     {
       icon: <Leaf size={22} />,
       title: 'Təbii Xammal',
-      desc: '100% seçilmiş və qatqısız bitki toxumları.'
+      desc: '100% seçilmiş və saf toxumlardan hazırlanır.'
     },
     {
       icon: <ShieldCheck size={22} />,
       title: 'Gigiyenik Qablaşdırma',
-      desc: 'Steril tünd şüşə və bağlamalarda.'
+      desc: 'Steril şüşə qablarda.'
     },
     {
       icon: <Store size={22} />,

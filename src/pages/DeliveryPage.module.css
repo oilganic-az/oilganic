@@ -44,6 +44,12 @@
   }
 }
 
+@media (min-width: 992px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 .card {
   background-color: var(--color-white);
   border: 1px solid var(--border-color);

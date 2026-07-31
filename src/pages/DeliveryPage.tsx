@@ -1,5 +1,5 @@
 import React from 'react';
-import { MessageCircle, Check } from 'lucide-react';
+import { MessageCircle, Check, Truck } from 'lucide-react';
 import { BUSINESS_CONFIG } from '../config/business';
 import { Button } from '../components/common/Button/Button';
 import { WoltIcon } from '../components/common/WoltIcon/WoltIcon';
@@ -69,6 +69,40 @@ export const DeliveryPage: React.FC = () => {
                 </Button>
               </a>
             </div>
+
+            {/* Expargo Option */}
+            <div className={styles.card}>
+              <div className={styles.cardHeader}>
+                <Truck size={36} style={{ color: '#15803d' }} />
+                <h3 className={styles.cardTitle}>Rayonlara və şəhər ətrafı ərazilərə çatdırılma</h3>
+              </div>
+              <div className={styles.cardText} style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
+                <p>
+                  <strong>Çatdırılma:</strong> Çatdırılma Expargo vasitəsilə həyata keçirilir.
+                </p>
+                <p>
+                  <strong>Çatdırılma ödənişi:</strong> 5 kq-a qədər bağlamalar üçün çatdırılma haqqı 5 ₼ təşkil edir.
+                </p>
+                <p>
+                  <strong>Çatdırılma müddəti:</strong> Sifarişlər 1–3 iş günü ərzində ünvanınıza çatdırılır.
+                </p>
+                <p style={{ fontSize: '0.85rem', fontStyle: 'italic', color: 'var(--text-subtle)' }}>
+                  <strong>Qeyd:</strong> 5 kq-dan artıq sifarişlər üçün çatdırılma haqqı bağlamanın çəkisinə uyğun hesablanır.
+                </p>
+              </div>
+              <ul className={styles.featureList}>
+                <li><Check size={16} color="var(--color-brand-green)" /> Təhlükəsiz çatdırılma</li>
+                <li><Check size={16} color="var(--color-brand-green)" /> Etibarlı və peşəkar xidmət</li>
+                <li><Check size={16} color="var(--color-brand-green)" /> Zamana dəqiq</li>
+                <li><Check size={16} color="var(--color-brand-green)" /> Müştəri məmnuniyyəti</li>
+              </ul>
+              <a href={BUSINESS_CONFIG.whatsappLink} target="_blank" rel="noopener noreferrer">
+                <Button variant="primary" fullWidth icon={<Truck size={20} />}>
+                  Expargo ilə sifariş et
+                </Button>
+              </a>
+            </div>
+
           </div>
         </div>
       </div>
