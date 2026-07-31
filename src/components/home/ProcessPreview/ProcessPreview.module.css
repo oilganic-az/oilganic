@@ -281,8 +281,9 @@
 .modalContent {
   position: relative;
   width: 100%;
-  max-width: 800px;
-  aspect-ratio: 16 / 9;
+  max-width: 400px;
+  max-height: 85vh;
+  aspect-ratio: 9 / 16;
   background: #000000;
   border-radius: 16px;
   overflow: hidden;
