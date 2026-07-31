@@ -35,6 +35,7 @@
 .logoLink {
   display: flex;
   align-items: center;
+  flex-shrink: 0;
 }
 
 .desktopNav {
@@ -50,17 +51,18 @@
 .navList {
   display: flex;
   align-items: center;
-  gap: var(--space-6);
+  gap: clamp(0.5rem, 1.2vw, 1.5rem);
 }
 
 .navLink {
   font-family: var(--font-heading);
   font-weight: 600;
-  font-size: var(--font-size-md);
+  font-size: clamp(0.85rem, 0.95vw, 0.975rem);
   color: var(--color-charcoal-700);
   transition: color var(--transition-fast);
   padding: 0.4rem 0;
   position: relative;
+  white-space: nowrap;
 }
 
 .navLink:hover {
@@ -87,6 +89,7 @@
   display: flex;
   align-items: center;
   gap: var(--space-2);
+  flex-shrink: 0;
 }
 
 @media (min-width: 576px) {
