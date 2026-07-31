@@ -6,6 +6,7 @@ export type NavItem = {
 export const MAIN_NAV_ITEMS: NavItem[] = [
   { label: 'Ana səhifə', path: '/' },
   { label: 'Məhsullar', path: '/products' },
+  { label: 'Kampaniyalar', path: '/campaigns' },
   { label: 'Hazırlanma prosesi', path: '/process' },
   { label: 'Haqqımızda', path: '/about' },
   { label: 'Çatdırılma', path: '/delivery' },

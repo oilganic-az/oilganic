@@ -4615,35 +4615,7 @@ export const PRODUCTS: Product[] = [
         "inStock": true,
         "verificationStatus": "verified",
         "imageSrc": "/images/products/qarazire-yagi-100ml-suriya-toxumundan.jpg"
-      }
-    ],
-    "images": [
-      {
-        "src": "/images/products/qarazire-yagi-100ml-suriya-toxumundan.jpg",
-        "alt": "Qarazirə yağı Suriya toxumundan (100ml)"
-      }
-    ],
-    "usage": "İstifadə və rasion üçün uyğundur.",
-    "storage": "Sərin və quru yerdə saxlayın.",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "oils",
-      "Oilganic"
-    ],
-    "verificationStatus": "verified"
-  },
-  {
-    "id": "prod-115",
-    "slug": "qarazire-yagi-suriya-toxumu",
-    "name": "Qarazirə yağı Suriya toxumu",
-    "categoryId": "oils",
-    "shortDescription": "Qarazirə yağı Suriya toxumu - Təbii və keyfiyyətli Oilganic məhsulu.",
-    "description": "Qarazirə yağı Suriya toxumu. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
-    "price": 23,
-    "currency": "AZN",
-    "unitLabel": "ml",
-    "sizes": [
+      },
       {
         "id": "size-159-1",
         "label": "250ml",
@@ -4655,8 +4627,12 @@ export const PRODUCTS: Product[] = [
     ],
     "images": [
       {
+        "src": "/images/products/qarazire-yagi-100ml-suriya-toxumundan.jpg",
+        "alt": "Qarazirə yağı Suriya toxumundan (100ml)"
+      },
+      {
         "src": "/images/products/qarazire-yagi-250ml-suriya-toxumu.jpg",
-        "alt": "Qarazirə yağı Suriya toxumu (250ml)"
+        "alt": "Qarazirə yağı Suriya toxumundan (250ml)"
       }
     ],
     "usage": "İstifadə və rasion üçün uyğundur.",
@@ -4669,6 +4645,7 @@ export const PRODUCTS: Product[] = [
     ],
     "verificationStatus": "verified"
   },
+
   {
     "id": "prod-116",
     "slug": "qarazire-yagi-hebesistan",

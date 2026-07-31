@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Plus, Search, Edit2, Trash2, RotateCcw, LogOut, Package, Upload, Lock } from 'lucide-react';
+import { Plus, Search, Edit2, Trash2, RotateCcw, LogOut, Package, Upload, Lock, Gift, Calendar } from 'lucide-react';
 import { useProducts } from '../../context/ProductsContext';
+import { useCampaigns } from '../../context/CampaignsContext';
 import { CATEGORIES } from '../../data/categories';
 import { Product } from '../../types/product';
 import { Button } from '../../components/common/Button/Button';
@@ -14,11 +15,13 @@ import styles from './AdminPage.module.css';
 export const AdminDashboardPage: React.FC = () => {
   const navigate = useNavigate();
   const { products, addProduct, updateProduct, deleteProduct, resetToDefaultProducts } = useProducts();
+  const { campaigns, addCampaign, deleteCampaign, toggleCampaignStatus } = useCampaigns();
 
+  const [activeTab, setActiveTab] = useState<'products' | 'campaigns'>('products');
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('all');
 
-  // Modals state
+  // Product Modals State
   const [isEditModalOpen, setIsEditModalOpen] = useState(false);
   const [editingProduct, setEditingProduct] = useState<Partial<Product> | null>(null);
   const [isAddMode, setIsAddMode] = useState(false);
@@ -30,6 +33,14 @@ export const AdminDashboardPage: React.FC = () => {
   const [confirmPassword, setConfirmPassword] = useState('');
   const [passwordError, setPasswordError] = useState('');
   const [passwordSuccess, setPasswordSuccess] = useState('');
+
+  // Campaign Modal State
+  const [isCampaignModalOpen, setIsCampaignModalOpen] = useState(false);
+  const [campTitle, setCampTitle] = useState('');
+  const [campConditions, setCampConditions] = useState('');
+  const [campStartDate, setCampStartDate] = useState('');
+  const [campEndDate, setCampEndDate] = useState('');
+  const [campImageSrc, setCampImageSrc] = useState('');
 
   // Authentication & Inactivity Monitoring
   useEffect(() => {
@@ -114,6 +125,20 @@ export const AdminDashboardPage: React.FC = () => {
             ...editingProduct,
             images: [{ src: dataUrl, alt: editingProduct.name || '' }]
           });
+        }
+      };
+      reader.readAsDataURL(file);
+    }
+  };
+
+  const handleCampaignImageUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (file) {
+      const reader = new FileReader();
+      reader.onload = (uploadEvent) => {
+        const dataUrl = uploadEvent.target?.result as string;
+        if (dataUrl) {
+          setCampImageSrc(dataUrl);
         }
       };
       reader.readAsDataURL(file);
@@ -217,26 +242,55 @@ export const AdminDashboardPage: React.FC = () => {
     }
   };
 
+  const handleSaveCampaign = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!campTitle.trim() || !campConditions.trim()) return;
+
+    addCampaign({
+      title: sanitizeInput(campTitle),
+      conditions: sanitizeInput(campConditions),
+      startDate: campStartDate ? sanitizeInput(campStartDate) : undefined,
+      endDate: campEndDate ? sanitizeInput(campEndDate) : undefined,
+      imageSrc: campImageSrc ? campImageSrc : undefined
+    });
+
+    // Reset Form fields
+    setCampTitle('');
+    setCampConditions('');
+    setCampStartDate('');
+    setCampEndDate('');
+    setCampImageSrc('');
+    setIsCampaignModalOpen(false);
+  };
+
   return (
     <>
-      <SEO title="Admin İdarəetmə Paneli - Oilganic" description="Məhsulların idarə edilməsi" canonicalPath="/admin" />
+      <SEO title="Admin İdarəetmə Paneli - Oilganic" description="Məhsulların və kampaniyaların idarə edilməsi" canonicalPath="/admin" />
       <div className={styles.container}>
         <div className={styles.dashboardHeader}>
           <div>
             <h1 className={styles.dashTitle}>Admin İdarəetmə Paneli</h1>
             <p style={{ color: '#6b7280', fontSize: '0.95rem' }}>
-              Məhsulların qiymətlərini, adlarını və parametrlərini real vaxt rejimində dəyişin
+              Məhsulları və aktiv endirim kampaniyalarını real vaxt rejimində dəyişin
             </p>
           </div>
           <div className={styles.dashActions}>
-            <Button variant="primary" icon={<Plus size={18} />} onClick={openAddModal}>
-              Yeni məhsul əlavə et
+            <Button
+              variant={activeTab === 'products' ? 'primary' : 'outline'}
+              icon={<Package size={18} />}
+              onClick={() => setActiveTab('products')}
+            >
+              Məhsullar
+            </Button>
+            <Button
+              variant={activeTab === 'campaigns' ? 'primary' : 'outline'}
+              icon={<Gift size={18} />}
+              onClick={() => setActiveTab('campaigns')}
+            >
+              Kampaniyalar
             </Button>
             <Button variant="outline" icon={<Lock size={16} />} onClick={() => setIsPasswordModalOpen(true)}>
               Şifrəni dəyiş
-            </Button>
-            <Button variant="outline" icon={<RotateCcw size={16} />} onClick={handleReset} title="İlkin sıfırlama">
-              Sıfırla
             </Button>
             <Button variant="dark" icon={<LogOut size={16} />} onClick={handleLogout}>
               Çıxış
@@ -244,122 +298,238 @@ export const AdminDashboardPage: React.FC = () => {
           </div>
         </div>
 
-        {/* Toolbar */}
-        <div className={styles.toolbar}>
-          <div className={styles.searchBox}>
-            <Search size={18} className={styles.searchIcon} />
-            <input
-              type="text"
-              placeholder="Məhsul axtarın..."
-              className={styles.searchInput}
-              value={searchQuery}
-              onChange={e => setSearchQuery(e.target.value)}
-            />
-          </div>
+        {/* Tab 1: Products Management */}
+        {activeTab === 'products' && (
+          <>
+            <div className={styles.toolbar}>
+              <div className={styles.searchBox}>
+                <Search size={18} className={styles.searchIcon} />
+                <input
+                  type="text"
+                  placeholder="Məhsul axtarın..."
+                  className={styles.searchInput}
+                  value={searchQuery}
+                  onChange={e => setSearchQuery(e.target.value)}
+                />
+              </div>
 
-          <select
-            className={styles.categorySelect}
-            value={selectedCategory}
-            onChange={e => setSelectedCategory(e.target.value)}
-          >
-            <option value="all">Bütün kateqoriyalar</option>
-            {CATEGORIES.map(c => (
-              <option key={c.id} value={c.id}>
-                {c.name}
-              </option>
-            ))}
-          </select>
-          <span style={{ fontSize: '0.875rem', color: '#6b7280' }}>
-            Cəmi: {filteredProducts.length} məhsul
-          </span>
-        </div>
+              <select
+                className={styles.categorySelect}
+                value={selectedCategory}
+                onChange={e => setSelectedCategory(e.target.value)}
+              >
+                <option value="all">Bütün kateqoriyalar</option>
+                {CATEGORIES.map(c => (
+                  <option key={c.id} value={c.id}>
+                    {c.name}
+                  </option>
+                ))}
+              </select>
+              
+              <Button variant="primary" icon={<Plus size={16} />} onClick={openAddModal}>
+                Yeni məhsul
+              </Button>
+              
+              <Button variant="outline" icon={<RotateCcw size={16} onClick={handleReset} />} title="İlkin sıfırlama">
+                Sıfırla
+              </Button>
 
-        {/* Products Table */}
-        <div className={styles.tableWrapper}>
-          <table className={styles.table}>
-            <thead>
-              <tr>
-                <th>Şəkil</th>
-                <th>Məhsul adı</th>
-                <th>Kateqoriya</th>
-                <th>Qiymət</th>
-                <th>Ölçü / Vahid</th>
-                <th>Stok vəziyyəti</th>
-                <th style={{ textAlign: 'right' }}>Əməliyyatlar</th>
-              </tr>
-            </thead>
-            <tbody>
-              {filteredProducts.length === 0 ? (
-                <tr>
-                  <td colSpan={7} style={{ textAlign: 'center', padding: '3rem', color: '#9ca3af' }}>
-                    <Package size={36} style={{ marginBottom: '0.5rem', opacity: 0.5 }} />
-                    <p>Heç bir məhsul tapılmadı</p>
-                  </td>
-                </tr>
-              ) : (
-                filteredProducts.map(prod => (
-                  <tr key={prod.id}>
-                    <td>
-                      <img
-                        src={prod.images && prod.images.length > 0 ? prod.images[0].src : ''}
-                        alt={prod.name}
-                        className={styles.thumbImg}
-                        onError={e => {
-                          (e.target as HTMLElement).style.display = 'none';
-                        }}
-                      />
-                    </td>
-                    <td>
-                      <strong style={{ color: '#111827' }}>{prod.name}</strong>
-                      <div style={{ fontSize: '0.8rem', color: '#6b7280' }}>{prod.slug}</div>
-                    </td>
-                    <td>
-                      {CATEGORIES.find(c => c.id === prod.categoryId)?.name || prod.categoryId}
-                    </td>
-                    <td>
-                      <span style={{ fontWeight: 700, color: '#15803d' }}>
-                        {formatCurrency(prod.price)}
-                      </span>
-                    </td>
-                    <td>{prod.sizes && prod.sizes.length > 0 ? prod.sizes[0].label : (prod.unitLabel || 'ədəd')}</td>
-                    <td>
-                      <span
-                        className={`${styles.stockBadge} ${
-                          prod.inStock ? styles.inStock : styles.outOfStock
-                        }`}
-                      >
-                        {prod.inStock ? 'Stokda var' : 'Tükənib'}
-                      </span>
-                    </td>
-                    <td style={{ textAlign: 'right' }}>
-                      <div className={styles.actionBtns} style={{ justifyContent: 'flex-end' }}>
-                        <button
-                          type="button"
-                          className={styles.editBtn}
-                          onClick={() => openEditModal(prod)}
-                          title="Düzəliş et"
-                        >
-                          <Edit2 size={14} style={{ marginRight: '4px' }} /> Düzəliş et
-                        </button>
-                        <button
-                          type="button"
-                          className={styles.deleteBtn}
-                          onClick={() => handleDelete(prod.id, prod.name)}
-                          title="Sil"
-                        >
-                          <Trash2 size={14} style={{ marginRight: '4px' }} /> Sil
-                        </button>
-                      </div>
-                    </td>
+              <span style={{ fontSize: '0.875rem', color: '#6b7280' }}>
+                Cəmi: {filteredProducts.length} məhsul
+              </span>
+            </div>
+
+            <div className={styles.tableWrapper}>
+              <table className={styles.table}>
+                <thead>
+                  <tr>
+                    <th>Şəkil</th>
+                    <th>Məhsul adı</th>
+                    <th>Kateqoriya</th>
+                    <th>Qiymət</th>
+                    <th>Ölçü / Vahid</th>
+                    <th>Stok vəziyyəti</th>
+                    <th style={{ textAlign: 'right' }}>Əməliyyatlar</th>
                   </tr>
-                ))
-              )}
-            </tbody>
-          </table>
-        </div>
+                </thead>
+                <tbody>
+                  {filteredProducts.length === 0 ? (
+                    <tr>
+                      <td colSpan={7} style={{ textAlign: 'center', padding: '3rem', color: '#9ca3af' }}>
+                        <Package size={36} style={{ marginBottom: '0.5rem', opacity: 0.5 }} />
+                        <p>Heç bir məhsul tapılmadı</p>
+                      </td>
+                    </tr>
+                  ) : (
+                    filteredProducts.map(prod => (
+                      <tr key={prod.id}>
+                        <td>
+                          <img
+                            src={prod.images && prod.images.length > 0 ? prod.images[0].src : ''}
+                            alt={prod.name}
+                            className={styles.thumbImg}
+                            onError={e => {
+                              (e.target as HTMLElement).style.display = 'none';
+                            }}
+                          />
+                        </td>
+                        <td>
+                          <strong style={{ color: '#111827' }}>{prod.name}</strong>
+                          <div style={{ fontSize: '0.8rem', color: '#6b7280' }}>{prod.slug}</div>
+                        </td>
+                        <td>
+                          {CATEGORIES.find(c => c.id === prod.categoryId)?.name || prod.categoryId}
+                        </td>
+                        <td>
+                          <span style={{ fontWeight: 700, color: '#15803d' }}>
+                            {formatCurrency(prod.price)}
+                          </span>
+                        </td>
+                        <td>{prod.sizes && prod.sizes.length > 0 ? prod.sizes[0].label : (prod.unitLabel || 'ədəd')}</td>
+                        <td>
+                          <span
+                            className={`${styles.stockBadge} ${
+                              prod.inStock ? styles.inStock : styles.outOfStock
+                            }`}
+                          >
+                            {prod.inStock ? 'Stokda var' : 'Tükənib'}
+                          </span>
+                        </td>
+                        <td style={{ textAlign: 'right' }}>
+                          <div className={styles.actionBtns} style={{ justifyContent: 'flex-end' }}>
+                            <button
+                              type="button"
+                              className={styles.editBtn}
+                              onClick={() => openEditModal(prod)}
+                              title="Düzəliş et"
+                            >
+                              <Edit2 size={14} style={{ marginRight: '4px' }} /> Düzəliş et
+                            </button>
+                            <button
+                              type="button"
+                              className={styles.deleteBtn}
+                              onClick={() => handleDelete(prod.id, prod.name)}
+                              title="Sil"
+                            >
+                              <Trash2 size={14} style={{ marginRight: '4px' }} /> Sil
+                            </button>
+                          </div>
+                        </td>
+                      </tr>
+                    ))
+                  )}
+                </tbody>
+              </table>
+            </div>
+          </>
+        )}
+
+        {/* Tab 2: Campaigns Management */}
+        {activeTab === 'campaigns' && (
+          <>
+            <div className={styles.toolbar}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+                <h3 style={{ fontSize: '1.25rem', fontWeight: 700, color: '#113c22' }}>Kampaniya siyahısı</h3>
+                <span style={{ fontSize: '0.875rem', color: '#6b7280' }}>
+                  Cəmi: {campaigns.length} kampaniya
+                </span>
+              </div>
+              <Button
+                variant="primary"
+                icon={<Plus size={16} />}
+                onClick={() => setIsCampaignModalOpen(true)}
+              >
+                Yeni kampaniya əlavə et
+              </Button>
+            </div>
+
+            <div className={styles.tableWrapper}>
+              <table className={styles.table}>
+                <thead>
+                  <tr>
+                    <th>Şəkil</th>
+                    <th>Kampaniya adı</th>
+                    <th>Müddət</th>
+                    <th>Şərtlər</th>
+                    <th>Status</th>
+                    <th style={{ textAlign: 'right' }}>Əməliyyat</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {campaigns.length === 0 ? (
+                    <tr>
+                      <td colSpan={6} style={{ textAlign: 'center', padding: '3rem', color: '#9ca3af' }}>
+                        <Gift size={36} style={{ marginBottom: '0.5rem', opacity: 0.5 }} />
+                        <p>Aktiv kampaniya tapılmadı. "Yeni kampaniya əlavə et" düyməsinə klikləyərək yenisini yaradın.</p>
+                      </td>
+                    </tr>
+                  ) : (
+                    campaigns.map(camp => (
+                      <tr key={camp.id}>
+                        <td>
+                          {camp.imageSrc ? (
+                            <img
+                              src={camp.imageSrc}
+                              alt={camp.title}
+                              className={styles.thumbImg}
+                            />
+                          ) : (
+                            <div className={styles.thumbImg} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#f3f4f6' }}>
+                              <Gift size={20} color="#9ca3af" />
+                            </div>
+                          )}
+                        </td>
+                        <td>
+                          <strong style={{ color: '#111827' }}>{camp.title}</strong>
+                        </td>
+                        <td>
+                          <div style={{ display: 'flex', alignItems: 'center', gap: '4px', fontSize: '0.85rem' }}>
+                            <Calendar size={14} color="#6b7280" />
+                            <span>{camp.startDate || '—'} / {camp.endDate || '—'}</span>
+                          </div>
+                        </td>
+                        <td>
+                          <p style={{ maxWidth: '300px', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', fontSize: '0.85rem' }} title={camp.conditions}>
+                            {camp.conditions}
+                          </p>
+                        </td>
+                        <td>
+                          <button
+                            type="button"
+                            className={`${styles.stockBadge} ${
+                              camp.isActive ? styles.inStock : styles.outOfStock
+                            }`}
+                            onClick={() => toggleCampaignStatus(camp.id)}
+                            style={{ cursor: 'pointer', border: 'none' }}
+                            title="Statusu dəyiş"
+                          >
+                            {camp.isActive ? 'Aktiv' : 'Passiv'}
+                          </button>
+                        </td>
+                        <td style={{ textAlign: 'right' }}>
+                          <button
+                            type="button"
+                            className={styles.deleteBtn}
+                            onClick={() => {
+                              if (window.confirm(`"${camp.title}" kampaniyasını silməyə əminsiniz?`)) {
+                                deleteCampaign(camp.id);
+                              }
+                            }}
+                          >
+                            <Trash2 size={14} style={{ marginRight: '4px' }} /> Sil
+                          </button>
+                        </td>
+                      </tr>
+                    ))
+                  )}
+                </tbody>
+              </table>
+            </div>
+          </>
+        )}
       </div>
 
-      {/* Edit / Add Modal */}
+      {/* Product Edit / Add Modal */}
       {isEditModalOpen && editingProduct && (
         <div className={styles.modalOverlay}>
           <div className={styles.modalBox}>
@@ -435,7 +605,6 @@ export const AdminDashboardPage: React.FC = () => {
               {/* Image Selection with Local File Upload */}
               <div className={styles.formGroup}>
                 <label className={styles.formLabel}>Məhsul şəkli (lokal şəkil seç / yüklə)</label>
-                
                 <div style={{ display: 'flex', gap: '1rem', alignItems: 'center', marginBottom: '0.5rem' }}>
                   <label
                     style={{
@@ -463,7 +632,6 @@ export const AdminDashboardPage: React.FC = () => {
                   </label>
                 </div>
 
-                {/* Preview Thumbnail */}
                 {editingProduct.images && editingProduct.images.length > 0 && editingProduct.images[0].src && (
                   <div style={{ margin: '0.75rem 0', display: 'flex', alignItems: 'center', gap: '1rem' }}>
                     <img
@@ -502,6 +670,114 @@ export const AdminDashboardPage: React.FC = () => {
 
               <div className={styles.modalFooter}>
                 <Button type="button" variant="outline" onClick={() => setIsEditModalOpen(false)}>
+                  Ləğv et
+                </Button>
+                <Button type="submit" variant="primary">
+                  Yadda saxla
+                </Button>
+              </div>
+            </form>
+          </div>
+        </div>
+      )}
+
+      {/* Campaign Add Modal */}
+      {isCampaignModalOpen && (
+        <div className={styles.modalOverlay}>
+          <div className={styles.modalBox} style={{ maxWidth: '500px' }}>
+            <h2 className={styles.modalTitle}>Yeni kampaniya əlavə et</h2>
+            <form onSubmit={handleSaveCampaign}>
+              <div className={styles.formGroup}>
+                <label className={styles.formLabel}>Kampaniya adı *</label>
+                <input
+                  type="text"
+                  className={styles.formInput}
+                  value={campTitle}
+                  onChange={e => setCampTitle(e.target.value)}
+                  placeholder="Məs: Hədiyyəli Paket Kampaniyası"
+                  required
+                />
+              </div>
+
+              <div className={styles.grid2}>
+                <div className={styles.formGroup}>
+                  <label className={styles.formLabel}>Başlama tarixi</label>
+                  <input
+                    type="text"
+                    className={styles.formInput}
+                    value={campStartDate}
+                    onChange={e => setCampStartDate(e.target.value)}
+                    placeholder="Məs: 1 Avqust"
+                  />
+                </div>
+
+                <div className={styles.formGroup}>
+                  <label className={styles.formLabel}>Bitmə tarixi</label>
+                  <input
+                    type="text"
+                    className={styles.formInput}
+                    value={campEndDate}
+                    onChange={e => setCampEndDate(e.target.value)}
+                    placeholder="Məs: 15 Avqust"
+                  />
+                </div>
+              </div>
+
+              {/* Optional Campaign Image File Upload */}
+              <div className={styles.formGroup}>
+                <label className={styles.formLabel}>Kampaniya şəkli (opsional)</label>
+                <div style={{ display: 'flex', gap: '1rem', alignItems: 'center', marginBottom: '0.5rem' }}>
+                  <label
+                    style={{
+                      display: 'inline-flex',
+                      alignItems: 'center',
+                      gap: '0.5rem',
+                      padding: '0.625rem 1.25rem',
+                      background: '#15803d',
+                      color: '#ffffff',
+                      borderRadius: '8px',
+                      fontWeight: 600,
+                      fontSize: '0.9rem',
+                      cursor: 'pointer',
+                      transition: 'background 0.2s'
+                    }}
+                  >
+                    <Upload size={18} />
+                    Kompüterdən şəkil seç
+                    <input
+                      type="file"
+                      accept="image/*"
+                      onChange={handleCampaignImageUpload}
+                      style={{ display: 'none' }}
+                    />
+                  </label>
+                </div>
+
+                {campImageSrc && (
+                  <div style={{ margin: '0.75rem 0', display: 'flex', alignItems: 'center', gap: '1rem' }}>
+                    <img
+                      src={campImageSrc}
+                      alt="Kampaniya şəkli"
+                      style={{ width: '120px', height: '68px', objectFit: 'cover', borderRadius: '8px', border: '1px solid #d1d5db' }}
+                    />
+                  </div>
+                )}
+              </div>
+
+              <div className={styles.formGroup}>
+                <label className={styles.formLabel}>Kampaniya şərtləri və təsviri *</label>
+                <textarea
+                  className={styles.formInput}
+                  rows={4}
+                  value={campConditions}
+                  onChange={e => setCampConditions(e.target.value)}
+                  placeholder="Kampaniyanın ətraflı şərtlərini daxil edin..."
+                  required
+                />
+              </div>
+
+              <div className={styles.modalFooter}>
+                <Button type="button" variant="outline" onClick={() => setIsCampaignModalOpen(false)}>
                   Ləğv et
                 </Button>
                 <Button type="submit" variant="primary">
