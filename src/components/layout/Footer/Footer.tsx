@@ -124,7 +124,7 @@ export const Footer: React.FC = () => {
                   <div className={styles.developerCard}>
                     <div className={styles.developerSocials}>
                       <a
-                        href="https://wa.me/994773343536"
+                        href="https://wa.me/994773970308"
                         target="_blank"
                         rel="noopener noreferrer"
                         className={`${styles.devSocialIcon} ${styles.whatsapp}`}
