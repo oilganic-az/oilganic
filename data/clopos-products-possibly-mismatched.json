@@ -1,0 +1,3162 @@
+[
+  {
+    "sourceProductId": "614",
+    "siteProductId": "prod-42",
+    "name": "Çiçək tozu",
+    "reasons": [
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-cicek-tozu-100gr",
+        "sourceVariantId": "982",
+        "label": "100gr",
+        "sourceLabel": "100gr",
+        "quantity": {
+          "value": 100,
+          "unit": "g"
+        },
+        "price": 12,
+        "rawPrice": "12.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/72b237da-bf4d-4f65-885e-de07c1f0383f/original.jpg",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      },
+      {
+        "id": "size-cicek-tozu-kg",
+        "sourceVariantId": "614",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 100,
+        "rawPrice": "100.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/171b37e3-c406-40b4-aa32-0b289d2801a3/original.jpg",
+        "available": true,
+        "isDefault": false,
+        "order": 2
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-61-1",
+        "label": "100gr",
+        "price": 12,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/cicek-tozu-100gr.jpg"
+      },
+      {
+        "id": "size-62-2",
+        "label": "1 kg",
+        "price": 100,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/cicek-tozu-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "646",
+    "siteProductId": "prod-19",
+    "name": "Astara çayı 2-ci sort",
+    "reasons": [
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-astara-cayi-2-ci-sort-100gr",
+        "sourceVariantId": "983",
+        "label": "100gr",
+        "sourceLabel": "100gr",
+        "quantity": {
+          "value": 100,
+          "unit": "g"
+        },
+        "price": 3,
+        "rawPrice": "3.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/e5096def-16be-4193-a431-2f594b28607f/original.jpg",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      },
+      {
+        "id": "size-astara-cayi-2-ci-sort-kg",
+        "sourceVariantId": "646",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 20,
+        "rawPrice": "20.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/b3fe7289-c3e1-4156-848b-5965583e7204/original.png",
+        "available": true,
+        "isDefault": false,
+        "order": 2
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-28-1",
+        "label": "100gr",
+        "price": 3,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/astara-cayi-2-ci-sort-100gr.jpg"
+      },
+      {
+        "id": "size-29-2",
+        "label": "1 kg",
+        "price": 20,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/astara-cayi-2-ci-sort-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "647",
+    "siteProductId": "prod-21",
+    "name": "Astara premium",
+    "reasons": [
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-astara-premium-kg",
+        "sourceVariantId": "647",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 40,
+        "rawPrice": "40.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/606698ac-c1b0-4d88-94aa-689b26f64a10/original.png",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-31-1",
+        "label": "1 kg",
+        "price": 40,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/astara-premium-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "652",
+    "siteProductId": "prod-132",
+    "name": "Məkkə gülü",
+    "reasons": [
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-mekke-gulu-kg",
+        "sourceVariantId": "652",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 40,
+        "rawPrice": "40.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/5df1283f-d766-4855-bb78-d9ef181a2c78/original.png",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-180-1",
+        "label": "1 kg",
+        "price": 40,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/mekke-gulu-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "656",
+    "siteProductId": "prod-151",
+    "name": "Şri-lanka çayı ətirli",
+    "reasons": [
+      "Variant count differs: Clopos has 2, site has 1",
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-sri-lanka-cayi-etirli-100gr",
+        "sourceVariantId": "986",
+        "label": "100gr",
+        "sourceLabel": "100gr",
+        "quantity": {
+          "value": 100,
+          "unit": "g"
+        },
+        "price": 5,
+        "rawPrice": "5.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/b37c6b44-3b41-4370-9f99-3897354d56bc/original.jpg",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      },
+      {
+        "id": "size-sri-lanka-cayi-etirli-kg",
+        "sourceVariantId": "656",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 40,
+        "rawPrice": "40.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/dfa4ff7f-adc6-42f9-953d-be15e1db9c52/original.png",
+        "available": true,
+        "isDefault": false,
+        "order": 2
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-205-1",
+        "label": "100gr",
+        "price": 5,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/sri-lanka-cayi-etirli-100gr.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "657",
+    "siteProductId": "prod-153",
+    "name": "Şri-lanka çayı premium",
+    "reasons": [
+      "Variant count differs: Clopos has 2, site has 1",
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-sri-lanka-cayi-premium-100gr",
+        "sourceVariantId": "987",
+        "label": "100gr",
+        "sourceLabel": "100gr",
+        "quantity": {
+          "value": 100,
+          "unit": "g"
+        },
+        "price": 6,
+        "rawPrice": "6.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/c3d19fc0-8fba-479e-9359-c6d9fb0ae41f/original.jpg",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      },
+      {
+        "id": "size-sri-lanka-cayi-premium-kg",
+        "sourceVariantId": "657",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 50,
+        "rawPrice": "50.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/e2787998-f8c6-4d9e-b0e2-f586c7f9680e/original.png",
+        "available": true,
+        "isDefault": false,
+        "order": 2
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-207-1",
+        "label": "100gr",
+        "price": 6,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/sri-lanka-cayi-premium-100gr.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "658",
+    "siteProductId": "prod-170",
+    "name": "Yaşıl çay",
+    "reasons": [
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-yasil-cay-100gr",
+        "sourceVariantId": "988",
+        "label": "100gr",
+        "sourceLabel": "100gr",
+        "quantity": {
+          "value": 100,
+          "unit": "g"
+        },
+        "price": 3,
+        "rawPrice": "3.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/9ed922cd-5125-43e3-93d8-514a657866f7/original.jpg",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      },
+      {
+        "id": "size-yasil-cay-kg",
+        "sourceVariantId": "658",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 20,
+        "rawPrice": "20.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/c7055387-3eb1-4468-9788-c34ce1e7481e/original.png",
+        "available": true,
+        "isDefault": false,
+        "order": 2
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-229-1",
+        "label": "100gr",
+        "price": 3,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/yasil-cay-100gr.jpg"
+      },
+      {
+        "id": "size-230-2",
+        "label": "1 kg",
+        "price": 20,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/yasil-cay-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "659",
+    "siteProductId": "prod-7",
+    "name": "Aclıq otu",
+    "reasons": [
+      "Size variant 50gr found in Clopos but missing on the site",
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-acliq-otu-50gr",
+        "sourceVariantId": "941",
+        "label": "50gr",
+        "sourceLabel": "50gr",
+        "quantity": {
+          "value": 50,
+          "unit": "g"
+        },
+        "price": 2,
+        "rawPrice": "2.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/77f642d0-35a3-4e1d-a63d-6d560972975b/original.jpg",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      },
+      {
+        "id": "size-acliq-otu-kg",
+        "sourceVariantId": "659",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 20,
+        "rawPrice": "20.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/aad1cb9d-49ff-4a6e-bf66-e9aa24c2bf9c/original.png",
+        "available": true,
+        "isDefault": false,
+        "order": 2
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-11-1",
+        "label": "1 ədəd",
+        "price": 2,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/acliq-otu.jpg"
+      },
+      {
+        "id": "size-13-2",
+        "label": "1 kg",
+        "price": 20,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/acliq-otu-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "661",
+    "siteProductId": "prod-47",
+    "name": "Darçın çubuq",
+    "reasons": [
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-darcin-cubuq-100gr",
+        "sourceVariantId": "943",
+        "label": "100gr",
+        "sourceLabel": "100gr",
+        "quantity": {
+          "value": 100,
+          "unit": "g"
+        },
+        "price": 3,
+        "rawPrice": "3.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/97fadd05-c542-4a83-a932-2be27c0751e0/original.jpg",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      },
+      {
+        "id": "size-darcin-cubuq-kg",
+        "sourceVariantId": "661",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 25,
+        "rawPrice": "25.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/40374d3c-3a22-4968-af90-5f3cbf3418a9/original.png",
+        "available": true,
+        "isDefault": false,
+        "order": 2
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-68-1",
+        "label": "100gr",
+        "price": 3,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/darcin-cubuq-100gr.jpg"
+      },
+      {
+        "id": "size-69-2",
+        "label": "1 kg",
+        "price": 25,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/darcin-cubuq-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "662",
+    "siteProductId": "prod-48",
+    "name": "Darçın çubuq Şri-lanka natural",
+    "reasons": [
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-darcin-cubuq-sri-lanka-natural-kg",
+        "sourceVariantId": "662",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 100,
+        "rawPrice": "100.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/882aeeb9-6834-45dc-8ec1-1a6ffd07aba2/original.png",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-70-1",
+        "label": "1 kg",
+        "price": 100,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/darcin-cubuq-sri-lanka-natural-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "663",
+    "siteProductId": "prod-50",
+    "name": "Darçın tozu",
+    "reasons": [
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-darcin-tozu-100gr",
+        "sourceVariantId": "945",
+        "label": "100gr",
+        "sourceLabel": "100gr",
+        "quantity": {
+          "value": 100,
+          "unit": "g"
+        },
+        "price": 3.5,
+        "rawPrice": "3.50 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/ffccf598-132a-420b-8511-629eda4c2734/original.jpg",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      },
+      {
+        "id": "size-darcin-tozu-kg",
+        "sourceVariantId": "663",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 30,
+        "rawPrice": "30.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/0711cfa8-c1ac-4a2b-aa50-dc048960bdf8/original.png",
+        "available": true,
+        "isDefault": false,
+        "order": 2
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-72-1",
+        "label": "100gr",
+        "price": 3.5,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/darcin-tozu-100gr.jpg"
+      },
+      {
+        "id": "size-73-2",
+        "label": "1 kg",
+        "price": 30,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/darcin-tozu-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "664",
+    "siteProductId": "prod-55",
+    "name": "Ərküdə",
+    "reasons": [
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-erkude-50gr",
+        "sourceVariantId": "946",
+        "label": "50gr",
+        "sourceLabel": "50gr",
+        "quantity": {
+          "value": 50,
+          "unit": "g"
+        },
+        "price": 3,
+        "rawPrice": "3.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/af64b693-7082-4756-9856-a23b489422ec/original.jpg",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      },
+      {
+        "id": "size-erkude-kg",
+        "sourceVariantId": "664",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 50,
+        "rawPrice": "50.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/4e7eab95-cf3f-4fb9-a3f4-b7634ec3435a/original.png",
+        "available": true,
+        "isDefault": false,
+        "order": 2
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-79-1",
+        "label": "50gr",
+        "price": 3,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/erkude-50gr.jpg"
+      },
+      {
+        "id": "size-80-2",
+        "label": "1 kg",
+        "price": 50,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/erkude-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "665",
+    "siteProductId": "prod-72",
+    "name": "Himalay duzu bütöv",
+    "reasons": [
+      "Variant count differs: Clopos has 2, site has 1",
+      "Size variant 100gr found in Clopos but missing on the site",
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-himalay-duzu-butov-100gr",
+        "sourceVariantId": "947",
+        "label": "100gr",
+        "sourceLabel": "100gr",
+        "quantity": {
+          "value": 100,
+          "unit": "g"
+        },
+        "price": 2,
+        "rawPrice": "2.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/d406c4cc-06ae-47f7-adde-0f3b9f1e9590/original.jpg",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      },
+      {
+        "id": "size-himalay-duzu-butov-kg",
+        "sourceVariantId": "665",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 7,
+        "rawPrice": "7.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/7f2f99f6-343f-4f5a-9aad-033bc9a5013b/original.png",
+        "available": true,
+        "isDefault": false,
+        "order": 2
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-103-1",
+        "label": "1 kg",
+        "price": 7,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/himalay-duzu-butov-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "666",
+    "siteProductId": "prod-73",
+    "name": "Himalay duzu üyüdülmüş",
+    "reasons": [
+      "Variant count differs: Clopos has 2, site has 1",
+      "Size variant 100gr found in Clopos but missing on the site",
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-himalay-duzu-uyudulmus-100gr",
+        "sourceVariantId": "948",
+        "label": "100gr",
+        "sourceLabel": "100gr",
+        "quantity": {
+          "value": 100,
+          "unit": "g"
+        },
+        "price": 3,
+        "rawPrice": "3.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/113601b1-6047-4e23-96f0-5a68aa6e24c8/original.jpg",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      },
+      {
+        "id": "size-himalay-duzu-uyudulmus-kg",
+        "sourceVariantId": "666",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 10,
+        "rawPrice": "10.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/57fee177-3162-4c55-8cbf-4ff8ad38a465/original.png",
+        "available": true,
+        "isDefault": false,
+        "order": 2
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-104-1",
+        "label": "1 kg",
+        "price": 10,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/himalay-duzu-uyudulmus-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "667",
+    "siteProductId": "prod-84",
+    "name": "İstiot yumru",
+    "reasons": [
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-istiot-yumru-100gr",
+        "sourceVariantId": "939",
+        "label": "100gr",
+        "sourceLabel": "100gr",
+        "quantity": {
+          "value": 100,
+          "unit": "g"
+        },
+        "price": 3,
+        "rawPrice": "3.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/26629367-6b2d-452c-aef7-672da96e4f8d/original.jpg",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      },
+      {
+        "id": "size-istiot-yumru-kg",
+        "sourceVariantId": "667",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 25,
+        "rawPrice": "25.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/b1100954-f6be-4991-969d-cf6d9ab393e7/original.png",
+        "available": true,
+        "isDefault": false,
+        "order": 2
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-115-1",
+        "label": "100gr",
+        "price": 3,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/istiot-yumru-100gr.jpg"
+      },
+      {
+        "id": "size-116-2",
+        "label": "1 kg",
+        "price": 25,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/istiot-yumru-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "668",
+    "siteProductId": "prod-85",
+    "name": "İstiot yumru üyüdülmüş",
+    "reasons": [
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-istiot-yumru-uyudulmus-kg",
+        "sourceVariantId": "668",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 30,
+        "rawPrice": "30.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/5a103391-60ce-41ea-ba2d-ae9a5f67aa6d/original.png",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-117-1",
+        "label": "1 kg",
+        "price": 30,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/istiot-yumru-uyudulmus-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "669",
+    "siteProductId": "prod-91",
+    "name": "Jenşen kökü",
+    "reasons": [
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-jensen-koku-25gr",
+        "sourceVariantId": "950",
+        "label": "25gr",
+        "sourceLabel": "25gr",
+        "quantity": {
+          "value": 25,
+          "unit": "g"
+        },
+        "price": 15,
+        "rawPrice": "15.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/c0efb972-c911-4f9e-b376-248779ca5d12/original.jpg",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      },
+      {
+        "id": "size-jensen-koku-kg",
+        "sourceVariantId": "669",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 500,
+        "rawPrice": "500.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/a41c8cc0-020c-4495-8776-63a2ebee5671/original.png",
+        "available": true,
+        "isDefault": false,
+        "order": 2
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-124-1",
+        "label": "25gr",
+        "price": 15,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/jensen-koku-25gr.jpg"
+      },
+      {
+        "id": "size-125-2",
+        "label": "1 kg",
+        "price": 500,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/jensen-koku-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "670",
+    "siteProductId": "prod-95",
+    "name": "Keçibuynuzu",
+    "reasons": [
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-kecibuynuzu-kg",
+        "sourceVariantId": "670",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 16,
+        "rawPrice": "16.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/1ebfc0c7-e66e-46dd-aaba-c0ea94a2111d/original.png",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-130-1",
+        "label": "1 kg",
+        "price": 16,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/kecibuynuzu-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "671",
+    "siteProductId": "prod-97",
+    "name": "Keçibuynuzu tozu",
+    "reasons": [
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-kecibuynuzu-tozu-100gr",
+        "sourceVariantId": "952",
+        "label": "100gr",
+        "sourceLabel": "100gr",
+        "quantity": {
+          "value": 100,
+          "unit": "g"
+        },
+        "price": 6,
+        "rawPrice": "6.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/e59cdb37-f2fa-41d1-a507-99e188f33b95/original.jpg",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      },
+      {
+        "id": "size-kecibuynuzu-tozu-kg",
+        "sourceVariantId": "671",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 50,
+        "rawPrice": "50.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/a58c77b5-b61f-4804-95fa-984911f79c72/original.png",
+        "available": true,
+        "isDefault": false,
+        "order": 2
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-132-1",
+        "label": "100gr",
+        "price": 6,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/kecibuynuzu-tozu-100gr.jpg"
+      },
+      {
+        "id": "size-133-2",
+        "label": "1 kg",
+        "price": 50,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/kecibuynuzu-tozu-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "672",
+    "siteProductId": "prod-130",
+    "name": "Limon duzu",
+    "reasons": [
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-limon-duzu-kg",
+        "sourceVariantId": "672",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 8,
+        "rawPrice": "8.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/f3fe5fcd-af9a-4c07-9d55-dcf7bbf59e7d/original.png",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-178-1",
+        "label": "1 kg",
+        "price": 8,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/limon-duzu-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "673",
+    "siteProductId": "prod-133",
+    "name": "Naxçıvan duzu",
+    "reasons": [
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-naxcivan-duzu-kg",
+        "sourceVariantId": "673",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 4,
+        "rawPrice": "4.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/b61dce76-5056-40ba-ab4d-24a18fcdfefd/original.png",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-181-1",
+        "label": "1 kg",
+        "price": 4,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/naxcivan-duzu-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "674",
+    "siteProductId": "prod-140",
+    "name": "Pul bibər",
+    "reasons": [
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-pul-biber-100gr",
+        "sourceVariantId": "953",
+        "label": "100gr",
+        "sourceLabel": "100gr",
+        "quantity": {
+          "value": 100,
+          "unit": "g"
+        },
+        "price": 2,
+        "rawPrice": "2.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/35a7338c-bc2a-41f5-a65c-d878ea24857c/original.jpg",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      },
+      {
+        "id": "size-pul-biber-kg",
+        "sourceVariantId": "674",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 15,
+        "rawPrice": "15.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/13abfb1d-e38c-452b-9a04-90e4137fa26e/original.png",
+        "available": true,
+        "isDefault": false,
+        "order": 2
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-189-1",
+        "label": "100gr",
+        "price": 2,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/pul-biber-100gr.jpg"
+      },
+      {
+        "id": "size-190-2",
+        "label": "1 kg",
+        "price": 15,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/pul-biber-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "675",
+    "siteProductId": "prod-142",
+    "name": "Sarı kök çubuq natural",
+    "reasons": [
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-sari-kok-cubuq-natural-kg",
+        "sourceVariantId": "675",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 15,
+        "rawPrice": "15.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/9c1bd5ed-96b3-4eca-908f-a9a7ab6166c3/original.png",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-193-1",
+        "label": "1 kg",
+        "price": 15,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/sari-kok-cubuq-natural-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "676",
+    "siteProductId": "prod-143",
+    "name": "Sarı kök çubuq üyüdülmüş natural",
+    "reasons": [
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-sari-kok-cubuq-uyudulmus-natural-kg",
+        "sourceVariantId": "676",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 20,
+        "rawPrice": "20.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/a3694c93-5e43-4ad6-806b-795c4c3d459d/original.png",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-194-1",
+        "label": "1 kg",
+        "price": 20,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/sari-kok-cubuq-uyudulmus-natural-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "678",
+    "siteProductId": "prod-148",
+    "name": "Sumax ləçək",
+    "reasons": [
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-sumax-lecek-100gr",
+        "sourceVariantId": "958",
+        "label": "100gr",
+        "sourceLabel": "100gr",
+        "quantity": {
+          "value": 100,
+          "unit": "g"
+        },
+        "price": 4,
+        "rawPrice": "4.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/46235cd7-81a5-42f4-b8a6-43fd13c713c0/original.jpg",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      },
+      {
+        "id": "size-sumax-lecek-kg",
+        "sourceVariantId": "678",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 30,
+        "rawPrice": "30.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/84af05e5-b218-478d-ae94-aff1231f8f8f/original.png",
+        "available": true,
+        "isDefault": false,
+        "order": 2
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-199-1",
+        "label": "100gr",
+        "price": 4,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/sumax-lecek-100gr.jpg"
+      },
+      {
+        "id": "size-200-2",
+        "label": "1 kg",
+        "price": 30,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/sumax-lecek-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "679",
+    "siteProductId": "prod-149",
+    "name": "Sumax üyüdülmüş",
+    "reasons": [
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-sumax-uyudulmus-100gr",
+        "sourceVariantId": "957",
+        "label": "100gr",
+        "sourceLabel": "100gr",
+        "quantity": {
+          "value": 100,
+          "unit": "g"
+        },
+        "price": 2,
+        "rawPrice": "2.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/f14327e9-145c-4120-876c-e4470b5617aa/original.jpg",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      },
+      {
+        "id": "size-sumax-uyudulmus-kg",
+        "sourceVariantId": "679",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 15,
+        "rawPrice": "15.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/ebcf7b02-b1b8-4963-a84a-4592d1abce33/original.png",
+        "available": true,
+        "isDefault": false,
+        "order": 2
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-201-1",
+        "label": "100gr",
+        "price": 2,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/sumax-uyudulmus-100gr.jpg"
+      },
+      {
+        "id": "size-202-2",
+        "label": "1 kg",
+        "price": 15,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/sumax-uyudulmus-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "680",
+    "siteProductId": "prod-163",
+    "name": "Uthindi çubuq",
+    "reasons": [
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-uthindi-cubuq-kg",
+        "sourceVariantId": "680",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 40,
+        "rawPrice": "40.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/3f093247-c66e-4a3e-84d5-0dd0af38745a/original.jpg",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-221-1",
+        "label": "1 kg",
+        "price": 40,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/uthindi-cubuq-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "681",
+    "siteProductId": "prod-166",
+    "name": "Uthindi toz",
+    "reasons": [
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-uthindi-toz-kg",
+        "sourceVariantId": "681",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 50,
+        "rawPrice": "50.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/14508149-6d85-44ba-b43e-b283c6d005cb/original.png",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-224-1",
+        "label": "1 kg",
+        "price": 50,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/uthindi-toz-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "682",
+    "siteProductId": "prod-177",
+    "name": "Zəncəfil çubuq",
+    "reasons": [
+      "Variant count differs: Clopos has 1, site has 2",
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-zencefil-cubuq-kg",
+        "sourceVariantId": "682",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 20,
+        "rawPrice": "20.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/af2388b2-f145-4963-a50f-3bbf3396b160/original.png",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-237-1",
+        "label": "100gr",
+        "price": 3.5,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/zencefil-cubuq-100gr.jpg"
+      },
+      {
+        "id": "size-238-2",
+        "label": "1 kg",
+        "price": 20,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/zencefil-cubuq-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "683",
+    "siteProductId": "prod-179",
+    "name": "Zəncəfil toz",
+    "reasons": [
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-zencefil-toz-kg",
+        "sourceVariantId": "683",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 30,
+        "rawPrice": "30.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/7f0cef04-e4db-4f70-8702-906474ba7b8b/original.png",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-240-1",
+        "label": "1 kg",
+        "price": 30,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/zencefil-toz-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "684",
+    "siteProductId": "prod-180",
+    "name": "Zəncəfil yaş",
+    "reasons": [
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-zencefil-yas-kg",
+        "sourceVariantId": "684",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 15,
+        "rawPrice": "15.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/96abbf96-a681-4feb-aba6-ef534caec913/original.png",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-241-1",
+        "label": "1 kg",
+        "price": 15,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/zencefil-yas-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "702",
+    "siteProductId": "prod-122",
+    "name": "Qarışıq əzmə",
+    "reasons": [
+      "Variant count differs: Clopos has 2, site has 1",
+      "Size variant 200gr found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-qarisiq-ezme-200gr",
+        "sourceVariantId": "702",
+        "label": "200gr",
+        "sourceLabel": "200gr",
+        "quantity": {
+          "value": 200,
+          "unit": "g"
+        },
+        "price": 10,
+        "rawPrice": "10.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/c115f695-1ff3-4cb7-aae5-67b22f22a588/original.jpg",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      },
+      {
+        "id": "size-qarisiq-ezme-500gr",
+        "sourceVariantId": "703",
+        "label": "500gr",
+        "sourceLabel": "500gr",
+        "quantity": {
+          "value": 500,
+          "unit": "g"
+        },
+        "price": 20,
+        "rawPrice": "20.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/cc17e2ab-b709-42ec-89ca-6ffccb482b08/original.jpg",
+        "available": true,
+        "isDefault": false,
+        "order": 2
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-167-1",
+        "label": "500gr",
+        "price": 20,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/qarisiq-ezme-500gr.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "721",
+    "siteProductId": "prod-46",
+    "name": "Damla şokolad",
+    "reasons": [
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-damla-sokolad-kg",
+        "sourceVariantId": "721",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 10,
+        "rawPrice": "10.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/89d5f8eb-c516-489a-8f99-142cdc7a6ddb/original.png",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-67-1",
+        "label": "1 kg",
+        "price": 10,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/damla-sokolad-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "724",
+    "siteProductId": "prod-2",
+    "name": "Acı badam ləpəsi",
+    "reasons": [
+      "Variant count differs: Clopos has 1, site has 2",
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-aci-badam-lepesi-kg",
+        "sourceVariantId": "724",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 25,
+        "rawPrice": "25.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/67cb5995-b924-4be5-ab8b-5509c871a854/original.png",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-3-1",
+        "label": "100gr",
+        "price": 3,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/aci-badam-lepesi-100gr.jpg"
+      },
+      {
+        "id": "size-4-2",
+        "label": "1 kg",
+        "price": 25,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/aci-badam-lepesi-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "725",
+    "siteProductId": "prod-1",
+    "name": "Acı badam qabıqlı",
+    "reasons": [
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-aci-badam-qabiqli-100gr",
+        "sourceVariantId": "965",
+        "label": "100gr",
+        "sourceLabel": "100gr",
+        "quantity": {
+          "value": 100,
+          "unit": "g"
+        },
+        "price": 1.5,
+        "rawPrice": "1.50 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/263ec844-b5b5-40e3-8244-651347419023/original.jpg",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      },
+      {
+        "id": "size-aci-badam-qabiqli-kg",
+        "sourceVariantId": "725",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 10,
+        "rawPrice": "10.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/a9725e30-c450-4800-8f78-6eec47e02a8d/original.png",
+        "available": true,
+        "isDefault": false,
+        "order": 2
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-1-1",
+        "label": "100gr",
+        "price": 1.5,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/aci-badam-qabiqli-100gr.jpg"
+      },
+      {
+        "id": "size-2-2",
+        "label": "1 kg",
+        "price": 10,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/aci-badam-qabiqli-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "726",
+    "siteProductId": "prod-4",
+    "name": "Acı ərik",
+    "reasons": [
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-aci-erik-kg",
+        "sourceVariantId": "726",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 20,
+        "rawPrice": "20.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/89e9b16e-318d-49d8-b88b-d6360826bf3a/original.png",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-7-1",
+        "label": "1 kg",
+        "price": 20,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/aci-erik-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "727",
+    "siteProductId": "prod-10",
+    "name": "Alaqanqal toxumu xarici",
+    "reasons": [
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-alaqanqal-toxumu-xarici-100gr",
+        "sourceVariantId": "968",
+        "label": "100gr",
+        "sourceLabel": "100gr",
+        "quantity": {
+          "value": 100,
+          "unit": "g"
+        },
+        "price": 1.2,
+        "rawPrice": "1.20 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/1df28826-adab-4c66-a18e-e99dbd88da7e/original.jpg",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      },
+      {
+        "id": "size-alaqanqal-toxumu-xarici-kg",
+        "sourceVariantId": "727",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 8,
+        "rawPrice": "8.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/ceb36539-f644-40e9-9538-b9958d26873e/original.png",
+        "available": true,
+        "isDefault": false,
+        "order": 2
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-15-1",
+        "label": "100gr",
+        "price": 1.2,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/alaqanqal-toxumu-xarici-100gr.jpg"
+      },
+      {
+        "id": "size-16-2",
+        "label": "1 kg",
+        "price": 8,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/alaqanqal-toxumu-xarici-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "728",
+    "siteProductId": "prod-12",
+    "name": "Alaqanqal toxumu yerli",
+    "reasons": [
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-alaqanqal-toxumu-yerli-100gr",
+        "sourceVariantId": "967",
+        "label": "100gr",
+        "sourceLabel": "100gr",
+        "quantity": {
+          "value": 100,
+          "unit": "g"
+        },
+        "price": 1.5,
+        "rawPrice": "1.50 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/8faba81f-19f7-4c00-90f2-53c9bded8c62/original.jpg",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      },
+      {
+        "id": "size-alaqanqal-toxumu-yerli-kg",
+        "sourceVariantId": "728",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 10,
+        "rawPrice": "10.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/8744e133-1f44-4c59-ad50-3376aaf14b9b/original.png",
+        "available": true,
+        "isDefault": false,
+        "order": 2
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-18-1",
+        "label": "100gr",
+        "price": 1.5,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/alaqanqal-toxumu-yerli-100gr.jpg"
+      },
+      {
+        "id": "size-19-2",
+        "label": "1 kg",
+        "price": 10,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/alaqanqal-toxumu-yerli-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "729",
+    "siteProductId": "prod-17",
+    "name": "Araxis (fıstıq)",
+    "reasons": [
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-araxis-fistiq-kg",
+        "sourceVariantId": "729",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 7,
+        "rawPrice": "7.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/803796bb-570c-43ce-9eb7-606bc6c0fa7f/original.png",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-26-1",
+        "label": "1 kg",
+        "price": 7,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/araxis-fistiq-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "731",
+    "siteProductId": "prod-28",
+    "name": "Balqabaq toxumu",
+    "reasons": [
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-balqabaq-toxumu-kg",
+        "sourceVariantId": "731",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 14,
+        "rawPrice": "14.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/90636ce8-5a10-417a-8d91-d6b1c65d0c65/original.png",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-41-1",
+        "label": "1 kg",
+        "price": 14,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/balqabaq-toxumu-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "732",
+    "siteProductId": "prod-32",
+    "name": "Bamiyə toxumu",
+    "reasons": [
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-bamiye-toxumu-100gr",
+        "sourceVariantId": "970",
+        "label": "100gr",
+        "sourceLabel": "100gr",
+        "quantity": {
+          "value": 100,
+          "unit": "g"
+        },
+        "price": 8,
+        "rawPrice": "8.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/2355f80e-9e55-46a2-9202-8f13a9b888c0/original.jpg",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      },
+      {
+        "id": "size-bamiye-toxumu-kg",
+        "sourceVariantId": "732",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 60,
+        "rawPrice": "60.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/cb69a806-da37-4008-a945-5fc66d3a81db/original.png",
+        "available": true,
+        "isDefault": false,
+        "order": 2
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-47-1",
+        "label": "100gr",
+        "price": 8,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/bamiye-toxumu-100gr.jpg"
+      },
+      {
+        "id": "size-48-2",
+        "label": "1 kg",
+        "price": 60,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/bamiye-toxumu-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "733",
+    "siteProductId": "prod-33",
+    "name": "Braziilya qozu",
+    "reasons": [
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-braziilya-qozu-kg",
+        "sourceVariantId": "733",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 85,
+        "rawPrice": "85.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/672d5aaa-d655-4c2d-a65d-b91b5426ba1e/original.png",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-49-1",
+        "label": "1 kg",
+        "price": 85,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/braziilya-qozu-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "734",
+    "siteProductId": "prod-39",
+    "name": "Çətənə toxumu",
+    "reasons": [
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-cetene-toxumu-kg",
+        "sourceVariantId": "734",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 20,
+        "rawPrice": "20.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/aedb5102-a128-40a6-a62b-f2579fafdd0f/original.png",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-56-1",
+        "label": "1 kg",
+        "price": 20,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/cetene-toxumu-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "735",
+    "siteProductId": "prod-43",
+    "name": "Çiya toxumu",
+    "reasons": [
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-ciya-toxumu-100gr",
+        "sourceVariantId": "972",
+        "label": "100gr",
+        "sourceLabel": "100gr",
+        "quantity": {
+          "value": 100,
+          "unit": "g"
+        },
+        "price": 2,
+        "rawPrice": "2.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/f8370680-cd81-497f-bf91-6c4fb4d6bc37/original.jpg",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      },
+      {
+        "id": "size-ciya-toxumu-kg",
+        "sourceVariantId": "735",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 15,
+        "rawPrice": "15.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/8e739c66-fd7b-46fa-b9a4-7841671e3763/original.png",
+        "available": true,
+        "isDefault": false,
+        "order": 2
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-63-1",
+        "label": "100gr",
+        "price": 2,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/ciya-toxumu-100gr.jpg"
+      },
+      {
+        "id": "size-64-2",
+        "label": "1 kg",
+        "price": 15,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/ciya-toxumu-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "736",
+    "siteProductId": "prod-58",
+    "name": "Fındıq qovrulmuş",
+    "reasons": [
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-findiq-qovrulmus-kg",
+        "sourceVariantId": "736",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 32,
+        "rawPrice": "32.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/2b52acb3-e2a2-4de7-ad9c-4c0b1d6b33c3/original.jpg",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-84-1",
+        "label": "1 kg",
+        "price": 32,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/findiq-qovrulmus-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "737",
+    "siteProductId": "prod-63",
+    "name": "Gənəgərçək toxumu",
+    "reasons": [
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-genegercek-toxumu-100gr",
+        "sourceVariantId": "973",
+        "label": "100gr",
+        "sourceLabel": "100gr",
+        "quantity": {
+          "value": 100,
+          "unit": "g"
+        },
+        "price": 2,
+        "rawPrice": "2.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/23b90df7-fbf3-4f68-aa50-a43cc49e05f4/original.jpg",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      },
+      {
+        "id": "size-genegercek-toxumu-kg",
+        "sourceVariantId": "737",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 12,
+        "rawPrice": "12.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/bcd6cd54-0760-40b5-86f9-2706ad59dd32/original.jpg",
+        "available": true,
+        "isDefault": false,
+        "order": 2
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-91-1",
+        "label": "100gr",
+        "price": 2,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/genegercek-toxumu-100gr.jpg"
+      },
+      {
+        "id": "size-92-2",
+        "label": "1 kg",
+        "price": 12,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/genegercek-toxumu-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "738",
+    "siteProductId": "prod-65",
+    "name": "Günəbaxan tumu",
+    "reasons": [
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-gunebaxan-tumu-kg",
+        "sourceVariantId": "738",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 4,
+        "rawPrice": "4.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/80cba499-eb2f-4468-b322-09ee25b049f4/original.png",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-95-1",
+        "label": "1 kg",
+        "price": 4,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/gunebaxan-tumu-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "739",
+    "siteProductId": "prod-88",
+    "name": "İydə",
+    "reasons": [
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-iyde-kg",
+        "sourceVariantId": "739",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 15,
+        "rawPrice": "15.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/d2d3e779-ce31-4a7f-86c9-5a32a919e1b9/original.png",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-120-1",
+        "label": "1 kg",
+        "price": 15,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/iyde-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "740",
+    "siteProductId": "prod-89",
+    "name": "İydə tozu",
+    "reasons": [
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-iyde-tozu-100gr",
+        "sourceVariantId": "949",
+        "label": "100gr",
+        "sourceLabel": "100gr",
+        "quantity": {
+          "value": 100,
+          "unit": "g"
+        },
+        "price": 2.5,
+        "rawPrice": "2.50 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/fbf8713a-9f45-4e84-80f5-497351873819/original.jpg",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      },
+      {
+        "id": "size-iyde-tozu-kg",
+        "sourceVariantId": "740",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 20,
+        "rawPrice": "20.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/1aabf604-c412-4aaa-afc5-2bbc63170b37/original.png",
+        "available": true,
+        "isDefault": false,
+        "order": 2
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-121-1",
+        "label": "100gr",
+        "price": 2.5,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/iyde-tozu-100gr.jpg"
+      },
+      {
+        "id": "size-122-2",
+        "label": "1 kg",
+        "price": 20,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/iyde-tozu-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "741",
+    "siteProductId": "prod-92",
+    "name": "Kakos",
+    "reasons": [
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-kakos-kg",
+        "sourceVariantId": "741",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 10,
+        "rawPrice": "10.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/6d0b84a8-5b64-49c1-a416-948c1f092ed6/original.png",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-126-1",
+        "label": "1 kg",
+        "price": 10,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/kakos-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "742",
+    "siteProductId": "prod-98",
+    "name": "Kətan toxumu",
+    "reasons": [
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-ketan-toxumu-100gr",
+        "sourceVariantId": "974",
+        "label": "100gr",
+        "sourceLabel": "100gr",
+        "quantity": {
+          "value": 100,
+          "unit": "g"
+        },
+        "price": 1,
+        "rawPrice": "1.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/07681691-b67a-4b51-a751-950cdf86b7be/original.jpg",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      },
+      {
+        "id": "size-ketan-toxumu-kg",
+        "sourceVariantId": "742",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 6,
+        "rawPrice": "6.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/9104007a-b9d7-491c-bea0-152886537d56/original.png",
+        "available": true,
+        "isDefault": false,
+        "order": 2
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-134-1",
+        "label": "100gr",
+        "price": 1,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/ketan-toxumu-100gr.jpg"
+      },
+      {
+        "id": "size-135-2",
+        "label": "1 kg",
+        "price": 6,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/ketan-toxumu-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "743",
+    "siteProductId": "prod-102",
+    "name": "Küncüt ağ",
+    "reasons": [
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-kuncut-ag-100gr",
+        "sourceVariantId": "975",
+        "label": "100gr",
+        "sourceLabel": "100gr",
+        "quantity": {
+          "value": 100,
+          "unit": "g"
+        },
+        "price": 1.5,
+        "rawPrice": "1.50 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/903841a6-93cf-4770-875d-ebd3abd33f04/original.jpg",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      },
+      {
+        "id": "size-kuncut-ag-kg",
+        "sourceVariantId": "743",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 10,
+        "rawPrice": "10.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/5f04af0e-d6a5-46db-b5de-8518f61a974f/original.png",
+        "available": true,
+        "isDefault": false,
+        "order": 2
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-140-1",
+        "label": "100gr",
+        "price": 1.5,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/kuncut-ag-100gr.jpg"
+      },
+      {
+        "id": "size-141-2",
+        "label": "1 kg",
+        "price": 10,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/kuncut-ag-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "744",
+    "siteProductId": "prod-103",
+    "name": "Küncüt qara",
+    "reasons": [
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-kuncut-qara-100gr",
+        "sourceVariantId": "976",
+        "label": "100gr",
+        "sourceLabel": "100gr",
+        "quantity": {
+          "value": 100,
+          "unit": "g"
+        },
+        "price": 2,
+        "rawPrice": "2.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/17eccb03-87cf-45d5-8448-c86ea502e8ae/original.jpg",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      },
+      {
+        "id": "size-kuncut-qara-kg",
+        "sourceVariantId": "744",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 12,
+        "rawPrice": "12.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/1550aff1-5095-4a80-aba8-0b908de53c91/original.jpg",
+        "available": true,
+        "isDefault": false,
+        "order": 2
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-142-1",
+        "label": "100gr",
+        "price": 2,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/kuncut-qara-100gr.jpg"
+      },
+      {
+        "id": "size-143-2",
+        "label": "1 kg",
+        "price": 12,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/kuncut-qara-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "745",
+    "siteProductId": "prod-105",
+    "name": "Qara halilə",
+    "reasons": [
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-qara-halile-100gr",
+        "sourceVariantId": "977",
+        "label": "100gr",
+        "sourceLabel": "100gr",
+        "quantity": {
+          "value": 100,
+          "unit": "g"
+        },
+        "price": 10,
+        "rawPrice": "10.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/abcccc23-1888-4070-83d7-2bd08437a8d0/original.jpg",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      },
+      {
+        "id": "size-qara-halile-kg",
+        "sourceVariantId": "745",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 80,
+        "rawPrice": "80.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/1da8a3c9-3de4-4934-aeda-8a9364dabe86/original.png",
+        "available": true,
+        "isDefault": false,
+        "order": 2
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-146-1",
+        "label": "100gr",
+        "price": 10,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/qara-halile-100gr.jpg"
+      },
+      {
+        "id": "size-147-2",
+        "label": "1 kg",
+        "price": 80,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/qara-halile-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "749",
+    "siteProductId": "prod-120",
+    "name": "Qarışıq çərəz",
+    "reasons": [
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-qarisiq-cerez-kg",
+        "sourceVariantId": "749",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 20,
+        "rawPrice": "20.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/53921027-e2a5-4f62-9c0b-7c0e52218c4c/original.png",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-165-1",
+        "label": "1 kg",
+        "price": 20,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/qarisiq-cerez-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "750",
+    "siteProductId": "prod-128",
+    "name": "Qoz ləpəsi",
+    "reasons": [
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-qoz-lepesi-kg",
+        "sourceVariantId": "750",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 16,
+        "rawPrice": "16.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/a42b78fc-3181-48de-ac9f-a88719857e3b/original.jpg",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-175-1",
+        "label": "1 kg",
+        "price": 16,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/qoz-lepesi-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "866",
+    "siteProductId": "prod-138",
+    "name": "Psilium",
+    "reasons": [
+      "Variant count differs: Clopos has 2, site has 1",
+      "Size variant 100gr found in Clopos but missing on the site",
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-psilium-100gr",
+        "sourceVariantId": "981",
+        "label": "100gr",
+        "sourceLabel": "100gr",
+        "quantity": {
+          "value": 100,
+          "unit": "g"
+        },
+        "price": 5,
+        "rawPrice": "5.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/9b06366a-b314-46fd-9289-a0e4f4e9ebf8/original.jpg",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      },
+      {
+        "id": "size-psilium-kg",
+        "sourceVariantId": "866",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 50,
+        "rawPrice": "50.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/a1f4e859-2a26-4629-afa3-cc3f1bd63f17/original.png",
+        "available": true,
+        "isDefault": false,
+        "order": 2
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-187-1",
+        "label": "1 kg",
+        "price": 50,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/psilium-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "868",
+    "siteProductId": "prod-11",
+    "name": "Alaqanqal toxumu tozu",
+    "reasons": [
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-alaqanqal-toxumu-tozu-kg",
+        "sourceVariantId": "868",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 15,
+        "rawPrice": "15.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/854b3c49-fa42-4d3e-aad0-b7c199b59cfd/original.jpg",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-17-1",
+        "label": "1 kg",
+        "price": 15,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/alaqanqal-toxumu-tozu-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "906",
+    "siteProductId": "prod-123",
+    "name": "Qəhvə dənəsi",
+    "reasons": [
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-qehve-denesi-100gr",
+        "sourceVariantId": "954",
+        "label": "100gr",
+        "sourceLabel": "100gr",
+        "quantity": {
+          "value": 100,
+          "unit": "g"
+        },
+        "price": 6,
+        "rawPrice": "6.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/ea4dcd4b-fb4e-460b-b8fa-4603847e196d/original.jpg",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      },
+      {
+        "id": "size-qehve-denesi-kg",
+        "sourceVariantId": "906",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 40,
+        "rawPrice": "40.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/3b0bdff3-786f-40d9-b54d-938bde4a9291/original.png",
+        "available": true,
+        "isDefault": false,
+        "order": 2
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-168-1",
+        "label": "100gr",
+        "price": 6,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/qehve-denesi-100gr.jpg"
+      },
+      {
+        "id": "size-169-2",
+        "label": "1 kg",
+        "price": 40,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/qehve-denesi-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "907",
+    "siteProductId": "prod-125",
+    "name": "Qəhvə üyüdülmüş",
+    "reasons": [
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-qehve-uyudulmus-kg",
+        "sourceVariantId": "907",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 50,
+        "rawPrice": "50.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/98415cd1-5d16-4377-94b0-9325260c99b2/original.png",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-171-1",
+        "label": "1 kg",
+        "price": 50,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/qehve-uyudulmus-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "1006",
+    "siteProductId": "prod-37",
+    "name": "Çaşır kökü",
+    "reasons": [
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-casir-koku-kg",
+        "sourceVariantId": "1006",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 100,
+        "rawPrice": "100.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/057384cc-b2b0-4495-a805-f5873fed288f/original.png",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-53-1",
+        "label": "1 kg",
+        "price": 100,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/casir-koku-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "1011",
+    "siteProductId": "prod-35",
+    "name": "Buğda cücərtisi",
+    "reasons": [
+      "Size variant 300gr found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-bugda-cucertisi-300gr",
+        "sourceVariantId": "1011",
+        "label": "300gr",
+        "sourceLabel": "300gr",
+        "quantity": {
+          "value": 300,
+          "unit": "g"
+        },
+        "price": 5,
+        "rawPrice": "5.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/77cbdea9-0565-40ab-bfb8-bd66995d9b85/original.png",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-51-1",
+        "label": "1 ədəd",
+        "price": 5,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/bugda-cucertisi.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "1012",
+    "siteProductId": "prod-131",
+    "name": "Maş cücərtisi",
+    "reasons": [
+      "Size variant 300gr found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-mas-cucertisi-300gr",
+        "sourceVariantId": "1012",
+        "label": "300gr",
+        "sourceLabel": "300gr",
+        "quantity": {
+          "value": 300,
+          "unit": "g"
+        },
+        "price": 6,
+        "rawPrice": "6.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/e7d2acf7-b0e6-415f-bb17-02b65dab202d/original.png",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-179-1",
+        "label": "1 ədəd",
+        "price": 6,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/mas-cucertisi.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "1013",
+    "siteProductId": "prod-101",
+    "name": "Kinoa",
+    "reasons": [
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-kinoa-kg",
+        "sourceVariantId": "1013",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 25,
+        "rawPrice": "25.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/18921850-19c9-4c73-88d3-148b44756a45/original.png",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-139-1",
+        "label": "1 kg",
+        "price": 25,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/kinoa-kg.jpg"
+      }
+    ]
+  },
+  {
+    "sourceProductId": "1015",
+    "siteProductId": "prod-136",
+    "name": "Perga(arı çörəyi)",
+    "reasons": [
+      "Size variant kg found in Clopos but missing on the site"
+    ],
+    "cloposVariants": [
+      {
+        "id": "size-pergaari-coreyi-kg",
+        "sourceVariantId": "1015",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 200,
+        "rawPrice": "200.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/cce1d749-bfa9-4f6d-b818-729bfffbb082/original.jpg",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      }
+    ],
+    "siteVariants": [
+      {
+        "id": "size-185-1",
+        "label": "1 kg",
+        "price": 200,
+        "inStock": true,
+        "verificationStatus": "verified",
+        "imageSrc": "/images/products/perga-ari-coreyi-kg.jpg"
+      }
+    ]
+  }
+]

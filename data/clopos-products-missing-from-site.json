@@ -1,0 +1,914 @@
+[
+  {
+    "sourceProductId": "182",
+    "name": "Günəbaxan yağı",
+    "variantCount": 2,
+    "variants": [
+      {
+        "id": "size-gunebaxan-yagi-1litr",
+        "sourceVariantId": "182",
+        "label": "1litr",
+        "sourceLabel": "1litr",
+        "quantity": {
+          "value": 1,
+          "unit": "l"
+        },
+        "price": 8,
+        "rawPrice": "8.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/9787578b-0baa-472f-88bd-a857821494ca/original.jpg",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      },
+      {
+        "id": "size-gunebaxan-yagi-2litr",
+        "sourceVariantId": "781",
+        "label": "2litr",
+        "sourceLabel": "2litr",
+        "quantity": {
+          "value": 2,
+          "unit": "l"
+        },
+        "price": 15,
+        "rawPrice": "15.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/34b88696-ac00-43d5-abc4-6c88616c181d/original.jpg",
+        "available": true,
+        "isDefault": false,
+        "order": 2
+      }
+    ],
+    "categoryIds": [
+      "oils"
+    ],
+    "primaryImageUrl": "https://cdn.clopos.com/oilganicshop/9787578b-0baa-472f-88bd-a857821494ca/original.jpg",
+    "reason": "No matching existing website product",
+    "matchCandidates": []
+  },
+  {
+    "sourceProductId": "222",
+    "name": "Zeytun yağı rafinə",
+    "variantCount": 2,
+    "variants": [
+      {
+        "id": "size-zeytun-yagi-rafine-1litr",
+        "sourceVariantId": "222",
+        "label": "1litr",
+        "sourceLabel": "1litr",
+        "quantity": {
+          "value": 1,
+          "unit": "l"
+        },
+        "price": 15,
+        "rawPrice": "15.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/65efde2f-1571-4480-8451-8038e4f1ea41/original.jpg",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      },
+      {
+        "id": "size-zeytun-yagi-rafine-2litr",
+        "sourceVariantId": "819",
+        "label": "2litr",
+        "sourceLabel": "2litr",
+        "quantity": {
+          "value": 2,
+          "unit": "l"
+        },
+        "price": 28,
+        "rawPrice": "28.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/bc075c6d-1eee-4ace-84c0-847fc8b83a53/original.jpg",
+        "available": true,
+        "isDefault": false,
+        "order": 2
+      }
+    ],
+    "categoryIds": [
+      "oils"
+    ],
+    "primaryImageUrl": "https://cdn.clopos.com/oilganicshop/65efde2f-1571-4480-8451-8038e4f1ea41/original.jpg",
+    "reason": "No matching existing website product",
+    "matchCandidates": []
+  },
+  {
+    "sourceProductId": "225",
+    "name": "Zeytun yağı soyuq sıxım",
+    "variantCount": 2,
+    "variants": [
+      {
+        "id": "size-zeytun-yagi-soyuq-sixim-1litr",
+        "sourceVariantId": "225",
+        "label": "1litr",
+        "sourceLabel": "1litr",
+        "quantity": {
+          "value": 1,
+          "unit": "l"
+        },
+        "price": 20,
+        "rawPrice": "20.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/ebd3df57-2597-46e7-829d-98db8df3ad7a/original.jpg",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      },
+      {
+        "id": "size-zeytun-yagi-soyuq-sixim-2-litr",
+        "sourceVariantId": "821",
+        "label": "2 litr",
+        "sourceLabel": "2 litr",
+        "quantity": {
+          "value": 2,
+          "unit": "l"
+        },
+        "price": 38,
+        "rawPrice": "38.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/f494bec0-cd36-467d-8180-b7fea71d0eb4/original.jpg",
+        "available": true,
+        "isDefault": false,
+        "order": 2
+      }
+    ],
+    "categoryIds": [
+      "oils"
+    ],
+    "primaryImageUrl": "https://cdn.clopos.com/oilganicshop/ebd3df57-2597-46e7-829d-98db8df3ad7a/original.jpg",
+    "reason": "No matching existing website product",
+    "matchCandidates": []
+  },
+  {
+    "sourceProductId": "611",
+    "name": "Bal",
+    "variantCount": 2,
+    "variants": [
+      {
+        "id": "size-bal-500gr",
+        "sourceVariantId": "611",
+        "label": "500gr",
+        "sourceLabel": "500gr",
+        "quantity": {
+          "value": 500,
+          "unit": "g"
+        },
+        "price": 20,
+        "rawPrice": "20.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/8c7944bb-c23a-4275-aa56-6008ab142418/original.jpg",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      },
+      {
+        "id": "size-bal-1kg",
+        "sourceVariantId": "612",
+        "label": "1kg",
+        "sourceLabel": "1kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 40,
+        "rawPrice": "40.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/3e355715-b748-47d8-b7e0-f21ecaaf5334/original.jpg",
+        "available": true,
+        "isDefault": false,
+        "order": 2
+      }
+    ],
+    "categoryIds": [
+      "sweeteners"
+    ],
+    "primaryImageUrl": "https://cdn.clopos.com/oilganicshop/8c7944bb-c23a-4275-aa56-6008ab142418/original.jpg",
+    "reason": "No matching existing website product",
+    "matchCandidates": []
+  },
+  {
+    "sourceProductId": "786",
+    "name": "Günəbaxan yağı Soyuq sıxım",
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": "size-gunebaxan-yagi-soyuq-sixim-1litr",
+        "sourceVariantId": "786",
+        "label": "1litr",
+        "sourceLabel": "1litr",
+        "quantity": {
+          "value": 1,
+          "unit": "l"
+        },
+        "price": 12,
+        "rawPrice": "12.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      }
+    ],
+    "categoryIds": [
+      "oils"
+    ],
+    "primaryImageUrl": "",
+    "reason": "No matching existing website product",
+    "matchCandidates": []
+  },
+  {
+    "sourceProductId": "787",
+    "name": "Günəbaxan yağı süzülmüş",
+    "variantCount": 2,
+    "variants": [
+      {
+        "id": "size-gunebaxan-yagi-suzulmus-1-litr",
+        "sourceVariantId": "787",
+        "label": "1 litr",
+        "sourceLabel": "1 litr",
+        "quantity": {
+          "value": 1,
+          "unit": "l"
+        },
+        "price": 10,
+        "rawPrice": "10.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/2076bf49-f666-4974-8536-93c607659b23/original.jpg",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      },
+      {
+        "id": "size-gunebaxan-yagi-suzulmus-2litr",
+        "sourceVariantId": "788",
+        "label": "2litr",
+        "sourceLabel": "2litr",
+        "quantity": {
+          "value": 2,
+          "unit": "l"
+        },
+        "price": 18,
+        "rawPrice": "18.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/d1d23c18-65e0-4025-8cc0-0d1a246b8e21/original.jpg",
+        "available": true,
+        "isDefault": false,
+        "order": 2
+      }
+    ],
+    "categoryIds": [
+      "oils"
+    ],
+    "primaryImageUrl": "https://cdn.clopos.com/oilganicshop/2076bf49-f666-4974-8536-93c607659b23/original.jpg",
+    "reason": "No matching existing website product",
+    "matchCandidates": []
+  },
+  {
+    "sourceProductId": "817",
+    "name": "Tat zeytun yağı",
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": "size-tat-zeytun-yagi-5litr",
+        "sourceVariantId": "817",
+        "label": "5litr",
+        "sourceLabel": "5litr",
+        "quantity": {
+          "value": 5,
+          "unit": "l"
+        },
+        "price": 45,
+        "rawPrice": "45.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/05ad65c0-4ace-49ae-8508-fe4f694e19c1/original.jpg",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      }
+    ],
+    "categoryIds": [
+      "oils"
+    ],
+    "primaryImageUrl": "https://cdn.clopos.com/oilganicshop/05ad65c0-4ace-49ae-8508-fe4f694e19c1/original.jpg",
+    "reason": "No matching existing website product",
+    "matchCandidates": []
+  },
+  {
+    "sourceProductId": "930",
+    "name": "Alaqanqal toxumu unu",
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": "size-alaqanqal-toxumu-unu-200gr",
+        "sourceVariantId": "930",
+        "label": "200gr",
+        "sourceLabel": "200gr",
+        "quantity": {
+          "value": 200,
+          "unit": "g"
+        },
+        "price": 2,
+        "rawPrice": "2.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      }
+    ],
+    "categoryIds": [
+      "seeds_flours"
+    ],
+    "primaryImageUrl": "",
+    "reason": "No matching existing website product",
+    "matchCandidates": []
+  },
+  {
+    "sourceProductId": "938",
+    "name": "Sarıkök toz",
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": "size-sarikok-toz-100gr",
+        "sourceVariantId": "938",
+        "label": "100gr",
+        "sourceLabel": "100gr",
+        "quantity": {
+          "value": 100,
+          "unit": "g"
+        },
+        "price": 2.5,
+        "rawPrice": "2.50 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/3996a6c1-4e29-4a20-93e9-e545253125c1/original.jpg",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      }
+    ],
+    "categoryIds": [
+      "spices"
+    ],
+    "primaryImageUrl": "https://cdn.clopos.com/oilganicshop/3996a6c1-4e29-4a20-93e9-e545253125c1/original.jpg",
+    "reason": "No matching existing website product",
+    "matchCandidates": []
+  },
+  {
+    "sourceProductId": "944",
+    "name": "Darçın çubuq Şri-lanka",
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": "size-darcin-cubuq-sri-lanka-100gr",
+        "sourceVariantId": "944",
+        "label": "100gr",
+        "sourceLabel": "100gr",
+        "quantity": {
+          "value": 100,
+          "unit": "g"
+        },
+        "price": 12,
+        "rawPrice": "12.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/d9a65891-4171-4bf0-bace-b33801e1990d/original.jpg",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      }
+    ],
+    "categoryIds": [
+      "spices"
+    ],
+    "primaryImageUrl": "https://cdn.clopos.com/oilganicshop/d9a65891-4171-4bf0-bace-b33801e1990d/original.jpg",
+    "reason": "No matching existing website product",
+    "matchCandidates": []
+  },
+  {
+    "sourceProductId": "961",
+    "name": "Zəncəfil kökü",
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": "size-zencefil-koku-100gr",
+        "sourceVariantId": "961",
+        "label": "100gr",
+        "sourceLabel": "100gr",
+        "quantity": {
+          "value": 100,
+          "unit": "g"
+        },
+        "price": 3,
+        "rawPrice": "3.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/d85a5293-aa7c-47ab-a6dd-8820f7f6a407/original.jpg",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      }
+    ],
+    "categoryIds": [
+      "spices"
+    ],
+    "primaryImageUrl": "https://cdn.clopos.com/oilganicshop/d85a5293-aa7c-47ab-a6dd-8820f7f6a407/original.jpg",
+    "reason": "No matching existing website product",
+    "matchCandidates": []
+  },
+  {
+    "sourceProductId": "962",
+    "name": "Zəncəfil tozu",
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": "size-zencefil-tozu-100gr",
+        "sourceVariantId": "962",
+        "label": "100gr",
+        "sourceLabel": "100gr",
+        "quantity": {
+          "value": 100,
+          "unit": "g"
+        },
+        "price": 3.5,
+        "rawPrice": "3.50 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/d1214729-1fdf-4ec2-bb8d-45e50c4ed6b2/original.jpg",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      }
+    ],
+    "categoryIds": [
+      "spices"
+    ],
+    "primaryImageUrl": "https://cdn.clopos.com/oilganicshop/d1214729-1fdf-4ec2-bb8d-45e50c4ed6b2/original.jpg",
+    "reason": "No matching existing website product",
+    "matchCandidates": []
+  },
+  {
+    "sourceProductId": "963",
+    "name": "Balqabaq toxumu tünd",
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": "size-balqabaq-toxumu-tund-100gr",
+        "sourceVariantId": "963",
+        "label": "100gr",
+        "sourceLabel": "100gr",
+        "quantity": {
+          "value": 100,
+          "unit": "g"
+        },
+        "price": 2.5,
+        "rawPrice": "2.50 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/9845ab03-d54f-4d7e-9950-6f6709421407/original.jpg",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      }
+    ],
+    "categoryIds": [
+      "seeds_flours"
+    ],
+    "primaryImageUrl": "https://cdn.clopos.com/oilganicshop/9845ab03-d54f-4d7e-9950-6f6709421407/original.jpg",
+    "reason": "No matching existing website product",
+    "matchCandidates": []
+  },
+  {
+    "sourceProductId": "964",
+    "name": "Acı badam ləpə",
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": "size-aci-badam-lepe-100gr",
+        "sourceVariantId": "964",
+        "label": "100gr",
+        "sourceLabel": "100gr",
+        "quantity": {
+          "value": 100,
+          "unit": "g"
+        },
+        "price": 3,
+        "rawPrice": "3.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/23f81d16-d31b-4e03-982c-92f80a616ec7/original.jpg",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      }
+    ],
+    "categoryIds": [
+      "seeds_flours"
+    ],
+    "primaryImageUrl": "https://cdn.clopos.com/oilganicshop/23f81d16-d31b-4e03-982c-92f80a616ec7/original.jpg",
+    "reason": "No matching existing website product",
+    "matchCandidates": []
+  },
+  {
+    "sourceProductId": "978",
+    "name": "Qarazirə (Çörəkotu) toxumu Suriya",
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": "size-qarazire-corekotu-toxumu-suriya-100gr",
+        "sourceVariantId": "978",
+        "label": "100gr",
+        "sourceLabel": "100gr",
+        "quantity": {
+          "value": 100,
+          "unit": "g"
+        },
+        "price": 2,
+        "rawPrice": "2.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/f7e7e591-9698-41d4-81de-99761f403e74/original.jpg",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      }
+    ],
+    "categoryIds": [
+      "seeds_flours"
+    ],
+    "primaryImageUrl": "https://cdn.clopos.com/oilganicshop/f7e7e591-9698-41d4-81de-99761f403e74/original.jpg",
+    "reason": "No matching existing website product",
+    "matchCandidates": []
+  },
+  {
+    "sourceProductId": "993",
+    "name": "Çam kozalağı pekmezi",
+    "variantCount": 2,
+    "variants": [
+      {
+        "id": "size-cam-kozalagi-pekmezi-340gr",
+        "sourceVariantId": "993",
+        "label": "340gr",
+        "sourceLabel": "340gr",
+        "quantity": {
+          "value": 340,
+          "unit": "g"
+        },
+        "price": 10,
+        "rawPrice": "10.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/598830f6-9d77-4f27-a4fb-f08f0635f646/original.png",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      },
+      {
+        "id": "size-cam-kozalagi-pekmezi-680gr",
+        "sourceVariantId": "994",
+        "label": "680gr",
+        "sourceLabel": "680gr",
+        "quantity": {
+          "value": 680,
+          "unit": "g"
+        },
+        "price": 15,
+        "rawPrice": "15.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/82d3c89a-a69b-4689-85c7-5ebef6fb1367/original.png",
+        "available": true,
+        "isDefault": false,
+        "order": 2
+      }
+    ],
+    "categoryIds": [
+      "sweeteners"
+    ],
+    "primaryImageUrl": "https://cdn.clopos.com/oilganicshop/598830f6-9d77-4f27-a4fb-f08f0635f646/original.png",
+    "reason": "No matching existing website product",
+    "matchCandidates": []
+  },
+  {
+    "sourceProductId": "997",
+    "name": "Qusar naturals Zəfəran limonadı",
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": "size-qusar-naturals-zeferan-limonadi-500ml",
+        "sourceVariantId": "997",
+        "label": "500ml",
+        "sourceLabel": "500ml",
+        "quantity": {
+          "value": 500,
+          "unit": "ml"
+        },
+        "price": 3,
+        "rawPrice": "3.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/e2124255-6abc-426b-929a-accbd1907986/original.png",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      }
+    ],
+    "categoryIds": [
+      "beverages"
+    ],
+    "primaryImageUrl": "https://cdn.clopos.com/oilganicshop/e2124255-6abc-426b-929a-accbd1907986/original.png",
+    "reason": "No matching existing website product",
+    "matchCandidates": []
+  },
+  {
+    "sourceProductId": "998",
+    "name": "Qusar naturals Pomidor şirəsi",
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": "size-qusar-naturals-pomidor-siresi-500ml",
+        "sourceVariantId": "998",
+        "label": "500ml",
+        "sourceLabel": "500ml",
+        "quantity": {
+          "value": 500,
+          "unit": "ml"
+        },
+        "price": 3,
+        "rawPrice": "3.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/91c52508-b573-44f5-b4bc-5a7d844b9be1/original.png",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      }
+    ],
+    "categoryIds": [
+      "beverages"
+    ],
+    "primaryImageUrl": "https://cdn.clopos.com/oilganicshop/91c52508-b573-44f5-b4bc-5a7d844b9be1/original.png",
+    "reason": "No matching existing website product",
+    "matchCandidates": []
+  },
+  {
+    "sourceProductId": "999",
+    "name": "Qusar naturals Feyxoa şirəsi",
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": "size-qusar-naturals-feyxoa-siresi-500ml",
+        "sourceVariantId": "999",
+        "label": "500ml",
+        "sourceLabel": "500ml",
+        "quantity": {
+          "value": 500,
+          "unit": "ml"
+        },
+        "price": 3,
+        "rawPrice": "3.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/096a2f1b-64fa-4e4a-8d24-14d3d9570b69/original.png",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      }
+    ],
+    "categoryIds": [
+      "beverages"
+    ],
+    "primaryImageUrl": "https://cdn.clopos.com/oilganicshop/096a2f1b-64fa-4e4a-8d24-14d3d9570b69/original.png",
+    "reason": "No matching existing website product",
+    "matchCandidates": []
+  },
+  {
+    "sourceProductId": "1000",
+    "name": "Qusar naturals Qara qarağat şirəsi",
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": "size-qusar-naturals-qara-qaragat-siresi-500ml",
+        "sourceVariantId": "1000",
+        "label": "500ml",
+        "sourceLabel": "500ml",
+        "quantity": {
+          "value": 500,
+          "unit": "ml"
+        },
+        "price": 5,
+        "rawPrice": "5.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/6ff95cf3-4236-4ec1-8700-d201d22ec9e4/original.png",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      }
+    ],
+    "categoryIds": [
+      "beverages"
+    ],
+    "primaryImageUrl": "https://cdn.clopos.com/oilganicshop/6ff95cf3-4236-4ec1-8700-d201d22ec9e4/original.png",
+    "reason": "No matching existing website product",
+    "matchCandidates": []
+  },
+  {
+    "sourceProductId": "1001",
+    "name": "Qusar naturals Heyva şirəsi",
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": "size-qusar-naturals-heyva-siresi-500ml",
+        "sourceVariantId": "1001",
+        "label": "500ml",
+        "sourceLabel": "500ml",
+        "quantity": {
+          "value": 500,
+          "unit": "ml"
+        },
+        "price": 3,
+        "rawPrice": "3.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/177e2e9e-dce2-460d-8c03-3726aebb1761/original.png",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      }
+    ],
+    "categoryIds": [
+      "beverages"
+    ],
+    "primaryImageUrl": "https://cdn.clopos.com/oilganicshop/177e2e9e-dce2-460d-8c03-3726aebb1761/original.png",
+    "reason": "No matching existing website product",
+    "matchCandidates": []
+  },
+  {
+    "sourceProductId": "1002",
+    "name": "Qusar naturals İtburnu",
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": "size-qusar-naturals-itburnu-500ml",
+        "sourceVariantId": "1002",
+        "label": "500ml",
+        "sourceLabel": "500ml",
+        "quantity": {
+          "value": 500,
+          "unit": "ml"
+        },
+        "price": 2.5,
+        "rawPrice": "2.50 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/32c54f3c-2d7b-491a-b567-59b5fe55d7b0/original.png",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      }
+    ],
+    "categoryIds": [
+      "beverages"
+    ],
+    "primaryImageUrl": "https://cdn.clopos.com/oilganicshop/32c54f3c-2d7b-491a-b567-59b5fe55d7b0/original.png",
+    "reason": "No matching existing website product",
+    "matchCandidates": []
+  },
+  {
+    "sourceProductId": "1003",
+    "name": "Qusar natural Qırmızı qarağat şirəsi",
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": "size-qusar-natural-qirmizi-qaragat-siresi-500ml",
+        "sourceVariantId": "1003",
+        "label": "500ml",
+        "sourceLabel": "500ml",
+        "quantity": {
+          "value": 500,
+          "unit": "ml"
+        },
+        "price": 4,
+        "rawPrice": "4.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/f49ee187-38e8-40eb-9bd6-b2810f28d4cd/original.png",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      }
+    ],
+    "categoryIds": [
+      "beverages"
+    ],
+    "primaryImageUrl": "https://cdn.clopos.com/oilganicshop/f49ee187-38e8-40eb-9bd6-b2810f28d4cd/original.png",
+    "reason": "No matching existing website product",
+    "matchCandidates": []
+  },
+  {
+    "sourceProductId": "1004",
+    "name": "Qusar naturals Yemişan",
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": "size-qusar-naturals-yemisan-500ml",
+        "sourceVariantId": "1004",
+        "label": "500ml",
+        "sourceLabel": "500ml",
+        "quantity": {
+          "value": 500,
+          "unit": "ml"
+        },
+        "price": 2.5,
+        "rawPrice": "2.50 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/4e30f99b-7f2b-420f-a26f-b12f1812d8d0/original.png",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      }
+    ],
+    "categoryIds": [
+      "beverages"
+    ],
+    "primaryImageUrl": "https://cdn.clopos.com/oilganicshop/4e30f99b-7f2b-420f-a26f-b12f1812d8d0/original.png",
+    "reason": "No matching existing website product",
+    "matchCandidates": []
+  },
+  {
+    "sourceProductId": "1005",
+    "name": "Qusar naturals Balqabaq şirəsi",
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": "size-qusar-naturals-balqabaq-siresi-500ml",
+        "sourceVariantId": "1005",
+        "label": "500ml",
+        "sourceLabel": "500ml",
+        "quantity": {
+          "value": 500,
+          "unit": "ml"
+        },
+        "price": 3,
+        "rawPrice": "3.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/09299f46-7212-4d34-ae2e-50586e61bed2/original.png",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      }
+    ],
+    "categoryIds": [
+      "beverages"
+    ],
+    "primaryImageUrl": "https://cdn.clopos.com/oilganicshop/09299f46-7212-4d34-ae2e-50586e61bed2/original.png",
+    "reason": "No matching existing website product",
+    "matchCandidates": []
+  },
+  {
+    "sourceProductId": "1007",
+    "name": "Udhindi tablet",
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": "size-udhindi-tablet-220-ed",
+        "sourceVariantId": "1007",
+        "label": "220 əd",
+        "sourceLabel": "220 əd",
+        "quantity": {
+          "value": 220,
+          "unit": "piece"
+        },
+        "price": 15,
+        "rawPrice": "15.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/9fc88a8f-a412-41eb-82ba-333d0788e09e/original.png",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      }
+    ],
+    "categoryIds": [
+      "wellness"
+    ],
+    "primaryImageUrl": "https://cdn.clopos.com/oilganicshop/9fc88a8f-a412-41eb-82ba-333d0788e09e/original.png",
+    "reason": "No matching existing website product",
+    "matchCandidates": []
+  },
+  {
+    "sourceProductId": "1018",
+    "name": "Keşu",
+    "variantCount": 1,
+    "variants": [
+      {
+        "id": "size-kesu-kg",
+        "sourceVariantId": "1018",
+        "label": "kg",
+        "sourceLabel": "kg",
+        "quantity": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "price": 0,
+        "rawPrice": "0.00 ₼",
+        "currency": "AZN",
+        "imageUrl": "https://cdn.clopos.com/oilganicshop/792631b1-597f-4797-ac9f-e1eed9369e43/original.png",
+        "available": true,
+        "isDefault": true,
+        "order": 1
+      }
+    ],
+    "categoryIds": [
+      "seeds_flours"
+    ],
+    "primaryImageUrl": "https://cdn.clopos.com/oilganicshop/792631b1-597f-4797-ac9f-e1eed9369e43/original.png",
+    "reason": "No matching existing website product",
+    "matchCandidates": []
+  }
+]
