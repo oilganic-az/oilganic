@@ -24,16 +24,25 @@ export function buildWhatsAppOrderUrl(
   ];
 
   let totalPrice = 0;
+  let hasUnverifiedPrice = false;
 
   items.forEach((item, index) => {
     const sizeLabel = item.selectedSize ? ` (${item.selectedSize.label})` : '';
-    const itemTotal = item.unitPrice * item.quantity;
-    totalPrice += itemTotal;
-
-    lines.push(`${index + 1}. ${item.product.name}${sizeLabel} x ${item.quantity} - ${formatCurrency(itemTotal)}`);
+    if (item.unitPrice !== null) {
+      const itemTotal = item.unitPrice * item.quantity;
+      totalPrice += itemTotal;
+      lines.push(`${index + 1}. ${item.product.name}${sizeLabel} x ${item.quantity} - ${formatCurrency(itemTotal)}`);
+    } else {
+      hasUnverifiedPrice = true;
+      lines.push(`${index + 1}. ${item.product.name}${sizeLabel} x ${item.quantity} - Qiyməti dəqiqləşdirin`);
+    }
   });
 
-  lines.push(`\n*Ümumi məbləğ:* ${formatCurrency(totalPrice)}`);
+  if (totalPrice > 0 || !hasUnverifiedPrice) {
+    lines.push(`\n*Ümumi məbləğ:* ${formatCurrency(totalPrice)}`);
+  } else {
+    lines.push(`\n*Ümumi məbləğ:* Qiyməti dəqiqləşdirin`);
+  }
   lines.push(`\nAd və soyad: ${customerDetails?.customerName?.trim() || ''}`);
   lines.push(`Çatdırılma ünvanı: ${customerDetails?.deliveryAddress?.trim() || ''}`);
   lines.push(`Əlavə qeyd: ${customerDetails?.note?.trim() || ''}`);

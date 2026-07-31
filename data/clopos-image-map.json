@@ -1,0 +1,1466 @@
+[
+  {
+    "sourceProductId": "103",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/fcf6d9f0-20b1-4251-98fb-0bc27c6b5a4b/original.jpg",
+    "localPath": "/images/products/tahin-kuncut-ezmesi-ciy-500-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "106",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/b816dc77-00c3-4d6c-bb15-9693d1afe85b/original.jpg",
+    "localPath": "/images/products/tahin-kuncut-ezmesi-qovrulmus-500-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "150",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/ba5200bd-41e1-4f61-82a1-c77490199895/original.jpg",
+    "localPath": "/images/products/aci-badam-yagi-100-ml.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "153",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/128e6365-edd5-4776-90c9-9f7b56a3e032/original.jpg",
+    "localPath": "/images/products/aci-erik-yagi-100-ml.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "167",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/394e86b0-4238-4b95-bf12-908112ab5cc5/original.jpg",
+    "localPath": "/images/products/balqabaq-tumu-yagi-250-ml.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "170",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/4c0d5424-6659-4342-ac1c-a9b24bf4c17c/original.jpg",
+    "localPath": "/images/products/caytikani-yagi-250-ml.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "182",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/9787578b-0baa-472f-88bd-a857821494ca/original.jpg",
+    "localPath": "/images/products/gunebaxan-yagi-1-litr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "206",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/6af0405f-e842-4344-bfdf-e56958b08e3e/original.jpg",
+    "localPath": "/images/products/qarazire-yagi-suriya-toxumundan-100-ml.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "222",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/65efde2f-1571-4480-8451-8038e4f1ea41/original.jpg",
+    "localPath": "/images/products/zeytun-yagi-rafine-1-litr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "225",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/ebd3df57-2597-46e7-829d-98db8df3ad7a/original.jpg",
+    "localPath": "/images/products/zeytun-yagi-soyuq-sixim-1-litr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "611",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/8c7944bb-c23a-4275-aa56-6008ab142418/original.jpg",
+    "localPath": "/images/products/bal-500-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "612",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/3e355715-b748-47d8-b7e0-f21ecaaf5334/original.jpg",
+    "localPath": "/images/products/bal-1-kg.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "614",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/171b37e3-c406-40b4-aa32-0b289d2801a3/original.jpg",
+    "localPath": "/images/products/cicek-tozu-1-kg.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "619",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/75de0a64-d874-4d53-b8b2-656474a5668c/original.jpg",
+    "localPath": "/images/products/oilganic-kecibuynuzu-behmezi-350-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "620",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/e23defa5-7af4-4a82-93aa-c1753e3a477f/original.jpg",
+    "localPath": "/images/products/oilganic-kecibuynuzu-behmezi-700-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "646",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/b3fe7289-c3e1-4156-848b-5965583e7204/original.png",
+    "localPath": "/images/products/astara-cayi-2-ci-sort-1-kg.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "647",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/606698ac-c1b0-4d88-94aa-689b26f64a10/original.png",
+    "localPath": "/images/products/astara-premium-1-kg.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "648",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/a9372b86-b997-44b2-b97f-44254c820263/original.jpg",
+    "localPath": "/images/products/astaracay-yarpaq-cayi-250-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "652",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/5df1283f-d766-4855-bb78-d9ef181a2c78/original.png",
+    "localPath": "/images/products/mekke-gulu-1-kg.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "656",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/dfa4ff7f-adc6-42f9-953d-be15e1db9c52/original.png",
+    "localPath": "/images/products/sri-lanka-cayi-etirli-1-kg.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "657",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/e2787998-f8c6-4d9e-b0e2-f586c7f9680e/original.png",
+    "localPath": "/images/products/sri-lanka-cayi-premium-1-kg.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "658",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/c7055387-3eb1-4468-9788-c34ce1e7481e/original.png",
+    "localPath": "/images/products/yasil-cay-1-kg.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "659",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/aad1cb9d-49ff-4a6e-bf66-e9aa24c2bf9c/original.png",
+    "localPath": "/images/products/acliq-otu-1-kg.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "661",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/40374d3c-3a22-4968-af90-5f3cbf3418a9/original.png",
+    "localPath": "/images/products/darcin-cubuq-1-kg.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "662",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/882aeeb9-6834-45dc-8ec1-1a6ffd07aba2/original.png",
+    "localPath": "/images/products/darcin-cubuq-sri-lanka-natural-1-kg.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "663",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/0711cfa8-c1ac-4a2b-aa50-dc048960bdf8/original.png",
+    "localPath": "/images/products/darcin-tozu-1-kg.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "664",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/4e7eab95-cf3f-4fb9-a3f4-b7634ec3435a/original.png",
+    "localPath": "/images/products/erkude-1-kg.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "665",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/7f2f99f6-343f-4f5a-9aad-033bc9a5013b/original.png",
+    "localPath": "/images/products/himalay-duzu-butov-1-kg.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "666",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/57fee177-3162-4c55-8cbf-4ff8ad38a465/original.png",
+    "localPath": "/images/products/himalay-duzu-uyudulmus-1-kg.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "667",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/b1100954-f6be-4991-969d-cf6d9ab393e7/original.png",
+    "localPath": "/images/products/istiot-yumru-1-kg.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "668",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/5a103391-60ce-41ea-ba2d-ae9a5f67aa6d/original.png",
+    "localPath": "/images/products/istiot-yumru-uyudulmus-1-kg.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "669",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/a41c8cc0-020c-4495-8776-63a2ebee5671/original.png",
+    "localPath": "/images/products/jensen-koku-1-kg.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "670",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/1ebfc0c7-e66e-46dd-aaba-c0ea94a2111d/original.png",
+    "localPath": "/images/products/kecibuynuzu-1-kg.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "671",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/a58c77b5-b61f-4804-95fa-984911f79c72/original.png",
+    "localPath": "/images/products/kecibuynuzu-tozu-1-kg.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "672",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/f3fe5fcd-af9a-4c07-9d55-dcf7bbf59e7d/original.png",
+    "localPath": "/images/products/limon-duzu-1-kg.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "673",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/b61dce76-5056-40ba-ab4d-24a18fcdfefd/original.png",
+    "localPath": "/images/products/naxcivan-duzu-1-kg.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "674",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/13abfb1d-e38c-452b-9a04-90e4137fa26e/original.png",
+    "localPath": "/images/products/pul-biber-1-kg.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "675",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/9c1bd5ed-96b3-4eca-908f-a9a7ab6166c3/original.png",
+    "localPath": "/images/products/sari-kok-cubuq-natural-1-kg.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "676",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/a3694c93-5e43-4ad6-806b-795c4c3d459d/original.png",
+    "localPath": "/images/products/sari-kok-cubuq-uyudulmus-natural-1-kg.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "678",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/84af05e5-b218-478d-ae94-aff1231f8f8f/original.png",
+    "localPath": "/images/products/sumax-lecek-1-kg.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "679",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/ebcf7b02-b1b8-4963-a84a-4592d1abce33/original.png",
+    "localPath": "/images/products/sumax-uyudulmus-1-kg.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "680",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/3f093247-c66e-4a3e-84d5-0dd0af38745a/original.jpg",
+    "localPath": "/images/products/uthindi-cubuq-1-kg.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "681",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/14508149-6d85-44ba-b43e-b283c6d005cb/original.png",
+    "localPath": "/images/products/uthindi-tozu-1-kg.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "682",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/af2388b2-f145-4963-a50f-3bbf3396b160/original.png",
+    "localPath": "/images/products/zencefil-cubuq-1-kg.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "683",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/7f0cef04-e4db-4f70-8702-906474ba7b8b/original.png",
+    "localPath": "/images/products/zencefil-tozu-1-kg.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "684",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/96abbf96-a681-4feb-aba6-ef534caec913/original.png",
+    "localPath": "/images/products/zencefil-yas-1-kg.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "686",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/27395282-5b68-46a3-8d0a-2750c7d3a3a0/original.jpg",
+    "localPath": "/images/products/badam-ezmesi-200-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "687",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/c0590ce0-f83e-4739-b10c-58490d8e4145/original.jpg",
+    "localPath": "/images/products/badam-ezmesi-500-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "689",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/5ec785bc-781f-44f4-8165-81f739f6b1a9/original.jpg",
+    "localPath": "/images/products/balqabaq-tumu-ezmesi-200-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "690",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/b965f2b2-af28-4694-ba43-d9903a3785bc/original.jpg",
+    "localPath": "/images/products/balqabaq-tumu-ezmesi-500-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "692",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/4267d790-8fe6-4e0a-9847-bdfd2f088c5d/original.jpg",
+    "localPath": "/images/products/findiq-ezmesi-200-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "693",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/3bcb6765-3c52-4d4d-9003-dc5faf7a8dbd/original.jpg",
+    "localPath": "/images/products/findiq-ezmesi-500-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "694",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/8989bb7b-9d8f-4f2b-b4a8-2d4f53139374/original.jpg",
+    "localPath": "/images/products/fistiq-ezmesi-200-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "695",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/cd0f2c96-8ad2-4f7f-9a11-972e5d7255b2/original.jpg",
+    "localPath": "/images/products/fistiq-ezmesi-500-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "697",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/89fc6976-1f1b-4b27-9a82-364a0ba0dad6/original.jpg",
+    "localPath": "/images/products/fistiq-ezmesi-sokoladli-200-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "698",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/a1c637f4-497a-4f8c-828b-a0fc8ca6966f/original.jpg",
+    "localPath": "/images/products/fistiq-ezmesi-sokoladli-500-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "700",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/fcaa4a65-e333-45b7-bd5a-6b8be97bfe11/original.jpg",
+    "localPath": "/images/products/qara-kuncut-ezmesi-200-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "701",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/4e0c2c58-f2ab-44a3-a90a-84fed6563036/original.jpg",
+    "localPath": "/images/products/qara-kuncut-ezmesi-500-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "702",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/c115f695-1ff3-4cb7-aae5-67b22f22a588/original.jpg",
+    "localPath": "/images/products/qarisiq-ezme-200-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "703",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/cc17e2ab-b709-42ec-89ca-6ffccb482b08/original.jpg",
+    "localPath": "/images/products/qarisiq-ezme-500-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "705",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/d1a64792-29c0-4ecf-ad83-afafc147d6cf/original.jpg",
+    "localPath": "/images/products/qoz-ezmesi-200-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "706",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/2690b5ac-d4a5-4644-8364-81c4cbd77e16/original.jpg",
+    "localPath": "/images/products/qoz-ezmesi-500-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "708",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/f47a67aa-dfaf-43f4-b7eb-4a346ed8c6c4/original.jpg",
+    "localPath": "/images/products/tahin-kuncut-ezmesi-ciy-200-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "710",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/677ce804-c566-458e-b585-617f269b4ae8/original.jpg",
+    "localPath": "/images/products/tahin-kuncut-ezmesi-qovrulmus-200-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "715",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/bc6f2ffb-14e0-483d-ae62-b97bae0914a1/original.jpg",
+    "localPath": "/images/products/tahin-sokoladli-200-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "716",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/98cee056-d186-46a2-97fa-500cb2de0358/original.jpg",
+    "localPath": "/images/products/tahin-sokoladli-500-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "717",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/0e5dba00-34e2-4b01-9be0-bf2f0839da48/original.jpg",
+    "localPath": "/images/products/ananas-sirkesi-500-ml.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "718",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/57816af0-20bc-4536-b346-42288f5ee9a6/original.jpg",
+    "localPath": "/images/products/detox-sirkesi-500-ml.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "719",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/169da5f3-0147-44a9-a515-e0ad3a0a332e/original.jpg",
+    "localPath": "/images/products/iskin-koku-sirkesi-500-ml.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "720",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/e4c17d07-d8ff-4919-922c-4225f9e098ab/original.jpg",
+    "localPath": "/images/products/qaraciyer-sirkesi-500-ml.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "721",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/89d5f8eb-c516-489a-8f99-142cdc7a6ddb/original.png",
+    "localPath": "/images/products/damla-sokolad-1-kg.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "724",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/67cb5995-b924-4be5-ab8b-5509c871a854/original.png",
+    "localPath": "/images/products/aci-badam-lepesi-1-kg.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "725",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/a9725e30-c450-4800-8f78-6eec47e02a8d/original.png",
+    "localPath": "/images/products/aci-badam-qabiqli-1-kg.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "726",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/89e9b16e-318d-49d8-b88b-d6360826bf3a/original.png",
+    "localPath": "/images/products/aci-erik-1-kg.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "727",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/ceb36539-f644-40e9-9538-b9958d26873e/original.png",
+    "localPath": "/images/products/alaqanqal-toxumu-xarici-1-kg.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "728",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/8744e133-1f44-4c59-ad50-3376aaf14b9b/original.png",
+    "localPath": "/images/products/alaqanqal-toxumu-yerli-1-kg.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "729",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/803796bb-570c-43ce-9eb7-606bc6c0fa7f/original.png",
+    "localPath": "/images/products/araxis-fistiq-1-kg.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "730",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/7c037b4a-72d3-474e-8c1e-62dfaa67e02b/original.png",
+    "localPath": "/images/products/badam-lepesi-standart.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "731",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/90636ce8-5a10-417a-8d91-d6b1c65d0c65/original.png",
+    "localPath": "/images/products/balqabaq-toxumu-1-kg.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "732",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/cb69a806-da37-4008-a945-5fc66d3a81db/original.png",
+    "localPath": "/images/products/bamiye-toxumu-1-kg.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "733",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/672d5aaa-d655-4c2d-a65d-b91b5426ba1e/original.png",
+    "localPath": "/images/products/braziliya-qozu-1-kg.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "734",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/aedb5102-a128-40a6-a62b-f2579fafdd0f/original.png",
+    "localPath": "/images/products/cetene-toxumu-1-kg.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "735",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/8e739c66-fd7b-46fa-b9a4-7841671e3763/original.png",
+    "localPath": "/images/products/ciya-toxumu-1-kg.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "736",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/2b52acb3-e2a2-4de7-ad9c-4c0b1d6b33c3/original.jpg",
+    "localPath": "/images/products/findiq-qovrulmus-1-kg.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "737",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/bcd6cd54-0760-40b5-86f9-2706ad59dd32/original.jpg",
+    "localPath": "/images/products/genegercek-toxumu-1-kg.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "738",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/80cba499-eb2f-4468-b322-09ee25b049f4/original.png",
+    "localPath": "/images/products/gunebaxan-tumu-1-kg.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "739",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/d2d3e779-ce31-4a7f-86c9-5a32a919e1b9/original.png",
+    "localPath": "/images/products/iyde-1-kg.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "740",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/1aabf604-c412-4aaa-afc5-2bbc63170b37/original.png",
+    "localPath": "/images/products/iyde-tozu-1-kg.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "741",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/6d0b84a8-5b64-49c1-a416-948c1f092ed6/original.png",
+    "localPath": "/images/products/kakos-1-kg.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "742",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/9104007a-b9d7-491c-bea0-152886537d56/original.png",
+    "localPath": "/images/products/ketan-toxumu-1-kg.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "743",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/5f04af0e-d6a5-46db-b5de-8518f61a974f/original.png",
+    "localPath": "/images/products/kuncut-ag-1-kg.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "744",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/1550aff1-5095-4a80-aba8-0b908de53c91/original.jpg",
+    "localPath": "/images/products/kuncut-qara-1-kg.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "745",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/1da8a3c9-3de4-4934-aeda-8a9364dabe86/original.png",
+    "localPath": "/images/products/qara-halile-1-kg.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "746",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/f1774f24-74a3-4ddf-99de-9c48b5f2908b/original.png",
+    "localPath": "/images/products/qarazire-corekotu-toxumu-hebesistan-standart.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "747",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/d3f5b518-ff42-4e0e-8555-9367774e962f/original.png",
+    "localPath": "/images/products/qarazire-corekotu-toxumu-hindistan-standart.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "748",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/b9395b85-fa64-4427-a10d-94386f87e043/original.png",
+    "localPath": "/images/products/qarazire-toxumu-suriya-standart.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "749",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/53921027-e2a5-4f62-9c0b-7c0e52218c4c/original.png",
+    "localPath": "/images/products/qarisiq-cerez-1-kg.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "750",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/a42b78fc-3181-48de-ac9f-a88719857e3b/original.jpg",
+    "localPath": "/images/products/qoz-lepesi-1-kg.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "753",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/68e0c9d8-ca27-4b61-aee9-171ccab5c067/original.jpg",
+    "localPath": "/images/products/aci-badam-yagi-250-ml.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "755",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/7053c32e-1d9b-4d37-bb6a-73d6a7b53db2/original.jpg",
+    "localPath": "/images/products/aci-erik-yagi-250-ml.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "757",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/c7a3e729-2edb-40e3-ac13-674709fc37b4/original.jpg",
+    "localPath": "/images/products/alaqanqal-yagi-xarici-toxumdan-100-ml.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "758",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/a1d1559f-e5ba-486b-b4c2-3f4a5e6c7006/original.jpg",
+    "localPath": "/images/products/alaqanqal-yagi-xarici-toxumdan-250-ml.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "760",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/8d1b280f-c4ac-4b0f-af09-a6351329a2da/original.jpg",
+    "localPath": "/images/products/alaqanqal-yagi-yerli-toxumdan-100-ml.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "761",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/6910ea06-e412-416e-bb91-90ac2c58e57a/original.jpg",
+    "localPath": "/images/products/alaqanqal-yagi-yerli-toxumdan-250-ml.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "764",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/a64c9908-fd8c-4b3b-968f-978d2536fec8/original.jpg",
+    "localPath": "/images/products/badam-yagi-100-ml.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "765",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/8c45d40c-7e0f-46c3-85fd-6f8af7300bc8/original.jpg",
+    "localPath": "/images/products/badam-yagi-250-ml.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "767",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/ea195bf7-fb2f-4075-908d-2a0f8759f876/original.jpg",
+    "localPath": "/images/products/balqabaq-tumu-yagi-100-ml.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "769",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/401118d6-934d-42a1-bf04-8193f0c44378/original.jpg",
+    "localPath": "/images/products/caytikani-yagi-100-ml.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "772",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/5846b890-46f0-43e6-a8bf-2347b93036f4/original.jpg",
+    "localPath": "/images/products/cetene-yagi-100-ml.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "773",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/3a50d4cc-06c1-4cb3-b284-fd112e14ebcf/original.jpg",
+    "localPath": "/images/products/cetene-yagi-250-ml.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "775",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/91b0bfcd-acf0-4d2a-af35-69adfd924939/original.jpg",
+    "localPath": "/images/products/daziotu-yagi-100-ml.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "776",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/4272c89d-541b-4c8c-8466-4bd00a399afe/original.jpg",
+    "localPath": "/images/products/daziotu-yagi-250-ml.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "778",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/8264b1db-d273-40ab-8729-1a1ab479ea46/original.jpg",
+    "localPath": "/images/products/genegercek-yagi-100-ml.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "779",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/d4010abc-9fbd-4fce-a86f-720ae7c41e8b/original.jpg",
+    "localPath": "/images/products/genegercek-yagi-250-ml.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "781",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/34b88696-ac00-43d5-abc4-6c88616c181d/original.jpg",
+    "localPath": "/images/products/gunebaxan-yagi-2-litr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "786",
+    "sourceUrl": "",
+    "localPath": "/images/products/placeholder.svg",
+    "status": "missing"
+  },
+  {
+    "sourceProductId": "787",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/2076bf49-f666-4974-8536-93c607659b23/original.jpg",
+    "localPath": "/images/products/gunebaxan-yagi-suzulmus-1-litr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "788",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/d1d23c18-65e0-4025-8cc0-0d1a246b8e21/original.jpg",
+    "localPath": "/images/products/gunebaxan-yagi-suzulmus-2-litr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "791",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/8dfdb5ac-e5ce-4e26-a583-9f9ecd316bca/original.png",
+    "localPath": "/images/products/pegah-erimis-iran-yagi-1-kg.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "792",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/91d13d64-b366-48dc-9ae4-613bc794c4a5/original.jpg",
+    "localPath": "/images/products/kakos-yagi-100-ml.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "793",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/5afe8859-13c4-4b84-aa24-ef18825f5fb9/original.jpg",
+    "localPath": "/images/products/kakos-yagi-250-ml.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "796",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/b522bddb-51b9-47fd-b02a-918230a7a19d/original.jpg",
+    "localPath": "/images/products/ketan-yagi-100-ml.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "797",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/6ece0e73-ec24-4c6a-83bd-1f5c40522af7/original.jpg",
+    "localPath": "/images/products/ketan-yagi-250-ml.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "800",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/6b334a23-8c89-473b-ad7e-be56b6b43a97/original.jpg",
+    "localPath": "/images/products/kuncut-yagi-100-ml.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "801",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/9a248f5f-e962-4361-a177-e92256fde2a4/original.jpg",
+    "localPath": "/images/products/kuncut-yagi-250-ml.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "803",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/a5633874-ae8a-4d34-9825-e551acc8da70/original.jpg",
+    "localPath": "/images/products/qarazire-yagi-hindistan-toxumu-100-ml.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "804",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/ffd65ec0-f31c-4084-a925-04f3258f532d/original.jpg",
+    "localPath": "/images/products/qarazire-yagi-hindistan-toxumu-250-ml.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "805",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/a1782b27-7933-40fe-ba62-b4e262559da5/original.jpg",
+    "localPath": "/images/products/qarazire-yagi-suriya-toxumundan-250-ml.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "808",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/7584f3d7-2924-4306-b841-3b02cbaf6fde/original.jpg",
+    "localPath": "/images/products/qarazire-yagi-hebesistan-100-ml.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "809",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/bbb16878-a0c0-47f5-934f-eabbede042cc/original.jpg",
+    "localPath": "/images/products/qarazire-yagi-hebesistan-250-ml.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "811",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/4f511316-2a9b-4ba4-b7bc-64f53f9d22e7/original.jpg",
+    "localPath": "/images/products/qoz-yagi-100-ml.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "812",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/e5079bd2-fb71-424b-9fa3-525251f7b637/original.jpg",
+    "localPath": "/images/products/qoz-yagi-250-ml.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "814",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/32f028b6-f142-4e8f-8461-9f47c2b8684a/original.jpg",
+    "localPath": "/images/products/rozmarin-yagi-100-ml.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "817",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/05ad65c0-4ace-49ae-8508-fe4f694e19c1/original.jpg",
+    "localPath": "/images/products/tat-zeytun-yagi-5-litr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "818",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/58a11909-d6c1-424c-a4dd-c2dff1e2b2db/original.jpg",
+    "localPath": "/images/products/uthindi-yagi-100-ml.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "819",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/bc075c6d-1eee-4ace-84c0-847fc8b83a53/original.jpg",
+    "localPath": "/images/products/zeytun-yagi-rafine-2-litr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "821",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/f494bec0-cd36-467d-8180-b7fea71d0eb4/original.jpg",
+    "localPath": "/images/products/zeytun-yagi-soyuq-sixim-2-litr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "863",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/2cb13538-14a2-4834-acaf-86e3f2af6fc0/original.jpg",
+    "localPath": "/images/products/ayvalik-zeytun-yagi-5-litr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "864",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/0718c584-3ac8-40e9-acbb-b8e5d2a26d22/original.jpg",
+    "localPath": "/images/products/uthindi-kapsul-180-eded.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "866",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/a1f4e859-2a26-4629-afa3-cc3f1bd63f17/original.png",
+    "localPath": "/images/products/psilium-1-kg.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "868",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/854b3c49-fa42-4d3e-aad0-b7c199b59cfd/original.jpg",
+    "localPath": "/images/products/alaqanqal-toxumu-tozu-1-kg.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "874",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/a2beb488-9965-47f7-a6cf-e3ddc60125f2/original.jpg",
+    "localPath": "/images/products/rozmarin-yagi-250-ml.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "875",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/4efb3faa-5809-4762-81ac-474813403492/original.jpg",
+    "localPath": "/images/products/uthindi-yagi-250-ml.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "902",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/5df905dc-a05b-4471-93a4-e5dc773c525e/original.jpg",
+    "localPath": "/images/products/fistiq-kuncut-ezmesi-200-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "903",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/7f10cd84-405a-46c3-8b73-a8389287c595/original.jpg",
+    "localPath": "/images/products/fistiq-kuncut-ezmesi-500-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "906",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/3b0bdff3-786f-40d9-b54d-938bde4a9291/original.png",
+    "localPath": "/images/products/qehve-denesi-1-kg.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "907",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/98415cd1-5d16-4377-94b0-9325260c99b2/original.png",
+    "localPath": "/images/products/qehve-uyudulmus-1-kg.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "909",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/28ba6c32-5c94-4643-bd48-440d3896617a/original.jpg",
+    "localPath": "/images/products/corekotu-kapsul-180-eded.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "910",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/e43abfb0-0bb0-426a-9c61-264388d0f884/original.jpg",
+    "localPath": "/images/products/jensen-kapsul-100-eded.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "912",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/f4d2258a-d2e0-4dbc-ab48-a7a75053b9ff/original.jpg",
+    "localPath": "/images/products/xurmaci-protein-bombasi-350-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "913",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/e574078e-5b8d-4400-a8c0-d93959a9e61a/original.jpg",
+    "localPath": "/images/products/xurmaci-balli-erikli-mecun-250-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "914",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/937e744b-98f6-499d-b856-7e7e8726c517/original.jpg",
+    "localPath": "/images/products/xurmaci-alovlu-mecun-250-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "915",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/c83eb9e4-5c63-422d-84b9-29645344d07d/original.jpg",
+    "localPath": "/images/products/xurmaci-kids-250-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "916",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/01a080e9-7cc3-47ae-8917-2e88fe668087/original.jpg",
+    "localPath": "/images/products/xurmaci-fit-mecun-250-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "917",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/fefc67c0-e3e8-4e47-9c87-0e93117e1275/original.jpg",
+    "localPath": "/images/products/xurmaci-xurma-mecunu-250-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "918",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/5a277d79-e927-4412-821b-239b95df753d/original.jpg",
+    "localPath": "/images/products/xurmaci-pross-mecun-350-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "919",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/d9622e6c-faa5-4bee-963c-7de8a40cc1b4/original.jpg",
+    "localPath": "/images/products/acliq-otu-kapsulu-100-eded.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "920",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/c23e23ac-4f14-4830-9370-a59217ba6044/original.jpg",
+    "localPath": "/images/products/alaqanqal-kapsulu-100-eded.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "921",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/72f7efb7-02ce-4ba1-8ac1-ca2385619eee/original.jpg",
+    "localPath": "/images/products/corekotu-yag-kapsulu-100-eded.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "922",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/da9a48dc-d49b-404e-a7d8-6fc00b9fefc2/original.jpg",
+    "localPath": "/images/products/udukumin-100-kapsul.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "924",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/83a61cc4-aa2e-449a-880b-7fa70ef0388f/original.jpg",
+    "localPath": "/images/products/tahin-behmez-200-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "925",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/9f528dbf-f0dd-4716-a7d1-45d474fba775/original.jpg",
+    "localPath": "/images/products/tahin-behmez-500-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "929",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/079725f2-8e8f-4792-922f-51b4651230bf/original.jpg",
+    "localPath": "/images/products/ketan-toxumu-unu-200-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "930",
+    "sourceUrl": "",
+    "localPath": "/images/products/placeholder.svg",
+    "status": "missing"
+  },
+  {
+    "sourceProductId": "931",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/7b421fdd-f797-46a1-89ff-fed35df8277a/original.jpg",
+    "localPath": "/images/products/qarazire-toxumu-unu-200-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "932",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/1e9c1273-2a87-42a6-a94b-0289efa3e28e/original.jpg",
+    "localPath": "/images/products/caksir-suyu-brokolili-1-litr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "933",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/75f69c9c-1c4e-4efe-b888-0ec731d61666/original.jpg",
+    "localPath": "/images/products/yaki-otu-suyu-1-litr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "934",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/dd360587-a7de-46f6-a686-e9e9fe4c5788/original.jpg",
+    "localPath": "/images/products/enginar-suyu-alaqanqalli-1-litr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "935",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/5991bcd7-b474-4556-b6ce-b28c33319909/original.jpg",
+    "localPath": "/images/products/karabas-otu-suyu-1-litr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "936",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/29c0bb33-b4bd-4282-aecc-ba5e78be0b2c/original.jpg",
+    "localPath": "/images/products/enginar-sirkesi-500-ml.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "937",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/2be3ea17-f418-4827-acec-8a2fb79770aa/original.jpg",
+    "localPath": "/images/products/sarikok-cubuq-100-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "938",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/3996a6c1-4e29-4a20-93e9-e545253125c1/original.jpg",
+    "localPath": "/images/products/sarikok-toz-100-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "939",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/26629367-6b2d-452c-aef7-672da96e4f8d/original.jpg",
+    "localPath": "/images/products/istiot-yumru-100-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "940",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/39aacd66-47df-4404-b01a-4991642e8312/original.jpg",
+    "localPath": "/images/products/istiot-toz-100-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "941",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/77f642d0-35a3-4e1d-a63d-6d560972975b/original.jpg",
+    "localPath": "/images/products/acliq-otu-50-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "943",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/97fadd05-c542-4a83-a932-2be27c0751e0/original.jpg",
+    "localPath": "/images/products/darcin-cubuq-100-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "944",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/d9a65891-4171-4bf0-bace-b33801e1990d/original.jpg",
+    "localPath": "/images/products/darcin-cubuq-sri-lanka-100-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "945",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/ffccf598-132a-420b-8511-629eda4c2734/original.jpg",
+    "localPath": "/images/products/darcin-tozu-100-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "946",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/af64b693-7082-4756-9856-a23b489422ec/original.jpg",
+    "localPath": "/images/products/erkude-50-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "947",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/d406c4cc-06ae-47f7-adde-0f3b9f1e9590/original.jpg",
+    "localPath": "/images/products/himalay-duzu-butov-100-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "948",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/113601b1-6047-4e23-96f0-5a68aa6e24c8/original.jpg",
+    "localPath": "/images/products/himalay-duzu-uyudulmus-100-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "949",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/fbf8713a-9f45-4e84-80f5-497351873819/original.jpg",
+    "localPath": "/images/products/iyde-tozu-100-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "950",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/c0efb972-c911-4f9e-b376-248779ca5d12/original.jpg",
+    "localPath": "/images/products/jensen-koku-25-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "951",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/6dc74fff-53ae-48d9-a169-3c7191655747/original.jpg",
+    "localPath": "/images/products/kecibuynuzu-ozu-100-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "952",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/e59cdb37-f2fa-41d1-a507-99e188f33b95/original.jpg",
+    "localPath": "/images/products/kecibuynuzu-tozu-100-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "953",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/35a7338c-bc2a-41f5-a65c-d878ea24857c/original.jpg",
+    "localPath": "/images/products/pul-biber-100-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "954",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/ea4dcd4b-fb4e-460b-b8fa-4603847e196d/original.jpg",
+    "localPath": "/images/products/qehve-denesi-100-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "955",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/86aabb5f-7183-409d-ad25-bce49ee34155/original.jpg",
+    "localPath": "/images/products/qehve-denesi-uyudulmus-100-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "956",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/440f909f-c105-47ce-9c7b-429a4249c195/original.jpg",
+    "localPath": "/images/products/saricicek-100-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "957",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/f14327e9-145c-4120-876c-e4470b5617aa/original.jpg",
+    "localPath": "/images/products/sumax-uyudulmus-100-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "958",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/46235cd7-81a5-42f4-b8a6-43fd13c713c0/original.jpg",
+    "localPath": "/images/products/sumax-lecek-100-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "959",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/c764e7df-be5c-4aa3-84b1-c0e3a6f1121b/original.jpg",
+    "localPath": "/images/products/uthindi-kotuk-100-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "960",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/5869aef4-80c6-4998-bc90-f71482aa0782/original.jpg",
+    "localPath": "/images/products/uthindi-tozu-100-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "961",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/d85a5293-aa7c-47ab-a6dd-8820f7f6a407/original.jpg",
+    "localPath": "/images/products/zencefil-koku-100-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "962",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/d1214729-1fdf-4ec2-bb8d-45e50c4ed6b2/original.jpg",
+    "localPath": "/images/products/zencefil-tozu-100-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "963",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/9845ab03-d54f-4d7e-9950-6f6709421407/original.jpg",
+    "localPath": "/images/products/balqabaq-toxumu-tund-100-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "964",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/23f81d16-d31b-4e03-982c-92f80a616ec7/original.jpg",
+    "localPath": "/images/products/aci-badam-lepesi-100-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "965",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/263ec844-b5b5-40e3-8244-651347419023/original.jpg",
+    "localPath": "/images/products/aci-badam-qabiqli-100-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "966",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/076449e6-f0a5-42fe-988e-7c54e9854bc3/original.jpg",
+    "localPath": "/images/products/aci-erik-tumu-100-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "967",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/8faba81f-19f7-4c00-90f2-53c9bded8c62/original.jpg",
+    "localPath": "/images/products/alaqanqal-toxumu-yerli-100-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "968",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/1df28826-adab-4c66-a18e-e99dbd88da7e/original.jpg",
+    "localPath": "/images/products/alaqanqal-toxumu-xarici-100-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "969",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/861d784c-5bb4-41d1-a823-9eae55c60b86/original.jpg",
+    "localPath": "/images/products/badam-lepesi-100-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "970",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/2355f80e-9e55-46a2-9202-8f13a9b888c0/original.jpg",
+    "localPath": "/images/products/bamiye-toxumu-100-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "971",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/2fcad55e-6bdd-4642-bd7d-64e143f34b29/original.jpg",
+    "localPath": "/images/products/braziliya-qozu-100-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "972",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/f8370680-cd81-497f-bf91-6c4fb4d6bc37/original.jpg",
+    "localPath": "/images/products/ciya-toxumu-100-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "973",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/23b90df7-fbf3-4f68-aa50-a43cc49e05f4/original.jpg",
+    "localPath": "/images/products/genegercek-toxumu-100-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "974",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/07681691-b67a-4b51-a751-950cdf86b7be/original.jpg",
+    "localPath": "/images/products/ketan-toxumu-100-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "975",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/903841a6-93cf-4770-875d-ebd3abd33f04/original.jpg",
+    "localPath": "/images/products/kuncut-ag-100-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "976",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/17eccb03-87cf-45d5-8448-c86ea502e8ae/original.jpg",
+    "localPath": "/images/products/kuncut-qara-100-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "977",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/abcccc23-1888-4070-83d7-2bd08437a8d0/original.jpg",
+    "localPath": "/images/products/qara-halile-100-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "978",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/f7e7e591-9698-41d4-81de-99761f403e74/original.jpg",
+    "localPath": "/images/products/qarazire-corekotu-toxumu-suriya-100-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "979",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/d40743fd-6b3f-46cc-9eb4-ed97a3c49a2c/original.jpg",
+    "localPath": "/images/products/qarazirecorekotutoxumu-hindistan-100-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "980",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/73a5fb5a-5edc-4956-9255-e2a2be54c6be/original.jpg",
+    "localPath": "/images/products/qarazirecorekotutoxumu-hebesistan-100-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "981",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/9b06366a-b314-46fd-9289-a0e4f4e9ebf8/original.jpg",
+    "localPath": "/images/products/psilium-100-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "982",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/72b237da-bf4d-4f65-885e-de07c1f0383f/original.jpg",
+    "localPath": "/images/products/cicek-tozu-100-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "983",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/e5096def-16be-4193-a431-2f594b28607f/original.jpg",
+    "localPath": "/images/products/astara-cayi-2-ci-sort-100-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "984",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/26c9a437-e853-4c60-b3d3-4747dee9a3a0/original.jpg",
+    "localPath": "/images/products/astara-cayi-premium-100-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "986",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/b37c6b44-3b41-4370-9f99-3897354d56bc/original.jpg",
+    "localPath": "/images/products/sri-lanka-cayi-etirli-100-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "987",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/c3d19fc0-8fba-479e-9359-c6d9fb0ae41f/original.jpg",
+    "localPath": "/images/products/sri-lanka-cayi-premium-100-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "988",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/9ed922cd-5125-43e3-93d8-514a657866f7/original.jpg",
+    "localPath": "/images/products/yasil-cay-100-gr.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "992",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/d9e52845-fb6a-4989-b0c5-d3b3fe77a249/original.png",
+    "localPath": "/images/products/itburnu-dosabi-500-gr.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "993",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/598830f6-9d77-4f27-a4fb-f08f0635f646/original.png",
+    "localPath": "/images/products/cam-kozalagi-pekmezi-340-gr.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "994",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/82d3c89a-a69b-4689-85c7-5ebef6fb1367/original.png",
+    "localPath": "/images/products/cam-kozalagi-pekmezi-680-gr.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "995",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/9627cbc0-49e8-46f0-9eb7-d1ee12c9f480/original.png",
+    "localPath": "/images/products/ud-hindi-ve-corekotu-kapsulu-standart.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "996",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/5abd78d1-cb13-4b4d-9e28-8c2e05776d76/original.png",
+    "localPath": "/images/products/shakelli-erimis-yag-1000-gr.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "997",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/e2124255-6abc-426b-929a-accbd1907986/original.png",
+    "localPath": "/images/products/qusar-naturals-zeferan-limonadi-500-ml.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "998",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/91c52508-b573-44f5-b4bc-5a7d844b9be1/original.png",
+    "localPath": "/images/products/qusar-naturals-pomidor-siresi-500-ml.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "999",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/096a2f1b-64fa-4e4a-8d24-14d3d9570b69/original.png",
+    "localPath": "/images/products/qusar-naturals-feyxoa-siresi-500-ml.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "1000",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/6ff95cf3-4236-4ec1-8700-d201d22ec9e4/original.png",
+    "localPath": "/images/products/qusar-naturals-qara-qaragat-siresi-500-ml.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "1001",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/177e2e9e-dce2-460d-8c03-3726aebb1761/original.png",
+    "localPath": "/images/products/qusar-naturals-heyva-siresi-500-ml.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "1002",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/32c54f3c-2d7b-491a-b567-59b5fe55d7b0/original.png",
+    "localPath": "/images/products/qusar-naturals-itburnu-500-ml.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "1003",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/f49ee187-38e8-40eb-9bd6-b2810f28d4cd/original.png",
+    "localPath": "/images/products/qusar-natural-qirmizi-qaragat-siresi-500-ml.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "1004",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/4e30f99b-7f2b-420f-a26f-b12f1812d8d0/original.png",
+    "localPath": "/images/products/qusar-naturals-yemisan-500-ml.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "1005",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/09299f46-7212-4d34-ae2e-50586e61bed2/original.png",
+    "localPath": "/images/products/qusar-naturals-balqabaq-siresi-500-ml.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "1006",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/057384cc-b2b0-4495-a805-f5873fed288f/original.png",
+    "localPath": "/images/products/casir-koku-1-kg.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "1007",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/9fc88a8f-a412-41eb-82ba-333d0788e09e/original.png",
+    "localPath": "/images/products/udhindi-tablet-220-eded.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "1008",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/d24d10bd-fae4-4146-9823-6d1760294090/original.png",
+    "localPath": "/images/products/ari-sudu-1-gr.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "1011",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/77cbdea9-0565-40ab-bfb8-bd66995d9b85/original.png",
+    "localPath": "/images/products/bugda-cucertisi-300-gr.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "1012",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/e7d2acf7-b0e6-415f-bb17-02b65dab202d/original.png",
+    "localPath": "/images/products/mas-cucertisi-300-gr.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "1013",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/18921850-19c9-4c73-88d3-148b44756a45/original.png",
+    "localPath": "/images/products/kinoa-1-kg.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "1014",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/d6638d0f-ea5d-421c-91ee-48d6c3659cc0/original.png",
+    "localPath": "/images/products/xurmaci-testo-strong-mecun-250-gr.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "1015",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/cce1d749-bfa9-4f6d-b818-729bfffbb082/original.jpg",
+    "localPath": "/images/products/pergaari-coreyi-1-kg.jpg",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "1016",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/3606007c-0713-4d43-ac4a-40b59b428b8e/original.png",
+    "localPath": "/images/products/alma-sirkesi-500-ml.png",
+    "status": "reused"
+  },
+  {
+    "sourceProductId": "1018",
+    "sourceUrl": "https://cdn.clopos.com/oilganicshop/792631b1-597f-4797-ac9f-e1eed9369e43/original.png",
+    "localPath": "/images/products/kesu-1-kg.png",
+    "status": "reused"
+  }
+]

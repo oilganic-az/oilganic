@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600" fill="none">
+  <rect width="600" height="600" fill="#F3F4F6"/>
+  <rect x="2" y="2" width="596" height="596" rx="24" stroke="#E5E7EB" stroke-width="4"/>
+  <circle cx="300" cy="260" r="80" fill="#15803D" fill-opacity="0.1"/>
+  <path d="M300 200C266.863 200 240 226.863 240 260C240 293.137 266.863 320 300 320C333.137 320 360 293.137 360 260C360 226.863 333.137 200 300 200ZM300 230C316.569 230 330 243.431 330 260C330 276.569 316.569 290 300 290C283.431 290 270 276.569 270 260C270 243.431 283.431 230 300 230Z" fill="#15803D"/>
+  <path d="M260 240C260 240 280 220 300 240C320 260 340 240 340 240" stroke="#15803D" stroke-width="6" stroke-linecap="round"/>
+  <text x="300" y="390" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="700" fill="#374151" text-anchor="middle">Oilganic</text>
+  <text x="300" y="430" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="500" fill="#9CA3AF" text-anchor="middle">Məhsul Şəkli Tezliklə</text>
+</svg>

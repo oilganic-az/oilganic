@@ -1,0 +1,32 @@
+[
+  {
+    "sourceProductId": "730",
+    "name": "Badam ləpəsi",
+    "reason": "Unresolved quantity (no unit in name)"
+  },
+  {
+    "sourceProductId": "746",
+    "name": "Qarazirə (çörəkotu) toxumu Həbəşistan",
+    "reason": "Unresolved quantity (no unit in name)"
+  },
+  {
+    "sourceProductId": "747",
+    "name": "Qarazirə (çörəkotu) toxumu Hindistan",
+    "reason": "Unresolved quantity (no unit in name)"
+  },
+  {
+    "sourceProductId": "748",
+    "name": "Qarazirə toxumu Suriya",
+    "reason": "Unresolved quantity (no unit in name)"
+  },
+  {
+    "sourceProductId": "995",
+    "name": "Ud hindi və çörəkotu kapsulu",
+    "reason": "Unresolved quantity (no unit in name)"
+  },
+  {
+    "sourceProductId": "1018",
+    "name": "Keşu kg",
+    "reason": "Zero-price record (price needs verification)"
+  }
+]

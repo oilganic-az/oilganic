@@ -5,5 +5,5 @@ export type CartItem = {
   product: Product;
   selectedSize?: ProductSize;
   quantity: number;
-  unitPrice: number;
+  unitPrice: number | null;
 };

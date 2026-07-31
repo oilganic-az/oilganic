@@ -12,7 +12,9 @@
     "test:e2e": "playwright test",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "fetch:clopos": "node scripts/fetch-clopos-catalog.mjs"
+    "fetch:clopos": "node scripts/fetch-clopos-catalog.mjs",
+    "catalog:sync": "node --experimental-strip-types scripts/sync-clopos-products.mjs",
+    "catalog:validate": "node --experimental-strip-types scripts/validate-product-catalog.mjs"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",

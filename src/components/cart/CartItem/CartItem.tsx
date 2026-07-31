@@ -12,7 +12,7 @@ export interface CartItemProps {
 
 export const CartItem: React.FC<CartItemProps> = ({ item, onUpdateQuantity, onRemove }) => {
   const { id, product, selectedSize, quantity, unitPrice } = item;
-  const totalPrice = unitPrice * quantity;
+  const totalPrice = unitPrice !== null ? unitPrice * quantity : null;
   const imgSrc = product.images?.[0]?.src;
 
   return (

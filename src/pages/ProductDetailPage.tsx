@@ -14,10 +14,13 @@ import { RelatedProducts } from '../components/product/RelatedProducts/RelatedPr
 import { SEO } from '../components/common/SEO/SEO';
 import styles from './ProductDetailPage.module.css';
 
+import { PRODUCT_SLUG_ALIASES } from '../data/productAliases';
+
 export const ProductDetailPage: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
   const { getProductBySlug } = useProducts();
-  const product = getProductBySlug(slug || '');
+  const resolvedSlug = slug && PRODUCT_SLUG_ALIASES[slug] ? PRODUCT_SLUG_ALIASES[slug] : (slug || '');
+  const product = getProductBySlug(resolvedSlug);
   const { addToCart } = useCart();
 
   const [selectedSize, setSelectedSize] = useState(
@@ -51,8 +54,8 @@ export const ProductDetailPage: React.FC = () => {
   }
 
   const currentPrice = selectedSize ? selectedSize.price : product.price;
-  const totalPrice = currentPrice * quantity;
-  const showRealPrice = Boolean(currentPrice && currentPrice > 0);
+  const totalPrice = currentPrice !== null ? currentPrice * quantity : null;
+  const showRealPrice = Boolean(currentPrice !== null && currentPrice > 0);
 
   const handleIncrement = () => setQuantity(q => q + 1);
   const handleDecrement = () => setQuantity(q => (q > 1 ? q - 1 : 1));

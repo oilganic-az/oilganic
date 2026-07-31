@@ -8,6 +8,8 @@ import { CATEGORIES } from '../../../data/categories';
 import styles from './Footer.module.css';
 
 export const Footer: React.FC = () => {
+  const [showDeveloperCard, setShowDeveloperCard] = useState(false);
+
   return (
     <footer className={styles.footer}>
       <div className={`container ${styles.container}`}>
@@ -102,9 +104,66 @@ export const Footer: React.FC = () => {
 
         {/* Bottom Section */}
         <div className={styles.bottomSection}>
-          <p className={styles.copyright}>
-            © {new Date().getFullYear()} {BUSINESS_CONFIG.name}. Bütün hüquqlar qorunur.
-          </p>
+          <div className={styles.copyrightGroup}>
+            <p className={styles.copyright}>
+              © {new Date().getFullYear()} {BUSINESS_CONFIG.name}. Bütün hüquqlar qorunur.
+            </p>
+            <div className={styles.developerAttr}>
+              Sayt{' '}
+              <span className={styles.developerPopoverWrapper}>
+                <button
+                  type="button"
+                  className={styles.developerBtn}
+                  onClick={() => setShowDeveloperCard(prev => !prev)}
+                  aria-expanded={showDeveloperCard}
+                  aria-label="Hazırlayan haqqında məlumat"
+                >
+                  Elməddin Möhübbətov
+                </button>
+                {showDeveloperCard && (
+                  <div className={styles.developerCard}>
+                    <div className={styles.developerHeader}>
+                      <span className={styles.developerName}>Elməddin Möhübbətov</span>
+                    </div>
+                    <p className={styles.developerRole}>Tərtibatçı ilə əlaqə</p>
+                    <div className={styles.developerSocials}>
+                      <a
+                        href="https://wa.me/994773343536"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={`${styles.devSocialIcon} ${styles.whatsapp}`}
+                        title="WhatsApp"
+                        aria-label="WhatsApp"
+                      >
+                        <MessageCircle size={18} />
+                      </a>
+                      <a
+                        href="https://instagram.com/mr.elmaddin.apk"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={`${styles.devSocialIcon} ${styles.instagram}`}
+                        title="Instagram"
+                        aria-label="Instagram"
+                      >
+                        <Instagram size={18} />
+                      </a>
+                      <a
+                        href="https://linkedin.com/in/elmaddin-mohubbatov"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={`${styles.devSocialIcon} ${styles.linkedin}`}
+                        title="LinkedIn"
+                        aria-label="LinkedIn"
+                      >
+                        <Linkedin size={18} />
+                      </a>
+                    </div>
+                  </div>
+                )}
+              </span>{' '}
+              tərəfindən hazırlanmışdır.
+            </div>
+          </div>
           <ul className={styles.legalList}>
             {FOOTER_LEGAL_ITEMS.map(item => (
               <li key={item.path}>

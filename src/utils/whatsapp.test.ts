@@ -1,6 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import { buildWhatsAppOrderUrl } from './whatsapp';
 import { PRODUCTS } from '../data/products';
+import { CartItem } from '../types/cart';
 
 describe('WhatsApp Order URL Generator', () => {
   it('generates appropriate message when cart is empty', () => {
@@ -13,7 +14,7 @@ describe('WhatsApp Order URL Generator', () => {
     const item1 = PRODUCTS[0];
     const item2 = PRODUCTS[2];
 
-    const sampleItems = [
+    const sampleItems: CartItem[] = [
       {
         id: `${item1.id}-size-0`,
         product: item1,
@@ -30,7 +31,7 @@ describe('WhatsApp Order URL Generator', () => {
       }
     ];
 
-    const expectedTotal = (item1.sizes![0].price * 2) + item2.sizes![0].price;
+    const expectedTotal = (item1.sizes![0].price! * 2) + item2.sizes![0].price!;
 
     const url = buildWhatsAppOrderUrl(sampleItems);
     expect(url).toContain('https://wa.me/994773343536?text=');
@@ -41,7 +42,7 @@ describe('WhatsApp Order URL Generator', () => {
 
   it('includes customer name, delivery address, and notes when provided', () => {
     const item = PRODUCTS[0];
-    const sampleItems = [
+    const sampleItems: CartItem[] = [
       {
         id: `${item.id}-size-0`,
         product: item,

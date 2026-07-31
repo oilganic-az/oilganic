@@ -15,10 +15,12 @@ describe('Product Catalog Filtering and Sorting', () => {
   });
 
   it('sorts products by price low-to-high and high-to-low', () => {
-    const sortedLowHigh = filterProducts(PRODUCTS, { category: 'all', inStockOnly: false, searchQuery: '', sortBy: 'price_asc' });
-    expect(sortedLowHigh[0].price).toBeLessThanOrEqual(sortedLowHigh[sortedLowHigh.length - 1].price);
+    const sortedLowHigh = filterProducts(PRODUCTS, { category: 'all', inStockOnly: false, searchQuery: '', sortBy: 'price_asc' })
+      .filter(p => p.price !== null);
+    expect(sortedLowHigh[0].price!).toBeLessThanOrEqual(sortedLowHigh[sortedLowHigh.length - 1].price!);
 
-    const sortedHighLow = filterProducts(PRODUCTS, { category: 'all', inStockOnly: false, searchQuery: '', sortBy: 'price_desc' });
-    expect(sortedHighLow[0].price).toBeGreaterThanOrEqual(sortedHighLow[sortedHighLow.length - 1].price);
+    const sortedHighLow = filterProducts(PRODUCTS, { category: 'all', inStockOnly: false, searchQuery: '', sortBy: 'price_desc' })
+      .filter(p => p.price !== null);
+    expect(sortedHighLow[0].price!).toBeGreaterThanOrEqual(sortedHighLow[sortedHighLow.length - 1].price!);
   });
 });

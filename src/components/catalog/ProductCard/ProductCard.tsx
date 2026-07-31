@@ -59,6 +59,9 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
               alt={`${product.name} ${selectedSize ? selectedSize.label : ''}`}
               loading="lazy"
               className={styles.productImg}
+              onError={e => {
+                (e.target as HTMLImageElement).src = '/images/products/placeholder.svg';
+              }}
             />
           ) : (
             <AbstractProductVisual categoryId={product.categoryId} name={product.name} />

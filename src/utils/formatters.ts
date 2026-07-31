@@ -2,7 +2,8 @@
  * Formats a number into AZN currency string
  * Example: 18 -> "18.00 ₼" or "18 ₼"
  */
-export function formatCurrency(amount: number): string {
+export function formatCurrency(amount: number | null): string {
+  if (amount === null) return 'Qiyməti dəqiqləşdirin';
   return `${amount.toFixed(2).replace(/\.00$/, '')} ₼`;
 }
 

@@ -19,6 +19,9 @@ export const ProductGallery: React.FC<ProductGalleryProps> = ({ images, productN
             alt={images[0].alt || productName}
             loading="lazy"
             className={styles.mainImg}
+            onError={e => {
+              (e.target as HTMLImageElement).src = '/images/products/placeholder.svg';
+            }}
           />
         ) : (
           <>

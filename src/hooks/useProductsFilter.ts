@@ -11,6 +11,11 @@ export interface FilterOptions {
   sortBy?: string;
 }
 
+const getPriceSortVal = (price: number | null, isAsc: boolean) => {
+  if (price === null) return isAsc ? Infinity : -Infinity;
+  return price;
+};
+
 export function filterProducts(products: Product[], options: FilterOptions): Product[] {
   const { category = 'all', inStockOnly = false, searchQuery = '', sortBy = 'featured' } = options;
 
@@ -26,8 +31,12 @@ export function filterProducts(products: Product[], options: FilterOptions): Pro
       return true;
     })
     .sort((a, b) => {
-      if (sortBy === 'price_asc' || sortBy === 'price-asc') return a.price - b.price;
-      if (sortBy === 'price_desc' || sortBy === 'price-desc') return b.price - a.price;
+      if (sortBy === 'price_asc' || sortBy === 'price-asc') {
+        return getPriceSortVal(a.price, true) - getPriceSortVal(b.price, true);
+      }
+      if (sortBy === 'price_desc' || sortBy === 'price-desc') {
+        return getPriceSortVal(b.price, false) - getPriceSortVal(a.price, false);
+      }
       return (b.featured ? 1 : 0) - (a.featured ? 1 : 0);
     });
 }
@@ -70,8 +79,12 @@ export function useProductsFilter(initialProducts: Product[]) {
         return true;
       })
       .sort((a, b) => {
-        if (sortBy === 'price-asc') return a.price - b.price;
-        if (sortBy === 'price-desc') return b.price - a.price;
+        if (sortBy === 'price-asc') {
+          return getPriceSortVal(a.price, true) - getPriceSortVal(b.price, true);
+        }
+        if (sortBy === 'price-desc') {
+          return getPriceSortVal(b.price, false) - getPriceSortVal(a.price, false);
+        }
         if (sortBy === 'name-asc') return a.name.localeCompare(b.name, 'az');
         // 'featured' default sort
         return (b.featured ? 1 : 0) - (a.featured ? 1 : 0);

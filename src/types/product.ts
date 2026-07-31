@@ -3,10 +3,12 @@ export type VerificationStatus = 'verified' | 'sample' | 'pending';
 export type ProductSize = {
   id: string;
   label: string; // e.g. "100 ml", "250 ml", "300 q"
-  price: number;
+  price: number | null;
   inStock: boolean;
   verificationStatus?: VerificationStatus;
   imageSrc?: string;
+  priceStatus?: 'verified' | 'needs_review' | 'unavailable';
+  quantityStatus?: 'verified' | 'needs_review';
 };
 
 export type ProductImage = {
@@ -21,7 +23,7 @@ export type Product = {
   categoryId: string;
   shortDescription: string;
   description?: string;
-  price: number;
+  price: number | null;
   currency: 'AZN';
   unitLabel?: string;
   sizes?: ProductSize[];
@@ -38,4 +40,6 @@ export type Product = {
   tags?: string[];
   woltUrl?: string;
   verificationStatus: VerificationStatus;
+  priceStatus?: 'verified' | 'needs_review' | 'unavailable';
+  quantityStatus?: 'verified' | 'needs_review';
 };

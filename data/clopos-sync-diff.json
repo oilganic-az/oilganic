@@ -1,0 +1,378 @@
+{
+  "productsAdded": [
+    {
+      "id": "prod-bal",
+      "slug": "bal",
+      "name": "Bal"
+    },
+    {
+      "id": "prod-gunebaxan-yagi-soyuq-sixim",
+      "slug": "gunebaxan-yagi-soyuq-sixim",
+      "name": "Günəbaxan yağı Soyuq sıxım"
+    },
+    {
+      "id": "prod-alaqanqal-toxumu-unu",
+      "slug": "alaqanqal-toxumu-unu",
+      "name": "Alaqanqal toxumu unu"
+    },
+    {
+      "id": "prod-sarikok-toz",
+      "slug": "sarikok-toz",
+      "name": "Sarıkök toz"
+    },
+    {
+      "id": "prod-darcin-cubuq-sri-lanka",
+      "slug": "darcin-cubuq-sri-lanka",
+      "name": "Darçın çubuq Şri-lanka"
+    },
+    {
+      "id": "prod-zencefil-koku",
+      "slug": "zencefil-koku",
+      "name": "Zəncəfil kökü"
+    },
+    {
+      "id": "prod-balqabaq-toxumu-tund",
+      "slug": "balqabaq-toxumu-tund",
+      "name": "Balqabaq toxumu tünd"
+    },
+    {
+      "id": "prod-qarazire-corekotu-toxumu-suriya",
+      "slug": "qarazire-corekotu-toxumu-suriya",
+      "name": "Qarazirə (Çörəkotu) toxumu Suriya"
+    },
+    {
+      "id": "prod-cam-kozalagi-pekmezi",
+      "slug": "cam-kozalagi-pekmezi",
+      "name": "Çam kozalağı pekmezi"
+    },
+    {
+      "id": "prod-qusar-naturals-zeferan-limonadi",
+      "slug": "qusar-naturals-zeferan-limonadi",
+      "name": "Qusar naturals Zəfəran limonadı"
+    },
+    {
+      "id": "prod-qusar-naturals-pomidor-siresi",
+      "slug": "qusar-naturals-pomidor-siresi",
+      "name": "Qusar naturals Pomidor şirəsi"
+    },
+    {
+      "id": "prod-qusar-naturals-feyxoa-siresi",
+      "slug": "qusar-naturals-feyxoa-siresi",
+      "name": "Qusar naturals Feyxoa şirəsi"
+    },
+    {
+      "id": "prod-qusar-naturals-qara-qaragat-siresi",
+      "slug": "qusar-naturals-qara-qaragat-siresi",
+      "name": "Qusar naturals Qara qarağat şirəsi"
+    },
+    {
+      "id": "prod-qusar-naturals-heyva-siresi",
+      "slug": "qusar-naturals-heyva-siresi",
+      "name": "Qusar naturals Heyva şirəsi"
+    },
+    {
+      "id": "prod-qusar-naturals-itburnu",
+      "slug": "qusar-naturals-itburnu",
+      "name": "Qusar naturals İtburnu"
+    },
+    {
+      "id": "prod-qusar-natural-qirmizi-qaragat-siresi",
+      "slug": "qusar-natural-qirmizi-qaragat-siresi",
+      "name": "Qusar natural Qırmızı qarağat şirəsi"
+    },
+    {
+      "id": "prod-qusar-naturals-yemisan",
+      "slug": "qusar-naturals-yemisan",
+      "name": "Qusar naturals Yemişan"
+    },
+    {
+      "id": "prod-qusar-naturals-balqabaq-siresi",
+      "slug": "qusar-naturals-balqabaq-siresi",
+      "name": "Qusar naturals Balqabaq şirəsi"
+    },
+    {
+      "id": "prod-kesu",
+      "slug": "kesu",
+      "name": "Keşu"
+    }
+  ],
+  "productsRemoved": [
+    {
+      "id": "prod-27",
+      "slug": "balqabaq-siresi",
+      "name": "Balqabaq şirəsi"
+    },
+    {
+      "id": "prod-29",
+      "slug": "balqabaq-tumu",
+      "name": "Balqabaq tumu"
+    },
+    {
+      "id": "prod-41",
+      "slug": "cicek-bali",
+      "name": "Çiçək balı"
+    },
+    {
+      "id": "prod-49",
+      "slug": "darcin-sri-lanka",
+      "name": "Darçın Şri-lanka"
+    },
+    {
+      "id": "prod-56",
+      "slug": "feyxoa-siresi",
+      "name": "Feyxoa şirəsi"
+    },
+    {
+      "id": "prod-70",
+      "slug": "heyva-siresi",
+      "name": "Heyva şirəsi"
+    },
+    {
+      "id": "prod-71",
+      "slug": "himalay-duzu",
+      "name": "Himalay duzu"
+    },
+    {
+      "id": "prod-86",
+      "slug": "itburnu",
+      "name": "İtburnu"
+    },
+    {
+      "id": "prod-107",
+      "slug": "qara-qaragat-siresi",
+      "name": "Qara qarağat şirəsi"
+    },
+    {
+      "id": "prod-119",
+      "slug": "qarazirecorekotutoxumu-suriya",
+      "name": "Qarazirə(Çörəkotu)toxumu Suriya"
+    },
+    {
+      "id": "prod-126",
+      "slug": "qirmizi-qaragat-siresi",
+      "name": "Qırmızı qarağat şirəsi"
+    },
+    {
+      "id": "prod-137",
+      "slug": "pomidor-siresi",
+      "name": "Pomidor şirəsi"
+    },
+    {
+      "id": "prod-139",
+      "slug": "psilium-toxumu",
+      "name": "Psilium toxumu"
+    },
+    {
+      "id": "prod-146",
+      "slug": "sarikok-tozu",
+      "name": "Sarıkök tozu"
+    },
+    {
+      "id": "prod-150",
+      "slug": "sam-qozasi-behmezi",
+      "name": "Şam qozası bəhməzi"
+    },
+    {
+      "id": "prod-171",
+      "slug": "yemisan",
+      "name": "Yemişan"
+    },
+    {
+      "id": "prod-176",
+      "slug": "zeferan-limonadi",
+      "name": "Zəfəran limonadı"
+    },
+    {
+      "id": "prod-178",
+      "slug": "zencefil-quru",
+      "name": "Zəncəfil quru"
+    }
+  ],
+  "productsMerged": [
+    {
+      "oldId": "prod-33",
+      "oldSlug": "braziilya-qozu",
+      "oldName": "Braziilya qozu",
+      "newId": "prod-34",
+      "newSlug": "braziliya-qozu",
+      "newName": "Braziliya qozu"
+    },
+    {
+      "oldId": "prod-62",
+      "oldSlug": "fistiqkuncut-ezmesi",
+      "oldName": "Fıstıq+küncüt əzməsi",
+      "newId": "prod-59",
+      "newSlug": "fistiq-kuncut-ezmesi",
+      "newName": "Fıstıq + Küncüt əzməsi"
+    },
+    {
+      "oldId": "prod-66",
+      "oldSlug": "gunebaxan-yagi-1litr",
+      "oldName": "Günəbaxan yağı 1litr",
+      "newId": "prod-66",
+      "newSlug": "gunebaxan-yagi",
+      "newName": "Günəbaxan yağı"
+    },
+    {
+      "oldId": "prod-67",
+      "oldSlug": "gunebaxan-yagi-2litr",
+      "oldName": "Günəbaxan yağı 2litr",
+      "newId": "prod-66",
+      "newSlug": "gunebaxan-yagi",
+      "newName": "Günəbaxan yağı"
+    },
+    {
+      "oldId": "prod-68",
+      "oldSlug": "gunebaxan-yagi-suzulmus-1-litr",
+      "oldName": "Günəbaxan yağı süzülmüş 1 litr",
+      "newId": "prod-68",
+      "newSlug": "gunebaxan-yagi-suzulmus",
+      "newName": "Günəbaxan yağı süzülmüş"
+    },
+    {
+      "oldId": "prod-69",
+      "oldSlug": "gunebaxan-yagi-suzulmus-2litr",
+      "oldName": "Günəbaxan yağı süzülmüş 2litr",
+      "newId": "prod-68",
+      "newSlug": "gunebaxan-yagi-suzulmus",
+      "newName": "Günəbaxan yağı süzülmüş"
+    },
+    {
+      "oldId": "prod-121",
+      "oldSlug": "qarisiq-ezme-02kg",
+      "oldName": "Qarışıq əzmə 0.2kg",
+      "newId": "prod-122",
+      "newSlug": "qarisiq-ezme",
+      "newName": "Qarışıq əzmə"
+    },
+    {
+      "oldId": "prod-152",
+      "oldSlug": "sri-lanka-cayi-etirli-1",
+      "oldName": "Şri-lanka çayı ətirli",
+      "newId": "prod-151",
+      "newSlug": "sri-lanka-cayi-etirli",
+      "newName": "Şri-lanka çayı ətirli"
+    },
+    {
+      "oldId": "prod-154",
+      "oldSlug": "sri-lanka-cayi-premium-1",
+      "oldName": "Şri-lanka çayı premium",
+      "newId": "prod-153",
+      "newSlug": "sri-lanka-cayi-premium",
+      "newName": "Şri-lanka çayı premium"
+    },
+    {
+      "oldId": "prod-159",
+      "oldSlug": "tat-zeytun-yagi-5litr",
+      "oldName": "Tat zeytun yağı 5litr",
+      "newId": "prod-159",
+      "newSlug": "tat-zeytun-yagi",
+      "newName": "Tat zeytun yağı"
+    },
+    {
+      "oldId": "prod-161",
+      "oldSlug": "udhindi-tablet-220-ed",
+      "oldName": "Udhindi tablet 220 əd",
+      "newId": "prod-161",
+      "newSlug": "udhindi-tablet",
+      "newName": "Udhindi tablet"
+    },
+    {
+      "oldId": "prod-162",
+      "oldSlug": "udukumin-100kapsul",
+      "oldName": "Udukumin 100kapsul",
+      "newId": "prod-162",
+      "newSlug": "udukumin",
+      "newName": "Udukumin"
+    },
+    {
+      "oldId": "prod-166",
+      "oldSlug": "uthindi-toz",
+      "oldName": "Uthindi toz",
+      "newId": "prod-167",
+      "newSlug": "uthindi-tozu",
+      "newName": "Uthindi tozu"
+    },
+    {
+      "oldId": "prod-172",
+      "oldSlug": "zeytun-yagi-rafine-1litr",
+      "oldName": "Zeytun yağı rafinə 1litr",
+      "newId": "prod-172",
+      "newSlug": "zeytun-yagi-rafine",
+      "newName": "Zeytun yağı rafinə"
+    },
+    {
+      "oldId": "prod-173",
+      "oldSlug": "zeytun-yagi-rafine-2litr",
+      "oldName": "Zeytun yağı rafinə 2litr",
+      "newId": "prod-172",
+      "newSlug": "zeytun-yagi-rafine",
+      "newName": "Zeytun yağı rafinə"
+    },
+    {
+      "oldId": "prod-174",
+      "oldSlug": "zeytun-yagi-soyuq-sixim-1litr",
+      "oldName": "Zeytun yağı soyuq sıxım 1litr",
+      "newId": "prod-174",
+      "newSlug": "zeytun-yagi-soyuq-sixim",
+      "newName": "Zeytun yağı soyuq sıxım"
+    },
+    {
+      "oldId": "prod-175",
+      "oldSlug": "zeytun-yagi-soyuq-sixim-2-litr",
+      "oldName": "Zeytun yağı soyuq sıxım 2 litr",
+      "newId": "prod-174",
+      "newSlug": "zeytun-yagi-soyuq-sixim",
+      "newName": "Zeytun yağı soyuq sıxım"
+    },
+    {
+      "oldId": "prod-179",
+      "oldSlug": "zencefil-toz",
+      "oldName": "Zəncəfil toz",
+      "newId": "prod-179",
+      "newSlug": "zencefil-tozu",
+      "newName": "Zəncəfil tozu"
+    }
+  ],
+  "variantsAdded": 3,
+  "idAliases": {
+    "prod-33": "prod-34",
+    "prod-62": "prod-59",
+    "prod-66": "prod-66",
+    "prod-67": "prod-66",
+    "prod-68": "prod-68",
+    "prod-69": "prod-68",
+    "prod-121": "prod-122",
+    "prod-152": "prod-151",
+    "prod-154": "prod-153",
+    "prod-159": "prod-159",
+    "prod-161": "prod-161",
+    "prod-162": "prod-162",
+    "prod-166": "prod-167",
+    "prod-172": "prod-172",
+    "prod-173": "prod-172",
+    "prod-174": "prod-174",
+    "prod-175": "prod-174",
+    "prod-179": "prod-179"
+  },
+  "slugAliases": {
+    "braziilya-qozu": "braziliya-qozu",
+    "fistiqkuncut-ezmesi": "fistiq-kuncut-ezmesi",
+    "gunebaxan-yagi-1litr": "gunebaxan-yagi",
+    "gunebaxan-yagi-2litr": "gunebaxan-yagi",
+    "gunebaxan-yagi-suzulmus-1-litr": "gunebaxan-yagi-suzulmus",
+    "gunebaxan-yagi-suzulmus-2litr": "gunebaxan-yagi-suzulmus",
+    "qarisiq-ezme-02kg": "qarisiq-ezme",
+    "sri-lanka-cayi-etirli-1": "sri-lanka-cayi-etirli",
+    "sri-lanka-cayi-premium-1": "sri-lanka-cayi-premium",
+    "tat-zeytun-yagi-5litr": "tat-zeytun-yagi",
+    "udhindi-tablet-220-ed": "udhindi-tablet",
+    "udukumin-100kapsul": "udukumin",
+    "uthindi-toz": "uthindi-tozu",
+    "zeytun-yagi-rafine-1litr": "zeytun-yagi-rafine",
+    "zeytun-yagi-rafine-2litr": "zeytun-yagi-rafine",
+    "zeytun-yagi-soyuq-sixim-1litr": "zeytun-yagi-soyuq-sixim",
+    "zeytun-yagi-soyuq-sixim-2-litr": "zeytun-yagi-soyuq-sixim",
+    "zencefil-toz": "zencefil-tozu"
+  }
+}
