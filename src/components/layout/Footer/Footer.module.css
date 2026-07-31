@@ -184,21 +184,22 @@
 
 .developerCard {
   position: absolute;
-  bottom: calc(100% + 10px);
+  bottom: calc(100% + 12px);
   left: 50%;
   transform: translateX(-50%);
-  padding: 6px 10px;
-  background: rgba(18, 53, 36, 0.95);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 6px 12px;
+  background: rgba(18, 53, 36, 0.96);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: var(--radius-full);
-  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 12px 30px -5px rgba(0, 0, 0, 0.45);
   z-index: 100;
   display: flex;
   align-items: center;
   justify-content: center;
-  animation: popUpFade 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  transform-origin: bottom center;
+  animation: popUpSpring 0.35s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
 }
 
 .developerCard::after {
@@ -209,17 +210,20 @@
   transform: translateX(-50%);
   border-width: 6px;
   border-style: solid;
-  border-color: rgba(18, 53, 36, 0.95) transparent transparent transparent;
+  border-color: rgba(18, 53, 36, 0.96) transparent transparent transparent;
 }
 
-@keyframes popUpFade {
-  from {
+@keyframes popUpSpring {
+  0% {
     opacity: 0;
-    transform: translate(-50%, 8px);
+    transform: translate(-50%, 14px) scale(0.5);
   }
-  to {
+  70% {
+    transform: translate(-50%, -3px) scale(1.08);
+  }
+  100% {
     opacity: 1;
-    transform: translate(-50%, 0);
+    transform: translate(-50%, 0) scale(1);
   }
 }
 
@@ -237,9 +241,25 @@
   width: 36px;
   height: 36px;
   border-radius: var(--radius-full);
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.12);
   color: var(--color-white);
-  transition: all var(--transition-fast);
+  transition: all 0.2s ease;
+  animation: iconPop 0.3s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+
+.devSocialIcon:nth-child(1) { animation-delay: 0.04s; }
+.devSocialIcon:nth-child(2) { animation-delay: 0.08s; }
+.devSocialIcon:nth-child(3) { animation-delay: 0.12s; }
+
+@keyframes iconPop {
+  0% {
+    opacity: 0;
+    transform: scale(0.4);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 .devSocialIcon:hover {
