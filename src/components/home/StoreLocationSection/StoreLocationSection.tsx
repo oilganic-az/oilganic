@@ -1,12 +1,10 @@
-import React, { useState } from 'react';
-import { MapPin, Clock, Phone, Navigation, ExternalLink } from 'lucide-react';
+import React from 'react';
+import { MapPin, Clock, Phone, Navigation, ExternalLink, ShoppingBag } from 'lucide-react';
 import { BUSINESS_CONFIG } from '../../../config/business';
 import { Button } from '../../common/Button/Button';
 import styles from './StoreLocationSection.module.css';
 
 export const StoreLocationSection: React.FC = () => {
-  const [mapError, setMapError] = useState(false);
-
   return (
     <section className={styles.section}>
       <div className="container">
@@ -60,33 +58,44 @@ export const StoreLocationSection: React.FC = () => {
             </a>
           </div>
 
-          {/* Google Maps Embed with Fallback */}
+          {/* Bulletproof Branded Store Location Card */}
           <div className={styles.mapCol}>
-            {!mapError ? (
-              <iframe
-                className={styles.mapIframe}
-                title="Oilganic mağazasının xəritədə yeri"
-                src={BUSINESS_CONFIG.googleMapsEmbed}
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                allowFullScreen
-                onError={() => setMapError(true)}
-              />
-            ) : (
-              <div className={styles.mapFallback}>
-                <MapPin size={48} className={styles.fallbackIcon} />
-                <h3 className={styles.fallbackTitle}>Oilganic Mağazası</h3>
-                <p className={styles.fallbackText}>{BUSINESS_CONFIG.address}</p>
+            <div className={styles.mapCardContent}>
+              <div className={styles.mapHeader}>
+                <span className={styles.statusBadge}>
+                  <span className={styles.pulseDot} />
+                  İndi açıqdır ({BUSINESS_CONFIG.workingHours.replace('Hər gün: ', '')})
+                </span>
+              </div>
+
+              <div className={styles.mapVisualBox}>
+                <div className={styles.pinContainer}>
+                  <div className={styles.pulseRing} />
+                  <MapPin size={32} className={styles.mapPinIcon} />
+                </div>
+                <h3 className={styles.storeLocationTitle}>{BUSINESS_CONFIG.name} Shop</h3>
+                <p className={styles.storeAddressText}>{BUSINESS_CONFIG.address}</p>
+              </div>
+
+              <div className={styles.mapActionRow}>
                 <a
                   href={BUSINESS_CONFIG.googleMapsUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={styles.fallbackBtn}
+                  className={styles.mapsBtnPrimary}
                 >
-                  Google Maps-də baxın <ExternalLink size={16} />
+                  <Navigation size={18} /> Google Maps-də açın
+                </a>
+                <a
+                  href={BUSINESS_CONFIG.woltUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.mapsBtnSecondary}
+                >
+                  <ShoppingBag size={18} /> Wolt ilə çatdırılma <ExternalLink size={14} />
                 </a>
               </div>
-            )}
+            </div>
           </div>
         </div>
       </div>

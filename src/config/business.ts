@@ -16,7 +16,7 @@ export const BUSINESS_CONFIG = {
   instagramUrl: 'https://www.instagram.com/oilganic_shop/',
   cloposUrl: 'https://oilganicshop.clopos.menu/az/',
   googleMapsUrl: 'https://www.google.com/maps/place/Oilganic+shop/@40.4050483,49.9486038,20.11z/',
-  googleMapsEmbed: 'https://maps.google.com/maps?q=40.4050483,49.9486038&z=18&output=embed',
+  googleMapsEmbed: 'https://www.openstreetmap.org/export/embed.html?bbox=49.9436038%2C40.4000483%2C49.9536038%2C40.4100483&layer=mapnik&marker=40.4050483%2C49.9486038',
   coordinates: { lat: 40.4050483, lng: 49.9486038 },
   currency: 'AZN',
   verification: {
