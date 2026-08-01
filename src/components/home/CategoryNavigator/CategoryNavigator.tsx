@@ -26,7 +26,7 @@ export const CategoryNavigator: React.FC = () => {
             <Reveal key={cat.id} variant="slideUp" delay={idx * 0.08}>
               <Link
                 to={`/products?category=${cat.id}`}
-                className={`${styles.categoryCard} ${idx === 0 ? styles.largeCard : ''}`}
+                className={styles.categoryCard}
                 data-interactive
               >
                 <div className={styles.cardHeader}>

@@ -91,18 +91,6 @@
   box-shadow: var(--shadow-md);
 }
 
-.largeCard {
-  background: linear-gradient(135deg, var(--color-deep-green) 0%, var(--color-forest-green) 100%);
-  color: var(--color-cream-50);
-}
-
-.largeCard .catName {
-  color: var(--color-white);
-}
-
-.largeCard .catDesc {
-  color: var(--color-sage-200);
-}
 
 .cardHeader {
   display: flex;
