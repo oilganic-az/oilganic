@@ -14,11 +14,14 @@
     "preview": "vite preview",
     "fetch:clopos": "node scripts/fetch-clopos-catalog.mjs",
     "catalog:sync": "node --experimental-strip-types scripts/sync-clopos-products.mjs",
-    "catalog:validate": "node --experimental-strip-types scripts/validate-product-catalog.mjs"
+    "catalog:validate": "node --experimental-strip-types scripts/validate-product-catalog.mjs",
+    "seed:firestore": "node scripts/seed-firestore.mjs"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
+    "@types/jsonwebtoken": "^9.0.10",
     "gsap": "^3.15.0",
+    "jsonwebtoken": "^9.0.3",
     "lucide-react": "^0.344.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -33,6 +36,7 @@
     "@types/react-dom": "^18.3.5",
     "@typescript-eslint/eslint-plugin": "^7.18.0",
     "@typescript-eslint/parser": "^7.18.0",
+    "@vercel/node": "^5.9.3",
     "@vitejs/plugin-react": "^4.3.4",
     "eslint": "^8.57.1",
     "eslint-plugin-jsx-a11y": "^6.10.2",

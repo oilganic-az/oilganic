@@ -2,17 +2,13 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Button } from '../../components/common/Button/Button';
 import { SEO } from '../../components/common/SEO/SEO';
-import {
-  ADMIN_USERNAME,
-  ADMIN_PASSWORD_HASH,
-  MAX_LOGIN_ATTEMPTS,
-  LOCKOUT_DURATION_MS,
-  hashString
-} from '../../utils/security';
+import { MAX_LOGIN_ATTEMPTS, LOCKOUT_DURATION_MS } from '../../utils/security';
 import styles from './AdminPage.module.css';
 
 export const ADMIN_AUTH_KEY = 'oilganic_admin_auth';
 export const ADMIN_LAST_ACTIVE_KEY = 'oilganic_admin_last_active';
+/** Stores the JWT returned by /api/admin-login for Firestore write authorisation */
+export const ADMIN_JWT_KEY = 'oilganic_admin_jwt';
 
 const ATTEMPTS_KEY = 'oilganic_login_attempts';
 const LOCKOUT_KEY = 'oilganic_lockout_until';
@@ -57,19 +53,27 @@ export const AdminLoginPage: React.FC = () => {
 
     setIsSubmitting(true);
     try {
-      const inputHash = await hashString(password);
-      const activeHash = localStorage.getItem('oilganic_admin_password_hash') || ADMIN_PASSWORD_HASH;
-      if (username.trim() === ADMIN_USERNAME && inputHash === activeHash) {
-        // Clear login attempts
+      const response = await fetch('/api/admin-login', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ username: username.trim(), password }),
+      });
+
+      if (response.ok) {
+        const { token } = await response.json();
+
+        // Clear any previous lockout state
         localStorage.removeItem(ATTEMPTS_KEY);
         localStorage.removeItem(LOCKOUT_KEY);
 
-        // Store session and activity timestamp
+        // Store session, JWT and activity timestamp
         sessionStorage.setItem(ADMIN_AUTH_KEY, 'true');
+        sessionStorage.setItem(ADMIN_JWT_KEY, token);
         sessionStorage.setItem(ADMIN_LAST_ACTIVE_KEY, Date.now().toString());
 
         navigate('/admin');
       } else {
+        // Increment failed attempts and apply lockout if needed
         const attempts = parseInt(localStorage.getItem(ATTEMPTS_KEY) || '0', 10) + 1;
         localStorage.setItem(ATTEMPTS_KEY, attempts.toString());
 
@@ -84,7 +88,8 @@ export const AdminLoginPage: React.FC = () => {
         }
       }
     } catch (err) {
-      setError('Təhlükəsizlik verifikasiyası xətası baş verdi.');
+      // Network error or server is not available – surface clearly
+      setError('Serverə qoşulmaq mümkün olmadı. İnternet bağlantınızı yoxlayın.');
     } finally {
       setIsSubmitting(false);
     }

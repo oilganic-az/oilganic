@@ -12,7 +12,10 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, './src')
+      '@': path.resolve(__dirname, './src'),
+      // Redirect Firebase SDK imports to a mock during unit tests
+      '../lib/firebase': path.resolve(__dirname, './src/test/firebase-mock.ts'),
+      '../../lib/firebase': path.resolve(__dirname, './src/test/firebase-mock.ts'),
     }
   }
 });

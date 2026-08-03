@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Plus, Search, Edit2, Trash2, RotateCcw, LogOut, Package, Upload, Lock, Gift, Calendar } from 'lucide-react';
+import { Plus, Search, Edit2, Trash2, RotateCcw, LogOut, Package, Upload, Gift, Calendar } from 'lucide-react';
+import { ref as storageRef, uploadBytes, getDownloadURL } from 'firebase/storage';
+import { storage } from '../../lib/firebase';
 import { useProducts } from '../../context/ProductsContext';
 import { useCampaigns } from '../../context/CampaignsContext';
 import { CATEGORIES } from '../../data/categories';
@@ -9,7 +11,7 @@ import { Button } from '../../components/common/Button/Button';
 import { formatCurrency } from '../../utils/formatters';
 import { SEO } from '../../components/common/SEO/SEO';
 import { ADMIN_AUTH_KEY, ADMIN_LAST_ACTIVE_KEY } from './AdminLoginPage';
-import { SESSION_INACTIVITY_TIMEOUT_MS, sanitizeInput, hashString, ADMIN_PASSWORD_HASH } from '../../utils/security';
+import { SESSION_INACTIVITY_TIMEOUT_MS, sanitizeInput } from '../../utils/security';
 import styles from './AdminPage.module.css';
 
 export const AdminDashboardPage: React.FC = () => {
@@ -26,13 +28,9 @@ export const AdminDashboardPage: React.FC = () => {
   const [editingProduct, setEditingProduct] = useState<Partial<Product> | null>(null);
   const [isAddMode, setIsAddMode] = useState(false);
 
-  // Password change modal state
-  const [isPasswordModalOpen, setIsPasswordModalOpen] = useState(false);
-  const [currentPassword, setCurrentPassword] = useState('');
-  const [newPassword, setNewPassword] = useState('');
-  const [confirmPassword, setConfirmPassword] = useState('');
-  const [passwordError, setPasswordError] = useState('');
-  const [passwordSuccess, setPasswordSuccess] = useState('');
+  // Async operation feedback
+  const [isSaving, setIsSaving] = useState(false);
+  const [saveError, setSaveError] = useState('');
 
   // Campaign Modal State
   const [isCampaignModalOpen, setIsCampaignModalOpen] = useState(false);
@@ -105,153 +103,153 @@ export const AdminDashboardPage: React.FC = () => {
     setIsEditModalOpen(true);
   };
 
-  const handleImageFileUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleImageFileUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
-    if (file && editingProduct) {
-      const reader = new FileReader();
-      reader.onload = (uploadEvent) => {
-        const dataUrl = uploadEvent.target?.result as string;
-        if (dataUrl) {
-          setEditingProduct({
-            ...editingProduct,
-            images: [{ src: dataUrl, alt: editingProduct.name || '' }]
-          });
-        }
-      };
-      reader.readAsDataURL(file);
+    if (!file || !editingProduct) return;
+
+    setSaveError('');
+    setIsSaving(true);
+    try {
+      const ext = file.name.split('.').pop() || 'jpg';
+      const filename = `products/${Date.now()}-${Math.random().toString(36).slice(2)}.${ext}`;
+      const fileRef = storageRef(storage, filename);
+      await uploadBytes(fileRef, file);
+      const downloadUrl = await getDownloadURL(fileRef);
+      setEditingProduct({
+        ...editingProduct,
+        images: [{ src: downloadUrl, alt: editingProduct.name || '' }]
+      });
+    } catch (err) {
+      console.error('Image upload failed:', err);
+      setSaveError('Şəkil yüklənərkən xəta baş verdi. Yenidən cəhd edin.');
+    } finally {
+      setIsSaving(false);
     }
   };
 
-  const handleCampaignImageUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleCampaignImageUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
-    if (file) {
-      const reader = new FileReader();
-      reader.onload = (uploadEvent) => {
-        const dataUrl = uploadEvent.target?.result as string;
-        if (dataUrl) {
-          setCampImageSrc(dataUrl);
-        }
-      };
-      reader.readAsDataURL(file);
+    if (!file) return;
+
+    setSaveError('');
+    setIsSaving(true);
+    try {
+      const ext = file.name.split('.').pop() || 'jpg';
+      const filename = `campaigns/${Date.now()}-${Math.random().toString(36).slice(2)}.${ext}`;
+      const fileRef = storageRef(storage, filename);
+      await uploadBytes(fileRef, file);
+      const downloadUrl = await getDownloadURL(fileRef);
+      setCampImageSrc(downloadUrl);
+    } catch (err) {
+      console.error('Campaign image upload failed:', err);
+      setSaveError('Şəkil yüklənərkən xəta baş verdi.');
+    } finally {
+      setIsSaving(false);
     }
   };
 
-  const handleSaveProduct = (e: React.FormEvent) => {
+  const handleSaveProduct = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!editingProduct || !editingProduct.name || editingProduct.price === undefined) return;
 
-    const sanitizedName = sanitizeInput(editingProduct.name);
-    const sanitizedShortDesc = sanitizeInput(editingProduct.shortDescription || '');
-    const sanitizedDesc = sanitizeInput(editingProduct.description || '');
-    const sanitizedUnitLabel = sanitizeInput(editingProduct.unitLabel || 'ədəd');
-
-    const sizeLabel = sanitizedUnitLabel === 'kg' ? '1 kg' : sanitizedUnitLabel;
-    const mainImg = editingProduct.images && editingProduct.images.length > 0
-      ? editingProduct.images[0].src
-      : '/images/products/placeholder.jpg';
-
-    const preparedProduct: Partial<Product> = {
-      ...editingProduct,
-      name: sanitizedName,
-      shortDescription: sanitizedShortDesc,
-      description: sanitizedDesc,
-      unitLabel: sanitizedUnitLabel,
-      slug: editingProduct.slug || sanitizedName.toLowerCase().replace(/\s+/g, '-'),
-      sizes: [
-        {
-          id: `size-${Date.now()}`,
-          label: sizeLabel,
-          price: Number(editingProduct.price),
-          inStock: editingProduct.inStock ?? true,
-          verificationStatus: 'verified',
-          imageSrc: mainImg
-        }
-      ],
-      images: [{ src: mainImg, alt: sanitizedName }]
-    };
-
-    if (isAddMode) {
-      addProduct(preparedProduct as Omit<Product, 'id'>);
-    } else if (editingProduct.id) {
-      updateProduct(editingProduct.id, preparedProduct);
-    }
-
-    setIsEditModalOpen(false);
-    setEditingProduct(null);
-  };
-
-  const handleDelete = (id: string, name: string) => {
-    if (window.confirm(`"${name}" məhsulunu silməyə əminsiniz?`)) {
-      deleteProduct(id);
-    }
-  };
-
-  const handleReset = () => {
-    if (window.confirm('Bütün məhsulları ilkin vəziyyətinə qaytarmaq istədiyinizə əminsiniz? Bütün dəyişikliklər silinəcək.')) {
-      resetToDefaultProducts();
-    }
-  };
-
-  const handlePasswordChange = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setPasswordError('');
-    setPasswordSuccess('');
-
+    setSaveError('');
+    setIsSaving(true);
     try {
-      const activeHash = localStorage.getItem('oilganic_admin_password_hash') || ADMIN_PASSWORD_HASH;
-      const currentHash = await hashString(currentPassword);
+      const sanitizedName = sanitizeInput(editingProduct.name);
+      const sanitizedShortDesc = sanitizeInput(editingProduct.shortDescription || '');
+      const sanitizedDesc = sanitizeInput(editingProduct.description || '');
+      const sanitizedUnitLabel = sanitizeInput(editingProduct.unitLabel || 'ədəd');
 
-      if (currentHash !== activeHash) {
-        setPasswordError('Cari şifrə yanlışdır.');
-        return;
+      const sizeLabel = sanitizedUnitLabel === 'kg' ? '1 kg' : sanitizedUnitLabel;
+      const mainImg = editingProduct.images && editingProduct.images.length > 0
+        ? editingProduct.images[0].src
+        : '/images/products/placeholder.jpg';
+
+      const preparedProduct: Partial<Product> = {
+        ...editingProduct,
+        name: sanitizedName,
+        shortDescription: sanitizedShortDesc,
+        description: sanitizedDesc,
+        unitLabel: sanitizedUnitLabel,
+        slug: editingProduct.slug || sanitizedName.toLowerCase().replace(/\s+/g, '-'),
+        sizes: [
+          {
+            id: `size-${Date.now()}`,
+            label: sizeLabel,
+            price: Number(editingProduct.price),
+            inStock: editingProduct.inStock ?? true,
+            verificationStatus: 'verified',
+            imageSrc: mainImg
+          }
+        ],
+        images: [{ src: mainImg, alt: sanitizedName }]
+      };
+
+      if (isAddMode) {
+        await addProduct(preparedProduct as Omit<Product, 'id'>);
+      } else if (editingProduct.id) {
+        await updateProduct(editingProduct.id, preparedProduct);
       }
 
-      if (newPassword.length < 6) {
-        setPasswordError('Yeni şifrə en azı 6 simvoldan ibarət olmalıdır.');
-        return;
-      }
-
-      if (newPassword !== confirmPassword) {
-        setPasswordError('Yeni şifrələr uyğun gəlmir.');
-        return;
-      }
-
-      const newHash = await hashString(newPassword);
-      localStorage.setItem('oilganic_admin_password_hash', newHash);
-      setPasswordSuccess('Şifrə uğurla dəyişdirildi!');
-
-      setCurrentPassword('');
-      setNewPassword('');
-      setConfirmPassword('');
-
-      setTimeout(() => {
-        setIsPasswordModalOpen(false);
-        setPasswordSuccess('');
-      }, 2000);
+      setIsEditModalOpen(false);
+      setEditingProduct(null);
     } catch (err) {
-      setPasswordError('Şifrə dəyişdirilərkən xəta baş verdi.');
+      console.error('Save product error:', err);
+      setSaveError('Məhsul saxlanılarkən xəta baş verdi. Yenidən cəhd edin.');
+    } finally {
+      setIsSaving(false);
     }
   };
 
-  const handleSaveCampaign = (e: React.FormEvent) => {
+  const handleDelete = async (id: string, name: string) => {
+    if (!window.confirm(`"${name}" məhsulunu silməyə əminsiniz?`)) return;
+    try {
+      await deleteProduct(id);
+    } catch (err) {
+      console.error('Delete error:', err);
+      alert('Məhsul silinərkən xəta baş verdi.');
+    }
+  };
+
+  const handleReset = async () => {
+    if (!window.confirm('Bütün məhsulları ilkin vəziyyətinə qaytarmaq istədiyinizə əminsiniz? Bütün dəyişikliklər silinəcək.')) return;
+    try {
+      await resetToDefaultProducts();
+    } catch (err) {
+      console.error('Reset error:', err);
+      alert('Sıfırlama zamanı xəta baş verdi.');
+    }
+  };
+
+  // Password change is now managed via server-side environment variables.
+
+  const handleSaveCampaign = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!campTitle.trim() || !campConditions.trim()) return;
 
-    addCampaign({
-      title: sanitizeInput(campTitle),
-      conditions: sanitizeInput(campConditions),
-      startDate: campStartDate ? sanitizeInput(campStartDate) : undefined,
-      endDate: campEndDate ? sanitizeInput(campEndDate) : undefined,
-      imageSrc: campImageSrc ? campImageSrc : undefined
-    });
+    setSaveError('');
+    setIsSaving(true);
+    try {
+      await addCampaign({
+        title: sanitizeInput(campTitle),
+        conditions: sanitizeInput(campConditions),
+        startDate: campStartDate ? sanitizeInput(campStartDate) : undefined,
+        endDate: campEndDate ? sanitizeInput(campEndDate) : undefined,
+        imageSrc: campImageSrc ? campImageSrc : undefined
+      });
 
-    // Reset Form fields
-    setCampTitle('');
-    setCampConditions('');
-    setCampStartDate('');
-    setCampEndDate('');
-    setCampImageSrc('');
-    setIsCampaignModalOpen(false);
+      setCampTitle('');
+      setCampConditions('');
+      setCampStartDate('');
+      setCampEndDate('');
+      setCampImageSrc('');
+      setIsCampaignModalOpen(false);
+    } catch (err) {
+      console.error('Save campaign error:', err);
+      setSaveError('Kampaniya saxlanılarkən xəta baş verdi.');
+    } finally {
+      setIsSaving(false);
+    }
   };
 
   return (
@@ -279,9 +277,6 @@ export const AdminDashboardPage: React.FC = () => {
               onClick={() => setActiveTab('campaigns')}
             >
               Kampaniyalar
-            </Button>
-            <Button variant="outline" icon={<Lock size={16} />} onClick={() => setIsPasswordModalOpen(true)}>
-              Şifrəni dəyiş
             </Button>
             <Button variant="dark" icon={<LogOut size={16} />} onClick={handleLogout}>
               Çıxış
@@ -659,12 +654,13 @@ export const AdminDashboardPage: React.FC = () => {
                 />
               </div>
 
+              {saveError && <div className={styles.errorBanner} style={{ marginBottom: '1rem' }}>{saveError}</div>}
               <div className={styles.modalFooter}>
-                <Button type="button" variant="outline" onClick={() => setIsEditModalOpen(false)}>
+                <Button type="button" variant="outline" onClick={() => setIsEditModalOpen(false)} disabled={isSaving}>
                   Ləğv et
                 </Button>
-                <Button type="submit" variant="primary">
-                  Yadda saxla
+                <Button type="submit" variant="primary" disabled={isSaving}>
+                  {isSaving ? 'Saxlanılır...' : 'Yadda saxla'}
                 </Button>
               </div>
             </form>
@@ -767,12 +763,13 @@ export const AdminDashboardPage: React.FC = () => {
                 />
               </div>
 
+              {saveError && <div className={styles.errorBanner} style={{ marginBottom: '1rem' }}>{saveError}</div>}
               <div className={styles.modalFooter}>
-                <Button type="button" variant="outline" onClick={() => setIsCampaignModalOpen(false)}>
+                <Button type="button" variant="outline" onClick={() => setIsCampaignModalOpen(false)} disabled={isSaving}>
                   Ləğv et
                 </Button>
-                <Button type="submit" variant="primary">
-                  Yadda saxla
+                <Button type="submit" variant="primary" disabled={isSaving}>
+                  {isSaving ? 'Saxlanılır...' : 'Yadda saxla'}
                 </Button>
               </div>
             </form>
@@ -780,68 +777,7 @@ export const AdminDashboardPage: React.FC = () => {
         </div>
       )}
 
-      {/* Change Password Modal */}
-      {isPasswordModalOpen && (
-        <div className={styles.modalOverlay}>
-          <div className={styles.modalBox} style={{ maxWidth: '420px' }}>
-            <h2 className={styles.modalTitle}>Şifrəni dəyiş</h2>
-            
-            {passwordError && <div className={styles.errorBanner}>{passwordError}</div>}
-            {passwordSuccess && (
-              <div className={styles.errorBanner} style={{ background: '#dcfce7', borderColor: '#bbf7d0', color: '#166534' }}>
-                {passwordSuccess}
-              </div>
-            )}
-
-            <form onSubmit={handlePasswordChange}>
-              <div className={styles.formGroup}>
-                <label className={styles.formLabel}>Cari şifrə *</label>
-                <input
-                  type="password"
-                  className={styles.formInput}
-                  value={currentPassword}
-                  onChange={e => setCurrentPassword(e.target.value)}
-                  placeholder="••••••••"
-                  required
-                />
-              </div>
-
-              <div className={styles.formGroup}>
-                <label className={styles.formLabel}>Yeni şifrə *</label>
-                <input
-                  type="password"
-                  className={styles.formInput}
-                  value={newPassword}
-                  onChange={e => setNewPassword(e.target.value)}
-                  placeholder="ən azı 6 simvol"
-                  required
-                />
-              </div>
-
-              <div className={styles.formGroup}>
-                <label className={styles.formLabel}>Yeni şifrənin təsdiqi *</label>
-                <input
-                  type="password"
-                  className={styles.formInput}
-                  value={confirmPassword}
-                  onChange={e => setConfirmPassword(e.target.value)}
-                  placeholder="••••••••"
-                  required
-                />
-              </div>
-
-              <div className={styles.modalFooter}>
-                <Button type="button" variant="outline" onClick={() => setIsPasswordModalOpen(false)}>
-                  Ləğv et
-                </Button>
-                <Button type="submit" variant="primary">
-                  Yadda saxla
-                </Button>
-              </div>
-            </form>
-          </div>
-        </div>
-      )}
+      {/* Password change is now managed via Vercel environment variables (ADMIN_PASSWORD). */}
     </>
   );
 };
