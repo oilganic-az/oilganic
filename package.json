@@ -5,29 +5,29 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "typecheck": "tsc --noEmit",
+    "typecheck": "tsc --noEmit && tsc -p tsconfig.functions.json",
     "lint": "eslint . --max-warnings=0",
     "test": "vitest run",
     "test:watch": "vitest",
     "test:e2e": "playwright test",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "fetch:clopos": "node scripts/fetch-clopos-catalog.mjs",
-    "catalog:sync": "node --experimental-strip-types scripts/sync-clopos-products.mjs",
-    "catalog:validate": "node --experimental-strip-types scripts/validate-product-catalog.mjs",
-    "seed:firestore": "node scripts/seed-firestore.mjs"
+    "fetch:clopos": "node scripts/fetch-clopos-menu.mjs",
+    "catalog:sync": "node scripts/normalize-clopos-menu.mjs && node scripts/merge-catalog.mjs",
+    "catalog:validate": "node scripts/validate-content.mjs",
+    "content:build": "node scripts/merge-catalog.mjs && node scripts/validate-content.mjs"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
-    "@types/jsonwebtoken": "^9.0.10",
+    "firebase": "^12.17.0",
     "gsap": "^3.15.0",
-    "jsonwebtoken": "^9.0.3",
     "lucide-react": "^0.344.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^6.30.0"
+    "react-router-dom": "6.30.4"
   },
   "devDependencies": {
+    "@netlify/functions": "^5.1.2",
     "@playwright/test": "^1.50.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.2.0",
@@ -36,7 +36,6 @@
     "@types/react-dom": "^18.3.5",
     "@typescript-eslint/eslint-plugin": "^7.18.0",
     "@typescript-eslint/parser": "^7.18.0",
-    "@vercel/node": "^5.9.3",
     "@vitejs/plugin-react": "^4.3.4",
     "eslint": "^8.57.1",
     "eslint-plugin-jsx-a11y": "^6.10.2",
@@ -44,7 +43,7 @@
     "eslint-plugin-react-hooks": "^4.6.2",
     "jsdom": "^26.0.0",
     "typescript": "^5.7.3",
-    "vite": "^5.4.14",
-    "vitest": "^2.1.8"
+    "vite": "^6.4.3",
+    "vitest": "^4.1.10"
   }
 }
