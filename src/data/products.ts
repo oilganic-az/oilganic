@@ -542,58 +542,6 @@ export const PRODUCTS: Product[] = [
     "quantityStatus": "verified"
   },
   {
-    "id": "prod-bal",
-    "slug": "bal",
-    "name": "Bal",
-    "categoryId": "sweeteners",
-    "shortDescription": "Bal — Oilganic məhsul kataloqunda təqdim olunur.",
-    "description": "Bal haqqında əlavə məlumat üçün mağaza ilə əlaqə saxlayın.",
-    "price": 20,
-    "currency": "AZN",
-    "unitLabel": "500 gr",
-    "sizes": [
-      {
-        "id": "size-bal-500-gr",
-        "label": "500 gr",
-        "price": 20,
-        "inStock": true,
-        "verificationStatus": "verified",
-        "imageSrc": "/images/products/bal-500-gr.jpg",
-        "priceStatus": "verified",
-        "quantityStatus": "verified"
-      },
-      {
-        "id": "size-bal-1-kg",
-        "label": "1 kg",
-        "price": 40,
-        "inStock": true,
-        "verificationStatus": "verified",
-        "imageSrc": "/images/products/bal-1-kg.jpg",
-        "priceStatus": "verified",
-        "quantityStatus": "verified"
-      }
-    ],
-    "images": [
-      {
-        "src": "/images/products/bal-500-gr.jpg",
-        "alt": "Bal"
-      },
-      {
-        "src": "/images/products/bal-1-kg.jpg",
-        "alt": "Bal"
-      }
-    ],
-    "productionType": "oilganic",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "Oilganic"
-    ],
-    "verificationStatus": "verified",
-    "priceStatus": "verified",
-    "quantityStatus": "verified"
-  },
-  {
     "id": "prod-42",
     "slug": "cicek-tozu",
     "name": "Çiçək tozu",
@@ -4494,44 +4442,6 @@ export const PRODUCTS: Product[] = [
     "quantityStatus": "verified"
   },
   {
-    "id": "prod-gunebaxan-yagi-soyuq-sixim",
-    "slug": "gunebaxan-yagi-soyuq-sixim",
-    "name": "Günəbaxan yağı Soyuq sıxım",
-    "categoryId": "oils",
-    "shortDescription": "Günəbaxan yağı Soyuq sıxım — Oilganic məhsul kataloqunda təqdim olunur.",
-    "description": "Günəbaxan yağı Soyuq sıxım haqqında əlavə məlumat üçün mağaza ilə əlaqə saxlayın.",
-    "price": 12,
-    "currency": "AZN",
-    "unitLabel": "1 litr",
-    "sizes": [
-      {
-        "id": "size-gunebaxan-yagi-soyuq-sixim-1-litr",
-        "label": "1 litr",
-        "price": 12,
-        "inStock": true,
-        "verificationStatus": "verified",
-        "imageSrc": "/images/products/placeholder.svg",
-        "priceStatus": "verified",
-        "quantityStatus": "verified"
-      }
-    ],
-    "images": [
-      {
-        "src": "/images/products/placeholder.svg",
-        "alt": "Günəbaxan yağı Soyuq sıxım"
-      }
-    ],
-    "productionType": "oilganic",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "Oilganic"
-    ],
-    "verificationStatus": "verified",
-    "priceStatus": "verified",
-    "quantityStatus": "verified"
-  },
-  {
     "id": "prod-68",
     "slug": "gunebaxan-yagi-suzulmus",
     "name": "Günəbaxan yağı süzülmüş",
@@ -5141,7 +5051,7 @@ export const PRODUCTS: Product[] = [
     "id": "prod-164",
     "slug": "uthindi-kapsul",
     "name": "Uthindi kapsul",
-    "categoryId": "wellness",
+    "categoryId": "tablets_capsules",
     "shortDescription": "Uthindi kapsul - Təbii və keyfiyyətli Oilganic məhsulu.",
     "description": "Uthindi kapsul. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 15,
@@ -5170,7 +5080,7 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "wellness",
+      "tablets_capsules",
       "Oilganic"
     ],
     "verificationStatus": "verified",
@@ -5423,7 +5333,7 @@ export const PRODUCTS: Product[] = [
     "id": "prod-44",
     "slug": "corekotu-kapsul",
     "name": "Çörəkotu kapsul",
-    "categoryId": "wellness",
+    "categoryId": "tablets_capsules",
     "shortDescription": "Çörəkotu kapsul - Təbii və keyfiyyətli Oilganic məhsulu.",
     "description": "Çörəkotu kapsul. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 15,
@@ -5452,7 +5362,7 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "wellness",
+      "tablets_capsules",
       "Oilganic"
     ],
     "verificationStatus": "verified",
@@ -5463,7 +5373,7 @@ export const PRODUCTS: Product[] = [
     "id": "prod-90",
     "slug": "jensen-kapsul",
     "name": "Jenşen kapsul",
-    "categoryId": "wellness",
+    "categoryId": "tablets_capsules",
     "shortDescription": "Jenşen kapsul - Təbii və keyfiyyətli Oilganic məhsulu.",
     "description": "Jenşen kapsul. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 15,
@@ -5492,7 +5402,7 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "wellness",
+      "tablets_capsules",
       "Oilganic"
     ],
     "verificationStatus": "verified",
@@ -5783,7 +5693,7 @@ export const PRODUCTS: Product[] = [
     "id": "prod-8",
     "slug": "acliq-otu-kapsulu",
     "name": "Aclıq otu kapsulu",
-    "categoryId": "wellness",
+    "categoryId": "tablets_capsules",
     "shortDescription": "Aclıq otu kapsulu - Təbii və keyfiyyətli Oilganic məhsulu.",
     "description": "Aclıq otu kapsulu. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 15,
@@ -5812,7 +5722,7 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": true,
     "tags": [
-      "wellness",
+      "tablets_capsules",
       "Oilganic"
     ],
     "verificationStatus": "verified",
@@ -5823,7 +5733,7 @@ export const PRODUCTS: Product[] = [
     "id": "prod-9",
     "slug": "alaqanqal-kapsulu",
     "name": "Alaqanqal kapsulu",
-    "categoryId": "wellness",
+    "categoryId": "tablets_capsules",
     "shortDescription": "Alaqanqal kapsulu - Təbii və keyfiyyətli Oilganic məhsulu.",
     "description": "Alaqanqal kapsulu. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 15,
@@ -5852,7 +5762,7 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": true,
     "tags": [
-      "wellness",
+      "tablets_capsules",
       "Oilganic"
     ],
     "verificationStatus": "verified",
@@ -5863,7 +5773,7 @@ export const PRODUCTS: Product[] = [
     "id": "prod-45",
     "slug": "corekotu-yag-kapsulu",
     "name": "Çörəkotu yağ kapsulu",
-    "categoryId": "wellness",
+    "categoryId": "tablets_capsules",
     "shortDescription": "Çörəkotu yağ kapsulu - Təbii və keyfiyyətli Oilganic məhsulu.",
     "description": "Çörəkotu yağ kapsulu. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 15,
@@ -5903,7 +5813,7 @@ export const PRODUCTS: Product[] = [
     "id": "prod-162",
     "slug": "udukumin",
     "name": "Udukumin",
-    "categoryId": "wellness",
+    "categoryId": "tablets_capsules",
     "shortDescription": "Udukumin 100kapsul - Təbii və keyfiyyətli Oilganic məhsulu.",
     "description": "Udukumin 100kapsul. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 15,
@@ -5932,7 +5842,7 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "wellness",
+      "tablets_capsules",
       "Oilganic"
     ],
     "verificationStatus": "verified",
@@ -6027,44 +5937,6 @@ export const PRODUCTS: Product[] = [
     "featured": false,
     "tags": [
       "seeds_flours",
-      "Oilganic"
-    ],
-    "verificationStatus": "verified",
-    "priceStatus": "verified",
-    "quantityStatus": "verified"
-  },
-  {
-    "id": "prod-alaqanqal-toxumu-unu",
-    "slug": "alaqanqal-toxumu-unu",
-    "name": "Alaqanqal toxumu unu",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Alaqanqal toxumu unu — Oilganic məhsul kataloqunda təqdim olunur.",
-    "description": "Alaqanqal toxumu unu haqqında əlavə məlumat üçün mağaza ilə əlaqə saxlayın.",
-    "price": 2,
-    "currency": "AZN",
-    "unitLabel": "200 gr",
-    "sizes": [
-      {
-        "id": "size-alaqanqal-toxumu-unu-200-gr",
-        "label": "200 gr",
-        "price": 2,
-        "inStock": true,
-        "verificationStatus": "verified",
-        "imageSrc": "/images/products/placeholder.svg",
-        "priceStatus": "verified",
-        "quantityStatus": "verified"
-      }
-    ],
-    "images": [
-      {
-        "src": "/images/products/placeholder.svg",
-        "alt": "Alaqanqal toxumu unu"
-      }
-    ],
-    "productionType": "oilganic",
-    "inStock": true,
-    "featured": false,
-    "tags": [
       "Oilganic"
     ],
     "verificationStatus": "verified",
@@ -6352,44 +6224,6 @@ export const PRODUCTS: Product[] = [
     "quantityStatus": "verified"
   },
   {
-    "id": "prod-sarikok-toz",
-    "slug": "sarikok-toz",
-    "name": "Sarıkök toz",
-    "categoryId": "spices",
-    "shortDescription": "Sarıkök toz — Oilganic məhsul kataloqunda təqdim olunur.",
-    "description": "Sarıkök toz haqqında əlavə məlumat üçün mağaza ilə əlaqə saxlayın.",
-    "price": 2.5,
-    "currency": "AZN",
-    "unitLabel": "100 gr",
-    "sizes": [
-      {
-        "id": "size-sarikok-toz-100-gr",
-        "label": "100 gr",
-        "price": 2.5,
-        "inStock": true,
-        "verificationStatus": "verified",
-        "imageSrc": "/images/products/sarikok-toz-100-gr.jpg",
-        "priceStatus": "verified",
-        "quantityStatus": "verified"
-      }
-    ],
-    "images": [
-      {
-        "src": "/images/products/sarikok-toz-100-gr.jpg",
-        "alt": "Sarıkök toz"
-      }
-    ],
-    "productionType": "oilganic",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "Oilganic"
-    ],
-    "verificationStatus": "verified",
-    "priceStatus": "verified",
-    "quantityStatus": "verified"
-  },
-  {
     "id": "prod-83",
     "slug": "istiot-toz",
     "name": "İstiot toz",
@@ -6423,44 +6257,6 @@ export const PRODUCTS: Product[] = [
     "featured": false,
     "tags": [
       "wellness",
-      "Oilganic"
-    ],
-    "verificationStatus": "verified",
-    "priceStatus": "verified",
-    "quantityStatus": "verified"
-  },
-  {
-    "id": "prod-darcin-cubuq-sri-lanka",
-    "slug": "darcin-cubuq-sri-lanka",
-    "name": "Darçın çubuq Şri-lanka",
-    "categoryId": "spices",
-    "shortDescription": "Darçın çubuq Şri-lanka — Oilganic məhsul kataloqunda təqdim olunur.",
-    "description": "Darçın çubuq Şri-lanka haqqında əlavə məlumat üçün mağaza ilə əlaqə saxlayın.",
-    "price": 12,
-    "currency": "AZN",
-    "unitLabel": "100 gr",
-    "sizes": [
-      {
-        "id": "size-darcin-cubuq-sri-lanka-100-gr",
-        "label": "100 gr",
-        "price": 12,
-        "inStock": true,
-        "verificationStatus": "verified",
-        "imageSrc": "/images/products/darcin-cubuq-sri-lanka-100-gr.jpg",
-        "priceStatus": "verified",
-        "quantityStatus": "verified"
-      }
-    ],
-    "images": [
-      {
-        "src": "/images/products/darcin-cubuq-sri-lanka-100-gr.jpg",
-        "alt": "Darçın çubuq Şri-lanka"
-      }
-    ],
-    "productionType": "oilganic",
-    "inStock": true,
-    "featured": false,
-    "tags": [
       "Oilganic"
     ],
     "verificationStatus": "verified",
@@ -6628,120 +6424,6 @@ export const PRODUCTS: Product[] = [
     "quantityStatus": "verified"
   },
   {
-    "id": "prod-zencefil-koku",
-    "slug": "zencefil-koku",
-    "name": "Zəncəfil kökü",
-    "categoryId": "spices",
-    "shortDescription": "Zəncəfil kökü — Oilganic məhsul kataloqunda təqdim olunur.",
-    "description": "Zəncəfil kökü haqqında əlavə məlumat üçün mağaza ilə əlaqə saxlayın.",
-    "price": 3,
-    "currency": "AZN",
-    "unitLabel": "100 gr",
-    "sizes": [
-      {
-        "id": "size-zencefil-koku-100-gr",
-        "label": "100 gr",
-        "price": 3,
-        "inStock": true,
-        "verificationStatus": "verified",
-        "imageSrc": "/images/products/zencefil-koku-100-gr.jpg",
-        "priceStatus": "verified",
-        "quantityStatus": "verified"
-      }
-    ],
-    "images": [
-      {
-        "src": "/images/products/zencefil-koku-100-gr.jpg",
-        "alt": "Zəncəfil kökü"
-      }
-    ],
-    "productionType": "oilganic",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "Oilganic"
-    ],
-    "verificationStatus": "verified",
-    "priceStatus": "verified",
-    "quantityStatus": "verified"
-  },
-  {
-    "id": "prod-balqabaq-toxumu-tund",
-    "slug": "balqabaq-toxumu-tund",
-    "name": "Balqabaq toxumu tünd",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Balqabaq toxumu tünd — Oilganic məhsul kataloqunda təqdim olunur.",
-    "description": "Balqabaq toxumu tünd haqqında əlavə məlumat üçün mağaza ilə əlaqə saxlayın.",
-    "price": 2.5,
-    "currency": "AZN",
-    "unitLabel": "100 gr",
-    "sizes": [
-      {
-        "id": "size-balqabaq-toxumu-tund-100-gr",
-        "label": "100 gr",
-        "price": 2.5,
-        "inStock": true,
-        "verificationStatus": "verified",
-        "imageSrc": "/images/products/balqabaq-toxumu-tund-100-gr.jpg",
-        "priceStatus": "verified",
-        "quantityStatus": "verified"
-      }
-    ],
-    "images": [
-      {
-        "src": "/images/products/balqabaq-toxumu-tund-100-gr.jpg",
-        "alt": "Balqabaq toxumu tünd"
-      }
-    ],
-    "productionType": "oilganic",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "Oilganic"
-    ],
-    "verificationStatus": "verified",
-    "priceStatus": "verified",
-    "quantityStatus": "verified"
-  },
-  {
-    "id": "prod-qarazire-corekotu-toxumu-suriya",
-    "slug": "qarazire-corekotu-toxumu-suriya",
-    "name": "Qarazirə (Çörəkotu) toxumu Suriya",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Qarazirə (Çörəkotu) toxumu Suriya — Oilganic məhsul kataloqunda təqdim olunur.",
-    "description": "Qarazirə (Çörəkotu) toxumu Suriya haqqında əlavə məlumat üçün mağaza ilə əlaqə saxlayın.",
-    "price": 2,
-    "currency": "AZN",
-    "unitLabel": "100 gr",
-    "sizes": [
-      {
-        "id": "size-qarazire-corekotu-toxumu-suriya-100-gr",
-        "label": "100 gr",
-        "price": 2,
-        "inStock": true,
-        "verificationStatus": "verified",
-        "imageSrc": "/images/products/qarazire-corekotu-toxumu-suriya-100-gr.jpg",
-        "priceStatus": "verified",
-        "quantityStatus": "verified"
-      }
-    ],
-    "images": [
-      {
-        "src": "/images/products/qarazire-corekotu-toxumu-suriya-100-gr.jpg",
-        "alt": "Qarazirə (Çörəkotu) toxumu Suriya"
-      }
-    ],
-    "productionType": "oilganic",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "Oilganic"
-    ],
-    "verificationStatus": "verified",
-    "priceStatus": "verified",
-    "quantityStatus": "verified"
-  },
-  {
     "id": "prod-118",
     "slug": "qarazirecorekotutoxumu-hindistan",
     "name": "Qarazirə(Çörəkotu)toxumu Hindistan",
@@ -6902,62 +6584,10 @@ export const PRODUCTS: Product[] = [
     "quantityStatus": "verified"
   },
   {
-    "id": "prod-cam-kozalagi-pekmezi",
-    "slug": "cam-kozalagi-pekmezi",
-    "name": "Çam kozalağı pekmezi",
-    "categoryId": "sweeteners",
-    "shortDescription": "Çam kozalağı pekmezi — Oilganic məhsul kataloqunda təqdim olunur.",
-    "description": "Çam kozalağı pekmezi haqqında əlavə məlumat üçün mağaza ilə əlaqə saxlayın.",
-    "price": 10,
-    "currency": "AZN",
-    "unitLabel": "340 gr",
-    "sizes": [
-      {
-        "id": "size-cam-kozalagi-pekmezi-340-gr",
-        "label": "340 gr",
-        "price": 10,
-        "inStock": true,
-        "verificationStatus": "verified",
-        "imageSrc": "/images/products/cam-kozalagi-pekmezi-340-gr.png",
-        "priceStatus": "verified",
-        "quantityStatus": "verified"
-      },
-      {
-        "id": "size-cam-kozalagi-pekmezi-680-gr",
-        "label": "680 gr",
-        "price": 15,
-        "inStock": true,
-        "verificationStatus": "verified",
-        "imageSrc": "/images/products/cam-kozalagi-pekmezi-680-gr.png",
-        "priceStatus": "verified",
-        "quantityStatus": "verified"
-      }
-    ],
-    "images": [
-      {
-        "src": "/images/products/cam-kozalagi-pekmezi-340-gr.png",
-        "alt": "Çam kozalağı pekmezi"
-      },
-      {
-        "src": "/images/products/cam-kozalagi-pekmezi-680-gr.png",
-        "alt": "Çam kozalağı pekmezi"
-      }
-    ],
-    "productionType": "oilganic",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "Oilganic"
-    ],
-    "verificationStatus": "verified",
-    "priceStatus": "verified",
-    "quantityStatus": "verified"
-  },
-  {
     "id": "prod-160",
     "slug": "ud-hindi-ve-corekotu-kapsulu",
     "name": "Ud hindi və çörəkotu kapsulu",
-    "categoryId": "wellness",
+    "categoryId": "tablets_capsules",
     "shortDescription": "Ud hindi və çörəkotu kapsulu - Təbii və keyfiyyətli Oilganic məhsulu.",
     "description": "Ud hindi və çörəkotu kapsulu. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 15,
@@ -6986,7 +6616,7 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "wellness",
+      "tablets_capsules",
       "Oilganic"
     ],
     "verificationStatus": "pending",
@@ -7027,348 +6657,6 @@ export const PRODUCTS: Product[] = [
     "featured": false,
     "tags": [
       "oils",
-      "Oilganic"
-    ],
-    "verificationStatus": "verified",
-    "priceStatus": "verified",
-    "quantityStatus": "verified"
-  },
-  {
-    "id": "prod-qusar-naturals-zeferan-limonadi",
-    "slug": "qusar-naturals-zeferan-limonadi",
-    "name": "Qusar naturals Zəfəran limonadı",
-    "categoryId": "beverages",
-    "shortDescription": "Qusar naturals Zəfəran limonadı — Oilganic məhsul kataloqunda təqdim olunur.",
-    "description": "Qusar naturals Zəfəran limonadı haqqında əlavə məlumat üçün mağaza ilə əlaqə saxlayın.",
-    "price": 3,
-    "currency": "AZN",
-    "unitLabel": "500 ml",
-    "sizes": [
-      {
-        "id": "size-qusar-naturals-zeferan-limonadi-500-ml",
-        "label": "500 ml",
-        "price": 3,
-        "inStock": true,
-        "verificationStatus": "verified",
-        "imageSrc": "/images/products/qusar-naturals-zeferan-limonadi-500-ml.png",
-        "priceStatus": "verified",
-        "quantityStatus": "verified"
-      }
-    ],
-    "images": [
-      {
-        "src": "/images/products/qusar-naturals-zeferan-limonadi-500-ml.png",
-        "alt": "Qusar naturals Zəfəran limonadı"
-      }
-    ],
-    "productionType": "oilganic",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "Oilganic"
-    ],
-    "verificationStatus": "verified",
-    "priceStatus": "verified",
-    "quantityStatus": "verified"
-  },
-  {
-    "id": "prod-qusar-naturals-pomidor-siresi",
-    "slug": "qusar-naturals-pomidor-siresi",
-    "name": "Qusar naturals Pomidor şirəsi",
-    "categoryId": "beverages",
-    "shortDescription": "Qusar naturals Pomidor şirəsi — Oilganic məhsul kataloqunda təqdim olunur.",
-    "description": "Qusar naturals Pomidor şirəsi haqqında əlavə məlumat üçün mağaza ilə əlaqə saxlayın.",
-    "price": 3,
-    "currency": "AZN",
-    "unitLabel": "500 ml",
-    "sizes": [
-      {
-        "id": "size-qusar-naturals-pomidor-siresi-500-ml",
-        "label": "500 ml",
-        "price": 3,
-        "inStock": true,
-        "verificationStatus": "verified",
-        "imageSrc": "/images/products/qusar-naturals-pomidor-siresi-500-ml.png",
-        "priceStatus": "verified",
-        "quantityStatus": "verified"
-      }
-    ],
-    "images": [
-      {
-        "src": "/images/products/qusar-naturals-pomidor-siresi-500-ml.png",
-        "alt": "Qusar naturals Pomidor şirəsi"
-      }
-    ],
-    "productionType": "oilganic",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "Oilganic"
-    ],
-    "verificationStatus": "verified",
-    "priceStatus": "verified",
-    "quantityStatus": "verified"
-  },
-  {
-    "id": "prod-qusar-naturals-feyxoa-siresi",
-    "slug": "qusar-naturals-feyxoa-siresi",
-    "name": "Qusar naturals Feyxoa şirəsi",
-    "categoryId": "beverages",
-    "shortDescription": "Qusar naturals Feyxoa şirəsi — Oilganic məhsul kataloqunda təqdim olunur.",
-    "description": "Qusar naturals Feyxoa şirəsi haqqında əlavə məlumat üçün mağaza ilə əlaqə saxlayın.",
-    "price": 3,
-    "currency": "AZN",
-    "unitLabel": "500 ml",
-    "sizes": [
-      {
-        "id": "size-qusar-naturals-feyxoa-siresi-500-ml",
-        "label": "500 ml",
-        "price": 3,
-        "inStock": true,
-        "verificationStatus": "verified",
-        "imageSrc": "/images/products/qusar-naturals-feyxoa-siresi-500-ml.png",
-        "priceStatus": "verified",
-        "quantityStatus": "verified"
-      }
-    ],
-    "images": [
-      {
-        "src": "/images/products/qusar-naturals-feyxoa-siresi-500-ml.png",
-        "alt": "Qusar naturals Feyxoa şirəsi"
-      }
-    ],
-    "productionType": "oilganic",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "Oilganic"
-    ],
-    "verificationStatus": "verified",
-    "priceStatus": "verified",
-    "quantityStatus": "verified"
-  },
-  {
-    "id": "prod-qusar-naturals-qara-qaragat-siresi",
-    "slug": "qusar-naturals-qara-qaragat-siresi",
-    "name": "Qusar naturals Qara qarağat şirəsi",
-    "categoryId": "beverages",
-    "shortDescription": "Qusar naturals Qara qarağat şirəsi — Oilganic məhsul kataloqunda təqdim olunur.",
-    "description": "Qusar naturals Qara qarağat şirəsi haqqında əlavə məlumat üçün mağaza ilə əlaqə saxlayın.",
-    "price": 5,
-    "currency": "AZN",
-    "unitLabel": "500 ml",
-    "sizes": [
-      {
-        "id": "size-qusar-naturals-qara-qaragat-siresi-500-ml",
-        "label": "500 ml",
-        "price": 5,
-        "inStock": true,
-        "verificationStatus": "verified",
-        "imageSrc": "/images/products/qusar-naturals-qara-qaragat-siresi-500-ml.png",
-        "priceStatus": "verified",
-        "quantityStatus": "verified"
-      }
-    ],
-    "images": [
-      {
-        "src": "/images/products/qusar-naturals-qara-qaragat-siresi-500-ml.png",
-        "alt": "Qusar naturals Qara qarağat şirəsi"
-      }
-    ],
-    "productionType": "oilganic",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "Oilganic"
-    ],
-    "verificationStatus": "verified",
-    "priceStatus": "verified",
-    "quantityStatus": "verified"
-  },
-  {
-    "id": "prod-qusar-naturals-heyva-siresi",
-    "slug": "qusar-naturals-heyva-siresi",
-    "name": "Qusar naturals Heyva şirəsi",
-    "categoryId": "beverages",
-    "shortDescription": "Qusar naturals Heyva şirəsi — Oilganic məhsul kataloqunda təqdim olunur.",
-    "description": "Qusar naturals Heyva şirəsi haqqında əlavə məlumat üçün mağaza ilə əlaqə saxlayın.",
-    "price": 3,
-    "currency": "AZN",
-    "unitLabel": "500 ml",
-    "sizes": [
-      {
-        "id": "size-qusar-naturals-heyva-siresi-500-ml",
-        "label": "500 ml",
-        "price": 3,
-        "inStock": true,
-        "verificationStatus": "verified",
-        "imageSrc": "/images/products/qusar-naturals-heyva-siresi-500-ml.png",
-        "priceStatus": "verified",
-        "quantityStatus": "verified"
-      }
-    ],
-    "images": [
-      {
-        "src": "/images/products/qusar-naturals-heyva-siresi-500-ml.png",
-        "alt": "Qusar naturals Heyva şirəsi"
-      }
-    ],
-    "productionType": "oilganic",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "Oilganic"
-    ],
-    "verificationStatus": "verified",
-    "priceStatus": "verified",
-    "quantityStatus": "verified"
-  },
-  {
-    "id": "prod-qusar-naturals-itburnu",
-    "slug": "qusar-naturals-itburnu",
-    "name": "Qusar naturals İtburnu",
-    "categoryId": "beverages",
-    "shortDescription": "Qusar naturals İtburnu — Oilganic məhsul kataloqunda təqdim olunur.",
-    "description": "Qusar naturals İtburnu haqqında əlavə məlumat üçün mağaza ilə əlaqə saxlayın.",
-    "price": 2.5,
-    "currency": "AZN",
-    "unitLabel": "500 ml",
-    "sizes": [
-      {
-        "id": "size-qusar-naturals-itburnu-500-ml",
-        "label": "500 ml",
-        "price": 2.5,
-        "inStock": true,
-        "verificationStatus": "verified",
-        "imageSrc": "/images/products/qusar-naturals-itburnu-500-ml.png",
-        "priceStatus": "verified",
-        "quantityStatus": "verified"
-      }
-    ],
-    "images": [
-      {
-        "src": "/images/products/qusar-naturals-itburnu-500-ml.png",
-        "alt": "Qusar naturals İtburnu"
-      }
-    ],
-    "productionType": "oilganic",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "Oilganic"
-    ],
-    "verificationStatus": "verified",
-    "priceStatus": "verified",
-    "quantityStatus": "verified"
-  },
-  {
-    "id": "prod-qusar-natural-qirmizi-qaragat-siresi",
-    "slug": "qusar-natural-qirmizi-qaragat-siresi",
-    "name": "Qusar natural Qırmızı qarağat şirəsi",
-    "categoryId": "beverages",
-    "shortDescription": "Qusar natural Qırmızı qarağat şirəsi — Oilganic məhsul kataloqunda təqdim olunur.",
-    "description": "Qusar natural Qırmızı qarağat şirəsi haqqında əlavə məlumat üçün mağaza ilə əlaqə saxlayın.",
-    "price": 4,
-    "currency": "AZN",
-    "unitLabel": "500 ml",
-    "sizes": [
-      {
-        "id": "size-qusar-natural-qirmizi-qaragat-siresi-500-ml",
-        "label": "500 ml",
-        "price": 4,
-        "inStock": true,
-        "verificationStatus": "verified",
-        "imageSrc": "/images/products/qusar-natural-qirmizi-qaragat-siresi-500-ml.png",
-        "priceStatus": "verified",
-        "quantityStatus": "verified"
-      }
-    ],
-    "images": [
-      {
-        "src": "/images/products/qusar-natural-qirmizi-qaragat-siresi-500-ml.png",
-        "alt": "Qusar natural Qırmızı qarağat şirəsi"
-      }
-    ],
-    "productionType": "oilganic",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "Oilganic"
-    ],
-    "verificationStatus": "verified",
-    "priceStatus": "verified",
-    "quantityStatus": "verified"
-  },
-  {
-    "id": "prod-qusar-naturals-yemisan",
-    "slug": "qusar-naturals-yemisan",
-    "name": "Qusar naturals Yemişan",
-    "categoryId": "beverages",
-    "shortDescription": "Qusar naturals Yemişan — Oilganic məhsul kataloqunda təqdim olunur.",
-    "description": "Qusar naturals Yemişan haqqında əlavə məlumat üçün mağaza ilə əlaqə saxlayın.",
-    "price": 2.5,
-    "currency": "AZN",
-    "unitLabel": "500 ml",
-    "sizes": [
-      {
-        "id": "size-qusar-naturals-yemisan-500-ml",
-        "label": "500 ml",
-        "price": 2.5,
-        "inStock": true,
-        "verificationStatus": "verified",
-        "imageSrc": "/images/products/qusar-naturals-yemisan-500-ml.png",
-        "priceStatus": "verified",
-        "quantityStatus": "verified"
-      }
-    ],
-    "images": [
-      {
-        "src": "/images/products/qusar-naturals-yemisan-500-ml.png",
-        "alt": "Qusar naturals Yemişan"
-      }
-    ],
-    "productionType": "oilganic",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "Oilganic"
-    ],
-    "verificationStatus": "verified",
-    "priceStatus": "verified",
-    "quantityStatus": "verified"
-  },
-  {
-    "id": "prod-qusar-naturals-balqabaq-siresi",
-    "slug": "qusar-naturals-balqabaq-siresi",
-    "name": "Qusar naturals Balqabaq şirəsi",
-    "categoryId": "beverages",
-    "shortDescription": "Qusar naturals Balqabaq şirəsi — Oilganic məhsul kataloqunda təqdim olunur.",
-    "description": "Qusar naturals Balqabaq şirəsi haqqında əlavə məlumat üçün mağaza ilə əlaqə saxlayın.",
-    "price": 3,
-    "currency": "AZN",
-    "unitLabel": "500 ml",
-    "sizes": [
-      {
-        "id": "size-qusar-naturals-balqabaq-siresi-500-ml",
-        "label": "500 ml",
-        "price": 3,
-        "inStock": true,
-        "verificationStatus": "verified",
-        "imageSrc": "/images/products/qusar-naturals-balqabaq-siresi-500-ml.png",
-        "priceStatus": "verified",
-        "quantityStatus": "verified"
-      }
-    ],
-    "images": [
-      {
-        "src": "/images/products/qusar-naturals-balqabaq-siresi-500-ml.png",
-        "alt": "Qusar naturals Balqabaq şirəsi"
-      }
-    ],
-    "productionType": "oilganic",
-    "inStock": true,
-    "featured": false,
-    "tags": [
       "Oilganic"
     ],
     "verificationStatus": "verified",
@@ -7419,7 +6707,7 @@ export const PRODUCTS: Product[] = [
     "id": "prod-161",
     "slug": "udhindi-tablet",
     "name": "Udhindi tablet",
-    "categoryId": "wellness",
+    "categoryId": "tablets_capsules",
     "shortDescription": "Udhindi tablet 220 əd - Təbii və keyfiyyətli Oilganic məhsulu.",
     "description": "Udhindi tablet 220 əd. Oilganic-də təbii keyfiyyət standartları ilə təqdim edilir.",
     "price": 15,
@@ -7448,7 +6736,7 @@ export const PRODUCTS: Product[] = [
     "inStock": true,
     "featured": false,
     "tags": [
-      "wellness",
+      "tablets_capsules",
       "Oilganic"
     ],
     "verificationStatus": "verified",
@@ -7733,44 +7021,6 @@ export const PRODUCTS: Product[] = [
     ],
     "verificationStatus": "verified",
     "priceStatus": "verified",
-    "quantityStatus": "verified"
-  },
-  {
-    "id": "prod-kesu",
-    "slug": "kesu",
-    "name": "Keşu",
-    "categoryId": "seeds_flours",
-    "shortDescription": "Keşu — Oilganic məhsul kataloqunda təqdim olunur.",
-    "description": "Keşu haqqında əlavə məlumat üçün mağaza ilə əlaqə saxlayın.",
-    "price": null,
-    "currency": "AZN",
-    "unitLabel": "1 kg",
-    "sizes": [
-      {
-        "id": "size-kesu-1-kg",
-        "label": "1 kg",
-        "price": null,
-        "inStock": false,
-        "verificationStatus": "pending",
-        "imageSrc": "/images/products/kesu-1-kg.png",
-        "priceStatus": "unavailable",
-        "quantityStatus": "verified"
-      }
-    ],
-    "images": [
-      {
-        "src": "/images/products/kesu-1-kg.png",
-        "alt": "Keşu"
-      }
-    ],
-    "productionType": "oilganic",
-    "inStock": false,
-    "featured": false,
-    "tags": [
-      "Oilganic"
-    ],
-    "verificationStatus": "pending",
-    "priceStatus": "unavailable",
     "quantityStatus": "verified"
   }
 ];

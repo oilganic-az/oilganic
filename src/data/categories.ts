@@ -70,5 +70,12 @@ export const CATEGORIES: Category[] = [
     name: 'Buğda otu və digər bitki məhsulları',
     description: 'Buğda otu şirəsi, buğda və maş cücərtisi və s.',
     group: 'wellness'
+  },
+  {
+    id: 'tablets_capsules',
+    slug: 'tablet-ve-kapsullar',
+    name: 'Tablet və kapsullar',
+    description: 'Təbii bitki tozu, ud hindi, çörəkotu, jenşen, alaqanqal və digər şəfalı kapsul və tabletlər.',
+    group: 'tablets_capsules'
   }
 ];

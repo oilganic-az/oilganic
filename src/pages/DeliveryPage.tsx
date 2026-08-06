@@ -54,19 +54,51 @@ export const DeliveryPage: React.FC = () => {
             <div className={styles.card}>
               <div className={styles.cardHeader}>
                 <MessageCircle size={36} className={styles.waIcon} />
-                <h3 className={styles.cardTitle}>WhatsApp birbaşa sifariş</h3>
+                <h3 className={styles.cardTitle}>WhatsApp vasitəsilə sifariş</h3>
               </div>
-              <p className={styles.cardText}>
-                Saytımızda səbət toplayaraq birbaşa WhatsApp vasitəsilə menecerimizə yaza bilərsiniz. Sifarişiniz mağazada dərhal təzə hazırlanır.
+
+              <div className={styles.waBodyGroup}>
+                <p className={styles.cardText}>
+                  Saytımızda məhsulları səbətə əlavə edib, sizə uyğun çatdırılma növünü seçdikdən sonra sifarişinizi birbaşa WhatsApp vasitəsilə menecerimizə göndərə bilərsiniz.
+                </p>
+                <p className={styles.cardText}>
+                  Sifarişiniz təsdiqləndikdən sonra məhsullarınız mağazamızda təzə hazırlanır və seçdiyiniz çatdırılma üsulu ilə sizə göndərilir.
+                </p>
+              </div>
+
+              <div className={styles.optionsBlock}>
+                <h4 className={styles.optionsBlockTitle}>Çatdırılma seçimləri:</h4>
+                <ol className={styles.optionsList}>
+                  <li>
+                    <span className={styles.optNum}>1.</span>
+                    <span><strong>Bolt</strong> – Çatdırılma haqqı məsafəyə əsasən hesablanır.</span>
+                  </li>
+                  <li>
+                    <span className={styles.optNum}>2.</span>
+                    <span><strong>Metro daxili təhvil</strong> – <span className={styles.pricePill}>4 ₼</span></span>
+                  </li>
+                  <li>
+                    <span className={styles.optNum}>3.</span>
+                    <span><strong>Metro çıxışı və yaxınlığına təhvil</strong> – <span className={styles.pricePill}>5 ₼</span></span>
+                  </li>
+                  <li>
+                    <span className={styles.optNum}>4.</span>
+                    <span><strong>Rayonlara Expargo ilə (5 kq-a qədər)</strong> – <span className={styles.pricePill}>5 ₼</span></span>
+                  </li>
+                  <li>
+                    <span className={styles.optNum}>5.</span>
+                    <span><strong>Naxçıvan MR-ə Expargo ilə (5 kq-a qədər)</strong> – <span className={styles.pricePill}>8 ₼</span></span>
+                  </li>
+                </ol>
+              </div>
+
+              <p className={styles.ctaNoteText}>
+                Sifariş vermək üçün WhatsApp vasitəsilə bizimlə əlaqə saxlaya bilərsiniz.
               </p>
-              <ul className={styles.featureList}>
-                <li><Check size={16} color="var(--color-brand-green)" style={{ display: 'inline', marginRight: '6px', verticalAlign: 'middle' }} /> Canlı operator dəstəyi və məsləhət</li>
-                <li><Check size={16} color="var(--color-brand-green)" style={{ display: 'inline', marginRight: '6px', verticalAlign: 'middle' }} /> Sifarişin planlaşdırılması</li>
-                <li><Check size={16} color="var(--color-brand-green)" style={{ display: 'inline', marginRight: '6px', verticalAlign: 'middle' }} /> Öncədən ödəniş</li>
-              </ul>
+
               <a href={BUSINESS_CONFIG.whatsappLink} target="_blank" rel="noopener noreferrer">
                 <Button variant="whatsapp" fullWidth icon={<MessageCircle size={20} />}>
-                  WhatsApp ilə yaza bilərsiniz
+                  WhatsApp vasitəsilə sifariş
                 </Button>
               </a>
             </div>

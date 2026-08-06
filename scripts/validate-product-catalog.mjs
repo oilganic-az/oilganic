@@ -18,7 +18,7 @@ const REPORT_MD_PATH = path.join(projectRoot, 'PRODUCT_CATALOG_SYNC_REPORT.md');
 
 const VALID_CATEGORIES = new Set([
   'oils', 'pastes', 'sweeteners', 'beverages', 'teas',
-  'seeds_flours', 'wellness', 'vinegars', 'mecunlar', 'spices'
+  'seeds_flours', 'wellness', 'vinegars', 'mecunlar', 'spices', 'tablets_capsules'
 ]);
 
 function main() {
