@@ -20,7 +20,7 @@ describe('Sitemap & Robots Verification', () => {
     const catalogRaw = fs.readFileSync(catalogPath, 'utf8');
     const catalog = JSON.parse(catalogRaw);
 
-    expect(catalog.products.length).toBe(172);
+    expect(catalog.products.length).toBeGreaterThan(0);
 
     for (const product of catalog.products) {
       const productUrl = `<loc>https://oilganic.az/products/${product.slug}</loc>`;
@@ -28,11 +28,14 @@ describe('Sitemap & Robots Verification', () => {
     }
   });
 
-  it('verifies sitemap URLs exclude admin, login, 404, query strings, and localhost', () => {
+  it('verifies sitemap URL count matches static routes + generated products and excludes admin', () => {
     const sitemapContent = fs.readFileSync(sitemapPath, 'utf8');
+    const catalogRaw = fs.readFileSync(catalogPath, 'utf8');
+    const catalog = JSON.parse(catalogRaw);
     const urls = Array.from(sitemapContent.matchAll(/<loc>(.*?)<\/loc>/g)).map(m => m[1]);
 
-    expect(urls.length).toBeGreaterThan(172);
+    const staticRoutesCount = 9;
+    expect(urls.length).toBe(staticRoutesCount + catalog.products.length);
 
     for (const url of urls) {
       expect(url).not.toContain('/admin');

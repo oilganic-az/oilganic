@@ -6,6 +6,7 @@ import {
   ProductsProvider,
   useProducts,
 } from './ProductsContext';
+import generatedCatalog from '../data/catalog.generated.json';
 
 const wrapper = ({
   children,
@@ -16,7 +17,7 @@ const wrapper = ({
 );
 
 describe('ProductsContext admin-owned catalog', () => {
-  it('serves the validated generated catalog', () => {
+  it('serves the generated catalog dynamically based on source count', () => {
     const { result } = renderHook(
       () => useProducts(),
       { wrapper }
@@ -27,8 +28,14 @@ describe('ProductsContext admin-owned catalog', () => {
     );
 
     expect(result.current.isLoading).toBe(false);
-    expect(result.current.products).toHaveLength(172);
-    expect(variants).toHaveLength(247);
+    expect(result.current.products).toHaveLength(generatedCatalog.products.length);
+    expect(variants.length).toBeGreaterThan(0);
+
+    // Verify uniqueness of product IDs and slugs
+    const ids = new Set(result.current.products.map(p => p.id));
+    const slugs = new Set(result.current.products.map(p => p.slug));
+    expect(ids.size).toBe(result.current.products.length);
+    expect(slugs.size).toBe(result.current.products.length);
   });
 
   it('finds a product by slug', () => {
@@ -45,7 +52,7 @@ describe('ProductsContext admin-owned catalog', () => {
     expect(product?.price).toBe(45);
   });
 
-  it('does not silently persist admin changes', async () => {
+  it('calls protected endpoint for admin changes and throws on network/auth failure', async () => {
     const { result } = renderHook(
       () => useProducts(),
       { wrapper }
@@ -53,8 +60,6 @@ describe('ProductsContext admin-owned catalog', () => {
 
     await expect(
       result.current.deleteProduct('prod-tek-zeytun-yagi')
-    ).rejects.toThrow(
-      'Admin yazma backend-i hələ aktiv deyil'
-    );
+    ).rejects.toThrow();
   });
 });

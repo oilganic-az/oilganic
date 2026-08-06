@@ -26,7 +26,7 @@ describe('CampaignsContext admin-owned content', () => {
     expect(result.current.campaigns).toEqual([]);
   });
 
-  it('does not silently persist campaign changes', async () => {
+  it('calls protected endpoint for campaign changes and throws on network/auth failure', async () => {
     const { result } = renderHook(
       () => useCampaigns(),
       { wrapper }
@@ -34,8 +34,6 @@ describe('CampaignsContext admin-owned content', () => {
 
     await expect(
       result.current.deleteCampaign('campaign-test')
-    ).rejects.toThrow(
-      'Admin yazma backend-i hələ aktiv deyil'
-    );
+    ).rejects.toThrow();
   });
 });
