@@ -1,21 +1,18 @@
-import React, { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
-import { Plus, Search, Edit2, Trash2, RotateCcw, LogOut, Package, Upload, Gift, Calendar } from 'lucide-react';
-import { ref as storageRef, uploadBytes, getDownloadURL } from 'firebase/storage';
-import { storage } from '../../lib/firebase';
+import React, { useState } from 'react';
+import { Plus, Search, Edit2, Trash2, RotateCcw, LogOut, Package, Upload, Gift, Calendar, CheckCircle2 } from 'lucide-react';
 import { useProducts } from '../../context/ProductsContext';
 import { useCampaigns } from '../../context/CampaignsContext';
+import { useAdminAuth } from '../../components/auth/AdminGuard';
 import { CATEGORIES } from '../../data/categories';
 import { Product } from '../../types/product';
 import { Button } from '../../components/common/Button/Button';
 import { formatCurrency } from '../../utils/formatters';
 import { SEO } from '../../components/common/SEO/SEO';
-import { ADMIN_AUTH_KEY, ADMIN_LAST_ACTIVE_KEY } from './AdminLoginPage';
-import { SESSION_INACTIVITY_TIMEOUT_MS, sanitizeInput } from '../../utils/security';
+import { sanitizeInput } from '../../utils/security';
 import styles from './AdminPage.module.css';
 
 export const AdminDashboardPage: React.FC = () => {
-  const navigate = useNavigate();
+  const { csrfToken, logout } = useAdminAuth();
   const { products, addProduct, updateProduct, deleteProduct, resetToDefaultProducts } = useProducts();
   const { campaigns, addCampaign, deleteCampaign, toggleCampaignStatus } = useCampaigns();
 
@@ -31,6 +28,7 @@ export const AdminDashboardPage: React.FC = () => {
   // Async operation feedback
   const [isSaving, setIsSaving] = useState(false);
   const [saveError, setSaveError] = useState('');
+  const [statusNotice, setStatusNotice] = useState('');
 
   // Campaign Modal State
   const [isCampaignModalOpen, setIsCampaignModalOpen] = useState(false);
@@ -39,36 +37,6 @@ export const AdminDashboardPage: React.FC = () => {
   const [campStartDate, setCampStartDate] = useState('');
   const [campEndDate, setCampEndDate] = useState('');
   const [campImageSrc, setCampImageSrc] = useState('');
-
-  // Inactivity Monitoring while Dashboard is active
-  useEffect(() => {
-    const updateActivity = () => {
-      sessionStorage.setItem(ADMIN_LAST_ACTIVE_KEY, Date.now().toString());
-    };
-
-    window.addEventListener('mousemove', updateActivity);
-    window.addEventListener('keydown', updateActivity);
-
-    const interval = setInterval(() => {
-      const currentLastActiveStr = sessionStorage.getItem(ADMIN_LAST_ACTIVE_KEY);
-      const currentLastActive = currentLastActiveStr ? parseInt(currentLastActiveStr, 10) : 0;
-      if (!currentLastActive || Date.now() - currentLastActive > SESSION_INACTIVITY_TIMEOUT_MS) {
-        handleLogout();
-      }
-    }, 60000);
-
-    return () => {
-      window.removeEventListener('mousemove', updateActivity);
-      window.removeEventListener('keydown', updateActivity);
-      clearInterval(interval);
-    };
-  }, [navigate]);
-
-  const handleLogout = () => {
-    sessionStorage.removeItem(ADMIN_AUTH_KEY);
-    sessionStorage.removeItem(ADMIN_LAST_ACTIVE_KEY);
-    navigate('/admin/login');
-  };
 
   const filteredProducts = products.filter(p => {
     const matchesCat = selectedCategory === 'all' || p.categoryId === selectedCategory;
@@ -85,7 +53,7 @@ export const AdminDashboardPage: React.FC = () => {
       slug: '',
       categoryId: 'oils',
       price: 0,
-      unitLabel: 'ədəd',
+      unitLabel: '100ml',
       shortDescription: '',
       description: '',
       inStock: true,
@@ -103,6 +71,40 @@ export const AdminDashboardPage: React.FC = () => {
     setIsEditModalOpen(true);
   };
 
+  const uploadImageFile = async (file: File, folder: 'products' | 'campaigns'): Promise<string> => {
+    return new Promise((resolve, reject) => {
+      const reader = new FileReader();
+      reader.onload = async () => {
+        try {
+          const fileData = reader.result as string;
+          const headers: Record<string, string> = {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+          };
+          if (csrfToken) headers['X-CSRF-Token'] = csrfToken;
+
+          const res = await fetch('/api/admin-upload-image', {
+            method: 'POST',
+            headers,
+            credentials: 'include',
+            body: JSON.stringify({ fileData, folder })
+          });
+
+          const data = await res.json().catch(() => ({}));
+          if (!res.ok || !data.success) {
+            return reject(new Error(data.error || 'Şəkil yüklənərkən xəta baş verdi.'));
+          }
+
+          resolve(data.url);
+        } catch (err) {
+          reject(err);
+        }
+      };
+      reader.onerror = () => reject(new Error('Fayl oxunmadı.'));
+      reader.readAsDataURL(file);
+    });
+  };
+
   const handleImageFileUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
     if (!file || !editingProduct) return;
@@ -110,18 +112,15 @@ export const AdminDashboardPage: React.FC = () => {
     setSaveError('');
     setIsSaving(true);
     try {
-      const ext = file.name.split('.').pop() || 'jpg';
-      const filename = `products/${Date.now()}-${Math.random().toString(36).slice(2)}.${ext}`;
-      const fileRef = storageRef(storage, filename);
-      await uploadBytes(fileRef, file);
-      const downloadUrl = await getDownloadURL(fileRef);
+      const uploadedUrl = await uploadImageFile(file, 'products');
       setEditingProduct({
         ...editingProduct,
-        images: [{ src: downloadUrl, alt: editingProduct.name || '' }]
+        images: [{ src: uploadedUrl, alt: editingProduct.name || '' }]
       });
-    } catch (err) {
+      setStatusNotice('Şəkil uğurla yükləndi.');
+    } catch (err: unknown) {
       console.error('Image upload failed:', err);
-      setSaveError('Şəkil yüklənərkən xəta baş verdi. Yenidən cəhd edin.');
+      setSaveError((err as Error).message || 'Şəkil yüklənərkən xəta baş verdi.');
     } finally {
       setIsSaving(false);
     }
@@ -134,15 +133,12 @@ export const AdminDashboardPage: React.FC = () => {
     setSaveError('');
     setIsSaving(true);
     try {
-      const ext = file.name.split('.').pop() || 'jpg';
-      const filename = `campaigns/${Date.now()}-${Math.random().toString(36).slice(2)}.${ext}`;
-      const fileRef = storageRef(storage, filename);
-      await uploadBytes(fileRef, file);
-      const downloadUrl = await getDownloadURL(fileRef);
-      setCampImageSrc(downloadUrl);
-    } catch (err) {
+      const uploadedUrl = await uploadImageFile(file, 'campaigns');
+      setCampImageSrc(uploadedUrl);
+      setStatusNotice('Kampaniya şəkli uğurla yükləndi.');
+    } catch (err: unknown) {
       console.error('Campaign image upload failed:', err);
-      setSaveError('Şəkil yüklənərkən xəta baş verdi.');
+      setSaveError((err as Error).message || 'Şəkil yüklənərkən xəta baş verdi.');
     } finally {
       setIsSaving(false);
     }
@@ -153,26 +149,21 @@ export const AdminDashboardPage: React.FC = () => {
     if (!editingProduct || !editingProduct.name || editingProduct.price === undefined) return;
 
     setSaveError('');
+    setStatusNotice('');
     setIsSaving(true);
     try {
       const sanitizedName = sanitizeInput(editingProduct.name);
       const sanitizedShortDesc = sanitizeInput(editingProduct.shortDescription || '');
       const sanitizedDesc = sanitizeInput(editingProduct.description || '');
       const sanitizedUnitLabel = sanitizeInput(editingProduct.unitLabel || 'ədəd');
-
-      const sizeLabel = sanitizedUnitLabel === 'kg' ? '1 kg' : sanitizedUnitLabel;
       const mainImg = editingProduct.images && editingProduct.images.length > 0
         ? editingProduct.images[0].src
         : '/images/products/placeholder.jpg';
 
-      const preparedProduct: Partial<Product> = {
-        ...editingProduct,
-        name: sanitizedName,
-        shortDescription: sanitizedShortDesc,
-        description: sanitizedDesc,
-        unitLabel: sanitizedUnitLabel,
-        slug: editingProduct.slug || sanitizedName.toLowerCase().replace(/\s+/g, '-'),
-        sizes: [
+      let preparedSizes = editingProduct.sizes;
+      if (isAddMode || !preparedSizes || preparedSizes.length === 0) {
+        const sizeLabel = sanitizedUnitLabel === 'kg' ? '1 kg' : sanitizedUnitLabel;
+        preparedSizes = [
           {
             id: `size-${Date.now()}`,
             label: sizeLabel,
@@ -181,21 +172,33 @@ export const AdminDashboardPage: React.FC = () => {
             verificationStatus: 'verified',
             imageSrc: mainImg
           }
-        ],
+        ];
+      }
+
+      const preparedProduct: Partial<Product> = {
+        ...editingProduct,
+        name: sanitizedName,
+        shortDescription: sanitizedShortDesc,
+        description: sanitizedDesc,
+        unitLabel: sanitizedUnitLabel,
+        slug: editingProduct.slug || sanitizedName.toLowerCase().replace(/\s+/g, '-'),
+        sizes: preparedSizes,
         images: [{ src: mainImg, alt: sanitizedName }]
       };
 
+      let result;
       if (isAddMode) {
-        await addProduct(preparedProduct as Omit<Product, 'id'>);
+        result = await addProduct(preparedProduct as Omit<Product, 'id'>, csrfToken);
       } else if (editingProduct.id) {
-        await updateProduct(editingProduct.id, preparedProduct);
+        result = await updateProduct(editingProduct.id, preparedProduct, csrfToken);
       }
 
       setIsEditModalOpen(false);
       setEditingProduct(null);
-    } catch (err) {
+      setStatusNotice(result?.message || 'Saxlanıldı, yenilənmə yayımlanır');
+    } catch (err: unknown) {
       console.error('Save product error:', err);
-      setSaveError('Məhsul saxlanılarkən xəta baş verdi. Yenidən cəhd edin.');
+      setSaveError((err as Error).message || 'Məhsul saxlanılarkən xəta baş verdi.');
     } finally {
       setIsSaving(false);
     }
@@ -203,40 +206,43 @@ export const AdminDashboardPage: React.FC = () => {
 
   const handleDelete = async (id: string, name: string) => {
     if (!window.confirm(`"${name}" məhsulunu silməyə əminsiniz?`)) return;
+    setStatusNotice('');
     try {
-      await deleteProduct(id);
-    } catch (err) {
+      const res = await deleteProduct(id, csrfToken);
+      setStatusNotice(res.message || 'Saxlanıldı, yenilənmə yayımlanır');
+    } catch (err: unknown) {
       console.error('Delete error:', err);
-      alert('Məhsul silinərkən xəta baş verdi.');
+      alert((err as Error).message || 'Məhsul silinərkən xəta baş verdi.');
     }
   };
 
   const handleReset = async () => {
     if (!window.confirm('Bütün məhsulları ilkin vəziyyətinə qaytarmaq istədiyinizə əminsiniz? Bütün dəyişikliklər silinəcək.')) return;
+    setStatusNotice('');
     try {
-      await resetToDefaultProducts();
-    } catch (err) {
+      const res = await resetToDefaultProducts(csrfToken);
+      setStatusNotice(res.message || 'Saxlanıldı, yenilənmə yayımlanır');
+    } catch (err: unknown) {
       console.error('Reset error:', err);
-      alert('Sıfırlama zamanı xəta baş verdi.');
+      alert((err as Error).message || 'Sıfırlama zamanı xəta baş verdi.');
     }
   };
-
-  // Password change is now managed via server-side environment variables.
 
   const handleSaveCampaign = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!campTitle.trim() || !campConditions.trim()) return;
 
     setSaveError('');
+    setStatusNotice('');
     setIsSaving(true);
     try {
-      await addCampaign({
+      const res = await addCampaign({
         title: sanitizeInput(campTitle),
         conditions: sanitizeInput(campConditions),
         startDate: campStartDate ? sanitizeInput(campStartDate) : undefined,
         endDate: campEndDate ? sanitizeInput(campEndDate) : undefined,
         imageSrc: campImageSrc ? campImageSrc : undefined
-      });
+      }, csrfToken);
 
       setCampTitle('');
       setCampConditions('');
@@ -244,23 +250,47 @@ export const AdminDashboardPage: React.FC = () => {
       setCampEndDate('');
       setCampImageSrc('');
       setIsCampaignModalOpen(false);
-    } catch (err) {
+      setStatusNotice(res.message || 'Saxlanıldı, yenilənmə yayımlanır');
+    } catch (err: unknown) {
       console.error('Save campaign error:', err);
-      setSaveError('Kampaniya saxlanılarkən xəta baş verdi.');
+      setSaveError((err as Error).message || 'Kampaniya saxlanılarkən xəta baş verdi.');
     } finally {
       setIsSaving(false);
     }
   };
 
+  const handleDeleteCampaign = async (id: string, title: string) => {
+    if (!window.confirm(`"${title}" kampaniyasını silməyə əminsiniz?`)) return;
+    setStatusNotice('');
+    try {
+      const res = await deleteCampaign(id, csrfToken);
+      setStatusNotice(res.message || 'Saxlanıldı, yenilənmə yayımlanır');
+    } catch (err: unknown) {
+      console.error('Delete campaign error:', err);
+      alert((err as Error).message || 'Kampaniya silinərkən xəta baş verdi.');
+    }
+  };
+
+  const handleToggleCampaign = async (id: string) => {
+    setStatusNotice('');
+    try {
+      const res = await toggleCampaignStatus(id, csrfToken);
+      setStatusNotice(res.message || 'Saxlanıldı, yenilənmə yayımlanır');
+    } catch (err: unknown) {
+      console.error('Toggle campaign error:', err);
+      alert((err as Error).message || 'Kampaniya statusu dəyişdirilərkən xəta baş verdi.');
+    }
+  };
+
   return (
     <>
-      <SEO title="Admin İdarəetmə Paneli - Oilganic" description="Məhsulların və kampaniyaların idarə edilməsi" canonicalPath="/admin" />
+      <SEO title="Admin İdarəetmə Paneli" description="Məhsulların və kampaniyaların idarə edilməsi" canonicalPath="/admin" noindex={true} />
       <div className={styles.container}>
         <div className={styles.dashboardHeader}>
           <div>
             <h1 className={styles.dashTitle}>Admin İdarəetmə Paneli</h1>
             <p style={{ color: '#6b7280', fontSize: '0.95rem' }}>
-              Məhsulları və aktiv endirim kampaniyalarını real vaxt rejimində dəyişin
+              Məhsulları və aktiv endirim kampaniyalarını real vaxt rejimində idarə edin
             </p>
           </div>
           <div className={styles.dashActions}>
@@ -269,33 +299,53 @@ export const AdminDashboardPage: React.FC = () => {
               icon={<Package size={18} />}
               onClick={() => setActiveTab('products')}
             >
-              Məhsullar
+              Məhsullar ({products.length})
             </Button>
+
             <Button
               variant={activeTab === 'campaigns' ? 'primary' : 'outline'}
               icon={<Gift size={18} />}
               onClick={() => setActiveTab('campaigns')}
             >
-              Kampaniyalar
+              Kampaniyalar ({campaigns.length})
             </Button>
-            <Button variant="dark" icon={<LogOut size={16} />} onClick={handleLogout}>
+
+            <Button variant="outline" icon={<LogOut size={18} />} onClick={logout}>
               Çıxış
             </Button>
           </div>
         </div>
 
-        {/* Tab 1: Products Management */}
+        {statusNotice && (
+          <div style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: '0.5rem',
+            padding: '1rem 1.25rem',
+            marginBottom: '1.5rem',
+            background: '#f0fdf4',
+            border: '1px solid #bbf7d0',
+            borderRadius: '8px',
+            color: '#15803d',
+            fontWeight: 600
+          }}>
+            <CheckCircle2 size={20} />
+            <span>{statusNotice}</span>
+          </div>
+        )}
+
+        {/* TAB 1: PRODUCTS MANAGEMENT */}
         {activeTab === 'products' && (
           <>
-            <div className={styles.toolbar}>
+            <div className={styles.filterBar}>
               <div className={styles.searchBox}>
                 <Search size={18} className={styles.searchIcon} />
                 <input
                   type="text"
-                  placeholder="Məhsul axtarın..."
-                  className={styles.searchInput}
+                  placeholder="Məhsul adı və ya təsviri üzrə axtar..."
                   value={searchQuery}
                   onChange={e => setSearchQuery(e.target.value)}
+                  className={styles.searchInput}
                 />
               </div>
 
@@ -304,100 +354,87 @@ export const AdminDashboardPage: React.FC = () => {
                 value={selectedCategory}
                 onChange={e => setSelectedCategory(e.target.value)}
               >
-                <option value="all">Bütün kateqoriyalar</option>
+                <option value="all">Bütün Kateqoriyalar</option>
                 {CATEGORIES.map(c => (
                   <option key={c.id} value={c.id}>
                     {c.name}
                   </option>
                 ))}
               </select>
-              
-              <Button variant="primary" icon={<Plus size={16} />} onClick={openAddModal}>
-                Yeni məhsul
-              </Button>
-              
-              <Button variant="outline" icon={<RotateCcw size={16} onClick={handleReset} />} title="İlkin sıfırlama">
-                Sıfırla
-              </Button>
 
-              <span style={{ fontSize: '0.875rem', color: '#6b7280' }}>
-                Cəmi: {filteredProducts.length} məhsul
-              </span>
+              <div style={{ display: 'flex', gap: '0.75rem', marginLeft: 'auto' }}>
+                <Button variant="primary" icon={<Plus size={18} />} onClick={openAddModal}>
+                  Yeni məhsul
+                </Button>
+                <Button variant="outline" icon={<RotateCcw size={18} />} onClick={handleReset} title="Bütün məhsulları sukut üzrə ilkin halına qaytarır">
+                  İlkin halına qaytar
+                </Button>
+              </div>
             </div>
 
-            <div className={styles.tableWrapper}>
+            <div className={styles.tableCard}>
               <table className={styles.table}>
                 <thead>
                   <tr>
                     <th>Şəkil</th>
-                    <th>Məhsul adı</th>
+                    <th>Adı & Ölçü</th>
                     <th>Kateqoriya</th>
                     <th>Qiymət</th>
-                    <th>Ölçü / Vahid</th>
-                    <th>Stok vəziyyəti</th>
-                    <th style={{ textAlign: 'right' }}>Əməliyyatlar</th>
+                    <th>Stok</th>
+                    <th style={{ textAlign: 'right' }}>Əməliyyat</th>
                   </tr>
                 </thead>
                 <tbody>
                   {filteredProducts.length === 0 ? (
                     <tr>
-                      <td colSpan={7} style={{ textAlign: 'center', padding: '3rem', color: '#9ca3af' }}>
-                        <Package size={36} style={{ marginBottom: '0.5rem', opacity: 0.5 }} />
-                        <p>Heç bir məhsul tapılmadı</p>
+                      <td colSpan={6} style={{ textAlign: 'center', padding: '3rem', color: '#9ca3af' }}>
+                        Məhsul tapılmadı.
                       </td>
                     </tr>
                   ) : (
-                    filteredProducts.map(prod => (
-                      <tr key={prod.id}>
+                    filteredProducts.map(p => (
+                      <tr key={p.id}>
                         <td>
                           <img
-                            src={prod.images && prod.images.length > 0 ? prod.images[0].src : ''}
-                            alt={prod.name}
+                            src={p.images[0]?.src || '/images/products/placeholder.jpg'}
+                            alt={p.name}
                             className={styles.thumbImg}
-                            onError={e => {
-                              (e.target as HTMLElement).style.display = 'none';
-                            }}
                           />
                         </td>
                         <td>
-                          <strong style={{ color: '#111827' }}>{prod.name}</strong>
-                          <div style={{ fontSize: '0.8rem', color: '#6b7280' }}>{prod.slug}</div>
+                          <strong>{p.name}</strong>
+                          <div style={{ fontSize: '0.8rem', color: '#6b7280' }}>
+                            {p.unitLabel || (p.sizes && p.sizes[0]?.label) || '100ml'}
+                          </div>
                         </td>
                         <td>
-                          {CATEGORIES.find(c => c.id === prod.categoryId)?.name || prod.categoryId}
-                        </td>
-                        <td>
-                          <span style={{ fontWeight: 700, color: '#15803d' }}>
-                            {formatCurrency(prod.price)}
+                          <span className={styles.catBadge}>
+                            {CATEGORIES.find(c => c.id === p.categoryId)?.name || p.categoryId}
                           </span>
                         </td>
-                        <td>{prod.sizes && prod.sizes.length > 0 ? prod.sizes[0].label : (prod.unitLabel || 'ədəd')}</td>
                         <td>
-                          <span
-                            className={`${styles.stockBadge} ${
-                              prod.inStock ? styles.inStock : styles.outOfStock
-                            }`}
-                          >
-                            {prod.inStock ? 'Stokda var' : 'Tükənib'}
+                          <strong>{formatCurrency(p.price)}</strong>
+                        </td>
+                        <td>
+                          <span className={p.inStock ? styles.stockIn : styles.stockOut}>
+                            {p.inStock ? 'Stokda var' : 'Tükənib'}
                           </span>
                         </td>
                         <td style={{ textAlign: 'right' }}>
-                          <div className={styles.actionBtns} style={{ justifyContent: 'flex-end' }}>
+                          <div className={styles.actionBtns}>
                             <button
-                              type="button"
                               className={styles.editBtn}
-                              onClick={() => openEditModal(prod)}
+                              onClick={() => openEditModal(p)}
                               title="Düzəliş et"
                             >
-                              <Edit2 size={14} style={{ marginRight: '4px' }} /> Düzəliş et
+                              <Edit2 size={16} />
                             </button>
                             <button
-                              type="button"
                               className={styles.deleteBtn}
-                              onClick={() => handleDelete(prod.id, prod.name)}
+                              onClick={() => handleDelete(p.id, p.name)}
                               title="Sil"
                             >
-                              <Trash2 size={14} style={{ marginRight: '4px' }} /> Sil
+                              <Trash2 size={16} />
                             </button>
                           </div>
                         </td>
@@ -410,32 +447,22 @@ export const AdminDashboardPage: React.FC = () => {
           </>
         )}
 
-        {/* Tab 2: Campaigns Management */}
+        {/* TAB 2: CAMPAIGNS MANAGEMENT */}
         {activeTab === 'campaigns' && (
           <>
-            <div className={styles.toolbar}>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-                <h3 style={{ fontSize: '1.25rem', fontWeight: 700, color: '#113c22' }}>Kampaniya siyahısı</h3>
-                <span style={{ fontSize: '0.875rem', color: '#6b7280' }}>
-                  Cəmi: {campaigns.length} kampaniya
-                </span>
-              </div>
-              <Button
-                variant="primary"
-                icon={<Plus size={16} />}
-                onClick={() => setIsCampaignModalOpen(true)}
-              >
+            <div className={styles.filterBar} style={{ justifyContent: 'flex-end' }}>
+              <Button variant="primary" icon={<Plus size={18} />} onClick={() => setIsCampaignModalOpen(true)}>
                 Yeni kampaniya əlavə et
               </Button>
             </div>
 
-            <div className={styles.tableWrapper}>
+            <div className={styles.tableCard}>
               <table className={styles.table}>
                 <thead>
                   <tr>
                     <th>Şəkil</th>
-                    <th>Kampaniya adı</th>
-                    <th>Müddət</th>
+                    <th>Kampaniya Adı</th>
+                    <th>Tarix Aralığı</th>
                     <th>Şərtlər</th>
                     <th>Status</th>
                     <th style={{ textAlign: 'right' }}>Əməliyyat</th>
@@ -446,7 +473,7 @@ export const AdminDashboardPage: React.FC = () => {
                     <tr>
                       <td colSpan={6} style={{ textAlign: 'center', padding: '3rem', color: '#9ca3af' }}>
                         <Gift size={36} style={{ marginBottom: '0.5rem', opacity: 0.5 }} />
-                        <p>Aktiv kampaniya tapılmadı. "Yeni kampaniya əlavə et" düyməsinə klikləyərək yenisini yaradın.</p>
+                        <p>Aktiv kampaniya tapılmadı. &quot;Yeni kampaniya əlavə et&quot; düyməsinə klikləyərək yenisini yaradın.</p>
                       </td>
                     </tr>
                   ) : (
@@ -458,52 +485,47 @@ export const AdminDashboardPage: React.FC = () => {
                               src={camp.imageSrc}
                               alt={camp.title}
                               className={styles.thumbImg}
+                              style={{ width: '60px', height: '40px', objectFit: 'cover' }}
                             />
                           ) : (
-                            <div className={styles.thumbImg} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#f3f4f6' }}>
-                              <Gift size={20} color="#9ca3af" />
+                            <div style={{ width: '60px', height: '40px', background: '#f3f4f6', borderRadius: '4px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#9ca3af' }}>
+                              <Gift size={20} />
                             </div>
                           )}
                         </td>
                         <td>
-                          <strong style={{ color: '#111827' }}>{camp.title}</strong>
+                          <strong>{camp.title}</strong>
                         </td>
                         <td>
-                          <div style={{ display: 'flex', alignItems: 'center', gap: '4px', fontSize: '0.85rem' }}>
-                            <Calendar size={14} color="#6b7280" />
+                          <div style={{ fontSize: '0.85rem', color: '#4b5563', display: 'flex', alignItems: 'center', gap: '0.25rem' }}>
+                            <Calendar size={14} />
                             <span>{camp.startDate || '—'} / {camp.endDate || '—'}</span>
                           </div>
                         </td>
                         <td>
-                          <p style={{ maxWidth: '300px', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', fontSize: '0.85rem' }} title={camp.conditions}>
+                          <div style={{ fontSize: '0.85rem', color: '#6b7280', maxWidth: '300px', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
                             {camp.conditions}
-                          </p>
+                          </div>
                         </td>
                         <td>
                           <button
-                            type="button"
-                            className={`${styles.stockBadge} ${
-                              camp.isActive ? styles.inStock : styles.outOfStock
-                            }`}
-                            onClick={() => toggleCampaignStatus(camp.id)}
-                            style={{ cursor: 'pointer', border: 'none' }}
-                            title="Statusu dəyiş"
+                            onClick={() => handleToggleCampaign(camp.id)}
+                            className={camp.isActive ? styles.stockIn : styles.stockOut}
+                            style={{ border: 'none', cursor: 'pointer', padding: '0.25rem 0.75rem', borderRadius: '20px' }}
                           >
-                            {camp.isActive ? 'Aktiv' : 'Passiv'}
+                            {camp.isActive ? 'Aktiv' : 'Deaktiv'}
                           </button>
                         </td>
                         <td style={{ textAlign: 'right' }}>
-                          <button
-                            type="button"
-                            className={styles.deleteBtn}
-                            onClick={() => {
-                              if (window.confirm(`"${camp.title}" kampaniyasını silməyə əminsiniz?`)) {
-                                deleteCampaign(camp.id);
-                              }
-                            }}
-                          >
-                            <Trash2 size={14} style={{ marginRight: '4px' }} /> Sil
-                          </button>
+                          <div className={styles.actionBtns}>
+                            <button
+                              className={styles.deleteBtn}
+                              onClick={() => handleDeleteCampaign(camp.id, camp.title)}
+                              title="Kampaniyanı sil"
+                            >
+                              <Trash2 size={16} />
+                            </button>
+                          </div>
                         </td>
                       </tr>
                     ))
@@ -524,8 +546,9 @@ export const AdminDashboardPage: React.FC = () => {
             </h2>
             <form onSubmit={handleSaveProduct}>
               <div className={styles.formGroup}>
-                <label className={styles.formLabel}>Məhsul adı *</label>
+                <label htmlFor="prod-name-input" className={styles.formLabel}>Məhsul adı *</label>
                 <input
+                  id="prod-name-input"
                   type="text"
                   className={styles.formInput}
                   value={editingProduct.name || ''}
@@ -536,8 +559,9 @@ export const AdminDashboardPage: React.FC = () => {
 
               <div className={styles.grid2}>
                 <div className={styles.formGroup}>
-                  <label className={styles.formLabel}>Kateqoriya *</label>
+                  <label htmlFor="prod-cat-select" className={styles.formLabel}>Kateqoriya *</label>
                   <select
+                    id="prod-cat-select"
                     className={styles.formInput}
                     value={editingProduct.categoryId || 'oils'}
                     onChange={e => setEditingProduct({ ...editingProduct, categoryId: e.target.value })}
@@ -551,8 +575,9 @@ export const AdminDashboardPage: React.FC = () => {
                 </div>
 
                 <div className={styles.formGroup}>
-                  <label className={styles.formLabel}>Qiymət (AZN) *</label>
+                  <label htmlFor="prod-price-input" className={styles.formLabel}>Qiymət (AZN) *</label>
                   <input
+                    id="prod-price-input"
                     type="number"
                     step="0.1"
                     className={styles.formInput}
@@ -565,8 +590,9 @@ export const AdminDashboardPage: React.FC = () => {
 
               <div className={styles.grid2}>
                 <div className={styles.formGroup}>
-                  <label className={styles.formLabel}>Ölçü / Vahid *</label>
+                  <label htmlFor="prod-unit-input" className={styles.formLabel}>Ölçü / Vahid *</label>
                   <input
+                    id="prod-unit-input"
                     type="text"
                     className={styles.formInput}
                     placeholder="məs: 100ml, 250ml, 200gr, 1 kg"
@@ -576,8 +602,9 @@ export const AdminDashboardPage: React.FC = () => {
                 </div>
 
                 <div className={styles.formGroup}>
-                  <label className={styles.formLabel}>Stok vəziyyəti</label>
+                  <label htmlFor="prod-stock-select" className={styles.formLabel}>Stok vəziyyəti</label>
                   <select
+                    id="prod-stock-select"
                     className={styles.formInput}
                     value={editingProduct.inStock ? 'true' : 'false'}
                     onChange={e => setEditingProduct({ ...editingProduct, inStock: e.target.value === 'true' })}
@@ -590,7 +617,7 @@ export const AdminDashboardPage: React.FC = () => {
 
               {/* Image Selection with Local File Upload */}
               <div className={styles.formGroup}>
-                <label className={styles.formLabel}>Məhsul şəkli (lokal şəkil seç / yüklə)</label>
+                <label htmlFor="prod-img-input" className={styles.formLabel}>Məhsul şəkli (lokal şəkil seç / yüklə)</label>
                 <div style={{ display: 'flex', gap: '1rem', alignItems: 'center', marginBottom: '0.5rem' }}>
                   <label
                     style={{
@@ -626,12 +653,13 @@ export const AdminDashboardPage: React.FC = () => {
                       style={{ width: '80px', height: '80px', objectFit: 'cover', borderRadius: '8px', border: '1px solid #d1d5db' }}
                     />
                     <span style={{ fontSize: '0.825rem', color: '#6b7280', wordBreak: 'break-all' }}>
-                      {editingProduct.images[0].src.startsWith('data:') ? 'Lokal yüklənmiş şəkil (Base64)' : editingProduct.images[0].src}
+                      {editingProduct.images[0].src}
                     </span>
                   </div>
                 )}
 
                 <input
+                  id="prod-img-input"
                   type="text"
                   className={styles.formInput}
                   placeholder="və ya şəkil yolu daxil edin: /images/products/yag.jpg"
@@ -645,8 +673,9 @@ export const AdminDashboardPage: React.FC = () => {
               </div>
 
               <div className={styles.formGroup}>
-                <label className={styles.formLabel}>Qısa təsvir</label>
+                <label htmlFor="prod-desc-textarea" className={styles.formLabel}>Qısa təsvir</label>
                 <textarea
+                  id="prod-desc-textarea"
                   className={styles.formInput}
                   rows={2}
                   value={editingProduct.shortDescription || ''}
@@ -675,8 +704,9 @@ export const AdminDashboardPage: React.FC = () => {
             <h2 className={styles.modalTitle}>Yeni kampaniya əlavə et</h2>
             <form onSubmit={handleSaveCampaign}>
               <div className={styles.formGroup}>
-                <label className={styles.formLabel}>Kampaniya adı *</label>
+                <label htmlFor="camp-title-input" className={styles.formLabel}>Kampaniya adı *</label>
                 <input
+                  id="camp-title-input"
                   type="text"
                   className={styles.formInput}
                   value={campTitle}
@@ -688,8 +718,9 @@ export const AdminDashboardPage: React.FC = () => {
 
               <div className={styles.grid2}>
                 <div className={styles.formGroup}>
-                  <label className={styles.formLabel}>Başlama tarixi</label>
+                  <label htmlFor="camp-start-input" className={styles.formLabel}>Başlama tarixi</label>
                   <input
+                    id="camp-start-input"
                     type="text"
                     className={styles.formInput}
                     value={campStartDate}
@@ -699,8 +730,9 @@ export const AdminDashboardPage: React.FC = () => {
                 </div>
 
                 <div className={styles.formGroup}>
-                  <label className={styles.formLabel}>Bitmə tarixi</label>
+                  <label htmlFor="camp-end-input" className={styles.formLabel}>Bitmə tarixi</label>
                   <input
+                    id="camp-end-input"
                     type="text"
                     className={styles.formInput}
                     value={campEndDate}
@@ -712,7 +744,7 @@ export const AdminDashboardPage: React.FC = () => {
 
               {/* Optional Campaign Image File Upload */}
               <div className={styles.formGroup}>
-                <label className={styles.formLabel}>Kampaniya şəkli (opsional)</label>
+                <span className={styles.formLabel}>Kampaniya şəkli (opsional)</span>
                 <div style={{ display: 'flex', gap: '1rem', alignItems: 'center', marginBottom: '0.5rem' }}>
                   <label
                     style={{
@@ -752,8 +784,9 @@ export const AdminDashboardPage: React.FC = () => {
               </div>
 
               <div className={styles.formGroup}>
-                <label className={styles.formLabel}>Kampaniya şərtləri və təsviri *</label>
+                <label htmlFor="camp-conditions-textarea" className={styles.formLabel}>Kampaniya şərtləri və təsviri *</label>
                 <textarea
+                  id="camp-conditions-textarea"
                   className={styles.formInput}
                   rows={4}
                   value={campConditions}
@@ -776,8 +809,6 @@ export const AdminDashboardPage: React.FC = () => {
           </div>
         </div>
       )}
-
-      {/* Password change is now managed via Vercel environment variables (ADMIN_PASSWORD). */}
     </>
   );
 };

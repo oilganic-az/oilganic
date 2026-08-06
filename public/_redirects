@@ -1,3 +1,5 @@
-# Netlify SPA Redirect Rules
-# Redirect all frontend client-side routes to index.html with HTTP status 200
-/*    /index.html   200
+# Netlify Function API requests must be handled before the SPA fallback
+/api/*  /.netlify/functions/:splat  200
+
+# React Router SPA fallback
+/*  /index.html  200

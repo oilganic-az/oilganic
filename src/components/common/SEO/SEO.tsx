@@ -1,11 +1,14 @@
 import React, { useEffect } from 'react';
 import { BUSINESS_CONFIG } from '../../../config/business';
+import { buildCanonicalUrl, formatImageUrl } from '../../../utils/seo';
 
 export interface SEOProps {
   title?: string;
   description?: string;
   canonicalPath?: string;
   ogType?: 'website' | 'article' | 'product';
+  ogImage?: string;
+  noindex?: boolean;
   jsonLd?: Record<string, unknown> | Array<Record<string, unknown>>;
 }
 
@@ -14,6 +17,8 @@ export const SEO: React.FC<SEOProps> = ({
   description,
   canonicalPath = '',
   ogType = 'website',
+  ogImage,
+  noindex = false,
   jsonLd
 }) => {
   useEffect(() => {
@@ -21,7 +26,9 @@ export const SEO: React.FC<SEOProps> = ({
       ? `${title} | ${BUSINESS_CONFIG.name}`
       : `${BUSINESS_CONFIG.name} - ${BUSINESS_CONFIG.slogan} | Bakı`;
     const fullDescription = description || BUSINESS_CONFIG.description;
-    const currentUrl = `https://oilganic.az${canonicalPath}`;
+    const currentUrl = buildCanonicalUrl(canonicalPath);
+    const imageUrl = formatImageUrl(ogImage);
+    const robotsContent = noindex ? 'noindex, nofollow' : 'index, follow';
 
     // 1. Update Title
     document.title = fullTitle;
@@ -48,28 +55,40 @@ export const SEO: React.FC<SEOProps> = ({
       element.setAttribute('href', href);
     };
 
-    // Set Standard & Social Meta
+    // Set Standard & Robots Meta
     setMetaTag('meta[name="description"]', 'name', 'description', fullDescription);
+    setMetaTag('meta[name="robots"]', 'name', 'robots', robotsContent);
+
+    // Set Open Graph Meta
     setMetaTag('meta[property="og:title"]', 'property', 'og:title', fullTitle);
     setMetaTag('meta[property="og:description"]', 'property', 'og:description', fullDescription);
     setMetaTag('meta[property="og:url"]', 'property', 'og:url', currentUrl);
     setMetaTag('meta[property="og:type"]', 'property', 'og:type', ogType);
+    setMetaTag('meta[property="og:image"]', 'property', 'og:image', imageUrl);
+
+    // Set Twitter Card Meta
     setMetaTag('meta[name="twitter:card"]', 'name', 'twitter:card', 'summary_large_image');
     setMetaTag('meta[name="twitter:title"]', 'name', 'twitter:title', fullTitle);
     setMetaTag('meta[name="twitter:description"]', 'name', 'twitter:description', fullDescription);
+    setMetaTag('meta[name="twitter:image"]', 'name', 'twitter:image', imageUrl);
 
+    // Set Canonical Link
     setLinkTag('canonical', currentUrl);
 
-    // 4. Inject JSON-LD Schema (Remove old route scripts first)
+    // Inject JSON-LD Schema (Remove old route scripts first)
     const existingScripts = document.head.querySelectorAll('script[data-seo-jsonld="true"]');
     existingScripts.forEach(script => script.remove());
 
     if (jsonLd) {
-      const script = document.createElement('script');
-      script.type = 'application/ld+json';
-      script.setAttribute('data-seo-jsonld', 'true');
-      script.textContent = JSON.stringify(jsonLd);
-      document.head.appendChild(script);
+      const jsonLdArray = Array.isArray(jsonLd) ? jsonLd : [jsonLd];
+      jsonLdArray.forEach((schema, index) => {
+        const script = document.createElement('script');
+        script.type = 'application/ld+json';
+        script.setAttribute('data-seo-jsonld', 'true');
+        script.setAttribute('data-seo-index', index.toString());
+        script.textContent = JSON.stringify(schema);
+        document.head.appendChild(script);
+      });
     }
 
     return () => {
@@ -77,7 +96,7 @@ export const SEO: React.FC<SEOProps> = ({
       const scripts = document.head.querySelectorAll('script[data-seo-jsonld="true"]');
       scripts.forEach(s => s.remove());
     };
-  }, [title, description, canonicalPath, ogType, jsonLd]);
+  }, [title, description, canonicalPath, ogType, ogImage, noindex, jsonLd]);
 
   return null;
 };

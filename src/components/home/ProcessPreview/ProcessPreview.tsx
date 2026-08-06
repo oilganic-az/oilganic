@@ -156,8 +156,14 @@ export const ProcessPreview: React.FC = () => {
 
       {/* TV Pop-up Video Modal Overlay */}
       {isVideoModalOpen && (
-        <div className={styles.modalOverlay} onClick={closeVideoModal}>
+        <button
+          type="button"
+          className={styles.modalOverlay}
+          onClick={closeVideoModal}
+          aria-label="Videonu bağla"
+        >
           <button
+            type="button"
             className={styles.closeBtn}
             onClick={closeVideoModal}
             aria-label="Bağla"
@@ -171,6 +177,15 @@ export const ProcessPreview: React.FC = () => {
               e.stopPropagation(); // Avoid closing when clicking the container
               handleContentClick();
             }}
+            onKeyDown={(e) => {
+              if (e.key === 'Enter' || e.key === ' ') {
+                e.stopPropagation();
+                handleContentClick();
+              }
+            }}
+            role="button"
+            tabIndex={0}
+            aria-label="Video pəncərəsi"
             style={{ cursor: showCtaOverlay ? 'pointer' : 'default' }}
           >
             <video
@@ -196,7 +211,7 @@ export const ProcessPreview: React.FC = () => {
               </div>
             )}
           </div>
-        </div>
+        </button>
       )}
     </>
   );

@@ -83,14 +83,14 @@ export const CustomerReviews: React.FC = () => {
 
       {/* Image Zoom Modal */}
       {selectedImage && (
-        <div
+        <button
+          type="button"
           className={styles.modalOverlay}
           onClick={() => setSelectedImage(null)}
-          role="dialog"
-          aria-label="Rəy şəklini böyüt"
+          aria-label="Şəkli bağlayın"
         >
           <img src={selectedImage} alt="Müştəri rəyi böyüdülmüş" className={styles.modalImg} />
-        </div>
+        </button>
       )}
     </section>
   );

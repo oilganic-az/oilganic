@@ -22,15 +22,16 @@ import { TermsPage } from './pages/TermsPage';
 import { NotFoundPage } from './pages/NotFoundPage';
 import { AdminLoginPage } from './pages/admin/AdminLoginPage';
 import { AdminDashboardPage } from './pages/admin/AdminDashboardPage';
-import { ProtectedRoute, PublicAdminRoute } from './components/auth/AdminGuard';
+import { ProtectedRoute, PublicAdminRoute, AdminAuthProvider } from './components/auth/AdminGuard';
 import { ScrollToTop } from './components/common/ScrollToTop/ScrollToTop';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <ProductsProvider>
-      <CampaignsProvider>
-        <CartProvider>
-          <BrowserRouter>
+    <AdminAuthProvider>
+      <ProductsProvider>
+        <CampaignsProvider>
+          <CartProvider>
+            <BrowserRouter>
             <ScrollToTop />
             <Routes>
               <Route
@@ -75,5 +76,6 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         </CartProvider>
       </CampaignsProvider>
     </ProductsProvider>
-  </React.StrictMode>
+  </AdminAuthProvider>
+</React.StrictMode>
 );

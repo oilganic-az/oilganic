@@ -38,12 +38,13 @@ export function sanitizeInput(input: string): string {
 /**
  * Validates product object structure to ensure schema integrity
  */
-export function validateProductSchema(obj: any): boolean {
+export function validateProductSchema(obj: unknown): boolean {
   if (!obj || typeof obj !== 'object') return false;
-  if (typeof obj.id !== 'string' || !obj.id.trim()) return false;
-  if (typeof obj.name !== 'string' || !obj.name.trim()) return false;
-  if (typeof obj.slug !== 'string' || !obj.slug.trim()) return false;
-  if (typeof obj.price !== 'number' || isNaN(obj.price) || obj.price < 0) return false;
-  if (typeof obj.categoryId !== 'string') return false;
+  const record = obj as Record<string, unknown>;
+  if (typeof record.id !== 'string' || !record.id.trim()) return false;
+  if (typeof record.name !== 'string' || !record.name.trim()) return false;
+  if (typeof record.slug !== 'string' || !record.slug.trim()) return false;
+  if (typeof record.price !== 'number' || isNaN(record.price) || record.price < 0) return false;
+  if (typeof record.categoryId !== 'string') return false;
   return true;
 }

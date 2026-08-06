@@ -5,21 +5,22 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "typecheck": "tsc --noEmit && tsc -p tsconfig.functions.json",
+    "typecheck": "tsc --noEmit && tsc -p tsconfig.functions.json --noEmit",
     "lint": "eslint . --max-warnings=0",
     "test": "vitest run",
     "test:watch": "vitest",
     "test:e2e": "playwright test",
-    "build": "tsc && vite build",
+    "build": "npm run content:build && npm run icons:generate && npm run icons:validate && npm run sitemap:generate && tsc && vite build",
     "preview": "vite preview",
-    "fetch:clopos": "node scripts/fetch-clopos-menu.mjs",
-    "catalog:sync": "node scripts/normalize-clopos-menu.mjs && node scripts/merge-catalog.mjs",
-    "catalog:validate": "node scripts/validate-content.mjs",
-    "content:build": "node scripts/merge-catalog.mjs && node scripts/validate-content.mjs"
+    "icons:generate": "node scripts/generate-icons.mjs",
+    "icons:validate": "node scripts/validate-icons.mjs",
+    "sitemap:generate": "node scripts/generate-sitemap.mjs",
+    "content:build": "npm run catalog:build && npm run campaigns:build",
+    "catalog:build": "node scripts/build-admin-catalog.mjs",
+    "campaigns:build": "node scripts/build-admin-campaigns.mjs"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
-    "firebase": "^12.17.0",
     "gsap": "^3.15.0",
     "lucide-react": "^0.344.0",
     "react": "^18.3.1",
@@ -42,6 +43,7 @@
     "eslint-plugin-react": "^7.37.4",
     "eslint-plugin-react-hooks": "^4.6.2",
     "jsdom": "^26.0.0",
+    "sharp": "^0.35.3",
     "typescript": "^5.7.3",
     "vite": "^6.4.3",
     "vitest": "^4.1.10"

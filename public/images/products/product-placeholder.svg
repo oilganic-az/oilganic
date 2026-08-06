@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title description">
+  <title id="title">Oilganic məhsul şəkli</title>
+  <desc id="description">Məhsul şəkli daha sonra əlavə olunacaq</desc>
+  <rect width="1200" height="1200" fill="#eef5e8"/>
+  <circle cx="600" cy="500" r="210" fill="#ffffff"/>
+  <path d="M470 580C500 365 700 300 790 315C760 500 660 630 470 580Z" fill="#4e7a43"/>
+  <path d="M500 555C590 500 655 425 725 350" fill="none" stroke="#ffffff" stroke-width="28" stroke-linecap="round"/>
+  <text x="600" y="820" text-anchor="middle" font-family="Arial, sans-serif" font-size="76" font-weight="700" fill="#2f5130">Oilganic</text>
+  <text x="600" y="900" text-anchor="middle" font-family="Arial, sans-serif" font-size="38" fill="#557057">Məhsul şəkli əlavə olunacaq</text>
+</svg>
