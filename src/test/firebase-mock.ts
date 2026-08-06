@@ -8,8 +8,8 @@
 import { vi } from 'vitest';
 
 // Minimal Firestore document snapshot mock
-const makeSnapshot = (docs: any[] = []) => ({
-  forEach: (cb: (d: any) => void) => docs.forEach(cb),
+const makeSnapshot = (docs: Array<Record<string, unknown> & { id: string }> = []) => ({
+  forEach: (cb: (d: Record<string, unknown> & { id: string }) => void) => docs.forEach(cb),
   docs: docs.map((d) => ({ id: d.id, data: () => d })),
   empty: docs.length === 0,
 });
@@ -21,7 +21,7 @@ export const storage = {};
 vi.mock('firebase/firestore', () => ({
   getFirestore: vi.fn(() => ({})),
   collection: vi.fn(() => ({})),
-  onSnapshot: vi.fn((_q: any, _success: any, error: (e: Error) => void) => {
+  onSnapshot: vi.fn((_q: unknown, _success: unknown, error: (e: Error) => void) => {
     // Immediately simulate a "permission-denied" so the context falls back to static data
     if (typeof error === 'function') {
       setTimeout(() => error(new Error('Firebase mocked – using static data')), 0);
@@ -38,7 +38,7 @@ vi.mock('firebase/firestore', () => ({
     delete: vi.fn(),
     commit: vi.fn(() => Promise.resolve()),
   })),
-  query: vi.fn((...args: any[]) => args[0]),
+  query: vi.fn((...args: unknown[]) => args[0]),
   orderBy: vi.fn(() => ({})),
 }));
 

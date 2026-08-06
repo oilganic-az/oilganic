@@ -40,6 +40,12 @@ export const AdminDashboardPage: React.FC = () => {
   const [campEndDate, setCampEndDate] = useState('');
   const [campImageSrc, setCampImageSrc] = useState('');
 
+  const handleLogout = React.useCallback(() => {
+    sessionStorage.removeItem(ADMIN_AUTH_KEY);
+    sessionStorage.removeItem(ADMIN_LAST_ACTIVE_KEY);
+    navigate('/admin/login');
+  }, [navigate]);
+
   // Inactivity Monitoring while Dashboard is active
   useEffect(() => {
     const updateActivity = () => {
@@ -62,13 +68,7 @@ export const AdminDashboardPage: React.FC = () => {
       window.removeEventListener('keydown', updateActivity);
       clearInterval(interval);
     };
-  }, [navigate]);
-
-  const handleLogout = () => {
-    sessionStorage.removeItem(ADMIN_AUTH_KEY);
-    sessionStorage.removeItem(ADMIN_LAST_ACTIVE_KEY);
-    navigate('/admin/login');
-  };
+  }, [handleLogout]);
 
   const filteredProducts = products.filter(p => {
     const matchesCat = selectedCategory === 'all' || p.categoryId === selectedCategory;
@@ -254,7 +254,7 @@ export const AdminDashboardPage: React.FC = () => {
 
   return (
     <>
-      <SEO title="Admin İdarəetmə Paneli - Oilganic" description="Məhsulların və kampaniyaların idarə edilməsi" canonicalPath="/admin" />
+      <SEO title="Admin İdarəetmə Paneli" description="Məhsulların və kampaniyaların idarə edilməsi" canonicalPath="/admin" noindex={true} />
       <div className={styles.container}>
         <div className={styles.dashboardHeader}>
           <div>
@@ -446,7 +446,7 @@ export const AdminDashboardPage: React.FC = () => {
                     <tr>
                       <td colSpan={6} style={{ textAlign: 'center', padding: '3rem', color: '#9ca3af' }}>
                         <Gift size={36} style={{ marginBottom: '0.5rem', opacity: 0.5 }} />
-                        <p>Aktiv kampaniya tapılmadı. "Yeni kampaniya əlavə et" düyməsinə klikləyərək yenisini yaradın.</p>
+                        <p>Aktiv kampaniya tapılmadı. &quot;Yeni kampaniya əlavə et&quot; düyməsinə klikləyərək yenisini yaradın.</p>
                       </td>
                     </tr>
                   ) : (
@@ -524,8 +524,9 @@ export const AdminDashboardPage: React.FC = () => {
             </h2>
             <form onSubmit={handleSaveProduct}>
               <div className={styles.formGroup}>
-                <label className={styles.formLabel}>Məhsul adı *</label>
+                <label htmlFor="prod-name-input" className={styles.formLabel}>Məhsul adı *</label>
                 <input
+                  id="prod-name-input"
                   type="text"
                   className={styles.formInput}
                   value={editingProduct.name || ''}
@@ -536,8 +537,9 @@ export const AdminDashboardPage: React.FC = () => {
 
               <div className={styles.grid2}>
                 <div className={styles.formGroup}>
-                  <label className={styles.formLabel}>Kateqoriya *</label>
+                  <label htmlFor="prod-cat-select" className={styles.formLabel}>Kateqoriya *</label>
                   <select
+                    id="prod-cat-select"
                     className={styles.formInput}
                     value={editingProduct.categoryId || 'oils'}
                     onChange={e => setEditingProduct({ ...editingProduct, categoryId: e.target.value })}
@@ -551,8 +553,9 @@ export const AdminDashboardPage: React.FC = () => {
                 </div>
 
                 <div className={styles.formGroup}>
-                  <label className={styles.formLabel}>Qiymət (AZN) *</label>
+                  <label htmlFor="prod-price-input" className={styles.formLabel}>Qiymət (AZN) *</label>
                   <input
+                    id="prod-price-input"
                     type="number"
                     step="0.1"
                     className={styles.formInput}
@@ -565,8 +568,9 @@ export const AdminDashboardPage: React.FC = () => {
 
               <div className={styles.grid2}>
                 <div className={styles.formGroup}>
-                  <label className={styles.formLabel}>Ölçü / Vahid *</label>
+                  <label htmlFor="prod-unit-input" className={styles.formLabel}>Ölçü / Vahid *</label>
                   <input
+                    id="prod-unit-input"
                     type="text"
                     className={styles.formInput}
                     placeholder="məs: 100ml, 250ml, 200gr, 1 kg"
@@ -576,8 +580,9 @@ export const AdminDashboardPage: React.FC = () => {
                 </div>
 
                 <div className={styles.formGroup}>
-                  <label className={styles.formLabel}>Stok vəziyyəti</label>
+                  <label htmlFor="prod-stock-select" className={styles.formLabel}>Stok vəziyyəti</label>
                   <select
+                    id="prod-stock-select"
                     className={styles.formInput}
                     value={editingProduct.inStock ? 'true' : 'false'}
                     onChange={e => setEditingProduct({ ...editingProduct, inStock: e.target.value === 'true' })}
@@ -590,7 +595,7 @@ export const AdminDashboardPage: React.FC = () => {
 
               {/* Image Selection with Local File Upload */}
               <div className={styles.formGroup}>
-                <label className={styles.formLabel}>Məhsul şəkli (lokal şəkil seç / yüklə)</label>
+                <label htmlFor="prod-img-input" className={styles.formLabel}>Məhsul şəkli (lokal şəkil seç / yüklə)</label>
                 <div style={{ display: 'flex', gap: '1rem', alignItems: 'center', marginBottom: '0.5rem' }}>
                   <label
                     style={{
@@ -632,6 +637,7 @@ export const AdminDashboardPage: React.FC = () => {
                 )}
 
                 <input
+                  id="prod-img-input"
                   type="text"
                   className={styles.formInput}
                   placeholder="və ya şəkil yolu daxil edin: /images/products/yag.jpg"
@@ -645,8 +651,9 @@ export const AdminDashboardPage: React.FC = () => {
               </div>
 
               <div className={styles.formGroup}>
-                <label className={styles.formLabel}>Qısa təsvir</label>
+                <label htmlFor="prod-desc-textarea" className={styles.formLabel}>Qısa təsvir</label>
                 <textarea
+                  id="prod-desc-textarea"
                   className={styles.formInput}
                   rows={2}
                   value={editingProduct.shortDescription || ''}
@@ -675,8 +682,9 @@ export const AdminDashboardPage: React.FC = () => {
             <h2 className={styles.modalTitle}>Yeni kampaniya əlavə et</h2>
             <form onSubmit={handleSaveCampaign}>
               <div className={styles.formGroup}>
-                <label className={styles.formLabel}>Kampaniya adı *</label>
+                <label htmlFor="camp-title-input" className={styles.formLabel}>Kampaniya adı *</label>
                 <input
+                  id="camp-title-input"
                   type="text"
                   className={styles.formInput}
                   value={campTitle}
@@ -688,8 +696,9 @@ export const AdminDashboardPage: React.FC = () => {
 
               <div className={styles.grid2}>
                 <div className={styles.formGroup}>
-                  <label className={styles.formLabel}>Başlama tarixi</label>
+                  <label htmlFor="camp-start-input" className={styles.formLabel}>Başlama tarixi</label>
                   <input
+                    id="camp-start-input"
                     type="text"
                     className={styles.formInput}
                     value={campStartDate}
@@ -699,8 +708,9 @@ export const AdminDashboardPage: React.FC = () => {
                 </div>
 
                 <div className={styles.formGroup}>
-                  <label className={styles.formLabel}>Bitmə tarixi</label>
+                  <label htmlFor="camp-end-input" className={styles.formLabel}>Bitmə tarixi</label>
                   <input
+                    id="camp-end-input"
                     type="text"
                     className={styles.formInput}
                     value={campEndDate}
@@ -712,7 +722,7 @@ export const AdminDashboardPage: React.FC = () => {
 
               {/* Optional Campaign Image File Upload */}
               <div className={styles.formGroup}>
-                <label className={styles.formLabel}>Kampaniya şəkli (opsional)</label>
+                <span className={styles.formLabel}>Kampaniya şəkli (opsional)</span>
                 <div style={{ display: 'flex', gap: '1rem', alignItems: 'center', marginBottom: '0.5rem' }}>
                   <label
                     style={{
@@ -752,8 +762,9 @@ export const AdminDashboardPage: React.FC = () => {
               </div>
 
               <div className={styles.formGroup}>
-                <label className={styles.formLabel}>Kampaniya şərtləri və təsviri *</label>
+                <label htmlFor="camp-conditions-textarea" className={styles.formLabel}>Kampaniya şərtləri və təsviri *</label>
                 <textarea
+                  id="camp-conditions-textarea"
                   className={styles.formInput}
                   rows={4}
                   value={campConditions}

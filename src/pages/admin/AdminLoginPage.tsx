@@ -97,7 +97,7 @@ export const AdminLoginPage: React.FC = () => {
 
   return (
     <>
-      <SEO title="Admin Girişi - Oilganic" description="Oilganic İdarəetmə Paneli Girişi" canonicalPath="/admin/login" />
+      <SEO title="Admin Girişi" description="Oilganic İdarəetmə Paneli Girişi" canonicalPath="/admin/login" noindex={true} />
       <div className={styles.container}>
         <div className={styles.loginCard}>
           <h1 className={styles.loginTitle}>Admin Paneli</h1>
@@ -107,8 +107,9 @@ export const AdminLoginPage: React.FC = () => {
 
           <form onSubmit={handleLogin}>
             <div className={styles.formGroup}>
-              <label className={styles.formLabel}>İstifadəçi adı</label>
+              <label htmlFor="admin-username" className={styles.formLabel}>İstifadəçi adı</label>
               <input
+                id="admin-username"
                 type="text"
                 className={styles.formInput}
                 value={username}
@@ -120,8 +121,9 @@ export const AdminLoginPage: React.FC = () => {
             </div>
 
             <div className={styles.formGroup}>
-              <label className={styles.formLabel}>Şifrə</label>
+              <label htmlFor="admin-password" className={styles.formLabel}>Şifrə</label>
               <input
+                id="admin-password"
                 type="password"
                 className={styles.formInput}
                 value={password}
