@@ -1,24 +1,19 @@
 import crypto from 'node:crypto';
 
-const password = process.argv[2] || 'oilganic2026';
+const plainPassword = process.argv[2];
 
-function hashPassword(plainPassword) {
+if (!plainPassword || typeof plainPassword !== 'string' || !plainPassword.trim()) {
+  console.error('Error: Password parameter is missing.');
+  console.error('Usage: node scripts/hash-admin-password.mjs <password>');
+  process.exit(1);
+}
+
+function hashPassword(password) {
   const salt = crypto.randomBytes(16);
-  const derivedKey = crypto.scryptSync(plainPassword, salt, 64);
+  const derivedKey = crypto.scryptSync(password, salt, 64);
   return `${salt.toString('hex')}:${derivedKey.toString('hex')}`;
 }
 
-const hashedPassword = hashPassword(password);
+const hashedPassword = hashPassword(plainPassword.trim());
 
-console.log('==================================================');
-console.log('Oilganic Admin Password Scrypt Generator');
-console.log('==================================================');
-console.log(`Plain Password : ${password}`);
-console.log(`Scrypt Hash    : ${hashedPassword}`);
-console.log('==================================================');
-console.log('Set this variable in your Netlify Dashboard Environment Variables:');
 console.log(`ADMIN_PASSWORD_SCRYPT=${hashedPassword}`);
-console.log('');
-console.log('PowerShell command to set locally:');
-console.log(`$env:ADMIN_PASSWORD_SCRYPT="${hashedPassword}"`);
-console.log('==================================================');

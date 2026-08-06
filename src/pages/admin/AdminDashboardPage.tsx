@@ -156,20 +156,14 @@ export const AdminDashboardPage: React.FC = () => {
       const sanitizedShortDesc = sanitizeInput(editingProduct.shortDescription || '');
       const sanitizedDesc = sanitizeInput(editingProduct.description || '');
       const sanitizedUnitLabel = sanitizeInput(editingProduct.unitLabel || 'ədəd');
-
-      const sizeLabel = sanitizedUnitLabel === 'kg' ? '1 kg' : sanitizedUnitLabel;
       const mainImg = editingProduct.images && editingProduct.images.length > 0
         ? editingProduct.images[0].src
         : '/images/products/placeholder.jpg';
 
-      const preparedProduct: Partial<Product> = {
-        ...editingProduct,
-        name: sanitizedName,
-        shortDescription: sanitizedShortDesc,
-        description: sanitizedDesc,
-        unitLabel: sanitizedUnitLabel,
-        slug: editingProduct.slug || sanitizedName.toLowerCase().replace(/\s+/g, '-'),
-        sizes: [
+      let preparedSizes = editingProduct.sizes;
+      if (isAddMode || !preparedSizes || preparedSizes.length === 0) {
+        const sizeLabel = sanitizedUnitLabel === 'kg' ? '1 kg' : sanitizedUnitLabel;
+        preparedSizes = [
           {
             id: `size-${Date.now()}`,
             label: sizeLabel,
@@ -178,7 +172,17 @@ export const AdminDashboardPage: React.FC = () => {
             verificationStatus: 'verified',
             imageSrc: mainImg
           }
-        ],
+        ];
+      }
+
+      const preparedProduct: Partial<Product> = {
+        ...editingProduct,
+        name: sanitizedName,
+        shortDescription: sanitizedShortDesc,
+        description: sanitizedDesc,
+        unitLabel: sanitizedUnitLabel,
+        slug: editingProduct.slug || sanitizedName.toLowerCase().replace(/\s+/g, '-'),
+        sizes: preparedSizes,
         images: [{ src: mainImg, alt: sanitizedName }]
       };
 

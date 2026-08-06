@@ -56,6 +56,41 @@ export async function handler(event: NetlifyEvent): Promise<NetlifyResponse> {
     const manualIds = new Set(manualProducts.map(p => p.id));
     const deletedIds = new Set<string>(deletedDoc.productIds || []);
 
+    if (action === 'reset') {
+      const resetOverrides = `${JSON.stringify({ schemaVersion: 1, products: {} }, null, 2)}\n`;
+      const resetManual = `${JSON.stringify({ schemaVersion: 1, products: [] }, null, 2)}\n`;
+      const resetDeleted = `${JSON.stringify({ schemaVersion: 1, productIds: [] }, null, 2)}\n`;
+
+      await commitSingleFileToGitHub(
+        ghConfig,
+        'content/product-overrides.json',
+        resetOverrides,
+        'content: reset product overrides',
+        overridesFile.sha
+      );
+
+      await commitSingleFileToGitHub(
+        ghConfig,
+        'content/manual-products.json',
+        resetManual,
+        'content: reset manual products',
+        manualFile.sha
+      );
+
+      await commitSingleFileToGitHub(
+        ghConfig,
+        'content/deleted-product-ids.json',
+        resetDeleted,
+        'content: reset deleted products',
+        deletedFile.sha
+      );
+
+      return jsonResponse(200, {
+        success: true,
+        message: 'Bütün məhsullar ilkin vəziyyətinə qaytarıldı, yenilənmə yayımlanır'
+      });
+    }
+
     if (action === 'create') {
       const product = validateProductServer(body.product);
 

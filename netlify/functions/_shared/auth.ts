@@ -43,20 +43,24 @@ export interface SessionPayload {
   nonce: string;
 }
 
-export function createSessionCookieValue(username: string, maxAgeSeconds: number = 1800): string {
+export function createSessionCookieFromPayload(payload: SessionPayload): string {
   const secret = getSessionSecret();
-  const payload: SessionPayload = {
-    username,
-    exp: Date.now() + maxAgeSeconds * 1000,
-    nonce: crypto.randomBytes(16).toString('hex')
-  };
-
   const payloadBase64 = Buffer.from(JSON.stringify(payload)).toString('base64url');
   const hmac = crypto.createHmac('sha256', secret);
   hmac.update(payloadBase64);
   const signatureHex = hmac.digest('hex');
 
   return `${payloadBase64}.${signatureHex}`;
+}
+
+export function createSessionCookieValue(username: string, maxAgeSeconds: number = 1800): string {
+  const payload: SessionPayload = {
+    username,
+    exp: Date.now() + maxAgeSeconds * 1000,
+    nonce: crypto.randomBytes(16).toString('hex')
+  };
+
+  return createSessionCookieFromPayload(payload);
 }
 
 export function verifySessionCookie(cookieValue?: string): SessionPayload | null {

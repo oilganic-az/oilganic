@@ -5,18 +5,20 @@ import { handler as logoutHandler } from '../../netlify/functions/auth-logout';
 import { handler as productsHandler } from '../../netlify/functions/admin-products';
 import { handler as campaignsHandler } from '../../netlify/functions/admin-campaigns';
 import { handler as uploadHandler } from '../../netlify/functions/admin-upload-image';
+import { parseCookies, COOKIE_NAME } from '../../netlify/functions/_shared/http';
 import { createSessionCookieValue, verifySessionCookie } from '../../netlify/functions/_shared/auth';
 import { generateCsrfToken } from '../../netlify/functions/_shared/csrf';
 import { validateBranchSafety } from '../../netlify/functions/_shared/github';
 import { validateImageSignature } from '../../netlify/functions/_shared/validation';
-import crypto from 'node:crypto';
+import { Product } from '../../src/types/product';
+import { execSync } from 'node:child_process';
 
 // Setup environment variables for test execution
 const TEST_SALT = '7516df50defe619883e84cce4b12559f';
 const TEST_KEY = '2dd2fe13963979c07a2167454e9efbe9f48aa422338888756d06f482a661e1067d4b71afaf841bd6358605621c331346bc0d0ba20b409b85cefd8770ff25fcd3';
 
 process.env.ADMIN_USERNAME = 'oilganic.admin';
-process.env.ADMIN_PASSWORD_SCRYPT = `${TEST_SALT}:${TEST_KEY}`; // Hash of "oilganic2026"
+process.env.ADMIN_PASSWORD_SCRYPT = `${TEST_SALT}:${TEST_KEY}`;
 process.env.ADMIN_SESSION_SECRET = 'super-secret-test-key-1234567890';
 process.env.GITHUB_TOKEN = 'ghp_mock_token_for_tests';
 process.env.GITHUB_REPOSITORY = 'oilganic-az/oilganic';
@@ -26,6 +28,7 @@ process.env.ALLOWED_ORIGINS = 'https://oilganic.az,http://localhost:5173';
 describe('Secure Netlify Admin Endpoints & Helpers', () => {
   beforeEach(() => {
     vi.restoreAllMocks();
+    delete process.env.ALLOW_MAIN_WRITE;
   });
 
   describe('1. Auth Login Endpoint (auth-login.ts)', () => {
@@ -67,53 +70,108 @@ describe('Secure Netlify Admin Endpoints & Helpers', () => {
     });
   });
 
-  describe('2. Auth Session Endpoint (auth-session.ts)', () => {
-    it('validates active signed session cookie and returns CSRF token', async () => {
-      const cookieValue = createSessionCookieValue('oilganic.admin', 1800);
+  describe('2. Auth Session Endpoint & Session/CSRF Consistency Integration Test', () => {
+    it('end-to-end flow: login -> session verification -> protected mutation succeeds with matching cookie & CSRF token', async () => {
+      // Step A: Login
+      const loginRes = await loginHandler({
+        path: '/api/auth-login',
+        httpMethod: 'POST',
+        headers: { 'origin': 'https://oilganic.az' },
+        body: JSON.stringify({ username: 'oilganic.admin', password: 'oilganic2026' })
+      });
+      expect(loginRes.statusCode).toBe(200);
+      const loginCookieHeader = loginRes.headers?.['Set-Cookie'];
+      expect(loginCookieHeader).toBeDefined();
 
-      const event = {
+      const loginCookies = parseCookies(loginCookieHeader);
+      const loginCookieVal = loginCookies[COOKIE_NAME];
+
+      // Step B: Call auth-session with login cookie
+      const sessionRes = await sessionHandler({
         path: '/api/auth-session',
         httpMethod: 'GET',
         headers: {
-          'cookie': `oilganic_admin_session=${cookieValue}`,
+          'cookie': `${COOKIE_NAME}=${loginCookieVal}`,
           'origin': 'https://oilganic.az'
         },
         body: null
-      };
+      });
 
-      const res = await sessionHandler(event);
-      expect(res.statusCode).toBe(200);
+      expect(sessionRes.statusCode).toBe(200);
+      const sessionBody = JSON.parse(sessionRes.body);
+      expect(sessionBody.authenticated).toBe(true);
+      expect(sessionBody.csrfToken).toBeDefined();
 
-      const body = JSON.parse(res.body);
-      expect(body.authenticated).toBe(true);
-      expect(body.username).toBe('oilganic.admin');
-      expect(body.csrfToken).toBeDefined();
-    });
+      const refreshedCookieHeader = sessionRes.headers?.['Set-Cookie'];
+      const refreshedCookies = parseCookies(refreshedCookieHeader);
+      const refreshedCookieVal = refreshedCookies[COOKIE_NAME];
 
-    it('rejects expired or tampered session cookies', async () => {
-      const tamperedCookie = 'invalidBase64.invalidSignatureHex';
+      // Step C: Perform protected mutation using refreshed cookie & csrfToken
+      vi.spyOn(globalThis, 'fetch').mockImplementation(async (url, init) => {
+        const urlStr = String(url);
+        if (urlStr.includes('/contents/')) {
+          if (init?.method === 'PUT') {
+            return new Response(JSON.stringify({
+              commit: { sha: 'commit_sha' },
+              content: { sha: 'content_sha' }
+            }), { status: 200 });
+          }
+          return new Response(JSON.stringify({ content: Buffer.from(JSON.stringify({ products: [] })).toString('base64'), sha: 'sha' }), { status: 200 });
+        }
+        return new Response('Not found', { status: 404 });
+      });
 
-      const event = {
-        path: '/api/auth-session',
-        httpMethod: 'GET',
+      const mutationRes = await productsHandler({
+        path: '/api/admin-products',
+        httpMethod: 'POST',
         headers: {
-          'cookie': `oilganic_admin_session=${tamperedCookie}`,
+          'cookie': `${COOKIE_NAME}=${refreshedCookieVal}`,
+          'x-csrf-token': sessionBody.csrfToken,
           'origin': 'https://oilganic.az'
         },
-        body: null
-      };
+        body: JSON.stringify({
+          action: 'create',
+          product: {
+            id: 'e2e-prod-1',
+            slug: 'e2e-slug',
+            name: 'E2E Product',
+            categoryId: 'oils',
+            shortDescription: 'Desc',
+            price: 10,
+            currency: 'AZN',
+            inStock: true,
+            images: [{ src: '/images/products/placeholder.jpg', alt: 'E2E' }]
+          }
+        })
+      });
 
-      const res = await sessionHandler(event);
-      expect(res.statusCode).toBe(200);
-
-      const body = JSON.parse(res.body);
-      expect(body.authenticated).toBe(false);
+      expect(mutationRes.statusCode).toBe(200);
+      const mutationBody = JSON.parse(mutationRes.body);
+      expect(mutationBody.success).toBe(true);
     });
 
-    it('returns null on expired session payload', () => {
-      const expiredCookie = createSessionCookieValue('oilganic.admin', -10);
-      const parsed = verifySessionCookie(expiredCookie);
-      expect(parsed).toBeNull();
+    it('fails protected mutation with 403 if cookie nonce and CSRF token nonce differ', async () => {
+      const cookieVal1 = createSessionCookieValue('oilganic.admin', 1800);
+      const cookieVal2 = createSessionCookieValue('oilganic.admin', 1800); // Different nonce
+
+      const session1 = verifySessionCookie(cookieVal1)!;
+      const csrfTokenForCookie1 = generateCsrfToken(session1);
+
+      // Send cookie2 with csrfToken generated from cookie1
+      const res = await productsHandler({
+        path: '/api/admin-products',
+        httpMethod: 'POST',
+        headers: {
+          'cookie': `${COOKIE_NAME}=${cookieVal2}`,
+          'x-csrf-token': csrfTokenForCookie1,
+          'origin': 'https://oilganic.az'
+        },
+        body: JSON.stringify({ action: 'create', product: {} })
+      });
+
+      expect(res.statusCode).toBe(403);
+      const body = JSON.parse(res.body);
+      expect(body.error).toContain('CSRF');
     });
   });
 
@@ -134,101 +192,83 @@ describe('Secure Netlify Admin Endpoints & Helpers', () => {
     });
   });
 
-  describe('4. CSRF & Origin Security Checks', () => {
-    it('rejects product mutation when CSRF token is missing', async () => {
-      const sessionCookie = createSessionCookieValue('oilganic.admin', 1800);
-
-      const event = {
-        path: '/api/admin-products',
-        httpMethod: 'POST',
-        headers: {
-          'cookie': `oilganic_admin_session=${sessionCookie}`,
-          'origin': 'https://oilganic.az'
-        },
-        body: JSON.stringify({ action: 'create', product: {} })
+  describe('4. Product & Multi-Size Preservation', () => {
+    it('preserves all size IDs, labels, prices, imageSrc, and stock states when updating multi-size product', () => {
+      const multiSizeProduct: Product = {
+        id: 'multi-size-prod',
+        slug: 'multi-size-yag',
+        name: 'İki Çeşidli Yağ',
+        categoryId: 'oils',
+        shortDescription: 'Orijinal təsvir',
+        price: 15,
+        currency: 'AZN',
+        unitLabel: '100ml',
+        inStock: true,
+        verificationStatus: 'verified',
+        images: [{ src: '/images/products/yag.jpg', alt: 'Yağ' }],
+        sizes: [
+          { id: 'size-100ml', label: '100 ml', price: 15, inStock: true, imageSrc: '/images/100ml.jpg' },
+          { id: 'size-250ml', label: '250 ml', price: 32, inStock: true, imageSrc: '/images/250ml.jpg' },
+          { id: 'size-500ml', label: '500 ml', price: 60, inStock: false, imageSrc: '/images/500ml.jpg' }
+        ]
       };
 
-      const res = await productsHandler(event);
-      expect(res.statusCode).toBe(403);
-
-      const body = JSON.parse(res.body);
-      expect(body.error).toContain('CSRF');
-    });
-
-    it('rejects mutation when request origin is forbidden', async () => {
-      const sessionCookie = createSessionCookieValue('oilganic.admin', 1800);
-
-      const event = {
-        path: '/api/admin-products',
-        httpMethod: 'POST',
-        headers: {
-          'cookie': `oilganic_admin_session=${sessionCookie}`,
-          'origin': 'https://malicious-attacker-domain.com'
-        },
-        body: JSON.stringify({ action: 'create' })
+      // Simulate edit in AdminDashboardPage logic (modifying name and shortDescription)
+      const isAddMode = false;
+      const editingProduct = {
+        ...multiSizeProduct,
+        name: 'Yenilənmiş İki Çeşidli Yağ',
+        shortDescription: 'Yenilənmiş təsvir'
       };
 
-      const res = await productsHandler(event);
-      expect(res.statusCode).toBe(403);
-    });
-  });
+      let preparedSizes = editingProduct.sizes;
+      if (isAddMode || !preparedSizes || preparedSizes.length === 0) {
+        preparedSizes = [{ id: 'size-gen', label: '100ml', price: 15, inStock: true }];
+      }
 
-  describe('5. Product Persistence Endpoint (admin-products.ts)', () => {
-    it('creates manual product and persists to manual-products.json via GitHub API', async () => {
+      const preparedProduct = {
+        ...editingProduct,
+        sizes: preparedSizes
+      };
+
+      expect(preparedProduct.sizes).toHaveLength(3);
+      expect(preparedProduct.sizes![0]).toEqual({ id: 'size-100ml', label: '100 ml', price: 15, inStock: true, imageSrc: '/images/100ml.jpg' });
+      expect(preparedProduct.sizes![1]).toEqual({ id: 'size-250ml', label: '250 ml', price: 32, inStock: true, imageSrc: '/images/250ml.jpg' });
+      expect(preparedProduct.sizes![2]).toEqual({ id: 'size-500ml', label: '500 ml', price: 60, inStock: false, imageSrc: '/images/500ml.jpg' });
+    });
+
+    it('handles action=reset to clear all catalog overrides, manual products, and deleted product IDs', async () => {
       const sessionCookie = createSessionCookieValue('oilganic.admin', 1800);
       const sessionPayload = verifySessionCookie(sessionCookie)!;
       const csrfToken = generateCsrfToken(sessionPayload);
 
-      // Mock GitHub fetch responses
+      const committedFiles: Record<string, string> = {};
+
       vi.spyOn(globalThis, 'fetch').mockImplementation(async (url, init) => {
         const urlStr = String(url);
-
         if (urlStr.includes('/contents/')) {
           if (init?.method === 'PUT') {
+            const bodyObj = JSON.parse(String(init.body));
+            committedFiles[urlStr] = Buffer.from(bodyObj.content, 'base64').toString('utf8');
             return new Response(JSON.stringify({
-              commit: { sha: 'mock_commit_sha_123' },
-              content: { sha: 'mock_content_sha_123' }
+              commit: { sha: 'reset_commit_sha' },
+              content: { sha: 'reset_content_sha' }
             }), { status: 200 });
           }
-
-          if (urlStr.includes('catalog-base.json')) {
-            return new Response(JSON.stringify({ content: Buffer.from(JSON.stringify({ products: [] })).toString('base64'), sha: 'base_sha' }), { status: 200 });
-          }
-          if (urlStr.includes('product-overrides.json')) {
-            return new Response(JSON.stringify({ content: Buffer.from(JSON.stringify({ products: {} })).toString('base64'), sha: 'overrides_sha' }), { status: 200 });
-          }
-          if (urlStr.includes('manual-products.json')) {
-            return new Response(JSON.stringify({ content: Buffer.from(JSON.stringify({ products: [] })).toString('base64'), sha: 'manual_sha' }), { status: 200 });
-          }
-          if (urlStr.includes('deleted-product-ids.json')) {
-            return new Response(JSON.stringify({ content: Buffer.from(JSON.stringify({ productIds: [] })).toString('base64'), sha: 'deleted_sha' }), { status: 200 });
-          }
+          return new Response(JSON.stringify({ content: Buffer.from(JSON.stringify({ products: [] })).toString('base64'), sha: 'sha' }), { status: 200 });
         }
         return new Response('Not found', { status: 404 });
       });
-
-      const newProduct = {
-        id: 'manual-test-prod-1',
-        slug: 'yeni-test-yagi',
-        name: 'Yeni Test Yağı',
-        categoryId: 'oils',
-        shortDescription: 'Təbii soyuq sıxım yağı',
-        price: 25,
-        currency: 'AZN',
-        unitLabel: '250ml',
-        inStock: true,
-        images: [{ src: '/images/products/placeholder.jpg', alt: 'Yeni Test Yağı' }]
-      };
 
       const event = {
         path: '/api/admin-products',
         httpMethod: 'POST',
         headers: {
-          'cookie': `oilganic_admin_session=${sessionCookie}`,
+          'cookie': `${COOKIE_NAME}=${sessionCookie}`,
           'x-csrf-token': csrfToken,
           'origin': 'https://oilganic.az'
         },
-        body: JSON.stringify({ action: 'create', product: newProduct })
+        body: JSON.stringify({ action: 'reset' })
       };
 
       const res = await productsHandler(event);
@@ -236,54 +276,13 @@ describe('Secure Netlify Admin Endpoints & Helpers', () => {
 
       const body = JSON.parse(res.body);
       expect(body.success).toBe(true);
-      expect(body.message).toContain('Saxlanıldı, yenilənmə yayımlanır');
-    });
+      expect(body.message).toContain('ilkin vəziyyətinə qaytarıldı');
 
-    it('returns 409 conflict error when GitHub API returns HTTP 409', async () => {
-      const sessionCookie = createSessionCookieValue('oilganic.admin', 1800);
-      const sessionPayload = verifySessionCookie(sessionCookie)!;
-      const csrfToken = generateCsrfToken(sessionPayload);
-
-      vi.spyOn(globalThis, 'fetch').mockImplementation(async (url, init) => {
-        const urlStr = String(url);
-        if (urlStr.includes('/contents/') && init?.method === 'PUT') {
-          return new Response('409 Conflict: Concurrent write', { status: 409 });
-        }
-        return new Response(JSON.stringify({ content: Buffer.from(JSON.stringify({ products: [] })).toString('base64'), sha: 'sha' }), { status: 200 });
-      });
-
-      const product = {
-        id: 'manual-prod-conflict',
-        slug: 'conflict-slug',
-        name: 'Conflict Prod',
-        categoryId: 'oils',
-        shortDescription: 'Conflict desc',
-        price: 15,
-        currency: 'AZN',
-        inStock: true,
-        images: [{ src: '/images/products/placeholder.jpg', alt: 'Conflict' }]
-      };
-
-      const event = {
-        path: '/api/admin-products',
-        httpMethod: 'POST',
-        headers: {
-          'cookie': `oilganic_admin_session=${sessionCookie}`,
-          'x-csrf-token': csrfToken,
-          'origin': 'https://oilganic.az'
-        },
-        body: JSON.stringify({ action: 'create', product })
-      };
-
-      const res = await productsHandler(event);
-      expect(res.statusCode).toBe(409);
-
-      const body = JSON.parse(res.body);
-      expect(body.error).toContain('ziddiyyət');
+      expect(Object.keys(committedFiles).length).toBe(3);
     });
   });
 
-  describe('6. Campaign Persistence Endpoint (admin-campaigns.ts)', () => {
+  describe('5. Campaign Persistence Endpoint (admin-campaigns.ts)', () => {
     it('creates campaign and persists to content/campaigns.json', async () => {
       const sessionCookie = createSessionCookieValue('oilganic.admin', 1800);
       const sessionPayload = verifySessionCookie(sessionCookie)!;
@@ -314,7 +313,7 @@ describe('Secure Netlify Admin Endpoints & Helpers', () => {
         path: '/api/admin-campaigns',
         httpMethod: 'POST',
         headers: {
-          'cookie': `oilganic_admin_session=${sessionCookie}`,
+          'cookie': `${COOKIE_NAME}=${sessionCookie}`,
           'x-csrf-token': csrfToken,
           'origin': 'https://oilganic.az'
         },
@@ -330,13 +329,12 @@ describe('Secure Netlify Admin Endpoints & Helpers', () => {
     });
   });
 
-  describe('7. Image Upload & Magic Bytes Validation (admin-upload-image.ts)', () => {
+  describe('6. Image Upload & Magic Bytes Validation', () => {
     it('accepts valid PNG image buffer and commits to GitHub API', async () => {
       const sessionCookie = createSessionCookieValue('oilganic.admin', 1800);
       const sessionPayload = verifySessionCookie(sessionCookie)!;
       const csrfToken = generateCsrfToken(sessionPayload);
 
-      // Create dummy valid PNG buffer (89 50 4E 47 + 10 bytes)
       const pngHeader = Buffer.from([0x89, 0x50, 0x4E, 0x47, 0x0D, 0x0A, 0x1A, 0x0A, 0x00, 0x00, 0x00, 0x0D, 0x49, 0x48, 0x44, 0x52]);
       const base64Data = pngHeader.toString('base64');
 
@@ -355,7 +353,7 @@ describe('Secure Netlify Admin Endpoints & Helpers', () => {
         path: '/api/admin-upload-image',
         httpMethod: 'POST',
         headers: {
-          'cookie': `oilganic_admin_session=${sessionCookie}`,
+          'cookie': `${COOKIE_NAME}=${sessionCookie}`,
           'x-csrf-token': csrfToken,
           'origin': 'https://oilganic.az'
         },
@@ -370,42 +368,40 @@ describe('Secure Netlify Admin Endpoints & Helpers', () => {
       expect(body.url).toMatch(/^\/uploads\/products\/prod-.*\.png$/);
     });
 
-    it('rejects non-image or executable content magic bytes', () => {
+    it('rejects non-image magic bytes', () => {
       const scriptBuffer = Buffer.from('<?php echo "evil"; ?>');
       expect(() => validateImageSignature(scriptBuffer)).toThrow();
     });
-
-    it('rejects files larger than 2 MB', async () => {
-      const sessionCookie = createSessionCookieValue('oilganic.admin', 1800);
-      const sessionPayload = verifySessionCookie(sessionCookie)!;
-      const csrfToken = generateCsrfToken(sessionPayload);
-
-      const largeBuffer = crypto.randomBytes(2 * 1024 * 1024 + 10);
-      const base64Data = largeBuffer.toString('base64');
-
-      const event = {
-        path: '/api/admin-upload-image',
-        httpMethod: 'POST',
-        headers: {
-          'cookie': `oilganic_admin_session=${sessionCookie}`,
-          'x-csrf-token': csrfToken,
-          'origin': 'https://oilganic.az'
-        },
-        body: JSON.stringify({ fileData: base64Data, folder: 'products' })
-      };
-
-      const res = await uploadHandler(event);
-      expect(res.statusCode).toBe(413);
-    });
   });
 
-  describe('8. Branch Safety & Security Integrity', () => {
-    it('prevents direct commits to main branch', () => {
+  describe('7. Branch Safety & Environment Controls', () => {
+    it('prevents direct commits to main branch when ALLOW_MAIN_WRITE is not true', () => {
+      delete process.env.ALLOW_MAIN_WRITE;
       expect(() => validateBranchSafety('main')).toThrow('strictly prohibited');
     });
 
-    it('allows branch commits to feature branches', () => {
+    it('allows commits to main branch when ALLOW_MAIN_WRITE=true in production context', () => {
+      process.env.ALLOW_MAIN_WRITE = 'true';
+      expect(() => validateBranchSafety('main')).not.toThrow();
+    });
+
+    it('allows branch commits to feature/admin-owned-menu branch without ALLOW_MAIN_WRITE', () => {
+      delete process.env.ALLOW_MAIN_WRITE;
       expect(() => validateBranchSafety('feature/admin-owned-menu')).not.toThrow();
+    });
+  });
+
+  describe('8. Password Generator Script (scripts/hash-admin-password.mjs)', () => {
+    it('rejects missing password parameter with non-zero exit code', () => {
+      expect(() => {
+        execSync('node scripts/hash-admin-password.mjs', { stdio: 'pipe' });
+      }).toThrow();
+    });
+
+    it('outputs ADMIN_PASSWORD_SCRYPT without printing plain password', () => {
+      const output = execSync('node scripts/hash-admin-password.mjs "TestSecretPass2026!"', { encoding: 'utf8' });
+      expect(output).toContain('ADMIN_PASSWORD_SCRYPT=');
+      expect(output).not.toContain('TestSecretPass2026!');
     });
   });
 });

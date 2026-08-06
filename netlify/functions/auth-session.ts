@@ -1,5 +1,5 @@
 import { NetlifyEvent, NetlifyResponse, jsonResponse, isAllowedOrigin, buildSetCookieHeader } from './_shared/http';
-import { getSessionFromHeaders, createSessionCookieValue } from './_shared/auth';
+import { getSessionFromHeaders, createSessionCookieFromPayload, SessionPayload } from './_shared/auth';
 import { generateCsrfToken } from './_shared/csrf';
 
 export async function handler(event: NetlifyEvent): Promise<NetlifyResponse> {
@@ -15,24 +15,32 @@ export async function handler(event: NetlifyEvent): Promise<NetlifyResponse> {
     return jsonResponse(403, { error: 'Forbidden origin' });
   }
 
-  const session = getSessionFromHeaders(event.headers);
+  const existingSession = getSessionFromHeaders(event.headers);
 
-  if (!session) {
+  if (!existingSession) {
     return jsonResponse(200, { authenticated: false });
   }
 
-  const csrfToken = generateCsrfToken(session);
+  // Create ONE refreshed SessionPayload
+  const refreshedPayload: SessionPayload = {
+    username: existingSession.username,
+    exp: Date.now() + 1800 * 1000,
+    nonce: existingSession.nonce
+  };
+
+  // Sign that exact payload into refreshed cookie and CSRF token
+  const refreshedCookieValue = createSessionCookieFromPayload(refreshedPayload);
+  const csrfToken = generateCsrfToken(refreshedPayload);
   const isDev = process.env.NODE_ENV === 'development';
-  const refreshedCookie = createSessionCookieValue(session.username, 1800);
-  const setCookieHeader = buildSetCookieHeader(refreshedCookie, 1800, isDev);
+  const setCookieHeader = buildSetCookieHeader(refreshedCookieValue, 1800, isDev);
 
   return jsonResponse(
     200,
     {
       authenticated: true,
-      username: session.username,
+      username: refreshedPayload.username,
       csrfToken,
-      expiresAt: session.exp
+      expiresAt: refreshedPayload.exp
     },
     { 'Set-Cookie': setCookieHeader }
   );
