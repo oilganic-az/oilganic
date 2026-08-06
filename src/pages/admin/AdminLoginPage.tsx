@@ -2,13 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Button } from '../../components/common/Button/Button';
 import { SEO } from '../../components/common/SEO/SEO';
+import { useAdminAuth } from '../../components/auth/AdminGuard';
 import { MAX_LOGIN_ATTEMPTS, LOCKOUT_DURATION_MS } from '../../utils/security';
 import styles from './AdminPage.module.css';
-
-export const ADMIN_AUTH_KEY = 'oilganic_admin_auth';
-export const ADMIN_LAST_ACTIVE_KEY = 'oilganic_admin_last_active';
-/** Stores the JWT returned by /api/admin-login for Firestore write authorisation */
-export const ADMIN_JWT_KEY = 'oilganic_admin_jwt';
 
 const ATTEMPTS_KEY = 'oilganic_login_attempts';
 const LOCKOUT_KEY = 'oilganic_lockout_until';
@@ -20,6 +16,7 @@ export const AdminLoginPage: React.FC = () => {
   const [isLockedOut, setIsLockedOut] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const navigate = useNavigate();
+  const { checkSession } = useAdminAuth();
 
   useEffect(() => {
     checkLockoutStatus();
@@ -53,27 +50,26 @@ export const AdminLoginPage: React.FC = () => {
 
     setIsSubmitting(true);
     try {
-      const response = await fetch('/api/admin-login', {
+      const response = await fetch('/api/auth-login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ username: username.trim(), password }),
+        credentials: 'include',
+        body: JSON.stringify({ username: username.trim(), password })
       });
 
-      if (response.ok) {
-        const { token } = await response.json();
+      const data = await response.json().catch(() => ({}));
 
-        // Clear any previous lockout state
+      if (response.ok && data.success) {
         localStorage.removeItem(ATTEMPTS_KEY);
         localStorage.removeItem(LOCKOUT_KEY);
 
-        // Store session, JWT and activity timestamp
-        sessionStorage.setItem(ADMIN_AUTH_KEY, 'true');
-        sessionStorage.setItem(ADMIN_JWT_KEY, token);
-        sessionStorage.setItem(ADMIN_LAST_ACTIVE_KEY, Date.now().toString());
-
-        navigate('/admin');
+        const ok = await checkSession();
+        if (ok) {
+          navigate('/admin');
+        } else {
+          setError('Sessiya yaradıla bilmədi. Yenidən cəhd edin.');
+        }
       } else {
-        // Increment failed attempts and apply lockout if needed
         const attempts = parseInt(localStorage.getItem(ATTEMPTS_KEY) || '0', 10) + 1;
         localStorage.setItem(ATTEMPTS_KEY, attempts.toString());
 
@@ -84,11 +80,11 @@ export const AdminLoginPage: React.FC = () => {
           setError('5 dəfə yanlış giriş cəhdi! Təhlükəsizlik üçün hesab 15 dəqiqəlik bloklandı.');
         } else {
           const remaining = MAX_LOGIN_ATTEMPTS - attempts;
-          setError(`İstifadəçi adı və ya şifrə yanlışdır. Qalan cəhd: ${remaining}`);
+          const msg = data.error || 'İstifadəçi adı və ya şifrə yanlışdır.';
+          setError(`${msg} Qalan cəhd: ${remaining}`);
         }
       }
     } catch (err) {
-      // Network error or server is not available – surface clearly
       setError('Serverə qoşulmaq mümkün olmadı. İnternet bağlantınızı yoxlayın.');
     } finally {
       setIsSubmitting(false);
