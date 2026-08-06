@@ -8,7 +8,7 @@ describe('Netlify SPA & Functions Configuration Tests', () => {
     expect(fs.existsSync(redirectsPath)).toBe(true);
 
     const content = fs.readFileSync(redirectsPath, 'utf-8');
-    expect(content).toContain('/*    /index.html   200');
+    expect(content).toContain('/*  /index.html  200');
   });
 
   it('verifies netlify.toml exists and configures functions and SPA fallback', () => {
