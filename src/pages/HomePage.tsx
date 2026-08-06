@@ -11,25 +11,10 @@ import { CustomerReviews } from '../components/home/CustomerReviews/CustomerRevi
 import { StoreLocationSection } from '../components/home/StoreLocationSection/StoreLocationSection';
 import { FAQSection } from '../components/home/FAQSection/FAQSection';
 import { BUSINESS_CONFIG } from '../config/business';
+import { generateOrganizationAndLocalBusinessJsonLd } from '../utils/seo';
 
 export const HomePage: React.FC = () => {
-  const homeJsonLd = [
-    {
-      '@context': 'https://schema.org',
-      '@type': 'LocalBusiness',
-      name: BUSINESS_CONFIG.name,
-      description: BUSINESS_CONFIG.description,
-      telephone: BUSINESS_CONFIG.phoneDisplay,
-      address: {
-        '@type': 'PostalAddress',
-        streetAddress: BUSINESS_CONFIG.address,
-        addressLocality: 'Bakı',
-        addressCountry: 'AZ'
-      },
-      openingHours: 'Mo-Su 09:00-19:00',
-      url: 'https://oilganic.az/'
-    }
-  ];
+  const homeJsonLd = generateOrganizationAndLocalBusinessJsonLd();
 
   return (
     <>

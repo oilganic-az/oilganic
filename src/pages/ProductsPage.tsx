@@ -7,6 +7,7 @@ import { CategoryRail } from '../components/catalog/CategoryRail/CategoryRail';
 import { ProductGrid } from '../components/catalog/ProductGrid/ProductGrid';
 import { Button } from '../components/common/Button/Button';
 import { SEO } from '../components/common/SEO/SEO';
+import { generateBreadcrumbJsonLd } from '../utils/seo';
 import styles from './ProductsPage.module.css';
 
 const INITIAL_PAGE_SIZE = 24;
@@ -64,12 +65,18 @@ export const ProductsPage: React.FC = () => {
   const visibleProducts = filteredProducts.slice(0, visibleCount);
   const hasMore = visibleCount < filteredProducts.length;
 
+  const breadcrumbJsonLd = generateBreadcrumbJsonLd([
+    { name: 'Ana səhifə', item: '/' },
+    { name: 'Məhsullar', item: '/products' }
+  ]);
+
   return (
     <>
       <SEO
         title="Təbii məhsul kataloqu"
         description="Soyuq sıxım yağlar, təbii çərəz əzmələri, bal, bəhməz və bitki çayları kataloqu."
         canonicalPath="/products"
+        jsonLd={breadcrumbJsonLd}
       />
       <div className={styles.page}>
         <div className="container">

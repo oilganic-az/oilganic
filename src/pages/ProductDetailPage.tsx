@@ -12,6 +12,7 @@ import { SizeSelector } from '../components/product/SizeSelector/SizeSelector';
 import { ProductTabs } from '../components/product/ProductTabs/ProductTabs';
 import { RelatedProducts } from '../components/product/RelatedProducts/RelatedProducts';
 import { SEO } from '../components/common/SEO/SEO';
+import { generateProductJsonLd, generateBreadcrumbJsonLd } from '../utils/seo';
 import styles from './ProductDetailPage.module.css';
 
 import { PRODUCT_SLUG_ALIASES } from '../data/productAliases';
@@ -74,12 +75,24 @@ export const ProductDetailPage: React.FC = () => {
     }
   ]);
 
+  const productJsonLd = generateProductJsonLd(product);
+  const breadcrumbJsonLd = generateBreadcrumbJsonLd([
+    { name: 'Ana səhifə', item: '/' },
+    { name: 'Məhsullar', item: '/products' },
+    { name: product.name, item: `/products/${product.slug}` }
+  ]);
+
+  const primaryImage = selectedSize?.imageSrc || product.images?.[0]?.src;
+
   return (
     <>
       <SEO
         title={product.name}
         description={product.shortDescription}
         canonicalPath={`/products/${product.slug}`}
+        ogType="product"
+        ogImage={primaryImage}
+        jsonLd={[productJsonLd, breadcrumbJsonLd]}
       />
       <div className={styles.page}>
         <div className="container">

@@ -2,10 +2,13 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
 import { Button } from '../components/common/Button/Button';
+import { SEO } from '../components/common/SEO/SEO';
 
 export const NotFoundPage: React.FC = () => {
   return (
-    <div className="container" style={{ padding: '6rem 0', textAlign: 'center' }}>
+    <>
+      <SEO title="Səhifə tapılmadı" description="Axtardığınız səhifə tapılmadı." noindex={true} />
+      <div className="container" style={{ padding: '6rem 0', textAlign: 'center' }}>
       <div style={{
         fontFamily: 'var(--font-heading)',
         fontSize: '6rem',
@@ -27,5 +30,6 @@ export const NotFoundPage: React.FC = () => {
         </Button>
       </Link>
     </div>
-  );
+  </>
+);
 };
