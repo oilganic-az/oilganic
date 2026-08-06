@@ -1,4 +1,31 @@
 {
   "schemaVersion": 1,
-  "products": []
+  "products": [
+    {
+      "id": "manual-1786014536818",
+      "slug": "jjkn",
+      "name": "jjkn",
+      "categoryId": "oils",
+      "shortDescription": "",
+      "price": 0.3,
+      "currency": "AZN",
+      "unitLabel": "100ml",
+      "sizes": [
+        {
+          "id": "size-1786014536818",
+          "label": "100ml",
+          "price": 0.3,
+          "inStock": true
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/products/placeholder.jpg",
+          "alt": "jjkn"
+        }
+      ],
+      "inStock": true,
+      "verificationStatus": "verified"
+    }
+  ]
 }
