@@ -5,17 +5,18 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "typecheck": "tsc --noEmit && tsc -p tsconfig.functions.json",
+    "typecheck": "tsc --noEmit",
     "lint": "eslint . --max-warnings=0",
     "test": "vitest run",
     "test:watch": "vitest",
     "test:e2e": "playwright test",
-    "build": "tsc && vite build",
+    "build": "npm run catalog:build && tsc && vite build",
     "preview": "vite preview",
     "fetch:clopos": "node scripts/fetch-clopos-menu.mjs",
     "catalog:sync": "node scripts/normalize-clopos-menu.mjs && node scripts/merge-catalog.mjs",
     "catalog:validate": "node scripts/validate-content.mjs",
-    "content:build": "node scripts/merge-catalog.mjs && node scripts/validate-content.mjs"
+    "content:build": "node scripts/merge-catalog.mjs && node scripts/validate-content.mjs",
+    "catalog:build": "node scripts/build-admin-catalog.mjs"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
