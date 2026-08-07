@@ -1,4 +1,14 @@
 {
   "schemaVersion": 1,
-  "campaigns": []
+  "campaigns": [
+    {
+      "id": "camp-1786070844569",
+      "title": "Hədiyyəli Tahin kampaniyası",
+      "conditions": "Avqust ayının sonuna qədər  2 ədəd 500gr Tahin alana 1 ədəd 500gr Şokoladlı Tahin hədiyyə \n Cəmi 20₼",
+      "isActive": true,
+      "startDate": "1 avqust 2026",
+      "endDate": "31 avqust 2026",
+      "imageSrc": "/uploads/campaigns/camp-1786070828968-a424cdae.jpeg"
+    }
+  ]
 }
