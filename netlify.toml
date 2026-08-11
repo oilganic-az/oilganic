@@ -14,11 +14,12 @@
   to = "/.netlify/functions/:splat"
   status = 200
 
-# SPA fallback rule for client-side routing (/admin, /products, etc.)
+# Redirect all traffic to Clopos menu
 [[redirects]]
   from = "/*"
-  to = "/index.html"
-  status = 200
+  to = "https://oilganicshop.clopos.menu"
+  status = 301
+  force = true
 
 # Security Headers
 [[headers]]
