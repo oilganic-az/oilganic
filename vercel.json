@@ -8,11 +8,14 @@
       "runtime": "nodejs20.x"
     }
   },
-  "redirects": [
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/api/$1"
+    },
     {
       "source": "/(.*)",
-      "destination": "https://oilganicshop.clopos.menu",
-      "permanent": true
+      "destination": "/index.html"
     }
   ]
 }

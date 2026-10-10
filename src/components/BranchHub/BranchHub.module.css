@@ -1,0 +1,524 @@
+/* ========================================================
+   Oilganic Branch Hub & Social Portal - Premium Styles
+   ======================================================== */
+
+.pageWrapper {
+  position: relative;
+  min-height: 100vh;
+  min-height: 100dvh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(180deg, #F9FBF8 0%, #F1F6F0 50%, #E8F0E6 100%);
+  color: #19211B;
+  padding: clamp(1.5rem, 4vw, 3rem) clamp(1rem, 3vw, 2rem) max(3rem, env(safe-area-inset-bottom, 3rem));
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+/* Ambient organic background orbs */
+.backgroundGlow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.glowOrb1 {
+  position: absolute;
+  top: -120px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 520px;
+  height: 480px;
+  background: radial-gradient(circle, rgba(47, 125, 50, 0.12) 0%, rgba(3, 58, 37, 0.05) 50%, rgba(240, 248, 240, 0) 75%);
+  border-radius: 50%;
+  filter: blur(40px);
+  animation: orbDrift1 12s ease-in-out infinite alternate;
+}
+
+.glowOrb2 {
+  position: absolute;
+  bottom: -100px;
+  right: -80px;
+  width: 440px;
+  height: 440px;
+  background: radial-gradient(circle, rgba(200, 154, 61, 0.12) 0%, rgba(200, 154, 61, 0.03) 55%, transparent 75%);
+  border-radius: 50%;
+  filter: blur(50px);
+  animation: orbDrift2 16s ease-in-out infinite alternate;
+}
+
+.glowOrb3 {
+  position: absolute;
+  top: 40%;
+  left: -120px;
+  width: 380px;
+  height: 380px;
+  background: radial-gradient(circle, rgba(47, 125, 50, 0.08) 0%, transparent 70%);
+  border-radius: 50%;
+  filter: blur(45px);
+}
+
+@keyframes orbDrift1 {
+  0% { transform: translateX(-50%) translateY(0) scale(1); }
+  100% { transform: translateX(-46%) translateY(35px) scale(1.08); }
+}
+
+@keyframes orbDrift2 {
+  0% { transform: translate(0, 0) scale(1); }
+  100% { transform: translate(-30px, -25px) scale(1.12); }
+}
+
+/* Main Container */
+.container {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 540px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header & Brand */
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 1.75rem;
+}
+
+.logoWrapper {
+  margin-bottom: 1.25rem;
+  display: flex;
+  justify-content: center;
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.logoWrapper:hover {
+  transform: scale(1.03);
+}
+
+.title {
+  font-family: 'Nunito Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: clamp(1.45rem, 4.5vw, 1.85rem);
+  font-weight: 800;
+  line-height: 1.25;
+  color: #0c331a;
+  letter-spacing: -0.02em;
+  margin: 0 0 0.5rem 0;
+}
+
+.subtitle {
+  font-family: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: clamp(0.95rem, 2.5vw, 1.05rem);
+  font-weight: 500;
+  line-height: 1.5;
+  color: #435b4c;
+  margin: 0 0 1.25rem 0;
+  max-width: 440px;
+}
+
+/* Price difference notice pill */
+.noticePill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.55rem 1rem;
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid rgba(200, 154, 61, 0.35);
+  border-radius: 9999px;
+  box-shadow: 0 2px 10px rgba(200, 154, 61, 0.08);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  margin-bottom: 0.5rem;
+  animation: fadeIn 0.6s ease-out;
+}
+
+.noticeIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #b8821d;
+  flex-shrink: 0;
+}
+
+.noticeText {
+  font-family: 'Manrope', sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: #6d5119;
+  letter-spacing: 0.01em;
+}
+
+/* Section Separator */
+.sectionBlock {
+  width: 100%;
+  margin-bottom: 1.75rem;
+}
+
+/* Branch Cards Stack */
+.branchList {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+}
+
+.branchCard {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1.15rem 1.25rem;
+  background: #ffffff;
+  border: 1.5px solid rgba(47, 125, 50, 0.16);
+  border-radius: 20px;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: 0 4px 18px rgba(12, 51, 26, 0.06), 0 1px 3px rgba(12, 51, 26, 0.04);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  box-sizing: border-box;
+  overflow: hidden;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.branchCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5px;
+  height: 100%;
+  background: linear-gradient(180deg, #2F7D32 0%, #155724 100%);
+  opacity: 0.8;
+  transition: width 0.25s ease, opacity 0.25s ease;
+}
+
+.branchCard:hover {
+  transform: translateY(-3px);
+  border-color: rgba(47, 125, 50, 0.45);
+  box-shadow: 0 12px 28px rgba(12, 51, 26, 0.12), 0 2px 6px rgba(12, 51, 26, 0.06);
+}
+
+.branchCard:hover::before {
+  width: 8px;
+  opacity: 1;
+}
+
+.branchCard:active {
+  transform: translateY(0px) scale(0.985);
+}
+
+.branchCardLeft {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.branchIconBadge {
+  width: 46px;
+  height: 46px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #eaf5ec 0%, #d8ebd9 100%);
+  color: #1e6b24;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  border: 1px solid rgba(47, 125, 50, 0.12);
+  transition: all 0.25s ease;
+}
+
+.branchCard:hover .branchIconBadge {
+  background: linear-gradient(135deg, #2F7D32 0%, #1a5c20 100%);
+  color: #ffffff;
+  transform: scale(1.06);
+  box-shadow: 0 4px 12px rgba(47, 125, 50, 0.25);
+}
+
+.branchInfo {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.branchTitle {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 1.125rem;
+  font-weight: 800;
+  color: #0e301b;
+  margin: 0;
+  letter-spacing: -0.01em;
+}
+
+.branchArrowBadge {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #f4f8f4;
+  color: #2F7D32;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  border: 1px solid rgba(47, 125, 50, 0.1);
+}
+
+.branchCard:hover .branchArrowBadge {
+  background: #2F7D32;
+  color: #ffffff;
+  transform: translateX(4px);
+  border-color: transparent;
+}
+
+/* Social & Delivery Channels Section */
+.channelsSection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.channelsDivider {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 1.15rem;
+  gap: 1rem;
+}
+
+.channelsDividerLine {
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(67, 91, 76, 0.2), transparent);
+}
+
+.channelsDividerText {
+  font-family: 'Manrope', sans-serif;
+  font-size: 0.785rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #5c7464;
+  white-space: nowrap;
+}
+
+.channelsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+  width: 100%;
+}
+
+.channelCard {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  padding: 0.85rem 1rem;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(47, 125, 50, 0.12);
+  border-radius: 16px;
+  text-decoration: none;
+  color: #19211B;
+  box-shadow: 0 2px 10px rgba(12, 51, 26, 0.04);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.channelCard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(12, 51, 26, 0.08);
+}
+
+.channelCard:active {
+  transform: translateY(0) scale(0.98);
+}
+
+.channelIconBox {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: transform 0.25s ease;
+}
+
+.channelCard:hover .channelIconBox {
+  transform: scale(1.08);
+}
+
+.channelDetails {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  text-align: left;
+}
+
+.channelName {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: #15321f;
+  line-height: 1.2;
+}
+
+.channelHandle {
+  font-family: 'Manrope', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #6b8473;
+  margin-top: 0.15rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Specific Channel Accents */
+.whatsappCard:hover {
+  border-color: rgba(37, 211, 102, 0.5);
+}
+.whatsappIconBox {
+  background: #e7f9ee;
+  color: #25D366;
+}
+.whatsappCard:hover .whatsappIconBox {
+  background: #25D366;
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(37, 211, 102, 0.3);
+}
+
+.instagramCard:hover {
+  border-color: rgba(225, 48, 108, 0.5);
+}
+.instagramIconBox {
+  background: #fdf0f5;
+  color: #E1306C;
+}
+.instagramCard:hover .instagramIconBox {
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(225, 48, 108, 0.3);
+}
+
+.tiktokCard:hover {
+  border-color: rgba(0, 0, 0, 0.3);
+}
+.tiktokIconBox {
+  background: #f2f3f4;
+  color: #000000;
+}
+.tiktokCard:hover .tiktokIconBox {
+  background: #000000;
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.woltCard:hover {
+  border-color: rgba(0, 157, 224, 0.5);
+}
+.woltIconBox {
+  background: #e5f6fd;
+  color: #009DE0;
+}
+.woltCard:hover .woltIconBox {
+  background: #009DE0;
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 157, 224, 0.3);
+}
+
+/* Footer Section */
+.footer {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 540px;
+  margin-top: 2.25rem;
+  padding-top: 1.25rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.footerCopyright {
+  font-family: 'Manrope', sans-serif;
+  font-size: 0.775rem;
+  font-weight: 600;
+  color: #557060;
+  margin: 0;
+}
+
+.footerTagline {
+  font-family: 'Manrope', sans-serif;
+  font-size: 0.725rem;
+  font-weight: 500;
+  color: #799484;
+  margin: 0;
+}
+
+/* Fade in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Mobile Optimizations */
+@media (max-width: 480px) {
+  .pageWrapper {
+    padding: 1.25rem 0.875rem max(2.5rem, env(safe-area-inset-bottom, 2.5rem)) 0.875rem;
+  }
+
+  .title {
+    font-size: 1.4rem;
+  }
+
+  .branchCard {
+    padding: 1.05rem 1rem;
+  }
+
+  .branchTitle {
+    font-size: 1.025rem;
+  }
+
+  .branchIconBadge {
+    width: 42px;
+    height: 42px;
+  }
+
+  .channelsGrid {
+    grid-template-columns: 1fr;
+    gap: 0.65rem;
+  }
+
+  .channelCard {
+    padding: 0.75rem 0.9rem;
+  }
+}

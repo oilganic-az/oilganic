@@ -1,5 +1,5 @@
 # Netlify Function API requests must be handled before the SPA fallback
 /api/*  /.netlify/functions/:splat  200
 
-# Redirect all traffic to Clopos menu
-/*  https://oilganicshop.clopos.menu  301!
+# React Router SPA fallback
+/*  /index.html  200

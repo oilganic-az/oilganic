@@ -14,12 +14,11 @@
   to = "/.netlify/functions/:splat"
   status = 200
 
-# Redirect all traffic to Clopos menu
+# SPA routing rule
 [[redirects]]
   from = "/*"
-  to = "https://oilganicshop.clopos.menu"
-  status = 301
-  force = true
+  to = "/index.html"
+  status = 200
 
 # Security Headers
 [[headers]]

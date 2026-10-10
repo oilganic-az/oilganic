@@ -1,9 +1,0 @@
-.section {
-  margin-top: var(--space-16);
-}
-
-.title {
-  font-size: var(--font-size-2xl);
-  color: var(--color-deep-green);
-  margin-bottom: var(--space-6);
-}
