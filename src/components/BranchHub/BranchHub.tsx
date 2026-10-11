@@ -232,7 +232,57 @@ export const BranchHub: React.FC = () => {
           </div>
         </section>
 
-        {/* Social & Delivery Channels */}
+        {/* Wolt Delivery Section */}
+        <section
+          className={styles.channelsSection}
+          aria-label="Wolt ilə çatdırılma"
+        >
+          <div className={styles.channelsDivider}>
+            <span className={styles.channelsDividerLine} />
+            <span className={styles.channelsDividerText}>
+              Wolt ilə Çatdırılma
+            </span>
+            <span className={styles.channelsDividerLine} />
+          </div>
+
+          <div className={styles.channelsGrid}>
+            {/* Wolt 8km bazar filialı */}
+            <a
+              href="https://wolt.com/az/aze/baku/venue/oilganic-shop?no_universal_links=true"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`${styles.channelCard} ${styles.woltCard}`}
+              id="channel-wolt-8km"
+            >
+              <div className={`${styles.channelIconBox} ${styles.woltIconBox}`}>
+                <WoltIcon size={24} />
+              </div>
+              <div className={styles.channelDetails}>
+                <span className={styles.channelName}>Wolt 8km bazar filialı</span>
+                <span className={styles.channelHandle}>Ünvana çatdırılma</span>
+              </div>
+            </a>
+
+            {/* Wolt Bravo (Oazis) */}
+            <a
+              href="https://wolt.com/az/aze/baku/venue/oilganic-premium?no_universal_links=true"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`${styles.channelCard} ${styles.woltCard}`}
+              id="channel-wolt-bravo"
+            >
+              <div className={`${styles.channelIconBox} ${styles.woltIconBox}`}>
+                <WoltIcon size={24} />
+              </div>
+              <div className={styles.channelDetails}>
+                <span className={styles.channelName}>Wolt Bravo (Oazis)</span>
+                <span className={styles.channelHandle}>Ünvana çatdırılma</span>
+              </div>
+            </a>
+          </div>
+        </section>
+
+        {/* Social & Contact Channels */}
         <section
           className={styles.channelsSection}
           aria-label="Əlaqə və sosial şəbəkələr"
@@ -245,7 +295,7 @@ export const BranchHub: React.FC = () => {
             <span className={styles.channelsDividerLine} />
           </div>
 
-          <div className={styles.channelsGrid}>
+          <div className={styles.socialGrid}>
             {/* WhatsApp */}
             <a
               href="https://wa.me/message/A5GKBNAR4DJDO1"
@@ -262,25 +312,6 @@ export const BranchHub: React.FC = () => {
               <div className={styles.channelDetails}>
                 <span className={styles.channelName}>WhatsApp</span>
                 <span className={styles.channelHandle}>Birbaşa əlaqə</span>
-              </div>
-            </a>
-
-            {/* Instagram */}
-            <a
-              href="https://www.instagram.com/oilganic_shop"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={`${styles.channelCard} ${styles.instagramCard}`}
-              id="channel-instagram"
-            >
-              <div
-                className={`${styles.channelIconBox} ${styles.instagramIconBox}`}
-              >
-                <InstagramIcon size={22} />
-              </div>
-              <div className={styles.channelDetails}>
-                <span className={styles.channelName}>Instagram</span>
-                <span className={styles.channelHandle}>@oilganic_shop</span>
               </div>
             </a>
 
@@ -303,20 +334,22 @@ export const BranchHub: React.FC = () => {
               </div>
             </a>
 
-            {/* Wolt */}
+            {/* Instagram */}
             <a
-              href="https://wolt.com/az/aze/baku/venue/oilganic-shop?no_universal_links=true"
+              href="https://www.instagram.com/oilganic_shop"
               target="_blank"
               rel="noopener noreferrer"
-              className={`${styles.channelCard} ${styles.woltCard}`}
-              id="channel-wolt"
+              className={`${styles.channelCard} ${styles.instagramCard}`}
+              id="channel-instagram"
             >
-              <div className={`${styles.channelIconBox} ${styles.woltIconBox}`}>
-                <WoltIcon size={24} />
+              <div
+                className={`${styles.channelIconBox} ${styles.instagramIconBox}`}
+              >
+                <InstagramIcon size={22} />
               </div>
               <div className={styles.channelDetails}>
-                <span className={styles.channelName}>Wolt</span>
-                <span className={styles.channelHandle}>Ünvana çatdırılma</span>
+                <span className={styles.channelName}>Instagram</span>
+                <span className={styles.channelHandle}>@oilganic_shop</span>
               </div>
             </a>
           </div>
